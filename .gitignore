@@ -1,0 +1,7 @@
+backups/
+file-history/
+ide/
+session-env/
+projects/
+.DS_Store
+.last-cleanup
