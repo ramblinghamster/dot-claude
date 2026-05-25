@@ -1,0 +1,56 @@
+# Claude Session Context
+
+## Image Prompt Builder Skill
+
+A custom image generation prompt skill built using the 8-Block Visual Prompt Anatomy Framework.
+Targets ChatGPT (DALL-E 3) and Niji Journey 7, producing 4 prompt variants per session.
+
+### File Locations
+
+| Purpose | Path |
+|---|---|
+| Source of truth | `~/.claude/skills/image-prompt-builder/` |
+| Live Claude Code location | `~/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/0c10f75f-df4f-4793-821e-f46266595e95/200a7c70-cef9-4012-ba07-6a4f500167a1/skills/image-prompt-builder/` |
+| Web upload zip | `~/Desktop/image-prompt-builder.zip` |
+
+### Key Files
+
+- `SKILL.md` — core skill, always loaded, contains 25-style quick reference table
+- `references/styles.md` — all 25 styles with ChatGPT and Niji Journey translations
+- `references/style-guide.md` — style descriptions, category table, concept→style lookup
+- `references/character-sheet.md` — 12-panel production reference sheet spec
+- `references/inspirations.md` — 5 example scenes per style (115 total), add new ones on request
+
+### Current Styles (25)
+
+Kurosawa · Crewdson · Neon Noir · Editorial Fashion · Studio Ghibli · Dark Fantasy ·
+Ember · Prism · Aquarelle · Ironbloom · Makoto Shinkai · Ufotable · Retro Anime ·
+Cel Shading · Soulslike · Miura · Botanical Lineart · JRPG Pixel Art · Shounen Burst ·
+Moe Gacha · Webtoon · Liminal Horror · Storybook · Kuudere · Gacha Splash
+
+### Sync Workflow
+
+After editing any file in `~/.claude/skills/image-prompt-builder/`:
+
+1. Run `imgprompt-sync` in terminal (syncs to live Claude Code location, removes any v2 ghost)
+2. Rebuild zip for web upload:
+```bash
+cd ~/.claude/skills/image-prompt-builder && zip ~/Desktop/image-prompt-builder.zip SKILL.md references/styles.md references/style-guide.md references/character-sheet.md references/inspirations.md -j
+```
+3. Upload zip to claude.ai to update the web skill
+
+### Known Gotchas
+
+- `imgprompt-sync` alias is in `~/.zshrc` — must `source ~/.zshrc` in a new shell before it works
+- Niji Journey translations use `--ar` only — `--niji` and `--style` params removed (incompatible with Niji 7)
+- The manifest.json at the live location controls which skills appear — imgprompt-sync patches it to remove any image-prompt-builder-v2 ghost entries
+- Web environment uses `/mnt/skills/user/` not `~/.claude/` — skill references files by name only (flat zip structure)
+- `~/.claude/skills/` is the edit location; the Library path is the runtime location
+
+### Adding a New Style
+
+1. Append entry to `references/styles.md` (follow existing format — Visual Description, ChatGPT Translation, Niji Journey Translation)
+2. Add description to `references/style-guide.md` (category section + lookup table row)
+3. Add row to style table in `SKILL.md` (update count too)
+4. Add 5 inspiration scenes to `references/inspirations.md`
+5. Run sync workflow above
