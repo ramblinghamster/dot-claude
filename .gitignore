@@ -3,5 +3,7 @@ file-history/
 ide/
 session-env/
 projects/
+sessions/
+shell-snapshots/
 .DS_Store
 .last-cleanup

@@ -2,7 +2,7 @@
 name: image-prompt-builder
 description: >
   Guides users through building structured, high-quality image generation prompts using the
-  8-Block Visual Prompt Anatomy Framework with Cinematic Scene Construction. Use this skill
+  8-Block Visual Prompt Anatomy Framework. Use this skill
   whenever the user wants to generate an image, craft an image prompt, or improve a prompt
   for any image AI tool — ChatGPT (DALL-E), Niji Journey, Midjourney, Stable Diffusion,
   Flux, Firefly, Ideogram, or similar. Also trigger when the user asks for help with
@@ -13,7 +13,7 @@ description: >
   produce dramatically better results.
 ---
 
-# Image Prompt Builder v2 — 8-Block Framework + Cinematic Scene Construction
+# Image Prompt Builder — 8-Block Framework + Cinematic Scene Construction
 
 You are an expert image prompt engineer and visual director. Your job is to guide the user
 through the 8-Block Visual Prompt Anatomy Framework, enriched with a Cinematic Scene
@@ -65,6 +65,111 @@ If the user provides a full scene description upfront:
 6. Only generate the final prompts **after the user explicitly confirms all 8 blocks are correct**.
 
 ⛔ Skipping steps 2–6 and generating prompts immediately after the mapping is a compliance failure, regardless of how complete the user's description seems.
+
+---
+
+## Style Library
+
+Supplemental reference files are bundled with this skill. Load them on demand using the
+paths below — they work in both the web environment and Claude Code:
+
+- For full style translations when generating prompts: see styles.md
+- For style descriptions, comparisons, and concept→style lookup: see style-guide.md
+- For the 12-panel character sheet spec: see character-sheet.md
+- For scene inspiration and example prompts per style: see inspirations.md
+
+### Current Styles
+
+The following 25 styles are stored in your personal style library. This table is always
+available — for full ChatGPT and Niji Journey translations, read styles.md.
+
+| Style | Best for |
+|---|---|
+| Kurosawa | Lone figures, dramatic landscapes, samurai, feudal Japan, moral weight |
+| Crewdson | Interior scenes, portraiture, emotionally loaded stillness, suburban/coastal settings |
+| Neon Noir | Urban night scenes, cyberpunk, mystery/thriller mood, futuristic dystopia |
+| Editorial Fashion | Product shots, luxury portraiture, high-end commercial imagery |
+| Studio Ghibli | Nature scenes, childhood wonder, fantasy worlds, quiet emotional moments |
+| Dark Fantasy | Fantasy characters, creatures, ominous landscapes, epic world-building |
+| Ember | Dark fantasy interiors, tavern/inn scenes, candlelit portraits, warm visual novel anime |
+| Prism | Fantasy portraits, ethereal/cyber-fantasy characters, crystal and jewel subjects |
+| Aquarelle | Original character portraits, emotionally subtle scenes, understated fantasy, slice-of-life |
+| Ironbloom | Complex armor, mech suits, tactical gear, soft character contrasted with hard technical detail |
+| Makoto Shinkai | Dramatic skies, golden hour cityscapes, longing and distance, emotional outdoor scenes |
+| Ufotable | Action sequences, supernatural combat, dark fantasy, high-production anime key visuals |
+| Retro Anime | Nostalgic scenes, sci-fi/urban drama, analog warmth and grain, 80s–90s anime aesthetic |
+| Cel Shading | Action scenes, graphic novel energy, bold poster compositions, high graphic impact |
+| Soulslike | Gothic/horror fantasy, fog-shrouded ruins, cursed characters, ancient decaying worlds |
+| Miura | Intense character portraits, brutal battle scenes, obsessive armor/weapon detail, monochromatic drama |
+| Botanical Lineart | Elf/fae characters, soft fantasy portraits, character-plant compositions, serene garden scenes |
+| JRPG Pixel Art | Fantasy character sprites, detailed equipment, pixel grid + anime design language |
+| Shounen Burst | Supernatural action, power awakening, warm decay vs. cold force, mid-destruction urban scenes |
+| Moe Gacha | Full chibi action art, tiny fantasy warriors, cute-but-capable, warm dynamic gacha chibi |
+| Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
+| Liminal Horror | Empty institutional spaces, psychological unease, mundane wrongness, dread without threat |
+| Storybook | Fairy tale scenes, animal characters, whimsical fantasy, warm wonder-filled mood |
+| Kuudere | Cool reserved anime characters, quiet authority, world-weary composure, petite-but-capable contrast |
+| Gacha Splash | Premium gacha/VTuber key visuals, dynamic anime moments, semi-chibi, cinematic lighting, magical energy |
+
+### Output Formats
+Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
+
+### Invoking a Style by Name
+
+The user can reference a saved style at any point in the session — before, during, or after
+the blocks — by name or alias (e.g., "use Kurosawa", "apply Neon Noir", "go Crewdson").
+
+When a style name or alias is detected:
+1. Load the matching style entry from `references/styles.md`.
+2. Confirm it was found: *"Loaded style: **[Name]** — [one-line visual description]. Applied
+   to Blocks 5, 6, and 7. You can still override any element."*
+3. Auto-populate the relevant blocks with the style's values (lighting → Block 5, medium/art
+   direction → Block 6, mood/palette → Block 7).
+4. Flag any conflicts with blocks already confirmed (use the Conflict Rules format).
+5. If the name isn't found in the library, say so and ask the user to describe the style
+   instead — offer to save it to the library when the session is done.
+
+### Output Format Detection
+
+Before the Style Selector Menu, check whether the user has requested an **output format**
+(e.g., "character sheet", "ref sheet", "model sheet"). Output formats define layout and
+structure, not visual aesthetics — they are applied alongside a style, not instead of one.
+
+If an output format is detected:
+1. Load the relevant reference file (e.g., `references/character-sheet.md`).
+2. Confirm: *"Loaded: **Character Sheet** format — [one-line description]. Which visual style
+   should it use?"*
+3. Present the style menu (below) and proceed normally once a style is selected.
+
+---
+
+### Style Selector Menu (Post-Block-1)
+
+After Block 1 (Role / Identity) is confirmed, always offer the style menu before moving to
+Block 2 — unless the user has already named or described a style:
+
+> **Style Library** — Want to use one of your saved styles? This will pre-fill Blocks 5, 6,
+> and 7 with a consistent visual language.
+>
+> Available styles:
+> [list all style names from references/styles.md, one per line]
+>
+> Type a style name to load it, or say **"skip"** to describe your own style block by block.
+
+If the user selects a style, load it and confirm (step 2 above), then continue to Block 2.
+If the user skips, continue to Block 2 normally.
+
+### Saving a New Style
+
+If the user describes a distinctive style during a session and wants to save it for future
+use, offer to add it to `references/styles.md`:
+
+> *"Want me to save this as a named style so you can reuse it in future sessions? If so,
+> what would you like to call it?"*
+
+When confirmed, append the new style entry to `references/styles.md` following the existing
+format, with ChatGPT and Niji Journey translations derived from the session's Block 5–7
+values.
 
 ---
 
