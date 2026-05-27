@@ -15,18 +15,19 @@ Targets ChatGPT (DALL-E 3) and Niji Journey 7, producing 4 prompt variants per s
 
 ### Key Files
 
-- `SKILL.md` — core skill, always loaded, contains 25-style quick reference table
-- `references/styles.md` — all 25 styles with ChatGPT and Niji Journey translations
+- `SKILL.md` — core skill, always loaded, contains 28-style quick reference table
+- `references/styles.md` — all 28 styles with ChatGPT and Niji Journey translations
 - `references/style-guide.md` — style descriptions, category table, concept→style lookup
 - `references/character-sheet.md` — 12-panel production reference sheet spec
-- `references/inspirations.md` — 5 example scenes per style (115 total), add new ones on request
+- `references/inspirations.md` — 5 example scenes per style (140 total), add new ones on request
 
-### Current Styles (25)
+### Current Styles (28)
 
 Kurosawa · Crewdson · Neon Noir · Editorial Fashion · Studio Ghibli · Dark Fantasy ·
 Ember · Prism · Aquarelle · Ironbloom · Makoto Shinkai · Ufotable · Retro Anime ·
 Cel Shading · Soulslike · Miura · Botanical Lineart · JRPG Pixel Art · Shounen Burst ·
-Moe Gacha · Webtoon · Liminal Horror · Storybook · Kuudere · Gacha Splash
+Moe Gacha · Webtoon · Liminal Horror · Storybook · Kuudere · Gacha Splash ·
+Tactical Ink · Cinematic Anime · Hyperreal Anime
 
 ### Sync Workflow
 
@@ -41,11 +42,13 @@ cd ~/.claude/skills/image-prompt-builder && zip ~/Desktop/image-prompt-builder.z
 
 ### Known Gotchas
 
-- `imgprompt-sync` alias is in `~/.zshrc` — must `source ~/.zshrc` in a new shell before it works
-- Niji Journey translations use `--ar` only — `--niji` and `--style` params removed (incompatible with Niji 7)
-- The manifest.json at the live location controls which skills appear — imgprompt-sync patches it to remove any image-prompt-builder-v2 ghost entries
+- **`imgprompt-sync` alias is MISSING from `~/.zshrc`** — needs to be recreated. Until then, sync manually by copying all 5 files from `~/.claude/skills/image-prompt-builder/` to the live Library path (SKILL.md, and references/styles.md, style-guide.md, character-sheet.md, inspirations.md → flat into live dir)
+- Niji Journey translations use `--ar` only — `--niji` and `--style` params removed (incompatible with Niji 7). SKILL.md compliance check also updated to strip these if present
+- The manifest.json at the live location controls which skills appear — no v2 ghost entries currently present
 - Web environment uses `/mnt/skills/user/` not `~/.claude/` — skill references files by name only (flat zip structure)
 - `~/.claude/skills/` is the edit location; the Library path is the runtime location
+- All styles now require anime anchoring in ChatGPT translations — enforced and verified as of this session
+- No style should use "photorealistic" language — "semi-realistic" is acceptable
 
 ### Adding a New Style
 

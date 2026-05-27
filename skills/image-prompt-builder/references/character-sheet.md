@@ -25,6 +25,8 @@ The character sheet should:
 - Feel like a professional game/anime production asset
 - Use clean infographic-style organization
 - Maintain readable spacing and layout hierarchy
+- **Label every view with clear text** (e.g., FRONT, SIDE, BACK, 3/4) rendered directly on the image
+- **Include a bold section header above each panel group** (e.g., "EXPRESSION SHEET", "HAIR BREAKDOWN", "WEAPON SHEET")
 
 ---
 
@@ -50,6 +52,8 @@ The character sheet should:
 - Flat orthographic presentation for reference panels
 - Dynamic pose allowed only in action section
 - Consistent scale and anatomy
+- All multi-view panels must have each view individually labeled with text (FRONT / SIDE / BACK / 3/4)
+- Each panel group must begin with a legible bold section header rendered on the image
 
 ---
 
@@ -78,6 +82,8 @@ Requirements:
 - Accurate equipment placement
 - Hair consistency between views
 - Proper silhouette readability
+- Each view labeled with text directly on the image: **FRONT · 3/4 · SIDE · BACK**
+- Section header: **"FULL BODY TURNAROUND"** or **"CHARACTER TURNAROUND"**
 
 ---
 
@@ -91,6 +97,8 @@ Requirements:
 - Same face structure across all expressions
 - Consistent eye shape and hairstyle continuity
 - Emotional readability
+- Each expression labeled with its name below the face (e.g., **NEUTRAL · DETERMINED · HAPPY**)
+- Section header: **"EXPRESSION SHEET"**
 
 ---
 
@@ -111,6 +119,8 @@ Requirements:
 - Accurate volume and silhouette
 - Correct hair accessories
 - Consistency with turnaround views
+- Each view labeled: **FRONT · SIDE · BACK**
+- Section header: **"HAIR BREAKDOWN"**
 
 ---
 
@@ -120,6 +130,10 @@ Requirements:
 Select relevant elements from:
 Eye detail · Gloves · Belt · Boots · Jewelry · Hair ornament · Embroidery ·
 Staff crystal · Weapon engraving · Buckles/pouches
+
+Requirements:
+- Each detail panel labeled with what it is (e.g., **BELT DETAIL · EYE DETAIL · BOOT CLASP**)
+- Section header: **"DETAIL CLOSE-UPS"**
 
 ---
 
@@ -133,10 +147,16 @@ Requirements:
 - Layer logic must make physical sense
 - Outfit must look wearable
 - Practicality balanced with style
+- Each component labeled with its name (e.g., **CLOAK · CORSET · BOOTS**)
+- Section header: **"OUTFIT BREAKDOWN"**
 
 ---
 
 ### Panel 8 — Equipment & Accessories
+
+Section header: **"EQUIPMENT & ACCESSORIES"**
+
+Each item labeled with its name (e.g., **SPELLBOOK · POTION VIAL · FOCUS CRYSTAL**)
 
 Show secondary carried items relevant to class:
 
@@ -157,6 +177,8 @@ Requirements:
 - Consistent scale, clear material definition
 - Practical grip/handling
 - Visual storytelling through wear and use marks
+- Each view labeled: **FRONT · SIDE · BACK · DETAIL**
+- Section header: **"WEAPON SHEET"**
 
 ---
 
@@ -169,17 +191,21 @@ Requirements:
 - More cinematic treatment allowed here
 - Consistent with rest of sheet design
 - Effects must not obscure character
+- Section header: **"ACTION POSE"**
 
 ---
 
 ### Panel 11 — Scale Reference
 Silhouette comparison: character · average human · weapon height
+- Each figure labeled: **CHARACTER · AVERAGE HUMAN · WEAPON**
+- Section header: **"SCALE REFERENCE"**
 
 ---
 
 ### Panel 12 — Silhouette Panel
 Black silhouette variants for readability testing.
 Used for: game design · animation readability · visual identity testing
+- Section header: **"SILHOUETTE VARIANTS"**
 
 ---
 
@@ -219,8 +245,8 @@ overdesigned silhouettes · excessive ornamentation without purpose
 
 **Positive:**
 anime character reference sheet · turnaround sheet · professional model sheet · clean layout ·
-labeled parts · studio anime style · concept art sheet · RPG character design · cel shaded ·
-high detail · consistent proportions
+labeled parts · labeled views · bold section headers · text labels on panels · studio anime style ·
+concept art sheet · RPG character design · cel shaded · high detail · consistent proportions
 
 **Negative:**
 cluttered · messy layout · inconsistent anatomy · extra limbs · low detail ·
@@ -240,6 +266,8 @@ photorealistic · chibi · distorted proportions
 - White or parchment background
 - Consistent spacing
 - Balanced visual density
+- **Bold section header above every panel group** (e.g., EXPRESSION SHEET, HAIR BREAKDOWN, WEAPON SHEET)
+- **View labels rendered on the image** for every multi-angle panel (e.g., FRONT · SIDE · BACK · 3/4)
 
 ---
 
@@ -257,3 +285,5 @@ Before marking production-ready, confirm:
 - [ ] Layout readable with clear hierarchy
 - [ ] Silhouette unique and readable
 - [ ] Age progression believable (if applicable)
+- [ ] All multi-view panels have individual view labels (FRONT / SIDE / BACK / 3/4)
+- [ ] Every panel group has a bold section header rendered on the image

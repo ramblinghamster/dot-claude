@@ -80,7 +80,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 25 styles are stored in your personal style library. This table is always
+The following 28 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -110,6 +110,9 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Storybook | Fairy tale scenes, animal characters, whimsical fantasy, warm wonder-filled mood |
 | Kuudere | Cool reserved anime characters, quiet authority, world-weary composure, petite-but-capable contrast |
 | Gacha Splash | Premium gacha/VTuber key visuals, dynamic anime moments, semi-chibi, cinematic lighting, magical energy |
+| Tactical Ink | Military/mecha characters, powered armor, sci-fi hardware, flat manga ink, soft face vs. hard machine contrast |
+| Cinematic Anime | High-production anime illustration, cinematic lighting, real-world subjects, illustrated textures, premium game/visual novel quality |
+| Hyperreal Anime | Semi-photorealistic anime characters, elf/fantasy OCs, dreamy portrait lighting, soft grime and texture, near-real skin and materials |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -402,7 +405,7 @@ Before delivering the final prompts, run this gate silently. Do not skip it.
 
 **Step 1 — Self-correct these issues silently:**
 - ChatGPT prompts contain Midjourney syntax (`--ar`, `--niji`, `--style`, etc.) → strip, rewrite as prose
-- Niji Journey prompts are missing `--niji 6` → add it
+- Niji Journey prompts contain `--niji` or `--style` flags → remove them (incompatible with Niji 7)
 - Niji Journey prompts are missing `--ar` → derive from Block 4 and add it
 - Any prompt contains an unfilled `{token}` where a value was defined → fill it in
 - ChatGPT prompts contain labeled headers like `[ROLE]` or `ROLE:` → rewrite as natural prose
@@ -452,13 +455,13 @@ detail. Still no headers or syntax — just tighter language.
 ### NIJI JOURNEY PROMPT — ROBUST
 
 Keyword-dense prompt using anime/illustration vocabulary, formatted for Niji Journey.
-Comma-separated descriptors. End with `--niji 6`, `--ar [ratio]`, and relevant style
-parameters (`--style expressive`, `--style scenic`, `--style cute`, `--style original`).
+Comma-separated descriptors. End with `--ar [ratio]` only. Do not include `--niji` or
+`--style` parameters — these are incompatible with Niji Journey 7.
 
 ```
 [subject description], [environment], [composition/camera], [lighting], [mood/atmosphere],
 [color palette], [style keywords], [texture/detail tags], [quality tags]
---niji 6 --ar [ratio] --style [variant]
+--ar [ratio]
 ```
 
 ---
@@ -466,10 +469,10 @@ parameters (`--style expressive`, `--style scenic`, `--style cute`, `--style ori
 ### NIJI JOURNEY PROMPT — COMPACT
 
 Condensed keyword version for Niji Journey. Core subject, dominant style, and essential
-atmosphere only. Same parameter endings.
+atmosphere only. End with `--ar [ratio]` only — no `--niji` or `--style` flags.
 
 ```
-[subject], [key style descriptors], [mood] --niji 6 --ar [ratio]
+[subject], [key style descriptors], [mood] --ar [ratio]
 ```
 
 ---

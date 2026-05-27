@@ -31,11 +31,21 @@ near-monochrome compositions. Dramatic use of negative space, weather as emotion
 (rain, wind, fog), and characters that feel isolated against vast or oppressive environments.
 Shots are wide and deliberate. Stillness conveys weight. Film grain is present.
 
+### Usage Notes
+- **For anime rendering:** Kurosawa alone pulls toward live-action film photography. To
+  render in anime/manga style, use Kurosawa as the **composition and mood reference only**
+  and anchor the rendering with *Vagabond* or *Dororo* as the illustration reference.
+  Add these terms to the prompt: `ink wash illustration`, `bold brushstroke outlines`,
+  `manga linework`, `screen tone shading`. Remove any reference to film grain.
+- **Stacking:** When stacking with Hyperreal Anime, lead with Hyperreal Anime as the
+  rendering base and use Kurosawa for composition, framing, and mood descriptors only.
+
 ### ChatGPT Translation
 ```
-Kurosawa-inspired cinematic aesthetic — near-monochrome palette of deep blacks and cool grays,
-dramatic high-contrast composition, 35mm film grain, deliberate stillness, weather as
-emotional texture, wide establishing framing, profound sense of solitude and moral gravity.
+Kurosawa-inspired anime illustration — near-monochrome palette of deep blacks and cool grays,
+dramatic high-contrast composition, ink wash rendering, deliberate stillness, weather as
+emotional texture, wide establishing framing, profound sense of solitude and moral gravity,
+2D anime art style.
 ```
 
 ### Niji Journey Translation
@@ -53,25 +63,29 @@ Japanese feudal aesthetic
 **Conflicts with:** action scenes, fantasy environments, bright comedic tone
 
 ### Visual Description
-Inspired by photographer Gregory Crewdson's large-format staged work — images that feel like
-stills from a film that doesn't exist. Hyper-real yet constructed. Single dominant light
-source, often from a window or doorway, casting raking shadows. Desaturated midtones with
-warm amber highlights and deep teal shadows. The subject is always in the middle of something
-private, emotionally ambiguous, and slightly melancholic. No direct eye contact.
+Large-format staged photography aesthetic — images that feel like stills from a film that
+doesn't exist. Hyper-real yet constructed, every element in the frame deliberately placed
+as though by a set designer. Single dominant light source, often from a window or doorway,
+casting raking shadows. Desaturated midtones with warm amber highlights and deep teal
+shadows. The subject is always in the middle of something private, emotionally ambiguous,
+and slightly melancholic. No direct eye contact.
 
 ### ChatGPT Translation
 ```
-Gregory Crewdson aesthetic — cinematic, slightly staged, emotionally loaded, large-format
-photography feel, hyper-detailed, desaturated midtones with rich amber highlights and deep
-teal shadows, single raking light source from a window or doorway, long dramatic shadows,
-quiet constructed melancholy, emotionally ambiguous narrative, no direct eye contact.
+Cinematic large-format staged aesthetic, anime illustration — theatrically composed,
+hyper-detailed, every element deliberately placed as though by a set designer, still from
+a film that does not exist. Desaturated midtones with rich amber highlights and deep teal
+shadows, single raking light source from a window or doorway, long dramatic shadows, quiet
+constructed melancholy, emotionally ambiguous narrative, no direct eye contact, 2D anime
+art style.
 ```
 
 ### Niji Journey Translation
 ```
-Gregory Crewdson inspired, cinematic staged portrait, desaturated midtones, warm amber and
-deep teal palette, single raking window light, long dramatic shadows, emotionally loaded
-stillness, soft painterly illustration, large-format feel
+cinematic staged large-format aesthetic, theatrically composed, every element deliberately
+placed as though by a set designer, still from a film that does not exist, desaturated
+midtones, warm amber and deep teal palette, single raking window light, long dramatic
+shadows, emotionally loaded stillness, soft painterly illustration, no direct eye contact
 ```
 
 ---
@@ -87,12 +101,22 @@ cyan, and amber. Smoke or steam rising from vents. The city feels alive but pred
 Figures are silhouetted or partially lit, never fully revealed. High contrast between deep
 blacks and intense color. Inspired by Blade Runner, Ghost in the Shell, and classic noir.
 
+### Usage Notes
+- **For anime rendering:** Neon Noir alone pulls toward photorealistic/live-action feel.
+  To render in anime style, stack Hyperreal Anime as the base rendering layer and apply
+  Neon Noir conditions on top. Also add a specific anime title anchor to lock the rendering
+  language: *Ghost in the Shell: Stand Alone Complex* and/or *Cyberpunk Edgerunners* are
+  the strongest fits for this style's urban night aesthetic.
+- **Stacking:** Lead prompt with Hyperreal Anime rendering language, then add Neon Noir
+  atmosphere conditions (neon color palette, wet reflections, anamorphic flare, etc.).
+
 ### ChatGPT Translation
 ```
-Neon noir aesthetic — rain-slicked urban streets reflecting electric neon light in magenta,
-cyan, and amber, deep shadow contrast, smoke and steam rising from vents, cinematic wide shot,
-figures silhouetted or half-lit, Blade Runner atmosphere, mysterious and predatory mood,
-wet surface reflections, anamorphic lens flare, desaturated except for neon color pops.
+Neon noir anime illustration — rain-slicked urban streets reflecting electric neon light in
+magenta, cyan, and amber, deep shadow contrast, smoke and steam rising from vents, cinematic
+wide shot, figures silhouetted or half-lit, Blade Runner atmosphere, mysterious and predatory
+mood, wet surface reflections, anamorphic lens flare, desaturated except for neon color pops,
+2D anime art style.
 ```
 
 ### Niji Journey Translation
@@ -118,10 +142,10 @@ and aspirational.
 
 ### ChatGPT Translation
 ```
-High-end editorial fashion aesthetic — clean and minimal composition, precise directional
-softbox lighting, crisp highlights with soft shadow falloff, desaturated and cool color
-palette with lifted blacks, generous negative space, aspirational and restrained mood,
-Vogue editorial quality, photorealistic, ultra high resolution.
+High-end editorial fashion anime illustration — clean and minimal composition, precise
+directional softbox lighting, crisp highlights with soft shadow falloff, desaturated and
+cool color palette with lifted blacks, generous negative space, aspirational and restrained
+mood, Vogue editorial quality, ultra high detail, 2D anime art style.
 ```
 
 ### Niji Journey Translation
@@ -176,10 +200,10 @@ Witcher, and Zdzisław Beksiński.
 
 ### ChatGPT Translation
 ```
-Dark fantasy aesthetic — brooding and atmospheric, deep jewel tones of emerald and crimson
-against near-black backgrounds, dramatic volumetric rim lighting, heavy fog and smoke,
+Dark fantasy anime illustration — brooding and atmospheric, deep jewel tones of emerald and
+crimson against near-black backgrounds, dramatic volumetric rim lighting, heavy fog and smoke,
 gothic architectural ruins, crumbling stone and iron, mythic character scale, dangerous and
-ancient world, Souls-like visual weight, painterly cinematic quality.
+ancient world, Souls-like visual weight, painterly cinematic anime art style.
 ```
 
 ### Niji Journey Translation
@@ -240,20 +264,21 @@ surreal, glamorous, and visually overwhelming in a controlled way.
 
 ### ChatGPT Translation
 ```
-Surreal luxury cyber-fantasy aesthetic centered on refracted light and crystal surfaces —
-rainbow prism reflections scattered across the subject, faceted jewel-like glossy surfaces,
-glitter particles suspended in air, holographic highlights, luminous skin, vibrant saturated
-colors, cinematic neon lighting, hyper-detailed light reflections and refractions, dark moody
-background with glowing rainbow bokeh, ultra-sharp focus, dreamy and visually opulent mood.
+2D anime illustration, clean precise anime linework, digital anime painting, smooth color
+gradients, stylized anime character design — surreal luxury cyber-fantasy aesthetic with
+rainbow prism reflections scattered across the character, faceted jewel-like crystal surfaces,
+holographic shimmer, glitter highlights, vibrant saturated colors, cinematic neon lighting,
+dark moody background with glowing rainbow bokeh, detailed crystal light effects, clean smooth
+rendering, no texture noise, dreamy and visually opulent mood.
 ```
 
 ### Niji Journey Translation
 ```
-crystal prism reflections, rainbow refracted light scattered across face, faceted jewel-like
-glossy surfaces, holographic highlights, glitter particles, luminous skin, vibrant saturated
-colors, cinematic neon lighting, hyper-detailed reflections, dark moody background, glowing
-rainbow bokeh, dreamy cyber-fantasy aesthetic, surreal luxury vibe, refracted light effects,
-ultra sharp focus, anime illustration masterpiece, insanely detailed
+clean precise anime linework, crystal prism reflections, rainbow refracted light scattered
+across face, faceted jewel-like glossy surfaces, holographic highlights, glitter particles,
+vibrant saturated colors, cinematic neon lighting, hyper-detailed reflections, dark moody
+background, glowing rainbow bokeh, dreamy cyber-fantasy aesthetic, surreal luxury vibe,
+refracted light effects, ultra sharp focus, anime illustration masterpiece, insanely detailed
 ```
 
 ---
@@ -353,11 +378,11 @@ in transience.
 
 ### ChatGPT Translation
 ```
-Makoto Shinkai cinematic aesthetic — hyper-detailed atmospheric sky with layered clouds and
+Makoto Shinkai anime illustration — hyper-detailed atmospheric sky with layered clouds and
 luminous volumetric light rays, lens flare, intensely saturated natural colors in deep blues
-and burning amber gold, near-photographic background detail contrasting with clean anime
-character stylization, emotional depth through light and distance, dreamlike beauty, sense
-of longing and transience, cinematic composition.
+and burning amber gold, richly detailed background contrasting with clean anime character
+stylization, emotional depth through light and distance, dreamlike beauty, sense of longing
+and transience, cinematic anime composition.
 ```
 
 ### Niji Journey Translation
@@ -484,11 +509,11 @@ from ruin.
 
 ### ChatGPT Translation
 ```
-FromSoftware Soulslike aesthetic — desaturated gothic atmosphere in grey, ash, and muted
-teal with isolated accents of deep amber or bloodred, massive decaying architecture that
-dwarfs human scale, fog and ash particles obscuring the background, a pervasive sense of
-ancient ruin and quiet dread, grandeur and horror coexisting, bleaker and more unsettling
-than traditional dark fantasy, Bloodborne and Elden Ring visual language.
+FromSoftware Soulslike anime illustration — desaturated gothic atmosphere in grey, ash, and
+muted teal with isolated accents of deep amber or bloodred, massive decaying architecture
+that dwarfs human scale, fog and ash particles obscuring the background, a pervasive sense
+of ancient ruin and quiet dread, grandeur and horror coexisting, bleaker and more unsettling
+than traditional dark fantasy, Bloodborne and Elden Ring visual language, 2D anime art style.
 ```
 
 ### Niji Journey Translation
@@ -745,13 +770,13 @@ too still, or facing away. The dread is in the mundane, not the monstrous.
 
 ### ChatGPT Translation
 ```
-Liminal space and psychological horror aesthetic — hyperreal mundane environments (empty
+Liminal space and psychological horror anime illustration — mundane environments (empty
 corridors, pools, offices, stairwells) rendered with clinical clarity, institutional
 lighting (fluorescent, yellow incandescent, overexposed window light), desaturated slightly
 wrong color palette (yellowed whites, olive shadows, off-temperature tones), exaggerated
 depth and perspective that makes spaces feel too large or too receding, absence of people
 as a presence in itself, dread through mundane wrongness rather than explicit threat,
-backrooms and liminal space visual language.
+backrooms and liminal space visual language, 2D anime art style.
 ```
 
 ### Niji Journey Translation
@@ -887,6 +912,161 @@ particles atmospheric haze, dynamic motion composition depth of field, soft focu
 castle background, magical heroic elegant mood, anime RPG splash art quality, VTuber
 key visual aesthetic, ultra detailed digital painting --ar 2:3
 ```
+
+---
+
+## STYLE: Tactical Ink
+**Aliases:** tactical ink, mil-moe, military manga, ink mecha, hard ink, mech sketch
+**Best for:** soldiers and military characters, powered armor and mecha, sci-fi hardware, characters with complex tactical equipment, post-apocalyptic figures, pilot portraits
+**Conflicts with:** painterly styles, Aquarelle, Ember, Makoto Shinkai, Prism, Studio Ghibli — anything soft, lush, or color-saturated; this style is restrained by design
+
+### Visual Description
+Clean flat manga ink linework applied to structurally complex mechanical and military subjects.
+Complexity comes from the number of parts — panel seams, joint assemblies, bolt clusters,
+cable runs — not from texture density. Each armor panel has a large flat interior with clean
+color fill and no hatching or crosshatch shading. Wear is sparse and surgical: a few strategic
+grime dots or scratch lines, never covering surfaces. Characters have soft anime proportions
+and expressive faces placed in sharp contrast against the hard mechanical structure. Negative
+space is preserved aggressively — within the armor itself, around the subject, and in the
+background. The result feels light and airy despite the mechanical complexity. Line economy
+over density. Palette is user-defined; the style is fully palette-agnostic.
+
+### ChatGPT Translation
+```
+2D manga illustration, flat clean ink linework, anime character with soft expressive face —
+mechanically complex armor and tactical hardware rendered with structural precision: clean
+panel seam lines, joint assemblies, bolt and cable detail, large flat color fills inside each
+armor panel with no hatching or texture, sparse intentional wear limited to a few strategic
+grime dots and scratch marks, strong contrast between soft anime face and hard mechanical
+structure, generous negative space preserved throughout including within the armor, minimal or
+white background, line economy over density, light airy feel despite mechanical complexity,
+professional manga illustration quality.
+```
+
+### Niji Journey Translation
+```
+flat manga ink linework, soft anime face, complex military mecha armor, clean panel seam
+lines joint assemblies bolt detail, large flat color fills inside armor panels no hatching
+no crosshatch no texture fill, sparse minimal wear marks few grime dots only, strong contrast
+soft face hard machine, generous negative space within and around armor, white or minimal
+background, light airy composition, line economy not density, flat 2D manga rendering,
+professional manga illustration --ar 1:1
+```
+
+---
+
+## STYLE: Cinematic Anime
+**Aliases:** cinematic anime, studio anime, anime key art, premium anime illustration, anime concept art, visual novel art
+**Best for:** character portraits with real-world equipment, motorsport and race characters, action characters at rest, fantasy OCs in grounded settings, strong directional lighting scenes, high production quality without photorealism
+**Conflicts with:** Hyperreal Anime (photorealistic skin/materials vs. illustrated), flat cel shading, chibi proportions, Tactical Ink (ink lines vs. painted rendering)
+
+### Visual Description
+High-quality 2D anime digital illustration with cinematic lighting and production values.
+Rendering stays firmly within anime illustration language — smooth clean anime skin with no
+photographic texture, material detail that reads as expertly illustrated rather than
+photographically accurate. Leather looks like drawn leather. Sweat and grime are rendered
+in anime vocabulary: beaded sweat drops, illustrated dirt smudges, stylized wear. Lighting
+is strong and directional — hard shadows, warm color grading, rim light on hair and
+shoulders — but it illuminates an illustration, not a render. Natural anime proportions
+throughout; nothing crosses into 3D or photorealistic territory. The overall register is
+the premium production quality of high-end game concept art, visual novel key visuals, or
+prestige anime promotional art.
+
+### ChatGPT Translation
+```
+High-quality 2D anime digital illustration with cinematic lighting — smooth clean anime
+skin with no photographic texture, illustrated material detail with depth and volume on
+clothing and gear, strong directional sunlight with warm golden color grading, hard shadows
+and rim lighting, rendering that stays clearly within anime illustration language throughout,
+anime-style detail language for sweat and wear, natural anime proportions, premium game
+concept art or visual novel illustration quality.
+```
+
+### Niji Journey Translation
+```
+cinematic anime illustration, high quality 2D anime art, smooth clean anime skin, strong
+directional sunlight, warm golden color grading, hard shadows rim lighting, illustrated
+material texture leather and gear, anime sweat beads illustrated wear, natural anime
+proportions, premium game concept art quality, semi-realistic anime illustration style,
+detailed anime digital painting --ar 2:3
+```
+
+---
+
+## STYLE: Hyperreal Anime
+**Aliases:** hyperreal anime, photoreal anime, semi-realistic anime, 3D anime, realistic anime, chillout, cinematic anime portrait
+**Best for:** elf/fantasy OC portraits, character close-ups, race-suit or armored characters with real material texture, emotionally quiet portrait moments, scenes where anime stylization meets photographic lighting
+**Conflicts with:** flat cel shading, retro/grain aesthetics, chibi proportions, hard ink outlines, heavy stylization
+
+### Visual Description
+A rendering aesthetic where anime character design — expressive eyes, stylized facial structure,
+fantasy features like pointed ears — meets near-photographic realism in everything else.
+Skin has actual texture: pores, freckles, sweat, subtle imperfection. Clothing and armor
+read as real materials — worn leather, fabric weave, scratched metal. Lighting behaves like
+real light: bokeh backgrounds, lens flare, rim lighting from a physical source. Depth of field
+is present and optically correct. The result sits in an uncanny sweet spot — clearly not a
+photo, but rendered with enough physical accuracy that the fantasy elements feel grounded.
+
+Two primary sub-moods:
+
+- **Gritty / Dynamic:** Strong directional sunlight, physical grime and sweat on skin and
+  costume, highly detailed gear with real wear, warm afternoon color grading. Energy is
+  present — the character has been doing something. Used for racers, warriors, mechanics,
+  action characters at rest.
+
+- **Soft / Dreamy:** Overexposed, backlit, soft bokeh, drifting particles, pastel lens
+  atmosphere. The character is emotionally inward — eyes closed or downcast, contemplative.
+  Used for quiet moments, emotional beats, ethereal fantasy portraits.
+
+Both sub-moods share the semi-photorealistic rendering foundation.
+
+### ChatGPT Translation
+
+**Gritty sub-mood:**
+```
+Semi-realistic anime portrait — anime character design with highly detailed rendering quality.
+Real skin texture with sweat and subtle imperfection, physically detailed material on worn
+leather and gear, strong directional afternoon sunlight casting hard shadows, warm golden
+color grading, shallow depth of field with soft bokeh background, cinematic realism, high
+detail on clothing wear and surface grime, semi-realistic anime rendering with anime
+stylization preserved in the face and proportions.
+```
+
+**Dreamy sub-mood:**
+```
+Semi-realistic anime portrait — anime character design with detailed soft rendering. Real
+skin texture, soft freckles, subtle facial imperfection. Heavily backlit with overexposed
+warm light, soft bokeh and drifting light particles, dreamy shallow depth of field, lens
+flare and atmosphere haze, muted pastel color grading, emotionally inward pose, eyes
+downcast or closed, quiet contemplative mood, semi-realistic anime rendering with anime
+stylization preserved throughout.
+```
+
+### Niji Journey Translation
+
+**Gritty sub-mood:**
+```
+semi-photorealistic anime, hyperreal rendering, worn leather suit, race gear with sponsor
+patches, physical material texture, sweat on skin, strong directional sunlight, warm afternoon
+color grade, shallow depth of field, soft bokeh background, cinematic realism, elf character,
+detailed surface wear and grime, 3D anime aesthetic --ar 2:3
+```
+
+**Dreamy sub-mood:**
+```
+semi-photorealistic anime portrait, hyperreal soft rendering, real skin texture with freckles,
+dreamy backlit atmosphere, overexposed warm light, soft bokeh, floating light particles,
+heart bokeh, pastel lens haze, emotionally quiet, eyes closed, elf character, white clothing,
+contemplative mood, 3D anime aesthetic --ar 2:3
+```
+
+### Block Pre-fills (when loaded)
+
+| Block | Value |
+|---|---|
+| Block 5 — Lighting | Physically accurate light source; directional sun (gritty) or backlit overexposed warm (dreamy); lens flare; bokeh-correct depth of field |
+| Block 6 — Style | Semi-realistic anime; highly detailed anime character with stylization preserved in face and proportions; detailed material textures |
+| Block 7 — Mood & Palette | Gritty: warm golden afternoon, high detail, worn surfaces. Dreamy: soft pastel overexposure, drifting particles, emotional stillness |
 
 ---
 

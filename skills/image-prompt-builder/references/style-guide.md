@@ -18,8 +18,9 @@ show the category overview first and offer to go deeper on any group.
 |---|---|
 | Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Botanical Lineart · Moe Gacha · Storybook |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
-| Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
+| Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash · Tactical Ink |
 | Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Liminal Horror · Kuudere |
+| Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
 
 ---
@@ -352,6 +353,26 @@ anything where the subject isn't front and center.
 
 ---
 
+### Tactical Ink
+Flat manga ink linework applied to structurally complex mechanical and military subjects.
+Complexity comes from the number of parts — panel seams, joints, bolt clusters, cable runs
+— not from texture density. Each armor panel has a flat interior with clean color fill and
+no hatching or crosshatch shading. Wear is sparse and surgical: a few strategic grime dots
+or scratch lines, never covering surfaces. The character's soft anime face is placed in sharp
+contrast against the hard mechanical structure. Negative space is preserved aggressively —
+within the armor itself, around the subject, and in the background. The result feels light
+and airy despite mechanical complexity. Line economy over density. Palette-agnostic — the
+user defines the color story.
+
+**Best for:** soldiers and military characters, powered armor and mecha subjects, sci-fi
+hardware, characters with complex tactical equipment, post-apocalyptic figures, pilot
+portraits, any scene where soft character meets hard machine.
+
+**Not for:** soft or painterly aesthetics, lush colorful backgrounds, romantic or emotional
+scenes where warmth is the priority.
+
+---
+
 ### Shounen Burst
 A modern digital anime style where a warm, aged-paper world collides with cold or sharp
 supernatural force. Environments pushed into warm sepia and cream — walls and debris feel
@@ -397,6 +418,54 @@ spaces feel too large or too receding. Dread through mundane wrongness, not expl
 unease, scenes where the setting itself is the subject.
 
 **Not for:** warm or inviting palettes, fantasy environments, character-forward portraits.
+
+---
+
+## Cinematic & Photorealistic
+
+Styles that blend anime character design with near-photographic rendering quality.
+
+---
+
+### Cinematic Anime
+High-quality 2D anime digital illustration with cinematic lighting and production values.
+Everything is rendered in anime illustration language — smooth clean skin, illustrated
+materials, anime-style sweat and wear — but with the lighting weight and color grading of
+a film: strong directional sun, hard shadows, warm golden tones, rim light on hair and
+shoulders. Natural anime proportions throughout. The result feels like premium game concept
+art or visual novel key art — polished and grounded without ever crossing into photorealism.
+
+The middle ground between flat anime and Hyperreal Anime. Use this when you want cinematic
+quality without photographic texture.
+
+**Best for:** race/motorsport characters, fantasy OCs in grounded settings, character
+portraits with real-world gear, strong-lighting scenes, any subject needing high production
+anime quality without photorealism.
+
+**Not for:** photorealistic rendering, flat or graphic aesthetics, chibi proportions,
+heavy stylization, or ink-line-based styles.
+
+---
+
+### Hyperreal Anime
+Anime character design meets near-photographic realism in everything except the face. Skin
+has real texture — pores, freckles, sweat, subtle imperfection. Materials behave physically
+— worn leather, fabric weave, scratched metal. Lighting is optically accurate with real
+depth of field, bokeh, and lens flare. The result sits in an uncanny sweet spot: clearly
+not a photo, but grounded enough that the fantasy elements feel real.
+
+Two sub-moods — ask the user which applies or infer from context:
+- **Gritty:** strong directional sunlight, surface grime and sweat, warm golden grading,
+  worn gear with high wear detail. Character has been doing something.
+- **Dreamy:** overexposed backlit atmosphere, soft bokeh, drifting particles, pastel lens
+  haze, emotionally inward pose, eyes closed or downcast.
+
+**Best for:** elf/fantasy OC portraits, race-suit or armored characters with real material
+texture, emotionally quiet portrait moments, close-ups where physical rendering makes the
+fantasy feel tangible.
+
+**Not for:** flat or graphic aesthetics, retro/grain styles, chibi proportions, heavy ink
+outlines, anything that needs stylization over realism.
 
 ---
 
@@ -468,7 +537,7 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Emotional outdoor scene | Makoto Shinkai · Studio Ghibli · Kurosawa |
 | Dark atmospheric environment | Soulslike · Neon Noir · Dark Fantasy |
 | Fantasy interior / warmth | Ember · Moe Gacha |
-| Technical gear / armor study | Ironbloom · Miura · JRPG Pixel Art |
+| Technical gear / armor study | Ironbloom · Miura · Tactical Ink · JRPG Pixel Art |
 | Graphic / poster energy | Cel Shading · Retro Anime · Neon Noir |
 | Surreal / jewel / crystal | Prism |
 | Nostalgic / analog | Retro Anime |
@@ -486,3 +555,13 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Premium gacha / VTuber key visual | Gacha Splash |
 | Dynamic anime character moment | Gacha Splash · Shounen Burst · Ufotable |
 | World-weary / experienced presence | Kuudere · Kurosawa |
+| Military / tactical character | Tactical Ink · Ironbloom |
+| Mecha / powered armor | Tactical Ink · Ironbloom · Miura |
+| Flat manga / ink style | Tactical Ink · Miura |
+| Soft character vs. hard machine | Tactical Ink · Ironbloom |
+| Semi-photorealistic anime portrait | Hyperreal Anime |
+| Fantasy OC / elf portrait | Cinematic Anime · Hyperreal Anime · Aquarelle · Botanical Lineart |
+| Cinematic lighting on anime character | Cinematic Anime · Hyperreal Anime · Ufotable · Ironbloom |
+| Emotionally quiet / contemplative portrait | Hyperreal Anime · Aquarelle · Kuudere |
+| Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
+| Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |

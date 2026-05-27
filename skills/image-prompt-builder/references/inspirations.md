@@ -263,6 +263,36 @@ When adding, follow the existing format:
 
 ---
 
+## Cinematic Anime
+
+1. A blonde elf in a sponsor-covered leather race suit leaning against a motorcycle in a pit garage, sweat beads on her brow, warm afternoon light cutting through the garage doors, expression tired but composed
+2. A silver-haired warrior in practical layered armor sitting on stone steps outside a tavern, eating bread, late sun on her face, clearly resting between missions — unheroic and real
+3. Two elf pilots in worn flight suits walking across a tarmac at golden hour, helmets tucked under their arms, easy body language, the light long and warm behind them
+4. A red-haired elf crouching beside a damaged race motorcycle on circuit, examining the front fork with focused concentration, crowd blur in the background, warm midday light
+5. A dark-haired mage in layered travel robes kneeling in tall grass, holding a strange artifact up to dappled light filtering through trees, expression carefully curious
+
+---
+
+## Hyperreal Anime
+
+1. A blonde elf in a race-worn leather suit sitting against a motorcycle in golden afternoon light, grime on her cheek, goggles pushed up, expression tired but satisfied — gritty sub-mood
+2. A dark-haired elf in white linen standing in a sun-drenched field, eyes closed, heavily backlit, soft heart bokeh floating around her, emotionally distant — dreamy sub-mood
+3. A silver-haired half-elf mechanic leaning over an open engine bay, oil-stained gloves, sunlight cutting through a corrugated workshop wall, squinting in concentration — gritty sub-mood
+4. A forest elf in ceremonial robes standing in falling cherry blossoms, overexposed, petals drifting, eyes downcast, pastel haze softening the edges of everything — dreamy sub-mood
+5. An armored elf kneeling at a riverside removing her gauntlet, sweat on her brow, physically exhausted, warm late-day light raking across the battered metal — gritty sub-mood
+
+---
+
+## Tactical Ink
+
+1. A soldier in heavily battle-worn powered armor kneeling to touch a single wildflower growing through cracked earth, massive rifle slung across her back, expression soft
+2. A mech pilot sitting against the leg of her dormant suit, helmet set aside, holding a thermos with both hands — steam rising, suit bearing fresh impact craters
+3. Two figures in full tactical exosuits walking silently through ash-covered ruins, a small bird perched unbothered on one's shoulder pauldron
+4. A girl in oversized combat armor reading a paperback novel in the shadow of a disabled tank, completely at ease in the wreckage
+5. A lone soldier in battle-worn exosuit standing at the edge of a bombed-out city, cradling a small potted plant carefully in both gauntleted hands
+
+---
+
 ## Storybook
 
 1. A bear cub learning to fish from his grandfather at a stream, autumn leaves caught in the current around them
