@@ -11,23 +11,24 @@ Targets ChatGPT (DALL-E 3) and Niji Journey 7, producing 4 prompt variants per s
 |---|---|
 | Source of truth | `~/.claude/skills/image-prompt-builder/` |
 | Live Claude Code location | `~/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/0c10f75f-df4f-4793-821e-f46266595e95/200a7c70-cef9-4012-ba07-6a4f500167a1/skills/image-prompt-builder/` |
-| Web upload zip | `~/Desktop/image-prompt-builder.zip` |
+| Web upload zip | `~/.claude/skills/image-prompt-builder.zip` |
 
 ### Key Files
 
-- `SKILL.md` — core skill, always loaded, contains 28-style quick reference table
-- `references/styles.md` — all 28 styles with ChatGPT and Niji Journey translations
+- `SKILL.md` — core skill, always loaded, contains 32-style quick reference table
+- `references/styles.md` — all 32 styles with ChatGPT and Niji Journey translations
 - `references/style-guide.md` — style descriptions, category table, concept→style lookup
 - `references/character-sheet.md` — 12-panel production reference sheet spec
-- `references/inspirations.md` — 5 example scenes per style (140 total), add new ones on request
+- `references/inspirations.md` — 5 example scenes per style (160 total), add new ones on request
 
-### Current Styles (28)
+### Current Styles (32)
 
 Kurosawa · Crewdson · Neon Noir · Editorial Fashion · Studio Ghibli · Dark Fantasy ·
 Ember · Prism · Aquarelle · Ironbloom · Makoto Shinkai · Ufotable · Retro Anime ·
 Cel Shading · Soulslike · Miura · Botanical Lineart · JRPG Pixel Art · Shounen Burst ·
 Moe Gacha · Webtoon · Liminal Horror · Storybook · Kuudere · Gacha Splash ·
-Tactical Ink · Cinematic Anime · Hyperreal Anime
+Tactical Ink · Cinematic Anime · Hyperreal Anime · Daily Chibi · Velvet · Gossamer ·
+Flat Cel
 
 ### Sync Workflow
 
@@ -36,7 +37,7 @@ After editing any file in `~/.claude/skills/image-prompt-builder/`:
 1. Run `imgprompt-sync` in terminal (syncs to live Claude Code location, removes any v2 ghost)
 2. Rebuild zip for web upload:
 ```bash
-cd ~/.claude/skills/image-prompt-builder && zip ~/Desktop/image-prompt-builder.zip SKILL.md references/styles.md references/style-guide.md references/character-sheet.md references/inspirations.md -j
+cd ~/.claude/skills/image-prompt-builder && zip ~/.claude/skills/image-prompt-builder.zip SKILL.md references/styles.md references/style-guide.md references/character-sheet.md references/inspirations.md -j
 ```
 3. Upload zip to claude.ai to update the web skill
 

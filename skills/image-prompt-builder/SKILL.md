@@ -80,7 +80,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 28 styles are stored in your personal style library. This table is always
+The following 32 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -107,12 +107,16 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Moe Gacha | Full chibi action art, tiny fantasy warriors, cute-but-capable, warm dynamic gacha chibi |
 | Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
 | Liminal Horror | Empty institutional spaces, psychological unease, mundane wrongness, dread without threat |
-| Storybook | Fairy tale scenes, animal characters, whimsical fantasy, warm wonder-filled mood |
+| Storybook | Anime fairy tale scenes, animal characters, whimsical anime fantasy, warm wonder-filled mood |
+| Daily Chibi | Everyday slice-of-life scenes, characters eating/relaxing, cozy indoor settings, mundane moments with warmth |
 | Kuudere | Cool reserved anime characters, quiet authority, world-weary composure, petite-but-capable contrast |
+| Velvet | Luxury dark-fantasy key visual, crimson-violet palette, polished glossy rendering, satin materials, luminous eyes, Pixiv masterpiece quality |
 | Gacha Splash | Premium gacha/VTuber key visuals, dynamic anime moments, semi-chibi, cinematic lighting, magical energy |
 | Tactical Ink | Military/mecha characters, powered armor, sci-fi hardware, flat manga ink, soft face vs. hard machine contrast |
 | Cinematic Anime | High-production anime illustration, cinematic lighting, real-world subjects, illustrated textures, premium game/visual novel quality |
 | Hyperreal Anime | Semi-photorealistic anime characters, elf/fantasy OCs, dreamy portrait lighting, soft grime and texture, near-real skin and materials |
+| Gossamer | Flat minimal anime portraits, light novel illustrations, visual novel CGs, iyashikei/healing atmosphere, shrine maidens, elves, muted cool palette, nearly shadowless |
+| Flat Cel | Any scene or genre — action, romance, dark fantasy, horror, sci-fi, slice-of-life; flat cel technique with fully user-defined palette and mood, no style restrictions |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -434,6 +438,13 @@ Natural, flowing prose written for DALL-E 3. No headers, no parameter syntax. Ev
 from the 8 blocks woven into a rich, descriptive paragraph. Think movie scene description:
 what is happening, what does it feel like, where is the camera, how is the scene lit, what
 emotion does it create.
+
+CRITICAL FOR ILLUSTRATED/ANIME STYLES: Always lead the prompt with the style declaration
+(e.g. "Cinematic anime key visual illustration of..."). Avoid photographic language like
+"the camera sits at," "scattering light," or "rain-slicked" — these pull DALL-E toward
+photorealism. Close the prompt with explicit 2D anchors: "drawn in," "line art,"
+"2D rendered," "anime illustration style." This keeps the render mode locked to the
+intended aesthetic regardless of scene complexity.
 
 ```
 [Full prose description — 3–6 sentences, richly specific, natural cinematic language]

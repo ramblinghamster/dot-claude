@@ -300,3 +300,43 @@ When adding, follow the existing format:
 3. A dormouse and a hedgehog sharing shelter under a rain-dripping leaf, their tiny world rendered with care
 4. A lighthouse keeper's daughter finding a message in a bottle on a foggy shore, expression wide with possibility
 5. A friendly dragon teaching village children to bake bread using his carefully controlled flame, the children delighted
+
+---
+
+## Velvet
+
+1. A vampire countess in deep crimson silk seated in a candlelit ballroom, violet shadows pooling around her gown, city lights softly visible through tall arched windows behind her, expression cool and unreadable
+2. A dark sorceress in voluminous violet robes standing at a rooftop edge at midnight, crimson energy coiling around her fingers, soft bokeh city lights stretching below, rim light catching the satin trim of her collar
+3. A silver-haired demon lord in black and crimson formal attire facing a rain-streaked window, violet neon reflections distorting in the glass, face half-turned, expression unreadable
+4. An elf noblewoman in deep burgundy armor with midnight-blue silk lining, violet candlelight from stained glass casting rich shadows across her composed expression, satin sash gleaming at her waist
+5. Two dark fae in contrasting crimson and violet formal gowns standing in a moonlit throne room, eyes locked in silent negotiation, satin and silk gleaming in soft bloom light
+
+---
+
+## Daily Chibi
+
+1. A rabbit-eared character staring blankly at her teishoku tray in an otherwise empty Japanese diner, clearly unenthused by the vegetables but eating them anyway
+2. A tired character slumped sideways at a kotatsu, phone in hand, half-eaten instant ramen cooling beside her, cat asleep on her feet
+3. Two characters sharing konbini snacks on a convenience store curb at dusk, plastic bags between them, neither saying anything
+4. A character in oversized pajamas standing in front of an open fridge at midnight, deadpan expression, holding a single cherry tomato and reconsidering life choices
+5. A character at a messy study desk surrounded by textbooks and empty snack wrappers, pencil tapping an unfinished worksheet, window dark outside
+
+---
+
+## Gossamer
+
+1. A swordswoman leaping between rooftops at night, blade extended mid-arc, the city below rendered in flat deep indigo and cool grey — no shadows, just shape and silhouette
+2. Two students locked in a stare-down in a school hallway, warm amber and red flat palette, coats and scarves caught in a draft from an open door, tension obvious without a single shadow
+3. A witch at a cluttered desk surrounded by floating spell components, vibrant emerald and gold palette, expression concentrated, everything flat and graphic with no rendering depth
+4. A futuristic courier weaving through a dense night market on an electric bike, cool blue-teal flat palette, motion expressed entirely through pose and lean — no motion blur, no lighting drama
+5. A warrior in plate armor kneeling beside a fallen comrade on a battlefield, deep muted steel and earth tones, the grief in the posture carrying the scene without shadow or directional light
+
+---
+
+## Gossamer
+
+1. An elf noblewoman sitting by a moonlit tower window, sheer curtains drifting in a soft breeze, pale flower petals floating slowly through the air, expression serene and inward
+2. A silver-haired shrine maiden walking a torii path lined with cherry blossoms, soft pink petals drifting all around her, early morning mist softening the trees behind her, a calm smile
+3. A young sorceress in a white and lavender dress reading a spellbook in a sunlit library, dust motes drifting through the golden light, an open window framing a lush garden beyond
+4. A fantasy princess standing alone in a wildflower meadow at dusk, her pastel gown trailing softly over the grass, a dreamy haze of warm light dissolving the horizon behind her
+5. A delicate fairy-tale elf in pale silk seated at a tea table in an overgrown greenhouse, afternoon light filtering through glass panes and draping softly over ferns and white roses

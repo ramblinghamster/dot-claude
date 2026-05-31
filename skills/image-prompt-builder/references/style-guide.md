@@ -16,12 +16,13 @@ show the category overview first and offer to go deeper on any group.
 
 | Category | Styles |
 |---|---|
-| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Botanical Lineart · Moe Gacha · Storybook |
+| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Botanical Lineart · Moe Gacha · Storybook · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
 | Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash · Tactical Ink |
-| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Liminal Horror · Kuudere |
+| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Liminal Horror · Kuudere · Velvet |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
+| Flat & Minimal | Flat Cel · Gossamer |
 
 ---
 
@@ -318,11 +319,52 @@ cute-but-capable energy, any scene where full chibi proportions and warm dynamic
 
 ---
 
+### Daily Chibi
+Semi-chibi character proportions (head roughly one-quarter of total height) placed in
+carefully rendered everyday environments. The emphasis is on the mundane made charming —
+food dishes, furniture, and everyday objects rendered with real visual weight while the
+character sits in a casual, unhurried pose. Clean flat cel shading, warm ambient interior
+lighting, and understated expressions (neutral, quietly unamused, softly tired). The
+contrast between the slightly-oversized anime head and the grounded, believable world around
+the character is the defining appeal. Feels like a gacha character's day off.
+
+**Best for:** restaurant and cafe scenes, characters eating or relaxing, home and bedroom
+settings, convenience store moments, any everyday slice-of-life scene where warmth and
+mundane charm matter more than action or drama.
+
+**Not for:** action or combat, dramatic lighting, dark fantasy, outdoor epic scenes, anything
+requiring dynamic energy or atmospheric weight.
+
+---
+
+### Gossamer
+Clean flat modern anime — the visual language of light novel illustrations and visual
+novel CG artwork pushed toward its most minimal form. Line art is barely visible: thin,
+soft-colored, almost absent. Shading is flat cel-style with a single shadow tone and
+dark values lifted so high the image reads nearly shadowless. No gradients, no blending,
+no directional light, no cast shadows. Colors are muted and slightly cool — sage greens,
+dusty aquas, warm off-whites — holding mild saturation without going fully pastel.
+Backgrounds are blurred and simplified, never competing with the figure. Hair is flat
+planes with one shine streak; skin is clean and textureless with a faint cheek blush;
+eyes are large, flat-irised, cool aqua or grey-blue. The overall effect is quiet,
+weightless, and illustrative — a clean Pixiv sketch with intentional color holds rather
+than a fully rendered painting. Where Aquarelle is painterly and textured, Gossamer is
+flat and graphic. Where Velvet is dark and dramatic, Gossamer is weightless and cool.
+
+**Best for:** fantasy portraiture, visual novel CGs, iyashikei / healing atmosphere,
+floral and spring scenes, shrine maidens, elves, noblewomen, tranquil interiors,
+romantic character art, any scene that should feel soft, elegant, and emotionally warm.
+
+**Not for:** dark or gritty themes, dramatic lighting, action sequences, painterly
+texture, high-contrast or cinematic aesthetics.
+
+---
+
 ### Storybook
-Gouache or watercolor washes over ink linework, soft rounded shapes, warm palette of ochres,
-sage greens, dusty roses, and cream. Visible paper grain and brush texture. Round expressive
-characters with large eyes. The mood is wonder, safety, and gentle whimsy. Closest to Maurice
-Sendak, Beatrix Potter, or a Studio Ghibli picture book.
+Soft warm painterly anime rendering in a storybook aesthetic. Gouache-like digital painting
+with rounded anime characters, large expressive eyes, and soft simplified silhouettes. Warm
+palette of ochres, sage greens, dusty roses, and cream. The mood is wonder, safety, and gentle
+whimsy. Closest to Ghibli artbooks and Japanese anime picture book aesthetics.
 
 **Best for:** fairy tale scenes, animal characters, young protagonists, whimsical fantasy,
 nature and forest settings, any scene that should feel warm and wonder-filled.
@@ -421,6 +463,29 @@ unease, scenes where the setting itself is the subject.
 
 ---
 
+### Velvet
+A premium dark-fantasy anime key visual defined by polished, glossy rendering and a
+signature crimson-violet palette. The defining approach is luminous precision — smooth
+gradient shadows, refined anime line art, and glossy surface rendering on satin, velvet,
+and silk materials. Lighting layers richly: soft bloom, subtle rim light, and diffused
+city-light bokeh work together to give the image cinematic depth without harshness. Eyes
+are particularly luminous and detailed, the clearest focal anchor in the composition.
+Character design is elegant and composed — clean anime facial structure, sophisticated
+expression. The background provides environmental presence through soft-focus depth of
+field rather than suppression or abstraction. The palette is signature and fixed: deep
+crimson and violet with neon noir undertones. Controlled contrast and sophisticated color
+harmony make the image feel like a modern Pixiv masterpiece — high-end dark gacha key
+visual quality.
+
+**Best for:** elegant dark-fantasy characters in luxury settings, formal attire with
+lustrous materials, moody character portraits, premium dark gacha key visuals.
+
+**Not for:** casual or slice-of-life scenes, dynamic action shots, non-crimson palettes,
+or painterly/hand-drawn aesthetics — Daily Chibi, Moe Gacha, Webtoon, Tactical Ink, and
+Botanical Lineart conflict directly.
+
+---
+
 ## Cinematic & Photorealistic
 
 Styles that blend anime character design with near-photographic rendering quality.
@@ -512,6 +577,38 @@ Studio Ghibli, or anything that needs to feel inviting or cheerful.
 
 ---
 
+## Flat & Minimal
+
+These styles share flat cel rendering, ambient-only lighting, and near-shadowless shading. The
+difference is palette and theme range — Gossamer is a specific iyashikei application of the
+technique; Flat Cel is the unrestricted base.
+
+---
+
+### Flat Cel
+The core technique of flat digital anime illustration, made palette- and theme-neutral. Flat
+cel shading with a single shadow tone, lifted dark values reading nearly shadowless, no
+gradients, no blending. Completely ambient lighting — no directional source, no cast shadows.
+Clean thin line art slightly more defined than Gossamer's barely-visible style. Simplified flat
+backgrounds that never compete with the figure. Hair is flat planes with a single shine streak.
+Skin is clean and textureless. **Palette and mood are fully user-defined per scene** — there is
+no default. Dark themes are handled through palette choice, not lighting drama. Gossamer is
+a specific application of this technique locked to cool tones and healing atmosphere; Flat Cel
+removes those constraints entirely.
+
+**Best for:** any scene, any genre, any theme — the style is the technique, not the mood.
+Action, dark fantasy, romance, comedy, horror-lite, supernatural, school life, urban, sci-fi,
+fantasy — all work. Define palette and mood in Block 7 for every prompt.
+
+**Not for:** painterly or textured aesthetics, gradients, volumetric lighting, photorealism,
+complex shadow work, or styles requiring directional light as a mood driver.
+
+**Gossamer vs. Flat Cel:** When the user wants muted cool tones and a healing/iyashikei feel,
+recommend Gossamer. When they want the flat technique with full palette and theme freedom,
+use Flat Cel.
+
+---
+
 ## Dark Fantasy Comparison
 
 Five styles work in dark fantasy territory — here's how to choose:
@@ -533,7 +630,7 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Epic battle / combat | Dark Fantasy · Ufotable · Cel Shading |
 | Supernatural action | Shounen Burst · Ufotable · Cel Shading |
 | Character portrait | Crewdson · Aquarelle · Ironbloom · Miura |
-| Soft fantasy portrait | Botanical Lineart · Aquarelle · Moe Gacha |
+| Soft fantasy portrait | Gossamer · Botanical Lineart · Aquarelle · Moe Gacha |
 | Emotional outdoor scene | Makoto Shinkai · Studio Ghibli · Kurosawa |
 | Dark atmospheric environment | Soulslike · Neon Noir · Dark Fantasy |
 | Fantasy interior / warmth | Ember · Moe Gacha |
@@ -545,8 +642,16 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Quiet / understated character | Aquarelle · Crewdson · Botanical Lineart · Kuudere |
 | Nature / wonder | Studio Ghibli · Makoto Shinkai · Botanical Lineart |
 | Chibi action / fantasy chibi | Moe Gacha |
+| Everyday slice-of-life / cozy chibi | Daily Chibi |
+| Character eating / relaxing / off-duty | Daily Chibi · Ember |
+| Food scene / restaurant / cafe | Daily Chibi |
 | Pixel / sprite / game art | JRPG Pixel Art |
-| Elf / fae character | Botanical Lineart · Aquarelle |
+| Elf / fae character | Gossamer · Botanical Lineart · Aquarelle |
+| Light novel illustration | Gossamer |
+| Visual novel CG | Gossamer |
+| Healing / iyashikei scene | Gossamer |
+| Shrine maiden / noblewoman | Gossamer · Botanical Lineart |
+| Pastel / dreamy anime portrait | Gossamer · Aquarelle |
 | Psychological / unsettling | Liminal Horror |
 | Storybook / children's | Storybook |
 | Korean drama / manhwa | Webtoon |
@@ -563,5 +668,16 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Fantasy OC / elf portrait | Cinematic Anime · Hyperreal Anime · Aquarelle · Botanical Lineart |
 | Cinematic lighting on anime character | Cinematic Anime · Hyperreal Anime · Ufotable · Ironbloom |
 | Emotionally quiet / contemplative portrait | Hyperreal Anime · Aquarelle · Kuudere |
+| Luxury dark-fantasy character portrait | Velvet |
+| Formal wear / luxury evening setting | Velvet · Editorial Fashion |
+| Crimson-violet palette / neon noir mood | Velvet · Neon Noir |
+| Supernatural being in modern luxury setting | Velvet · Neon Noir |
+| Lustrous material rendering (satin, velvet, silk) | Velvet · Editorial Fashion |
+| Premium dark gacha key visual | Velvet · Gacha Splash |
+| Flat cel / clean flat anime | Flat Cel · Gossamer |
+| Any genre with flat rendering | Flat Cel |
+| Action or dark themes in flat style | Flat Cel |
+| Flat anime with user-defined palette | Flat Cel |
+| Flat minimal healing / iyashikei | Gossamer |
 | Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
 | Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |
