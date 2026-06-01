@@ -19,7 +19,7 @@ show the category overview first and offer to go deeper on any group.
 | Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Botanical Lineart · Moe Gacha · Storybook · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
 | Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash · Tactical Ink |
-| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Liminal Horror · Kuudere · Velvet |
+| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Kuudere · Velvet |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer |
@@ -452,19 +452,6 @@ sequences, romance and slice-of-life.
 
 ---
 
-### Liminal Horror
-The visual language of liminal spaces and psychological horror — emptiness that feels wrong.
-Mundane environments (hotel corridors, empty pools, fluorescent offices, stairwells) rendered
-with hyperreal clarity that makes absence feel like presence. Institutional flat lighting,
-slightly wrong color temperature — yellowed whites, olive shadows. Depth exaggerated to make
-spaces feel too large or too receding. Dread through mundane wrongness, not explicit threat.
-
-**Best for:** empty institutional spaces, abandoned or transitional environments, psychological
-unease, scenes where the setting itself is the subject.
-
-**Not for:** warm or inviting palettes, fantasy environments, character-forward portraits.
-
----
 
 ### Velvet
 A premium dark-fantasy anime key visual defined by polished, glossy rendering and a
@@ -677,7 +664,6 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Healing / iyashikei scene | Gossamer |
 | Shrine maiden / noblewoman | Gossamer · Botanical Lineart |
 | Pastel / dreamy anime portrait | Gossamer · Aquarelle |
-| Psychological / unsettling | Liminal Horror |
 | Storybook / children's | Storybook |
 | Korean drama / manhwa | Webtoon |
 | Fairy tale / whimsy | Storybook · Studio Ghibli |

@@ -80,7 +80,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 33 styles are stored in your personal style library. This table is always
+The following 32 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -106,7 +106,6 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Shounen Burst | Supernatural action, power awakening, warm decay vs. cold force, mid-destruction urban scenes |
 | Moe Gacha | Full chibi action art, any genre — fantasy, school, sci-fi, magical girl; cute-but-capable, warm dynamic gacha chibi |
 | Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
-| Liminal Horror | Empty institutional spaces, psychological unease, mundane wrongness, dread without threat |
 | Storybook | Anime fairy tale scenes, animal characters, whimsical anime fantasy, warm wonder-filled mood |
 | Daily Chibi | Everyday slice-of-life scenes, characters eating/relaxing, cozy indoor settings, mundane moments with warmth |
 | Kuudere | Cool reserved anime characters, quiet authority, world-weary composure, petite-but-capable contrast |

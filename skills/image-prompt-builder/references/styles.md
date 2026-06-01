@@ -672,7 +672,7 @@ warm decay vs cold power visual tension, A Certain Scientific Railgun style --ar
 ## STYLE: Moe Gacha
 **Aliases:** moe gacha, gacha, chibi gacha, cute chibi, fantasy chibi, chibi knight, chibi warrior, gacha chibi
 **Best for:** any character in dynamic action regardless of genre — fantasy warriors, magical girls, school uniforms, sci-fi suits, sports characters, mecha pilots — any scene where full chibi proportions and warm cinematic energy combine. The chibi scale and action energy are the constants; the theme is fully user-defined.
-**Conflicts with:** Miura, Soulslike, Kurosawa, Liminal Horror, any dark gritty or restrained aesthetic
+**Conflicts with:** Miura, Soulslike, Kurosawa, any dark gritty or restrained aesthetic
 
 ### Visual Description
 The full chibi action art aesthetic of gacha games — characters rendered at extreme
@@ -751,44 +751,6 @@ Korean webtoon manhwa style, crisp clean confident linework, smooth cel shading 
 gradients, fashion-forward character design, expressive face precise hair rendering,
 saturated clean color palette, strong character focus, polished cinematic quality,
 modern digital anime aesthetic, Solo Leveling style, Tower of God aesthetic --ar 9:16
-```
-
----
-
-## STYLE: Liminal Horror
-**Aliases:** liminal horror, liminal, backrooms, liminal space, horror, scp, wrong lighting, unsettling
-**Best for:** empty institutional spaces, abandoned or transitional environments, psychological unease, scenes where the setting itself is the subject, any image where dread comes from wrongness rather than explicit threat
-**Conflicts with:** warm or inviting palettes, fantasy environments, character-forward portraits, any style with explicit beauty or grandeur
-
-### Visual Description
-The visual language of liminal spaces and psychological horror — emptiness that feels wrong.
-Scenes are mundane environments (hotel corridors, empty swimming pools, fluorescent-lit
-offices, stairwells, mall food courts at 3am) rendered with hyperreal clarity that makes
-the absence of people feel like a presence. Lighting is institutional and flat — fluorescent
-buzz, yellow incandescent wash, or overexposed daylight from windows. Color is desaturated
-and slightly wrong: yellowed whites, olive-tinged shadows, colors that feel slightly
-off-temperature. Depth and perspective are slightly exaggerated, making spaces feel larger
-or more receding than they should. If figures are present, they are ambiguous — too far,
-too still, or facing away. The dread is in the mundane, not the monstrous.
-
-### ChatGPT Translation
-```
-Liminal space and psychological horror anime illustration — mundane environments (empty
-corridors, pools, offices, stairwells) rendered with clinical clarity, institutional
-lighting (fluorescent, yellow incandescent, overexposed window light), desaturated slightly
-wrong color palette (yellowed whites, olive shadows, off-temperature tones), exaggerated
-depth and perspective that makes spaces feel too large or too receding, absence of people
-as a presence in itself, dread through mundane wrongness rather than explicit threat,
-backrooms and liminal space visual language, 2D anime art style.
-```
-
-### Niji Journey Translation
-```
-liminal space aesthetic, empty mundane environment, hyperreal clinical rendering,
-institutional fluorescent lighting yellow incandescent, desaturated wrong color temperature
-yellowed whites olive shadows, exaggerated depth perspective, vast empty space, absence
-of people, psychological unease, backrooms visual language, wrongness without explicit
-threat, still and silent atmosphere --ar 16:9
 ```
 
 ---
@@ -1208,7 +1170,7 @@ gacha daily life aesthetic --ar 1:1
 ## STYLE: Gossamer
 **Aliases:** gossamer, light novel, visual novel, visual novel cg, soft anime, pastel anime, soft fantasy, healing anime, iyashikei, fantasy portrait, shrine maiden, light novel illustration, porcelain anime
 **Best for:** fantasy portraiture, visual novel CGs, light novel character illustrations, iyashikei and healing atmosphere scenes, elegant character showcases, spring or summer fantasy environments, floral scenes, tranquil interiors, fantasy fashion, elves, shrine maidens, noblewomen, romantic character art, serene magical settings
-**Conflicts with:** Miura, Soulslike, Neon Noir, Liminal Horror, Ironbloom, Cinematic Anime, Hyperreal Anime, Kurosawa, Crewdson — anything dark, gritty, high-contrast, dramatic, or with strong directional lighting
+**Conflicts with:** Miura, Soulslike, Neon Noir, Ironbloom, Cinematic Anime, Hyperreal Anime, Kurosawa, Crewdson — anything dark, gritty, high-contrast, dramatic, or with strong directional lighting
 
 ### Visual Description
 A clean flat modern anime aesthetic defined by minimal shading complexity and deliberate

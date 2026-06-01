@@ -26,9 +26,9 @@ Targets ChatGPT (DALL-E 3) and Niji Journey 7, producing 4 prompt variants per s
 Kurosawa · Crewdson · Neon Noir · Editorial Fashion · Studio Ghibli · Dark Fantasy ·
 Ember · Prism · Aquarelle · Ironbloom · Makoto Shinkai · Ufotable · Retro Anime ·
 Cel Shading · Soulslike · Miura · Botanical Lineart · JRPG Pixel Art · Shounen Burst ·
-Moe Gacha · Webtoon · Liminal Horror · Storybook · Kuudere · Gacha Splash ·
+Moe Gacha · Webtoon · Storybook · Kuudere · Gacha Splash ·
 Tactical Ink · Cinematic Anime · Hyperreal Anime · Daily Chibi · Velvet · Gossamer ·
-Flat Cel
+Flat Cel · Flat Chibi
 
 ### Sync Workflow
 

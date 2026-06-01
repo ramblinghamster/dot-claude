@@ -233,16 +233,6 @@ When adding, follow the existing format:
 
 ---
 
-## Liminal Horror
-
-1. A hotel corridor stretching further than it should, fluorescent lights flickering at a far end where the perspective should have ended
-2. A swimming pool at 3am, lit from within, still full — one wet footprint at the edge leading to nowhere
-3. A school gymnasium at midnight, bleachers folded, one fire door open to darkness, muzak still playing from somewhere unseen
-4. A shopping mall food court after closing — half the lights off, one chair pushed out of place, the smell of old air
-5. A highway rest stop at 4am — one car in the lot, every light inside blazing, no one visible through any window
-
----
-
 ## Gacha Splash
 
 1. A mage mid-incantation, magical light spiraling around her hands, castle courtyard soft-focus behind her, semi-chibi proportions, particles drifting in the warm bloom
