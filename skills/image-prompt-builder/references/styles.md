@@ -334,30 +334,66 @@ dramatic cinematic lighting, magical effects, sci-fi elements, floating decorati
 ---
 
 ## STYLE: Ironbloom
-**Aliases:** ironbloom, iron bloom, tactical anime, arms girl, gear girl, mech contrast
-**Best for:** characters with complex armor, mechanical suits, military/tactical gear, fantasy plate armor, sci-fi equipment, steampunk machinery, any scene contrasting a soft anime character with hard technical detail
-**Conflicts with:** Aquarelle, Ghibli, soft painterly styles, lush detailed backgrounds, warm intimate interiors
+**Aliases:** ironbloom, iron bloom, tactical anime, arms girl, gear girl, mech contrast, tactical ink, mil-moe, military manga, ink mecha, hard ink, mech sketch
+**Best for:** characters with complex armor, mechanical suits, military/tactical gear, fantasy plate armor, sci-fi equipment, steampunk machinery — any scene contrasting a soft anime character with hard technical detail. Fantasy, sci-fi, military, steampunk, post-apocalyptic, pilot portraits all work.
+**Conflicts with:** Aquarelle, Studio Ghibli, soft painterly styles, lush detailed backgrounds, warm intimate interiors
 
 ### Visual Description
-The defining tension of this style is a soft anime character face and fragile human presence set against hyper-detailed, technically precise mechanical or structural complexity — armor, gear, weapons, equipment, machinery. The rendering is clean bold manga lineart with semi-flat shading, earth and neutral tones (sand, khaki, olive, dark brown), and a white or near-white negative space background that isolates the subject. Equipment is rendered with almost technical-illustration precision — every buckle, panel, joint, and surface detail present and readable. The anime character within or beneath the gear remains soft, expressive, and emotionally present. Often carries a thematic juxtaposition: something delicate (a flower, a small creature, a gentle gesture) against something formidable. The contrast is the point.
+The defining tension of this style is a soft anime character face and fragile human presence set against hyper-detailed, technically precise mechanical or structural complexity — armor, gear, weapons, equipment, machinery. The contrast between delicate and formidable is always the point. Both sub-moods render against a white or near-white negative space background that isolates the subject.
+
+**Rendered sub-mood:** Semi-flat cel shading with visible rendering depth. Earth and neutral tones (sand, khaki, olive, dark brown). Equipment rendered with technical-illustration precision — every buckle, panel, joint, and surface detail present and readable. Often carries a thematic juxtaposition: something delicate (a flower, a small creature, a gentle gesture) against something formidable.
+
+**Flat/Ink sub-mood:** Flat manga ink linework. Each armor panel has a large flat interior with clean color fill and no hatching or crosshatch shading. Wear is sparse and surgical — a few strategic grime dots or scratch lines only. Line economy over density. Negative space preserved aggressively within the armor, around the subject, and in the background. Result feels light and airy despite mechanical complexity. Palette is fully user-defined — not locked to earth tones.
+
+### Usage Notes
+- Ask which sub-mood if context doesn't make it clear
+- Rendered sub-mood: earth tones default, more rendering depth, thematic delicacy contrast
+- Flat/Ink sub-mood: palette-agnostic, flat fills, line economy — lighter and more graphic
 
 ### ChatGPT Translation
+
+**Rendered sub-mood:**
 ```
 Clean bold manga lineart with semi-flat shading and hyper-detailed technical rendering of
-complex armor or equipment. Muted earth tone palette of sand, khaki, olive, and dark brown.
-White or near-white negative space background isolating the subject. Soft expressive anime
-character face contrasted with precisely rendered mechanical or structural complexity — every
-panel, joint, and surface detail present. Emotionally resonant thematic contrast between
-something formidable and something delicate. Technical illustration precision, manga quality.
+complex armor or equipment. Muted earth tone palette of sand, khaki, olive, and dark brown
+against a white or near-white negative space background. Soft expressive anime character
+face contrasted with precisely rendered mechanical or structural complexity — every panel,
+joint, and surface detail present. Emotionally resonant thematic contrast between something
+formidable and something delicate. Technical illustration precision, manga quality, 2D anime
+art style.
+```
+
+**Flat/Ink sub-mood:**
+```
+2D manga illustration, flat clean ink linework, anime character with soft expressive face —
+mechanically complex armor and tactical hardware rendered with structural precision: clean
+panel seam lines, joint assemblies, bolt and cable detail, large flat color fills inside each
+armor panel with no hatching or texture, sparse intentional wear limited to a few strategic
+grime dots and scratch marks, strong contrast between soft anime face and hard mechanical
+structure, generous negative space preserved throughout including within the armor, minimal or
+white background, line economy over density, light airy feel despite mechanical complexity,
+[user-defined palette], professional manga illustration quality.
 ```
 
 ### Niji Journey Translation
+
+**Rendered sub-mood:**
 ```
 clean bold manga lineart, hyper-detailed armor and equipment, technical illustration
 precision, semi-flat shading, muted earth tones sand khaki olive dark brown, white negative
 space background, soft expressive anime character face, hard mechanical contrast, every panel
 and joint detailed, thematic juxtaposition of strength and delicacy, manga illustration
 masterpiece
+```
+
+**Flat/Ink sub-mood:**
+```
+flat manga ink linework, soft anime face, complex military mecha armor, clean panel seam
+lines joint assemblies bolt detail, large flat color fills inside armor panels no hatching
+no crosshatch no texture fill, sparse minimal wear marks few grime dots only, strong contrast
+soft face hard machine, generous negative space within and around armor, white or minimal
+background, light airy composition, line economy not density, flat 2D manga rendering,
+[user-defined palette], professional manga illustration --ar [ratio]
 ```
 
 ---
@@ -555,39 +591,6 @@ Berserk manga style, Kentaro Miura aesthetic, dense crosshatching, heavy black i
 extraordinarily detailed linework, obsessively detailed armor and weapons, every surface
 texture rendered, massive figure weight, dramatic contrast, near-monochromatic dark manga,
 brutal and meticulous detail, dark fantasy manga masterpiece
-```
-
----
-
-## STYLE: Botanical Lineart
-**Aliases:** botanical lineart, botanical, clean manga portrait, garden portrait, floral lineart
-**Best for:** elf and fae characters, soft fantasy portraits, characters in garden or nature settings, character-plant compositions, any portrait where a clean elegant character contrasts with organic botanical detail
-**Conflicts with:** dark or gritty themes, heavy backgrounds, action sequences, Neon Noir, Soulslike, Miura
-
-### Visual Description
-Clean digital manga lineart with precise, confident strokes and semi-flat cel shading — no
-gradients, no painterly texture. Color palette is deliberately restrained: muted earth tones,
-warm naturals, and soft skin against a near-white or white background. Botanical elements
-(flowers, vines, leaves) are rendered with loose organic detail and used compositionally to
-frame or interact with the character. The contrast is between the precision of the character
-and the casual looseness of the surrounding flora. Mood is serene and quietly elegant — not
-epic, not melancholy, just present.
-
-### ChatGPT Translation
-```
-Clean digital manga aesthetic — precise confident lineart with semi-flat cel shading, no
-gradients, muted restrained color palette of warm naturals and soft earth tones against a
-white or near-white background, botanical elements (flowers, leaves, vines) rendered with
-loose organic detail framing the character, serene and quietly elegant mood, the contrast
-between precise character rendering and casual organic flora as the compositional anchor.
-```
-
-### Niji Journey Translation
-```
-clean digital manga lineart, semi-flat cel shading, precise confident lines, muted warm
-natural palette, white background, botanical framing elements, white flowers loose leaves,
-soft fantasy character, serene elegant mood, restrained color, organic flora composition,
-no gradients, no heavy backgrounds --ar 2:3
 ```
 
 ---
@@ -792,53 +795,12 @@ anime picture book aesthetic, Ghibli artbook illustration style --ar 4:3
 
 ---
 
-## STYLE: Kuudere
-**Aliases:** kuudere, cool anime, midnight portrait, reserved anime, cool character, quiet authority
-**Best for:** composed or world-weary characters, traveler and mage archetypes, kuudere personality types, any portrait where the contrast between a small youthful appearance and quiet experienced presence is the point
-**Conflicts with:** Moe Gacha, Ember, Studio Ghibli, Storybook — anything warm, bright, or emotionally open; this style is cool, restrained, and closed
-
-### Visual Description
-Clean digital anime lineart with precise, confident strokes and semi-flat cel shading. The
-defining quality is restraint — nothing is bright, nothing is warm, nothing is exaggerated.
-The color palette is built entirely from cool tones: midnight blues, muted purples, steel
-greys, dark neutrals, and fair cool-undertone skin. Eyes are large in the anime tradition
-but calm and slightly heavy-lidded — wise and watchful rather than energetic or expressive.
-Default expression is composed and reserved, carrying the quality of someone who has seen
-enough to stop being surprised. Character proportions lean petite and delicate — a small,
-slight frame that contrasts quietly with the weight of presence the character carries. The
-contrast between the youthful softness of the appearance and the composed, capable demeanor
-is the defining tension of the style. Backgrounds are minimal or atmospheric — cool fog,
-soft shadow — so nothing competes with the character.
-
-### ChatGPT Translation
-```
-Kuudere anime aesthetic — clean precise digital lineart with semi-flat cel shading, cool
-restrained palette of midnight blues, muted purples, steel greys, and dark neutrals, fair
-pale complexion with cool undertones, large calm eyes with slightly heavy lids and steel
-blue irises (wise and watchful, not bright or energetic), composed reserved expression with
-quiet world-weary authority, petite delicate proportions that contrast with the weight of
-presence, practical layered clothing in deep cool tones, minimal or cool atmospheric
-background, nothing warm, nothing exaggerated, understated elegance throughout.
-```
-
-### Niji Journey Translation
-```
-kuudere anime character, clean precise digital lineart, semi-flat cel shading, cool dark
-palette midnight blue muted purple steel grey dark neutrals, fair pale skin cool undertone,
-large calm heavy-lidded eyes steel blue irises, composed reserved expression quiet authority,
-petite slender delicate frame, practical layered cool-toned clothing, minimal atmospheric
-background, restrained understated elegance, no warm colors, no exaggerated expressions
---ar 2:3
-```
-
----
-
 ## ADD YOUR OWN STYLE
 
 ## STYLE: Gacha Splash
 **Aliases:** gacha splash, anime splash, key visual, gacha art, vtuber art, jrpg splash, anime key visual, gacha key visual
 **Best for:** high-energy character moments, fantasy RPG characters, VTuber key visuals, spell casting and power moments, dynamic poses with motion, any scene that needs premium cinematic gacha production quality
-**Conflicts with:** Kurosawa, Crewdson, Liminal Horror, Miura — anything restrained, dark, or static in a grounded way; this style is inherently energetic and polished
+**Conflicts with:** Kurosawa, Crewdson, Miura — anything restrained, dark, or static in a grounded way; this style is inherently energetic and polished
 
 ### Visual Description
 The premium action splash art aesthetic of high-end gacha games, JRPG key visuals, and
@@ -880,50 +842,10 @@ key visual aesthetic, ultra detailed digital painting --ar 2:3
 
 ---
 
-## STYLE: Tactical Ink
-**Aliases:** tactical ink, mil-moe, military manga, ink mecha, hard ink, mech sketch
-**Best for:** soldiers and military characters, powered armor and mecha, sci-fi hardware, characters with complex tactical equipment, post-apocalyptic figures, pilot portraits
-**Conflicts with:** painterly styles, Aquarelle, Ember, Makoto Shinkai, Prism, Studio Ghibli — anything soft, lush, or color-saturated; this style is restrained by design
-
-### Visual Description
-Clean flat manga ink linework applied to structurally complex mechanical and military subjects.
-Complexity comes from the number of parts — panel seams, joint assemblies, bolt clusters,
-cable runs — not from texture density. Each armor panel has a large flat interior with clean
-color fill and no hatching or crosshatch shading. Wear is sparse and surgical: a few strategic
-grime dots or scratch lines, never covering surfaces. Characters have soft anime proportions
-and expressive faces placed in sharp contrast against the hard mechanical structure. Negative
-space is preserved aggressively — within the armor itself, around the subject, and in the
-background. The result feels light and airy despite the mechanical complexity. Line economy
-over density. Palette is user-defined; the style is fully palette-agnostic.
-
-### ChatGPT Translation
-```
-2D manga illustration, flat clean ink linework, anime character with soft expressive face —
-mechanically complex armor and tactical hardware rendered with structural precision: clean
-panel seam lines, joint assemblies, bolt and cable detail, large flat color fills inside each
-armor panel with no hatching or texture, sparse intentional wear limited to a few strategic
-grime dots and scratch marks, strong contrast between soft anime face and hard mechanical
-structure, generous negative space preserved throughout including within the armor, minimal or
-white background, line economy over density, light airy feel despite mechanical complexity,
-professional manga illustration quality.
-```
-
-### Niji Journey Translation
-```
-flat manga ink linework, soft anime face, complex military mecha armor, clean panel seam
-lines joint assemblies bolt detail, large flat color fills inside armor panels no hatching
-no crosshatch no texture fill, sparse minimal wear marks few grime dots only, strong contrast
-soft face hard machine, generous negative space within and around armor, white or minimal
-background, light airy composition, line economy not density, flat 2D manga rendering,
-professional manga illustration --ar 1:1
-```
-
----
-
 ## STYLE: Cinematic Anime
 **Aliases:** cinematic anime, studio anime, anime key art, premium anime illustration, anime concept art, visual novel art
 **Best for:** character portraits with real-world equipment, motorsport and race characters, action characters at rest, fantasy OCs in grounded settings, strong directional lighting scenes, high production quality without photorealism
-**Conflicts with:** Hyperreal Anime (photorealistic skin/materials vs. illustrated), flat cel shading, chibi proportions, Tactical Ink (ink lines vs. painted rendering)
+**Conflicts with:** Hyperreal Anime (photorealistic skin/materials vs. illustrated), flat cel shading, chibi proportions, Ironbloom flat/ink sub-mood (ink lines vs. painted rendering)
 
 ### Visual Description
 High-quality 2D anime digital illustration with cinematic lighting and production values.

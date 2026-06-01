@@ -16,10 +16,10 @@ show the category overview first and offer to go deeper on any group.
 
 | Category | Styles |
 |---|---|
-| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Botanical Lineart · Moe Gacha · Storybook · Daily Chibi · Gossamer |
+| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
-| Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash · Tactical Ink |
-| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Kuudere · Velvet |
+| Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
+| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Velvet |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer |
@@ -256,16 +256,20 @@ feel cinematic rather than candid.
 ---
 
 ### Ironbloom
-Clean bold manga lineart with semi-flat shading and hyper-detailed technical rendering of
-complex armor, equipment, or machinery. Muted earth tones — sand, khaki, olive, dark brown —
-against a white or near-white negative space background. A soft anime character face
-contrasted with precisely rendered hard complexity. The contrast between something formidable
-and something delicate is the point.
+Bold manga lineart with hyper-detailed technical rendering of complex armor, equipment, or
+machinery. A soft anime character face contrasted with precisely rendered hard complexity —
+the tension between something formidable and something delicate is always the point.
 
-**Best for:** armored characters, mech suits, fantasy and sci-fi equipment studies, any
-scene where the juxtaposition of soft humanity against hard technical complexity carries
-meaning. Works for military, fantasy plate armor, steampunk, mech — any genre with
-detailed gear.
+Two sub-moods — ask the user which applies or infer from context:
+- **Rendered:** semi-flat shading, muted earth tones (sand, khaki, olive, dark brown), white
+  or near-white background, every surface detail articulated with care.
+- **Flat/Ink:** flat color fills inside armor panels, line economy over density, sparse
+  surgical wear only, palette fully user-defined. Lighter and more graphic.
+
+**Best for:** armored characters, mech suits, fantasy and sci-fi equipment studies, military
+figures, steampunk, powered armor — any genre with detailed gear and the soft/hard contrast.
+Use Rendered for rich earth-tone detail studies; use Flat/Ink for clean graphic energy with
+user-defined color.
 
 **Not for:** lush backgrounds, painterly atmospheres, scenes without complex structural
 elements, pure character portraits with no equipment.
@@ -284,22 +288,6 @@ aspiration and restraint are the message.
 
 **Not for:** fantasy or sci-fi themes, rustic or organic environments, heavy texture or
 atmospheric work.
-
----
-
----
-
-### Botanical Lineart
-Clean digital manga lineart with precise, confident strokes and semi-flat cel shading.
-Restrained color palette — muted earth tones and warm naturals against a white background.
-Botanical elements (flowers, vines, leaves) rendered with loose organic detail to frame the
-character. The defining tension is the precision of the character against the casualness of
-the surrounding flora. Serene and quietly elegant.
-
-**Best for:** elf and fae characters, soft fantasy portraits, garden and nature settings,
-character-plant compositions.
-
-**Not for:** dark or gritty themes, heavy backgrounds, action sequences, dramatic lighting.
 
 ---
 
@@ -398,26 +386,6 @@ anything where the subject isn't front and center.
 
 ---
 
-### Tactical Ink
-Flat manga ink linework applied to structurally complex mechanical and military subjects.
-Complexity comes from the number of parts — panel seams, joints, bolt clusters, cable runs
-— not from texture density. Each armor panel has a flat interior with clean color fill and
-no hatching or crosshatch shading. Wear is sparse and surgical: a few strategic grime dots
-or scratch lines, never covering surfaces. The character's soft anime face is placed in sharp
-contrast against the hard mechanical structure. Negative space is preserved aggressively —
-within the armor itself, around the subject, and in the background. The result feels light
-and airy despite mechanical complexity. Line economy over density. Palette-agnostic — the
-user defines the color story.
-
-**Best for:** soldiers and military characters, powered armor and mecha subjects, sci-fi
-hardware, characters with complex tactical equipment, post-apocalyptic figures, pilot
-portraits, any scene where soft character meets hard machine.
-
-**Not for:** soft or painterly aesthetics, lush colorful backgrounds, romantic or emotional
-scenes where warmth is the priority.
-
----
-
 ### Shounen Burst
 A modern digital anime style where a warm, aged-paper world collides with cold or sharp
 supernatural force. Environments pushed into warm sepia and cream — walls and debris feel
@@ -471,8 +439,7 @@ visual quality.
 lustrous materials, moody character portraits, premium dark gacha key visuals.
 
 **Not for:** casual or slice-of-life scenes, dynamic action shots, non-crimson palettes,
-or painterly/hand-drawn aesthetics — Daily Chibi, Moe Gacha, Webtoon, Tactical Ink, and
-Botanical Lineart conflict directly.
+or painterly/hand-drawn aesthetics — Daily Chibi, Moe Gacha, and Webtoon conflict directly.
 
 ---
 
@@ -542,28 +509,6 @@ premium gacha sprites.
 any subject where pixel grid constraints and anime design language both apply.
 
 **Not for:** atmospheric or painterly work, smooth lineart, gradients, complex backgrounds.
-
----
-
-## Atmospheric & Moody (New Additions)
-
----
-
-### Kuudere
-Clean digital anime lineart with semi-flat cel shading built entirely around cool restraint.
-The palette is midnight blues, muted purples, steel greys, and dark neutrals — no warm tones
-anywhere. Eyes are large but calm and slightly heavy-lidded: wise and watchful, not bright
-or energetic. Default expression is composed and reserved, the quiet of someone who has seen
-enough to stop being surprised. Character proportions lean petite and delicate — a slight
-frame that contrasts quietly with the weight of presence the character carries. That contrast
-(small and soft vs. composed and capable) is the defining tension of the style. Backgrounds
-stay minimal or coolly atmospheric so nothing competes with the character.
-
-**Best for:** composed or world-weary characters, traveler and mage archetypes, any portrait
-where quiet authority matters more than expression, the kuudere personality type.
-
-**Not for:** warm scenes, emotionally open characters, bright palettes, Moe Gacha, Ember,
-Studio Ghibli, or anything that needs to feel inviting or cheerful.
 
 ---
 
@@ -642,43 +587,42 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Epic battle / combat | Dark Fantasy · Ufotable · Cel Shading |
 | Supernatural action | Shounen Burst · Ufotable · Cel Shading |
 | Character portrait | Crewdson · Aquarelle · Ironbloom · Miura |
-| Soft fantasy portrait | Gossamer · Botanical Lineart · Aquarelle · Moe Gacha |
+| Soft fantasy portrait | Gossamer · Aquarelle · Moe Gacha |
 | Emotional outdoor scene | Makoto Shinkai · Studio Ghibli · Kurosawa |
 | Dark atmospheric environment | Soulslike · Neon Noir · Dark Fantasy |
 | Fantasy interior / warmth | Ember · Moe Gacha |
-| Technical gear / armor study | Ironbloom · Miura · Tactical Ink · JRPG Pixel Art |
+| Technical gear / armor study | Ironbloom · Miura · JRPG Pixel Art |
 | Graphic / poster energy | Cel Shading · Retro Anime · Neon Noir |
 | Surreal / jewel / crystal | Prism |
 | Nostalgic / analog | Retro Anime |
 | Luxury / commercial | Editorial Fashion |
-| Quiet / understated character | Aquarelle · Crewdson · Botanical Lineart · Kuudere |
-| Nature / wonder | Studio Ghibli · Makoto Shinkai · Botanical Lineart |
+| Quiet / understated character | Aquarelle · Crewdson |
+| Nature / wonder | Studio Ghibli · Makoto Shinkai |
 | Chibi action / fantasy chibi | Moe Gacha |
 | Everyday slice-of-life / cozy chibi | Daily Chibi |
 | Character eating / relaxing / off-duty | Daily Chibi · Ember |
 | Food scene / restaurant / cafe | Daily Chibi |
 | Pixel / sprite / game art | JRPG Pixel Art |
-| Elf / fae character | Gossamer · Botanical Lineart · Aquarelle |
+| Elf / fae character | Gossamer · Aquarelle |
 | Light novel illustration | Gossamer |
 | Visual novel CG | Gossamer |
 | Healing / iyashikei scene | Gossamer |
-| Shrine maiden / noblewoman | Gossamer · Botanical Lineart |
+| Shrine maiden / noblewoman | Gossamer |
 | Pastel / dreamy anime portrait | Gossamer · Aquarelle |
 | Storybook / children's | Storybook |
 | Korean drama / manhwa | Webtoon |
 | Fairy tale / whimsy | Storybook · Studio Ghibli |
-| Cool / reserved anime character | Kuudere |
 | Premium gacha / VTuber key visual | Gacha Splash |
 | Dynamic anime character moment | Gacha Splash · Shounen Burst · Ufotable |
-| World-weary / experienced presence | Kuudere · Kurosawa |
-| Military / tactical character | Tactical Ink · Ironbloom |
-| Mecha / powered armor | Tactical Ink · Ironbloom · Miura |
-| Flat manga / ink style | Tactical Ink · Miura |
-| Soft character vs. hard machine | Tactical Ink · Ironbloom |
+| World-weary / experienced presence | Kurosawa |
+| Military / tactical character | Ironbloom |
+| Mecha / powered armor | Ironbloom · Miura |
+| Flat manga / ink style | Ironbloom (flat/ink sub-mood) · Miura |
+| Soft character vs. hard machine | Ironbloom |
 | Semi-photorealistic anime portrait | Hyperreal Anime |
-| Fantasy OC / elf portrait | Cinematic Anime · Hyperreal Anime · Aquarelle · Botanical Lineart |
+| Fantasy OC / elf portrait | Cinematic Anime · Hyperreal Anime · Aquarelle |
 | Cinematic lighting on anime character | Cinematic Anime · Hyperreal Anime · Ufotable · Ironbloom |
-| Emotionally quiet / contemplative portrait | Hyperreal Anime · Aquarelle · Kuudere |
+| Emotionally quiet / contemplative portrait | Hyperreal Anime · Aquarelle |
 | Luxury dark-fantasy character portrait | Velvet |
 | Formal wear / luxury evening setting | Velvet · Editorial Fashion |
 | Crimson-violet palette / neon noir mood | Velvet · Neon Noir |

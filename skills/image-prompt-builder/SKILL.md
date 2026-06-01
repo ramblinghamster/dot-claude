@@ -80,7 +80,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 32 styles are stored in your personal style library. This table is always
+The following 29 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -94,24 +94,21 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Ember | Dark fantasy interiors, tavern/inn scenes, candlelit portraits, warm visual novel anime |
 | Prism | Fantasy portraits, ethereal/cyber-fantasy characters, crystal and jewel subjects |
 | Aquarelle | Original character portraits, emotionally subtle scenes, understated fantasy, slice-of-life |
-| Ironbloom | Complex armor, mech suits, tactical gear, soft character contrasted with hard technical detail |
+| Ironbloom | Armored characters, mech, tactical gear — rendered sub-mood (earth tones, semi-flat shading) or flat/ink sub-mood (line economy, palette-agnostic) |
 | Makoto Shinkai | Dramatic skies, golden hour cityscapes, longing and distance, emotional outdoor scenes |
 | Ufotable | Action sequences, supernatural combat, dark fantasy, high-production anime key visuals |
 | Retro Anime | Nostalgic scenes, sci-fi/urban drama, analog warmth and grain, 80s–90s anime aesthetic |
 | Cel Shading | Action scenes, graphic novel energy, bold poster compositions, high graphic impact |
 | Soulslike | Gothic/horror fantasy, fog-shrouded ruins, cursed characters, ancient decaying worlds |
 | Miura | Intense character portraits, brutal battle scenes, obsessive armor/weapon detail, monochromatic drama |
-| Botanical Lineart | Elf/fae characters, soft fantasy portraits, character-plant compositions, serene garden scenes |
 | JRPG Pixel Art | Fantasy character sprites, detailed equipment, pixel grid + anime design language |
 | Shounen Burst | Supernatural action, power awakening, warm decay vs. cold force, mid-destruction urban scenes |
 | Moe Gacha | Full chibi action art, any genre — fantasy, school, sci-fi, magical girl; cute-but-capable, warm dynamic gacha chibi |
 | Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
 | Storybook | Anime fairy tale scenes, animal characters, whimsical anime fantasy, warm wonder-filled mood |
 | Daily Chibi | Everyday slice-of-life scenes, characters eating/relaxing, cozy indoor settings, mundane moments with warmth |
-| Kuudere | Cool reserved anime characters, quiet authority, world-weary composure, petite-but-capable contrast |
 | Velvet | Luxury dark-fantasy key visual, crimson-violet palette, polished glossy rendering, satin materials, luminous eyes, Pixiv masterpiece quality |
 | Gacha Splash | Premium gacha/VTuber key visuals, dynamic anime moments, semi-chibi, cinematic lighting, magical energy |
-| Tactical Ink | Military/mecha characters, powered armor, sci-fi hardware, flat manga ink, soft face vs. hard machine contrast |
 | Cinematic Anime | High-production anime illustration, cinematic lighting, real-world subjects, illustrated textures, premium game/visual novel quality |
 | Hyperreal Anime | Semi-photorealistic anime characters, elf/fantasy OCs, dreamy portrait lighting, soft grime and texture, near-real skin and materials |
 | Gossamer | Flat minimal anime portraits, light novel illustrations, visual novel CGs, iyashikei/healing atmosphere, shrine maidens, elves, muted cool palette, nearly shadowless |

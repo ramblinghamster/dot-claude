@@ -115,11 +115,11 @@ When adding, follow the existing format:
 
 ## Ironbloom
 
-1. A special forces operator in full kit — plate carrier, NVGs, communications gear — every strap and clasp precise, against white
-2. A fantasy knight in plate armor engraved with celestial motifs, each piece its own detailed study
-3. A mech pilot in a flight suit with integrated helmet, every connector and panel seam visible
-4. A steampunk engineer with a brass clockwork prosthetic arm, tools mapped across a carefully rendered belt rig
-5. A sci-fi bounty hunter with layered armor panels, sensor arrays, and trophy collectibles attached throughout the kit
+1. A fantasy knight in plate armor engraved with celestial motifs, each piece its own detailed study, earth-tone rendering — rendered sub-mood
+2. A mech pilot in a flight suit with integrated helmet, every connector and panel seam articulated against a clean white background — rendered sub-mood
+3. A soldier in battle-worn powered armor kneeling to touch a single wildflower growing through cracked earth, massive rifle slung across her back, expression soft — flat/ink sub-mood
+4. A girl in oversized combat armor reading a paperback novel in the shadow of a disabled tank, completely at ease in the wreckage — flat/ink sub-mood
+5. A steampunk engineer with a brass clockwork prosthetic arm, tools mapped across a carefully rendered belt rig, warm earth tones — rendered sub-mood
 
 ---
 
@@ -183,16 +183,6 @@ When adding, follow the existing format:
 
 ---
 
-## Botanical Lineart
-
-1. A half-elf botanist examining a flower that appears to be examining her back with equal curiosity
-2. A florist closing her shop for the night, roses cascading over the counter, one warm light left on
-3. A tea ceremony under wisteria, the host pouring with precision, petals drifting into the composition
-4. A beekeeper in a wildflower field, bees rendered as loose ink dots orbiting her in quiet rings
-5. A young naturalist sketching birds in a greenhouse, specimen vines climbing the glass walls all around her
-
----
-
 ## JRPG Pixel Art
 
 1. A paladin in full plate armor, every mail link and engraving pixel-precise, standing at attention against near-white
@@ -243,16 +233,6 @@ When adding, follow the existing format:
 
 ---
 
-## Kuudere
-
-1. A petite mage standing alone at a misty crossroads, wide-brimmed hat tilted against light rain, expression unreadable, clearly deciding something she's already decided
-2. A young-looking scholar in a vast dimly lit archive, surrounded by floating tomes, her small frame dwarfed by the shelves — taking notes without looking up
-3. A lone guardian at a castle gate in winter, snow settling on her hat and shoulders, the cold landscape behind her saying what she won't
-4. Two figures mid-argument — one animated and gesturing, she watching with the same composed expression, clearly the only one who understands the full picture
-5. A traveler sitting on a stone wall at the edge of a fog-covered valley, cloak pulled close, not looking at the view — she's seen it before
-
----
-
 ## Cinematic Anime
 
 1. A blonde elf in a sponsor-covered leather race suit leaning against a motorcycle in a pit garage, sweat beads on her brow, warm afternoon light cutting through the garage doors, expression tired but composed
@@ -270,16 +250,6 @@ When adding, follow the existing format:
 3. A silver-haired half-elf mechanic leaning over an open engine bay, oil-stained gloves, sunlight cutting through a corrugated workshop wall, squinting in concentration — gritty sub-mood
 4. A forest elf in ceremonial robes standing in falling cherry blossoms, overexposed, petals drifting, eyes downcast, pastel haze softening the edges of everything — dreamy sub-mood
 5. An armored elf kneeling at a riverside removing her gauntlet, sweat on her brow, physically exhausted, warm late-day light raking across the battered metal — gritty sub-mood
-
----
-
-## Tactical Ink
-
-1. A soldier in heavily battle-worn powered armor kneeling to touch a single wildflower growing through cracked earth, massive rifle slung across her back, expression soft
-2. A mech pilot sitting against the leg of her dormant suit, helmet set aside, holding a thermos with both hands — steam rising, suit bearing fresh impact craters
-3. Two figures in full tactical exosuits walking silently through ash-covered ruins, a small bird perched unbothered on one's shoulder pauldron
-4. A girl in oversized combat armor reading a paperback novel in the shadow of a disabled tank, completely at ease in the wreckage
-5. A lone soldier in battle-worn exosuit standing at the edge of a bombed-out city, cradling a small potted plant carefully in both gauntleted hands
 
 ---
 
@@ -313,7 +283,7 @@ When adding, follow the existing format:
 
 ---
 
-## Gossamer
+## Flat Cel
 
 1. A swordswoman leaping between rooftops at night, blade extended mid-arc, the city below rendered in flat deep indigo and cool grey — no shadows, just shape and silhouette
 2. Two students locked in a stare-down in a school hallway, warm amber and red flat palette, coats and scarves caught in a draft from an open door, tension obvious without a single shadow
