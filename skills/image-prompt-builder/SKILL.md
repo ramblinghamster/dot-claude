@@ -80,7 +80,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 32 styles are stored in your personal style library. This table is always
+The following 33 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -104,7 +104,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Botanical Lineart | Elf/fae characters, soft fantasy portraits, character-plant compositions, serene garden scenes |
 | JRPG Pixel Art | Fantasy character sprites, detailed equipment, pixel grid + anime design language |
 | Shounen Burst | Supernatural action, power awakening, warm decay vs. cold force, mid-destruction urban scenes |
-| Moe Gacha | Full chibi action art, tiny fantasy warriors, cute-but-capable, warm dynamic gacha chibi |
+| Moe Gacha | Full chibi action art, any genre — fantasy, school, sci-fi, magical girl; cute-but-capable, warm dynamic gacha chibi |
 | Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
 | Liminal Horror | Empty institutional spaces, psychological unease, mundane wrongness, dread without threat |
 | Storybook | Anime fairy tale scenes, animal characters, whimsical anime fantasy, warm wonder-filled mood |
@@ -116,6 +116,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Cinematic Anime | High-production anime illustration, cinematic lighting, real-world subjects, illustrated textures, premium game/visual novel quality |
 | Hyperreal Anime | Semi-photorealistic anime characters, elf/fantasy OCs, dreamy portrait lighting, soft grime and texture, near-real skin and materials |
 | Gossamer | Flat minimal anime portraits, light novel illustrations, visual novel CGs, iyashikei/healing atmosphere, shrine maidens, elves, muted cool palette, nearly shadowless |
+| Flat Chibi | Full chibi proportions with flat cel rendering — action poses, any genre, oversized props and weapons, user-defined palette, graphic and bold |
 | Flat Cel | Any scene or genre — action, romance, dark fantasy, horror, sci-fi, slice-of-life; flat cel technique with fully user-defined palette and mood, no style restrictions |
 
 ### Output Formats

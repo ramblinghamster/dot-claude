@@ -216,9 +216,9 @@ When adding, follow the existing format:
 ## Moe Gacha
 
 1. A chibi red-haired knight charging across ancient stone ruins, oversized sword raised, gold-trim armor gleaming, debris flying, warm amber light flooding the scene
-2. A tiny chibi mage launching a spell from an ornate staff, robes whipping in the magical wind, the castle courtyard behind her soft and glowing
+2. A chibi schoolgirl mid-dodge in a school hallway, oversized sports bag swinging like a weapon, textbooks and papers exploding outward around her like action debris
 3. A chibi paladin leaping between two crumbling pillars, shield catching the sunlight, expression fierce and delighted at the same time
-4. A chibi healer chibi running across a battlefield toward a fallen ally, glowing staff in hand, warm particles trailing behind her
+4. A chibi sci-fi pilot launching from a carrier catapult in a tiny flight suit, thrusters blazing behind her, the hangar blurred and soft-focus below
 5. Three chibi party members back-to-back in a ruined arena — knight, archer, mage — each in a different action pose, warm light dramatic behind all of them
 
 ---
@@ -330,6 +330,16 @@ When adding, follow the existing format:
 3. A witch at a cluttered desk surrounded by floating spell components, vibrant emerald and gold palette, expression concentrated, everything flat and graphic with no rendering depth
 4. A futuristic courier weaving through a dense night market on an electric bike, cool blue-teal flat palette, motion expressed entirely through pose and lean — no motion blur, no lighting drama
 5. A warrior in plate armor kneeling beside a fallen comrade on a battlefield, deep muted steel and earth tones, the grief in the posture carrying the scene without shadow or directional light
+
+---
+
+## Flat Chibi
+
+1. A flat chibi magical girl mid-transformation, uniform giving way to her hero costume, oversized wand raised, sparkles rendered as flat geometric diamond shapes, bold pink and white palette with no gradients
+2. A flat chibi knight charging across a rooftop at sunset, oversized sword flat and graphic, silhouette bold against a deep orange background rendered as flat color blocks
+3. A flat chibi schoolgirl dodging in a hallway, oversized backpack swinging like a weapon, textbooks and papers flat-colored shapes exploding around her, cool navy and yellow palette
+4. A flat chibi sci-fi pilot launching from a carrier in a tiny exosuit, thrusters flat bursts of vivid color, the hangar behind her a clean minimal background
+5. Two flat chibi rivals facing off — one in a school uniform, one in fantasy armor — contrasting warm and cool flat palettes, both in low-angle action stances, debris flat shapes between them
 
 ---
 

@@ -671,47 +671,50 @@ warm decay vs cold power visual tension, A Certain Scientific Railgun style --ar
 
 ## STYLE: Moe Gacha
 **Aliases:** moe gacha, gacha, chibi gacha, cute chibi, fantasy chibi, chibi knight, chibi warrior, gacha chibi
-**Best for:** fantasy characters in dynamic action, chibi knight and warrior designs, cute-but-capable characters mid-motion, any scene where full chibi proportions and warm cinematic energy combine
+**Best for:** any character in dynamic action regardless of genre — fantasy warriors, magical girls, school uniforms, sci-fi suits, sports characters, mecha pilots — any scene where full chibi proportions and warm cinematic energy combine. The chibi scale and action energy are the constants; the theme is fully user-defined.
 **Conflicts with:** Miura, Soulslike, Kurosawa, Liminal Horror, any dark gritty or restrained aesthetic
 
 ### Visual Description
-The full chibi action art aesthetic of fantasy gacha games — characters rendered at extreme
+The full chibi action art aesthetic of gacha games — characters rendered at extreme
 chibi proportions where the head is roughly one-third to one-half of total body height,
-creating a tiny-but-capable figure that feels both adorable and powerful. Linework is clean
-and precise with subtle weight variation. Cel shading is crisp and flat rather than painterly
-— smooth color transitions, clean shadow edges, no heavy gradients. Detailed fantasy plate
-armor with gold trim and decorative motifs is rendered with care despite the chibi scale.
-Weapons are oversized relative to the character, which reads as charming rather than absurd
-at chibi proportions. Hair is flowing and wind-swept with good strand separation. Poses are
-dynamic — low-angle action shots, mid-charge, debris and particles in motion. Lighting is
-warm and atmospheric: golden ambient glow, floating light particles, soft environmental haze.
-Backgrounds are soft-focus fantasy ruins or stone architecture, supportive rather than
-detailed. The overall mood is cute and determined — a small figure with complete confidence.
-Closest to Princess Connect, Granblue Fantasy chibi sprites, and similar fantasy gacha
-in-game character art.
+creating a tiny-but-capable figure that feels both adorable and powerful. Works across any
+genre: fantasy armor, school uniforms, sci-fi suits, magical girl costumes, sports gear,
+mecha pilot suits — the chibi scale and dynamic energy are the constants, not the theme.
+Linework is clean and precise with subtle weight variation. Cel shading is crisp and flat
+rather than painterly — smooth color transitions, clean shadow edges, no heavy gradients.
+Equipment and outfits are rendered with care despite the chibi scale. Weapons and props are
+oversized relative to the character, which reads as charming rather than absurd at chibi
+proportions. Hair is flowing and wind-swept with good strand separation. Poses are dynamic
+— low-angle action shots, mid-charge, debris and particles in motion. Lighting is warm and
+atmospheric: golden ambient glow, floating light particles, soft environmental haze.
+Backgrounds are soft-focus and supportive rather than detailed — ruins, classrooms, space
+stations, arenas, wherever the scene is set. The overall mood is cute and determined — a
+small figure with complete confidence. Closest to Princess Connect, Granblue Fantasy chibi
+sprites, and similar gacha in-game character art.
 
 ### ChatGPT Translation
 ```
-Full chibi fantasy gacha art aesthetic — extreme chibi proportions with large round head
-roughly one-third to one-half of total height and tiny elegant body, clean precise anime
-linework with crisp flat cel shading and smooth clean shadow edges, detailed fantasy plate
-armor with gold trim and decorative motifs rendered carefully at chibi scale, oversized
-fantasy sword and shield proportional to chibi frame, flowing wind-swept hair with strand
-separation, dynamic low-angle action pose with debris and motion particles, warm golden
-ambient lighting with floating atmospheric particles, soft-focus fantasy ruins or stone
-architecture background, cute determined expression, confident and capable despite small
-frame, Princess Connect and Granblue Fantasy chibi character art quality.
+Full chibi gacha art aesthetic — extreme chibi proportions with large round head roughly
+one-third to one-half of total height and tiny elegant body, clean precise anime linework
+with crisp flat cel shading and smooth clean shadow edges, detailed character outfit or
+equipment rendered carefully at chibi scale (fantasy armor, school uniform, sci-fi suit,
+magical girl costume, or any genre), oversized weapon or prop proportional to chibi frame,
+flowing wind-swept hair with strand separation, dynamic low-angle action pose with debris
+and motion particles, warm golden ambient lighting with floating atmospheric particles,
+soft-focus background appropriate to the scene's setting, cute determined expression,
+confident and capable despite small frame, Princess Connect and Granblue Fantasy chibi
+character art quality.
 ```
 
 ### Niji Journey Translation
 ```
-full chibi proportions large round head tiny body, cute fantasy chibi character, clean anime
-linework crisp flat cel shading, detailed fantasy plate armor gold trim decorative motifs,
-oversized sword and shield chibi scale, flowing wind-swept hair strand separation, dynamic
+full chibi proportions large round head tiny body, cute chibi character, clean anime
+linework crisp flat cel shading, detailed character outfit or equipment chibi scale,
+oversized weapon or prop chibi scale, flowing wind-swept hair strand separation, dynamic
 low-angle action pose debris particles mid-motion, warm golden ambient lighting floating
-particles atmospheric haze, soft focus fantasy ruins stone architecture background, cute
-determined expression, confident capable chibi warrior, Princess Connect gacha chibi art
-style --ar 16:9
+particles atmospheric haze, soft focus background suited to scene setting, cute determined
+expression, confident capable chibi character, Princess Connect gacha chibi art style
+--ar 16:9
 ```
 
 ---
@@ -1246,6 +1249,33 @@ blending, ambient lighting no directional source, muted cool palette sage green 
 aqua off-white, blurred simplified background no detail, smooth flat hair planes single
 shine streak, clean textureless skin faint cheek blush, large flat aqua grey-blue irises,
 light novel illustration quality, minimal weightless illustrative 2D anime --ar 2:3
+```
+
+---
+
+## STYLE: Flat Chibi
+**Aliases:** flat chibi, chibi flat, graphic chibi, sticker chibi, pop chibi, flat gacha chibi, clean chibi
+**Best for:** any chibi character in dynamic action regardless of genre — fantasy warriors, magical girls, school uniforms, sci-fi pilots, sports characters, mecha suits. Same genre freedom as Moe Gacha with flat cel rendering instead of warm painterly gradients. Palette fully user-defined.
+**Conflicts with:** Moe Gacha (shares chibi proportions but Moe Gacha uses warm painterly rendering and atmospheric lighting), Gacha Splash, Ember, Makoto Shinkai, Hyperreal Anime, Cinematic Anime, Aquarelle, Velvet — anything requiring gradient rendering, atmospheric lighting, or painterly depth.
+
+### Visual Description
+Moe Gacha's full chibi proportions and action energy rendered through Flat Cel's technique. The head is one-third to one-half of total body height — the same extreme chibi scale — with a tiny capable body, oversized weapons or props, and detailed outfits or equipment across any genre. Everything renders flat: a single hard-edged shadow tone with lifted dark values, no gradients, no blending, no atmospheric glow or warm bloom. Line art is clean and thin with consistent weight. Outfits and armor have flat color fills with no metallic sheen or highlight drama. Weapons and props are oversized and bold but rendered as flat graphic blocks rather than detailed metallic rendering. Hair reads as flat smooth planes with a single shine streak. Particles and debris are simplified flat graphic shapes rather than atmospheric effects. Backgrounds are flat and minimal — never detailed, never competing. Lighting is completely ambient — no warm bloom, no rim light, no floating atmospheric particles. Palette is fully user-defined. The result feels like high-quality mobile game sticker art, a bold LINE character, or a flat graphic game icon — cute, readable, and graphically confident. Distinct from Moe Gacha (warm painterly rendering) and Daily Chibi (semi-chibi, static, slice-of-life).
+
+### Usage Notes
+- Proportions from Moe Gacha, rendering from Flat Cel
+- Unlike Moe Gacha: no warm bloom, no atmospheric particles, no painterly gradients — everything flat
+- Unlike Daily Chibi: action-focused with dynamic poses, not slice-of-life; full chibi not semi-chibi
+- Unlike Flat Cel: full chibi proportions only — not for regular-proportioned characters
+- Palette fully user-defined per scene — specify in Block 7
+
+### ChatGPT Translation
+```
+Flat cel chibi anime illustration — full chibi proportions with head one-third to one-half of total body height, single hard-edged shadow tone and lifted dark values reading nearly shadowless, no gradients or blending, flat color fills inside outfit and equipment with no metallic sheen or atmospheric glow, clean thin line art with consistent weight, oversized weapon or prop rendered as flat graphic block at chibi scale, detailed character outfit or equipment in flat style (any genre — fantasy armor, school uniform, sci-fi suit, magical costume), flat smooth hair planes with a single shine streak, simplified flat graphic debris and particle shapes, flat minimal background suited to scene setting, [user-defined palette and mood]. Drawn as a clean flat chibi anime illustration, 2D anime art style, no painterly texture, no complex shading, no atmospheric lighting.
+```
+
+### Niji Journey Translation
+```
+flat cel chibi anime illustration, full chibi proportions head one-third to half total height, single shadow tone lifted dark values near-shadowless, no gradients no blending, flat color fills outfit and equipment no metallic sheen, clean thin line art consistent weight, oversized weapon or prop chibi scale flat graphic rendering, detailed outfit any genre flat style, flat smooth hair planes single shine streak, simplified flat graphic debris particles, flat minimal background, [user-defined palette and mood], clean flat chibi 2D anime --ar [ratio]
 ```
 
 ---

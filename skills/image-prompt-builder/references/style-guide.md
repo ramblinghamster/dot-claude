@@ -22,7 +22,7 @@ show the category overview first and offer to go deeper on any group.
 | Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Liminal Horror · Kuudere · Velvet |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
-| Flat & Minimal | Flat Cel · Gossamer |
+| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer |
 
 ---
 
@@ -305,15 +305,18 @@ character-plant compositions.
 
 ### Moe Gacha
 Full chibi action art — extreme chibi proportions where the head is roughly one-third to
-one-half of total height, creating a tiny-but-capable figure. Clean precise linework with
-crisp flat cel shading. Detailed fantasy armor with gold trim at chibi scale. Oversized
-weapons that read as charming rather than absurd. Wind-swept hair, dynamic low-angle action
-poses, debris and particles mid-motion. Warm golden ambient lighting with floating particles.
-Soft-focus fantasy ruins background. Cute and determined — confidence at a small scale.
+one-half of total height, creating a tiny-but-capable figure that works across any genre.
+Clean precise linework with crisp flat cel shading. Equipment and outfits rendered with care
+at chibi scale — fantasy armor, school uniforms, sci-fi suits, magical costumes, sports gear,
+mecha pilot suits — anything works. Oversized weapons or props that read as charming rather
+than absurd at chibi proportions. Wind-swept hair, dynamic low-angle action poses, debris and
+particles mid-motion. Warm golden ambient lighting with floating particles. Soft-focus
+background suited to the scene's setting. Cute and determined — confidence at a small scale.
 Closest to Princess Connect and Granblue Fantasy chibi sprites.
 
-**Best for:** fantasy chibi characters in action, knight and warrior designs at chibi scale,
-cute-but-capable energy, any scene where full chibi proportions and warm dynamic action combine.
+**Best for:** any chibi character in dynamic action — fantasy warriors, magical girls, school
+uniforms, sci-fi pilots, sports characters, mecha suits, or any theme where full chibi
+proportions and warm action energy combine. Genre is fully user-defined.
 
 **Not for:** dark or gritty aesthetics, Soulslike, Miura, restrained or atmospheric styles.
 
@@ -585,6 +588,28 @@ technique; Flat Cel is the unrestricted base.
 
 ---
 
+### Flat Chibi
+Moe Gacha's full chibi proportions and action energy rendered with Flat Cel's technique.
+Head is one-third to one-half of total height — same extreme chibi scale as Moe Gacha —
+with oversized weapons or props and detailed outfits at chibi scale across any genre.
+Everything is flat: single shadow tone, lifted dark values, no gradients, no warm bloom, no
+atmospheric particles. Debris and particles become simplified flat graphic shapes. Backgrounds
+are flat and minimal. Palette is fully user-defined. The result feels like high-quality mobile
+game sticker art or a bold flat graphic game icon — cute, readable, and graphically confident.
+
+**Best for:** any chibi character in dynamic action — fantasy warriors, magical girls, school
+uniforms, sci-fi pilots, sports, mecha — wherever Moe Gacha's energy is wanted without its
+warm painterly rendering. Palette and theme fully user-defined.
+
+**Not for:** regular-proportioned characters (use Flat Cel instead), static or slice-of-life
+scenes (use Daily Chibi), warm atmospheric rendering (use Moe Gacha).
+
+**Moe Gacha vs. Flat Chibi:** Moe Gacha has warm golden bloom, painterly gradients, and
+atmospheric particles. Flat Chibi strips all of that — same chibi proportions and action
+energy, completely flat rendering.
+
+---
+
 ### Flat Cel
 The core technique of flat digital anime illustration, made palette- and theme-neutral. Flat
 cel shading with a single shadow tone, lifted dark values reading nearly shadowless, no
@@ -674,6 +699,10 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Supernatural being in modern luxury setting | Velvet · Neon Noir |
 | Lustrous material rendering (satin, velvet, silk) | Velvet · Editorial Fashion |
 | Premium dark gacha key visual | Velvet · Gacha Splash |
+| Full chibi with flat rendering | Flat Chibi |
+| Action chibi any genre flat style | Flat Chibi · Moe Gacha |
+| Graphic sticker chibi / mobile icon chibi | Flat Chibi |
+| Chibi magical girl / school / sci-fi flat | Flat Chibi |
 | Flat cel / clean flat anime | Flat Cel · Gossamer |
 | Any genre with flat rendering | Flat Cel |
 | Action or dark themes in flat style | Flat Cel |
