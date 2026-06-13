@@ -18,8 +18,9 @@ show the category overview first and offer to go deeper on any group.
 |---|---|
 | Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
-| Vibrant & Graphic | Neon Noir · Prism · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
+| Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
 | Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Velvet |
+| Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer |
@@ -50,7 +51,7 @@ matter more than epic scale.
 Warm, lush, painterly environments rendered with handcrafted texture. Soft dappled natural
 light, saturated warm greens and golden yellows, wistful and wonder-filled mood. Nature is
 alive and expressive. Characters have round expressive features. Feels like a frame from a
-Miyazaki film.
+classic Japanese animated film.
 
 **Best for:** nature and countryside scenes, childhood and coming-of-age moments, magical
 but grounded fantasy environments, travel and journey imagery, any scene with a sense of
@@ -110,8 +111,8 @@ needs to feel grand and dangerous simultaneously.
 ---
 
 ### Ufotable
-The visual language of Ufotable studio — Demon Slayer, Fate/Zero. Dark fantasy rendered
-vivid and saturated rather than bleak: rich jewel tones, cinematic polish, supernatural
+The visual language of Ufotable animation studio — high-production dark fantasy anime
+rendered vivid and saturated rather than bleak: rich jewel tones, cinematic polish, supernatural
 effects as visual spectacle. The darkness is a backdrop for explosive color and energy.
 Feels like a premium anime key visual.
 
@@ -125,8 +126,8 @@ subtlety.
 ---
 
 ### Miura
-Inspired by Kentaro Miura's Berserk — one of the most technically demanding manga art
-styles ever produced. Dense precise crosshatching, heavy blacks, obsessive surface detail.
+Peak-craft dark fantasy manga — one of the most technically demanding illustration styles
+ever produced. Dense precise crosshatching, heavy blacks, obsessive surface detail.
 Monochromatic or near-monochromatic. No atmospheric color story — linework does everything.
 Figures feel massive and physically heavy.
 
@@ -148,7 +149,7 @@ rendering subtlety.
 ### Neon Noir
 Rain-slicked urban streets reflecting electric neon in magenta, cyan, and amber. Deep
 shadow contrast. Smoke, steam, silhouetted or half-lit figures. The city feels alive and
-predatory. Inspired by Blade Runner, Ghost in the Shell, classic noir. Mysterious,
+predatory. The visual language of cyberpunk noir and hardboiled detective fiction. Mysterious,
 electric, and dangerous.
 
 **Best for:** urban night scenes, cyberpunk settings, mystery and thriller moods, futuristic
@@ -160,23 +161,25 @@ technology.
 ---
 
 ### Prism
-Surreal luxury cyber-fantasy built around refracted light and crystal surfaces. Rainbow
-prism reflections scatter across subjects from faceted glass or gemstone elements. Glitter
-particles, holographic highlights, luminous skin, vibrant saturated colors, dark moody
-background. Everything catches and refracts light.
+Physically accurate light refraction and caustics aesthetic. A single refractive object
+(glass, crystal, prism, potion bottle, gemstone, lens) is the only source of light scatter
+in the scene. Caustics — sharp spectrum-colored light pools — are projected onto skin and
+fabric from that object. Chromatic aberration splits red and violet at beam edges. Spectral
+dispersion breaks white light into color bands. Semi-realistic anime rendering base. No
+holographic shimmer, no glitter, no ambient neon — the physics does the work.
 
-**Best for:** fantasy portraits with gemstone or crystal elements, ethereal or supernatural
-characters, jewelry and luxury product shots, close-up portraits where visual opulence is
-the goal.
+**Best for:** characters holding or near refractive objects, potion/glass/crystal close-ups,
+jewelry and product shots, window-light scenes, any scene where realistic light behavior
+through a specific object is the point.
 
-**Not for:** minimalist aesthetics, matte finishes, earthy or grounded scenes, anything
-where restraint matters.
+**Not for:** scenes without a clear refractive object, holographic/glitter fantasy aesthetics,
+dark moody realism without a defined light source, anything requiring ambient scatter.
 
 ---
 
 ### Cel Shading
 Bold black outlines, flat fully-saturated color fills, binary shading with hard edges —
-no gradients. The visual language of Borderlands and graphic novel illustration. Graphic,
+no gradients. The visual language of toon-shaded action games and graphic novel illustration. Graphic,
 energetic, immediately readable. Depth through composition and color contrast, not
 rendering. Designed to be understood at a glance.
 
@@ -189,10 +192,11 @@ than realism.
 ---
 
 ### Retro Anime
-The visual language of 1980s–90s anime — Akira, Ghost in the Shell, Cowboy Bebop, Slayers.
-Analog film grain, VHS color bleed at edges, slightly thick hand-drawn linework, muted warm
-palette of faded yellows, dusty blues, and warm oranges. Cel animation texture and limited
-color banding. Emotionally direct and kinetic. Feels intentionally imperfect.
+The visual language of 1980s–90s anime — cel-animated sci-fi action, urban drama, and
+space opera from that era. Analog film grain, VHS color bleed at edges, slightly thick
+hand-drawn linework, muted warm palette of faded yellows, dusty blues, and warm oranges.
+Cel animation texture and limited color banding. Emotionally direct and kinetic. Feels
+intentionally imperfect.
 
 **Best for:** nostalgic compositions, sci-fi action, urban drama, character-driven moments
 that benefit from analog warmth and grain, anything you want to feel like it was made in
@@ -226,7 +230,7 @@ the world has already ended and the subject is what survived.
 ---
 
 ### Kurosawa
-Cinematic near-monochrome in the tradition of Akira Kurosawa. Desaturated palette of deep
+Cinematic near-monochrome in the tradition of classic Japanese period cinema. Desaturated palette of deep
 blacks and cool grays. Dramatic high-contrast composition. 35mm film grain. Weather as
 emotional atmosphere — rain, wind, fog. Stillness conveys weight. Wide deliberate framing
 with figures isolated against vast or oppressive environments.
@@ -241,11 +245,10 @@ aesthetics.
 ---
 
 ### Crewdson
-Inspired by photographer Gregory Crewdson's large-format staged work. Hyper-real yet
-constructed. Single dominant raking light source from a window or doorway, casting long
-shadows. Desaturated midtones with warm amber highlights and deep teal shadows. The subject
-is always in the middle of something private and emotionally ambiguous. No direct eye contact.
-Every element feels deliberately placed.
+Large-format staged photography aesthetic. Hyper-real yet constructed. Single dominant raking
+light source from a window or doorway, casting long shadows. Desaturated midtones with warm
+amber highlights and deep teal shadows. The subject is always in the middle of something
+private and emotionally ambiguous. No direct eye contact. Every element feels deliberately placed.
 
 **Best for:** interior character portraits, emotionally loaded stillness, domestic or coastal
 settings, scenes that imply a story the viewer must complete themselves, anything staged to
@@ -280,7 +283,7 @@ elements, pure character portraits with no equipment.
 Clean, controlled, and intentional. Precise directional softbox or window lighting with
 crisp highlights and soft shadow falloff. Desaturated and cool color palette with lifted
 blacks. Minimal props. Generous negative space. Aspirational and restrained. Feels like
-a Vogue or Patek Philippe spread.
+a luxury fashion magazine or high-end commercial spread.
 
 **Best for:** luxury product shots, high-end character portraiture, minimal compositions
 where the subject needs to command the frame, commercial or brand imagery where
@@ -300,7 +303,7 @@ mecha pilot suits — anything works. Oversized weapons or props that read as ch
 than absurd at chibi proportions. Wind-swept hair, dynamic low-angle action poses, debris and
 particles mid-motion. Warm golden ambient lighting with floating particles. Soft-focus
 background suited to the scene's setting. Cute and determined — confidence at a small scale.
-Closest to Princess Connect and Granblue Fantasy chibi sprites.
+Closest to premium gacha game chibi sprites and high-end mobile RPG character art.
 
 **Best for:** any chibi character in dynamic action — fantasy warriors, magical girls, school
 uniforms, sci-fi pilots, sports characters, mecha suits, or any theme where full chibi
@@ -404,8 +407,8 @@ power awakening moments, any action scene where warm decay and cold force collid
 ---
 
 ### Webtoon
-The clean, high-polish aesthetic of Korean webtoon and manhwa — Solo Leveling, Tower of
-God, True Beauty. Crisp confident linework, smooth cel shading with soft gradient accents,
+The clean, high-polish aesthetic of Korean webtoon and manhwa — premium manhwa action and
+romance visual language. Crisp confident linework, smooth cel shading with soft gradient accents,
 fashion-forward character design, strong character focus. Color is saturated but clean and
 deliberate. Polished and cinematic — distinctly Korean visual identity.
 
@@ -502,7 +505,7 @@ High-resolution modern pixel art with anime-influenced character design — not 
 16x16, but a fine-grid approach where every pixel is intentional and expressive. Large
 expressive eyes, styled flowing hair, detailed fantasy armor with dithered metallic shading.
 Full-color palette with warm skin tones and deep jewel accents. Background is near-white or
-absent, isolating the character as a standalone sprite. Closest to Octopath Traveler or
+absent, isolating the character as a standalone sprite. Closest to HD-2D fine-grid pixel RPG art or
 premium gacha sprites.
 
 **Best for:** fantasy character sprites, knight and warrior designs, detailed equipment,
@@ -566,6 +569,33 @@ use Flat Cel.
 
 ---
 
+## Clean & Polished
+
+---
+
+### Pixiv Clean
+A clean, polished Pixiv illustration style built on confident medium-weight linework and a
+deliberate contrast between face rendering and fabric rendering. Lines taper naturally at hair
+tips and fabric edges but never disappear. Shading is soft cel-style with one or two flat
+shadow passes — skin is smooth and luminous without crossing into photorealism. The signature
+trait is fabric: cloth folds use loose, gestural inner lines that feel almost hand-drawn,
+giving ruffles and layered clothing a lively quality against the cleaner face. Background is
+white or near-absent. Lighting is soft ambient with no directional source. Palette is fully
+user-defined.
+
+**Best for:** original character portraits, elf and fantasy OCs, sitting or relaxed poses,
+character showcases, any scene where fabric detail and clean faces are the focus — white
+background or with a simplified scene background.
+
+**Not for:** complex backgrounds, atmospheric depth, photorealistic rendering, heavily
+rendered or painterly styles, or any style requiring volumetric lighting.
+
+**Distinct from Flat Cel / Gossamer:** Pixiv Clean uses 1–2 shadow passes and has some
+shading volume; Flat Cel and Gossamer aim for near-shadowless. The gestural fabric line
+quality is the signature differentiator.
+
+---
+
 ## Dark Fantasy Comparison
 
 Five styles work in dark fantasy territory — here's how to choose:
@@ -593,7 +623,8 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Fantasy interior / warmth | Ember · Moe Gacha |
 | Technical gear / armor study | Ironbloom · Miura · JRPG Pixel Art |
 | Graphic / poster energy | Cel Shading · Retro Anime · Neon Noir |
-| Surreal / jewel / crystal | Prism |
+| Glass / crystal / caustic light | Prism |
+| Realistic refraction / spectral dispersion | Prism |
 | Nostalgic / analog | Retro Anime |
 | Luxury / commercial | Editorial Fashion |
 | Quiet / understated character | Aquarelle · Crewdson |
@@ -634,6 +665,10 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Graphic sticker chibi / mobile icon chibi | Flat Chibi |
 | Chibi magical girl / school / sci-fi flat | Flat Chibi |
 | Flat cel / clean flat anime | Flat Cel · Gossamer |
+| Clean Pixiv portrait / OC showcase | Pixiv Clean |
+| White background character art | Pixiv Clean |
+| Elf or fantasy OC portrait clean style | Pixiv Clean · Gossamer |
+| Gestural fabric detail clean face | Pixiv Clean |
 | Any genre with flat rendering | Flat Cel |
 | Action or dark themes in flat style | Flat Cel |
 | Flat anime with user-defined palette | Flat Cel |

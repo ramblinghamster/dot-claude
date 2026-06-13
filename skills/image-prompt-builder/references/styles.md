@@ -21,12 +21,12 @@ The user can still override any element after the style loads.
 ---
 
 ## STYLE: Kurosawa
-**Aliases:** kurosawa, kuro, akira k, japanese cinema
+**Aliases:** kurosawa, kuro, japanese cinema, monochrome cinema
 **Best for:** lone figures, dramatic landscapes, samurai, feudal Japan, moral weight
 **Conflicts with:** bright/cheerful palettes, comedic tone, hyperrealistic product shots
 
 ### Visual Description
-Inspired by Akira Kurosawa's cinematography — high-contrast black-and-white or desaturated
+Inspired by classic Japanese period cinema — high-contrast black-and-white or desaturated
 near-monochrome compositions. Dramatic use of negative space, weather as emotional atmosphere
 (rain, wind, fog), and characters that feel isolated against vast or oppressive environments.
 Shots are wide and deliberate. Stillness conveys weight. Film grain is present.
@@ -58,7 +58,7 @@ Japanese feudal aesthetic
 ---
 
 ## STYLE: Crewdson
-**Aliases:** crewdson, gregory crewdson, staged, suburban surreal
+**Aliases:** crewdson, staged, suburban surreal, staged cinema
 **Best for:** interior scenes, portraiture, emotionally loaded stillness, suburban or coastal settings
 **Conflicts with:** action scenes, fantasy environments, bright comedic tone
 
@@ -99,14 +99,13 @@ shadows, emotionally loaded stillness, soft painterly anime illustration, no dir
 Rain-slicked streets reflecting neon signage. Deep shadows punctuated by electric magenta,
 cyan, and amber. Smoke or steam rising from vents. The city feels alive but predatory.
 Figures are silhouetted or partially lit, never fully revealed. High contrast between deep
-blacks and intense color. Inspired by Blade Runner, Ghost in the Shell, and classic noir.
+blacks and intense color. The visual language of cyberpunk noir and hardboiled detective fiction.
 
 ### Usage Notes
 - **For anime rendering:** Neon Noir alone pulls toward photorealistic/live-action feel.
   To render in anime style, stack Hyperreal Anime as the base rendering layer and apply
-  Neon Noir conditions on top. Also add a specific anime title anchor to lock the rendering
-  language: *Ghost in the Shell: Stand Alone Complex* and/or *Cyberpunk Edgerunners* are
-  the strongest fits for this style's urban night aesthetic.
+  Neon Noir conditions on top. Anchor with descriptors like `semi-realistic 2D anime`,
+  `clean anime linework`, `cyberpunk anime aesthetic` to lock the rendering language.
 - **Stacking:** Lead prompt with Hyperreal Anime rendering language, then add Neon Noir
   atmosphere conditions (neon color palette, wet reflections, anamorphic flare, etc.).
 
@@ -114,7 +113,7 @@ blacks and intense color. Inspired by Blade Runner, Ghost in the Shell, and clas
 ```
 Neon noir anime illustration — rain-slicked urban streets reflecting electric neon light in
 magenta, cyan, and amber, deep shadow contrast, smoke and steam rising from vents, cinematic
-wide shot, figures silhouetted or half-lit, Blade Runner atmosphere, mysterious and predatory
+wide shot, figures silhouetted or half-lit, cyberpunk noir atmosphere, mysterious and predatory
 mood, wet surface reflections, anamorphic lens flare, desaturated except for neon color pops,
 clean anime linework, 2D anime art style.
 ```
@@ -122,7 +121,7 @@ clean anime linework, 2D anime art style.
 ### Niji Journey Translation
 ```
 neon noir anime illustration, rain-slicked cyberpunk city night, electric magenta and cyan neon reflections,
-deep shadows, steam vents, silhouetted figure, clean anime linework, Blade Runner atmosphere, anamorphic lens flare,
+deep shadows, steam vents, silhouetted figure, clean anime linework, cyberpunk noir atmosphere, anamorphic lens flare,
 wet street puddle reflections, mysterious mood, high contrast
 ```
 
@@ -137,7 +136,7 @@ wet street puddle reflections, mysterious mood, high contrast
 Clean, controlled, and intentional. Minimal props. Precise directional lighting — often a
 large softbox or natural window light — that creates crisp highlights and soft shadow. Color
 palette is desaturated and cool, with lifted blacks. The subject commands the frame. Negative
-space is used deliberately. Feels like a Vogue or Patek Philippe spread — elevated, restrained,
+space is used deliberately. Feels like a luxury fashion magazine or high-end commercial spread — elevated, restrained,
 and aspirational.
 
 ### ChatGPT Translation
@@ -145,14 +144,14 @@ and aspirational.
 High-end editorial fashion anime illustration — clean and minimal composition, precise
 directional softbox lighting, crisp highlights with soft shadow falloff, desaturated and
 cool color palette with lifted blacks, generous negative space, aspirational and restrained
-mood, Vogue editorial quality, ultra high detail, 2D anime art style.
+mood, luxury fashion editorial quality, ultra high detail, 2D anime art style.
 ```
 
 ### Niji Journey Translation
 ```
 luxury editorial fashion anime illustration, minimal composition, precise soft directional lighting,
 desaturated cool palette, lifted blacks, crisp highlights, negative space, aspirational mood,
-Vogue magazine aesthetic, clean illustration, high detail
+luxury fashion magazine aesthetic, clean illustration, high detail
 ```
 
 ---
@@ -174,12 +173,12 @@ golden yellows, deep earth tones.
 Studio Ghibli-inspired aesthetic — warm, painterly illustration with handcrafted texture,
 soft dappled natural lighting, lush detailed environments, wistful and wonder-filled mood,
 emotionally gentle atmosphere, rich saturated warm greens and golden yellows, expressive
-character design, Hayao Miyazaki visual language.
+character design, classic Japanese anime film visual language.
 ```
 
 ### Niji Journey Translation
 ```
-Studio Ghibli style, Miyazaki aesthetic, soft painterly illustration, warm dappled natural
+Studio Ghibli style, classic Japanese anime film aesthetic, soft painterly illustration, warm dappled natural
 lighting, lush environment, wistful wonder-filled mood, rich saturated warm palette,
 golden yellows and soft blues, handcrafted texture, expressive character
 ```
@@ -195,22 +194,22 @@ golden yellows and soft blues, handcrafted texture, expressive character
 Brooding, epic, and atmospheric. Deep jewel tones — emerald, crimson, obsidian — against
 near-black backgrounds. Dramatic rim or volumetric lighting. Heavy use of fog, smoke, or
 falling ash. Architectural elements are gothic or ancient — crumbling stone, iron, bone.
-Characters feel mythic in scale. The world has weight and danger. Inspired by Dark Souls,
-Witcher, and Zdzisław Beksiński.
+Characters feel mythic in scale. The world has weight and danger. Grand, threatening, and
+mythic — the visual language of dark fantasy concept art at its most epic.
 
 ### ChatGPT Translation
 ```
 Dark fantasy anime illustration — brooding and atmospheric, deep jewel tones of emerald and
 crimson against near-black backgrounds, dramatic volumetric rim lighting, heavy fog and smoke,
 gothic architectural ruins, crumbling stone and iron, mythic character scale, dangerous and
-ancient world, Souls-like visual weight, painterly cinematic anime art style, expressive anime linework.
+ancient world, oppressive gothic visual weight, painterly cinematic anime art style, expressive anime linework.
 ```
 
 ### Niji Journey Translation
 ```
 dark fantasy anime illustration, brooding atmosphere, deep jewel tones emerald crimson obsidian,
 volumetric rim lighting, heavy fog and smoke, gothic ruins crumbling stone, mythic scale,
-dangerous ancient world, Dark Souls aesthetic, dramatic shadow contrast, expressive anime linework
+dangerous ancient world, oppressive gothic atmosphere, dramatic shadow contrast, expressive anime linework
 ```
 
 ---
@@ -249,36 +248,54 @@ aesthetic, inviting warmth, smoky ambience, visual novel illustration style, pai
 ---
 
 ## STYLE: Prism
-**Aliases:** prism, crystal, holographic, glitter, refracted light, rainbow crystal
-**Best for:** fantasy portraits, ethereal characters, luxury product shots, cyber-fantasy, surreal close-ups, jewelry and crystal subjects
-**Conflicts with:** minimalist/clean aesthetics, matte finishes, dark moody realism, Kurosawa, Crewdson
+**Aliases:** prism, crystal light, caustic light, refraction, spectral dispersion, glass light, realistic crystal
+**Best for:** characters near or holding refractive objects (glass, crystal, potion bottles, lenses, prisms), product and jewelry close-ups, window-light scenes, any scene where physically accurate light behavior through glass or crystal is the point
+**Conflicts with:** holographic/glitter fantasy aesthetics, Neon Noir, dark moody realism without a clear light source, Kurosawa, Crewdson
 
 ### Visual Description
-A hyper-detailed, surreal luxury aesthetic built around refracted light and crystal surfaces.
-Rainbow prism reflections scatter across the subject from faceted glass or gemstone elements.
-Glitter particles and holographic highlights float in the frame. Skin is luminous, colors are
-vibrant and saturated, and the background is dark and moody to maximize contrast with the
-glowing light effects. Neon and holographic lighting create a dreamy cyber-fantasy atmosphere.
-Every surface catches and refracts light — glossy, translucent, jewel-like. The mood is
-surreal, glamorous, and visually overwhelming in a controlled way.
+A physically accurate light and refraction aesthetic where a real refractive object — a glass
+bottle, crystal, prism, lens, or gemstone — is the single source of all light scatter in the
+scene. The rendering base is semi-realistic anime (clean linework, smooth gradients, no
+painterly texture), but the lighting behavior is governed by optics: white light enters the
+object and splits into spectral color bands on exit, caustics — sharp irregular pools of
+spectrum color — are projected onto nearby skin, fabric, and surfaces. Chromatic aberration
+separates red and violet at the edges of refracted beams. Nothing glows on its own. There is
+one coherent light source; the object bends and casts it.
+
+The background is dark or neutral so caustic projections read with maximum clarity. The
+palette outside the light effects is restrained — the spectral colors are the only saturation
+in the frame. The mood is precise, luminous, and quietly scientific: beautiful because the
+physics is beautiful, not because glitter was added. No holographic shimmer, no floating
+particles, no ambient neon scatter.
 
 ### ChatGPT Translation
 ```
-2D anime illustration, clean precise anime linework, digital anime painting, smooth color
-gradients, stylized anime character design — surreal luxury cyber-fantasy aesthetic with
-rainbow prism reflections scattered across the character, faceted jewel-like crystal surfaces,
-holographic shimmer, glitter highlights, vibrant saturated colors, cinematic neon lighting,
-dark moody background with glowing rainbow bokeh, detailed crystal light effects, clean smooth
-rendering, no texture noise, dreamy and visually opulent mood.
+Semi-realistic 2D anime illustration, clean precise anime linework, smooth digital rendering —
+physically accurate refraction and caustics lighting. A single refractive object (glass bottle,
+crystal prism, gemstone, or lens) is the sole source of light scatter in the scene. Sharp
+caustic light projections cast onto skin and fabric from the object only, spectral dispersion
+splitting white light into spectrum color bands, chromatic aberration separating red and violet
+at refracted beam edges. Dark or neutral background so caustic patterns read clearly. Restrained
+palette — spectral refraction colors are the only saturation. No holographic shimmer, no glitter,
+no ambient glow, no floating particles. Precise luminous optical realism, anime illustration style.
 ```
 
 ### Niji Journey Translation
 ```
-clean precise anime linework, crystal prism reflections, rainbow refracted light scattered
-across face, faceted jewel-like glossy surfaces, holographic highlights, glitter particles,
-vibrant saturated colors, cinematic neon lighting, hyper-detailed reflections, dark moody
-background, glowing rainbow bokeh, dreamy cyber-fantasy aesthetic, surreal luxury vibe,
-refracted light effects, ultra sharp focus, anime illustration masterpiece, insanely detailed
+semi-realistic anime illustration, clean anime linework, smooth digital rendering, physically
+accurate light refraction caustics, single refractive object source only, sharp caustic light
+projections on skin and fabric, spectral dispersion white light splitting into spectrum bands,
+chromatic aberration red violet split at beam edges, dark neutral background, restrained palette
+spectral colors only saturation, no holographic shimmer no glitter no ambient neon no floating
+particles, precise optical realism, luminous quiet mood
+--ar 2:3
+```
+
+### Negative (apply to Niji Journey with --no flag)
+```
+--no holographic, glitter, neon glow, ambient shimmer, floating particles, sparkles,
+oversaturated colors, fantasy scatter, lens flare blooms, multiple light sources,
+painterly texture, rough linework, photorealistic skin
 ```
 
 ---
@@ -289,38 +306,46 @@ refracted light effects, ultra sharp focus, anime illustration masterpiece, insa
 **Conflicts with:** Prism, Neon Noir, Dark Fantasy, dramatic cinematic lighting, glossy/polished aesthetics, sci-fi or magical effects
 
 ### Visual Description
-A delicate, hand-painted watercolor anime aesthetic that prioritizes restraint, atmosphere,
-and emotional presence over visual complexity. Characters feel unique and slightly
-unconventional — deliberately avoiding generic moe or gacha-idol beauty. Slightly low
-proportions: larger head, compact torso, fragile silhouette, but not chibi. Soft desaturated
-colors, gentle natural lighting, and generous negative space keep the character as a clear
-focal point surrounded by breathing room. The rendering feels analog despite being digital —
-slightly rough linework, faint paper texture, subtle paint unevenness, soft watercolor or
-gouache-like edges, and organic imperfections. No sterile vector lineart, no over-polishing,
-no dense detail. High quality through restraint, not complexity.
+A genuine analog watercolor aesthetic where the medium leads and the anime character
+design sits loosely within it. The base is a visible pencil or ink underdrawing —
+slightly scratchy, imprecise, showing through beneath the color. Watercolor washes
+are applied sparsely and unevenly over the sketch, barely contained within outlines,
+with large areas of white paper left intentionally unpainted within the hair, clothing,
+and body. Nothing is fully rendered. Figures dissolve and fade at the edges, clothing
+fades out below the waist into unfinished linework, and the background is almost
+entirely absent — raw paper texture with faint color pooling at most.
+
+The palette is near-greyscale: whispers of warm tan, soft grey-blue, and pale peach
+that barely read as color. Saturation is suppressed throughout. The overall impression
+is a beautiful sketchbook page rather than a finished illustration — intimate,
+restrained, and emotionally present through what is left unpainted as much as what
+is painted. High quality expressed through incompleteness, not complexity.
 
 ### ChatGPT Translation
 ```
-Delicate watercolor-inspired anime illustration with a hand-painted analog feel — soft
-desaturated colors, gentle natural lighting, and generous negative space surrounding the
-character. Slightly unconventional character design with a small fragile build and one
-memorable visual quirk, deliberately avoiding generic moe or gacha aesthetics. Simple,
-tasteful clothing with silhouette-focused design. Rendering feels like a physical watercolor
-or gouache painting: slightly rough linework, faint paper texture, subtle paint unevenness,
-soft edges, organic imperfections. Minimal softly-blended background using large atmospheric
-shapes. Refined but not over-rendered — warmth, atmosphere, and emotional presence over
-detail density.
+Genuine watercolor and ink sketch anime illustration — loose visible pencil and ink
+linework underneath soft sparse watercolor washes, large areas of white paper left
+intentionally unpainted within the figures, color barely contained within outlines,
+washes applied unevenly and incompletely. Figures dissolve and fade at the edges,
+clothing and bodies fading into unfinished sketch below. Almost no background —
+raw paper texture only with faint color pooling at edges. Near-greyscale palette:
+only whispers of warm tan, soft grey-blue, and pale peach, never saturated. Loose
+scratchy analog linework, visible brush strokes, intentional incompleteness, quiet
+intimate mood. A beautiful sketchbook page, not a finished illustration. No clean
+vector lines, no full rendering, no detailed background, 2D anime sketch style.
 ```
 
 ### Niji Journey Translation
 ```
-watercolor anime illustration, hand-painted analog feel, soft desaturated colors, gentle
-natural lighting, generous negative space, unique unconventional character design, small
-delicate build, slightly low proportions, one memorable design quirk, simple tasteful
-clothing, silhouette clarity, minimal softly blended background, large atmospheric shapes,
-slightly rough linework, faint paper texture, subtle paint unevenness, soft watercolor edges,
-organic imperfections, gouache softness, refined not over-rendered, emotional warmth,
-no moe no gacha no glossy finish
+loose watercolor ink sketch anime illustration, genuine analog watercolor feel,
+visible pencil and ink linework underneath sparse uneven washes, large white paper
+areas left unpainted within figures and clothing, color barely contained within
+outlines, figures dissolving and fading at edges unfinished below waist, almost
+no background raw paper texture only faint color pooling, near-greyscale palette
+whispers warm tan soft grey-blue pale peach, loose scratchy linework visible brush
+strokes, intentional incompleteness, quiet intimate mood, sketchbook aesthetic not
+finished illustration, no clean vector lines no full rendering no detailed background
+--ar 2:3
 ```
 
 ### Negative (apply to Niji Journey with --no flag)
@@ -399,51 +424,51 @@ background, light airy composition, line economy not density, flat 2D manga rend
 ---
 
 ## STYLE: Makoto Shinkai
-**Aliases:** makoto shinkai, shinkai, your name, weathering with you, luminous sky, shinkai sky
+**Aliases:** makoto shinkai, shinkai, luminous sky, shinkai sky, atmospheric sky anime
 **Best for:** emotional outdoor scenes, dramatic skies, distance and longing, cityscapes at golden hour, two characters separated by space or light
-**Conflicts with:** interior-only scenes, Kurosawa monochrome, flat design, Borderlands cel shading
+**Conflicts with:** interior-only scenes, Kurosawa monochrome, flat design, hard toon cel shading
 
 ### Visual Description
-Inspired by Makoto Shinkai's films — hyper-detailed atmospheric skies with layered clouds,
-lens flares, and luminous volumetric light rays that feel almost tactile. Colors are intensely
-saturated but natural: deep blues, burning ambers, electric golds. Backgrounds are rendered
-with near-photographic detail while characters retain clean anime stylization, creating a
-dreamlike contrast. Emotional depth comes from light — the way it falls on a face, refracts
-through rain, or floods a train window. A pervasive sense of distance, longing, and beauty
-in transience.
+Inspired by a distinctive strand of contemporary Japanese animated films — hyper-detailed
+atmospheric skies with layered clouds, lens flares, and luminous volumetric light rays that
+feel almost tactile. Colors are intensely saturated but natural: deep blues, burning ambers,
+electric golds. Backgrounds are rendered with near-photographic detail while characters retain
+clean anime stylization, creating a dreamlike contrast. Emotional depth comes from light —
+the way it falls on a face, refracts through rain, or floods a train window. A pervasive
+sense of distance, longing, and beauty in transience.
 
 ### ChatGPT Translation
 ```
-Makoto Shinkai anime illustration — hyper-detailed atmospheric sky with layered clouds and
+Luminous atmospheric sky anime illustration — hyper-detailed sky with layered clouds and
 luminous volumetric light rays, lens flare, intensely saturated natural colors in deep blues
-and burning amber gold, richly detailed background contrasting with clean anime character
+and burning amber gold, richly detailed painterly background contrasting with clean anime character
 stylization, emotional depth through light and distance, dreamlike beauty, sense of longing
 and transience, cinematic anime composition.
 ```
 
 ### Niji Journey Translation
 ```
-Makoto Shinkai style, hyper-detailed atmospheric sky, luminous volumetric light rays,
+luminous atmospheric sky anime style, hyper-detailed sky, luminous volumetric light rays,
 lens flare, layered dramatic clouds, intensely saturated natural palette deep blue amber gold,
 hyper-detailed painterly background, clean anime characters, emotional cinematic depth,
-dreamlike luminosity, sense of longing and distance, your name aesthetic
+dreamlike luminosity, sense of longing and distance, contemporary Japanese animated film aesthetic
 ```
 
 ---
 
 ## STYLE: Ufotable
-**Aliases:** ufotable, demon slayer, fate zero, fate stay night, ufotable dark fantasy, kimetsu
+**Aliases:** ufotable, ufotable dark fantasy, dark fantasy action anime, supernatural anime spectacle
 **Best for:** action sequences, dark fantasy combat, supernatural scenes, dramatic character moments, high-production anime key visuals
 **Conflicts with:** Aquarelle, Kurosawa monochrome, flat design, retro anime
 
 ### Visual Description
-The signature visual language of Ufotable studio — the team behind Demon Slayer and Fate/Zero.
-High-contrast dramatic lighting with richly saturated jewel-toned colors: deep crimson, electric
-blue, vivid gold against near-black shadows. Cinematic polish with fluid motion energy even in
-still images. Characters are rendered with meticulous detail and glowing intensity — effects
-like fire, water, and supernatural energy are rendered as breathtaking visual spectacles. The
-overall feel is expensive, dramatic, and technically flawless. Dark settings are elevated by
-explosive color rather than muted.
+The signature visual language of Ufotable animation studio — high-production dark fantasy
+anime at its most cinematic. High-contrast dramatic lighting with richly saturated jewel-toned
+colors: deep crimson, electric blue, vivid gold against near-black shadows. Cinematic polish
+with fluid motion energy even in still images. Characters are rendered with meticulous detail
+and glowing intensity — effects like fire, water, and supernatural energy are rendered as
+breathtaking visual spectacles. The overall feel is expensive, dramatic, and technically
+flawless. Dark settings are elevated by explosive color rather than muted.
 
 ### ChatGPT Translation
 ```
@@ -451,7 +476,7 @@ Ufotable animation studio aesthetic — high-contrast dramatic lighting, richly 
 tones of deep crimson, electric blue, and vivid gold against near-black shadows, cinematic
 production polish, meticulous character detail with glowing intensity, supernatural energy
 effects rendered as visual spectacle, fluid motion energy, expensive and technically flawless
-dark fantasy anime quality, Demon Slayer and Fate/Zero visual language.
+dark fantasy anime quality, premium high-production anime visual language.
 ```
 
 ### Niji Journey Translation
@@ -459,63 +484,74 @@ dark fantasy anime quality, Demon Slayer and Fate/Zero visual language.
 Ufotable studio style, high contrast dramatic lighting, richly saturated jewel tones,
 deep crimson electric blue vivid gold, near-black shadows, cinematic anime polish,
 meticulous character detail, glowing intensity, supernatural energy effects, fluid motion,
-dark fantasy anime key visual, Demon Slayer aesthetic, production quality masterpiece
+dark fantasy anime key visual, premium animation production quality masterpiece
 ```
 
 ---
 
 ## STYLE: Retro Anime
-**Aliases:** retro anime, 80s anime, 90s anime, akira aesthetic, vhs anime, old school anime, analog anime, slayers, city hunter
+**Aliases:** retro anime, 80s anime, 90s anime, vhs anime, old school anime, analog anime, retro sci-fi anime
 **Best for:** nostalgic scenes, action and drama, urban or sci-fi settings, character-driven moments, any scene benefiting from analog warmth and grain
 **Conflicts with:** Prism, Ufotable, clean modern anime aesthetics, hyperrealistic rendering
 
 ### Visual Description
-The visual language of 1980s–90s anime — Akira, Ghost in the Shell, Slayers, City Hunter,
-Cowboy Bebop. Analog warmth with visible film grain and subtle color bleed at edges. Linework
-is slightly thicker and less precise than modern anime, with a hand-drawn quality that feels
-intentional and characterful. Color palette has a distinctive muted warmth — faded yellows,
-dusty blues, warm oranges — as if slightly sun-bleached or viewed through a VHS lens. Cel
-animation textures, limited color banding, and the occasional halftone dot pattern. Emotionally
-direct and kinetic.
+The visual language of 1980s–90s anime — cel-animated sci-fi action, urban drama, space
+opera, and fantasy adventure from that era. Analog warmth with visible film grain and subtle
+color bleed at edges. Linework is slightly thicker and less precise than modern anime, with a
+hand-drawn quality that feels intentional and characterful. Color palette has a distinctive
+muted warmth — faded yellows, dusty blues, warm oranges — as if slightly sun-bleached or
+viewed through a VHS lens. Cel animation textures, limited color banding, and the occasional
+halftone dot pattern. Emotionally direct and kinetic. Crucially, background and surface detail
+is limited to what genuine vintage cel animation production would allow — flat gouache-style
+color blocks, broad simple shapes, and minimal texture complexity. Modern AI tendency to add
+fine grain, intricate surface texture, or high-frequency detail is antithetical to this style.
 
 ### ChatGPT Translation
 ```
 Retro 1980s–90s anime aesthetic — analog film grain, subtle VHS color bleed at edges,
 slightly thick hand-drawn linework, muted warm palette of faded yellows, dusty blues, and
 warm oranges, cel animation texture, limited color banding, emotionally direct and kinetic
-energy, Akira and Ghost in the Shell visual language, nostalgic analog warmth, hand-crafted
-imperfection over digital polish.
+energy, classic retro anime visual language, nostalgic analog warmth, hand-crafted
+imperfection over digital polish. Authentic hand-painted cel animation production art — flat
+broad color fills with minimal texture detail, limited cel layers, backgrounds painted in flat
+gouache-style blocks with low detail complexity, simple clean shapes over intricate surface
+detail, color limited to what a 1980s anime production budget would allow. No fine surface
+texture, no photographic grain, no high-frequency detail, no complex material rendering, no
+modern digital detail levels, no intricate background texture.
 ```
 
 ### Niji Journey Translation
 ```
 retro 80s 90s anime aesthetic, analog film grain, VHS warmth, color bleed edges,
 thick hand-drawn linework, muted warm palette faded yellows dusty blues warm oranges,
-cel animation texture, limited color banding, Akira aesthetic, Ghost in the Shell style,
-nostalgic analog feel, hand-crafted imperfection, old school anime energy
+cel animation texture, limited color banding, classic retro anime aesthetic,
+nostalgic analog feel, hand-crafted imperfection, old school anime energy,
+authentic hand-painted cel animation, flat broad color fills limited cel layers,
+flat gouache-style background blocks low detail complexity, simple clean shapes minimal texture,
+no fine surface texture no photographic grain no high-frequency detail no modern digital detail levels
 ```
 
 ---
 
 ## STYLE: Cel Shading
-**Aliases:** cel shading, borderlands, cel shaded, bold outline, graphic anime, borderlands style, comic shading, toon shading
+**Aliases:** cel shading, cel shaded, bold outline, graphic anime, toon shading, comic shading, graphic toon
 **Best for:** action scenes, graphic novels, high-energy characters, poster compositions, any scene where bold graphic impact matters more than realism
 **Conflicts with:** Aquarelle, Crewdson, Makoto Shinkai, any painterly or atmospheric style
 
 ### Visual Description
 Bold black outlines, flat color fills, and high-contrast shading with no gradients — the
-visual language of Borderlands, comic books, and graphic novel illustration. Colors are
-vivid and fully saturated. Shading is binary: lit or shadow, with a hard edge between them.
-Linework is thick, confident, and expressive. The overall effect is graphic, energetic, and
-immediately readable. Depth comes from composition and color contrast rather than rendering
-subtlety. Feels designed to be seen from a distance and understood instantly.
+visual language of toon-shaded action games, comic books, and graphic novel illustration.
+Colors are vivid and fully saturated. Shading is binary: lit or shadow, with a hard edge
+between them. Linework is thick, confident, and expressive. The overall effect is graphic,
+energetic, and immediately readable. Depth comes from composition and color contrast rather
+than rendering subtlety. Feels designed to be seen from a distance and understood instantly.
 
 ### ChatGPT Translation
 ```
 2D anime cel shading illustration — bold black outlines, flat fully-saturated color fills,
 high-contrast binary shading with hard edges between light and shadow, no gradients,
-thick confident expressive linework, vivid color palette, graphic novel and Borderlands
-visual language, energetic and immediately readable, depth through composition and color
+thick confident expressive linework, vivid color palette, graphic novel and toon-shaded
+game visual language, energetic and immediately readable, depth through composition and color
 contrast rather than rendering subtlety.
 ```
 
@@ -523,33 +559,32 @@ contrast rather than rendering subtlety.
 ```
 anime cel shading style, bold black outlines, flat color fills, high contrast binary shading,
 no gradients, thick expressive linework, vivid saturated colors, graphic novel aesthetic,
-Borderlands art style, toon shading, energetic graphic impact, comic book illustration
+toon-shaded game art style, toon shading, energetic graphic impact, comic book illustration
 ```
 
 ---
 
 ## STYLE: Soulslike
-**Aliases:** soulslike, bloodborne, elden ring, dark souls, fromsoft, souls aesthetic, gothic horror fantasy
+**Aliases:** soulslike, souls aesthetic, gothic horror fantasy, gothic action rpg, ruin aesthetic
 **Best for:** gothic architecture, horror fantasy, fog-shrouded landscapes, cursed or corrupted characters, bleak and grand environments, ancient decaying worlds
 **Conflicts with:** Ember, Ghibli, Makoto Shinkai, warm or inviting aesthetics
 
 ### Visual Description
-Inspired by FromSoftware's Bloodborne, Dark Souls, and Elden Ring concept art — a
-desaturated, fog-heavy gothic aesthetic where grandeur and dread occupy the same space.
-Color palette is predominantly grey, ash, and muted teal with isolated accents of deep
-amber or bloodred. Architecture is massive, decaying, and inhuman in scale. Characters
-are dwarfed by their environments. Fog, ash particles, and atmospheric haze obscure
-backgrounds, creating mystery and weight. Unlike Dark Fantasy (which uses jewel tones
-and epic warmth), Soulslike is bleaker, quieter, and more unsettling — beauty that comes
-from ruin.
+The visual language of gothic action RPG concept art — a desaturated, fog-heavy gothic
+aesthetic where grandeur and dread occupy the same space. Color palette is predominantly
+grey, ash, and muted teal with isolated accents of deep amber or bloodred. Architecture
+is massive, decaying, and inhuman in scale. Characters are dwarfed by their environments.
+Fog, ash particles, and atmospheric haze obscure backgrounds, creating mystery and weight.
+Unlike Dark Fantasy (which uses jewel tones and epic warmth), Soulslike is bleaker, quieter,
+and more unsettling — beauty that comes from ruin.
 
 ### ChatGPT Translation
 ```
-FromSoftware Soulslike anime illustration — desaturated gothic atmosphere in grey, ash, and
+Gothic action RPG soulslike anime illustration — desaturated gothic atmosphere in grey, ash, and
 muted teal with isolated accents of deep amber or bloodred, massive decaying architecture
 that dwarfs human scale, fog and ash particles obscuring the background, a pervasive sense
 of ancient ruin and quiet dread, grandeur and horror coexisting, bleaker and more unsettling
-than traditional dark fantasy, Bloodborne and Elden Ring visual language, 2D anime art style, detailed anime linework.
+than traditional dark fantasy, gothic horror RPG concept art aesthetic, 2D anime art style, detailed anime linework.
 ```
 
 ### Niji Journey Translation
@@ -557,28 +592,28 @@ than traditional dark fantasy, Bloodborne and Elden Ring visual language, 2D ani
 soulslike gothic anime illustration, desaturated palette grey ash muted teal deep amber accents,
 massive decaying architecture, human figures dwarfed by environment, atmospheric fog and
 ash particles, ancient ruin and quiet dread, grandeur and horror, bleak beauty,
-Bloodborne concept art style, Elden Ring atmosphere, FromSoftware visual language, detailed anime linework
+gothic horror RPG concept art style, bleakness and ruin aesthetic, detailed anime linework
 ```
 
 ---
 
 ## STYLE: Miura
-**Aliases:** miura, berserk, kentaro miura, dark manga, crosshatch, berserk manga
+**Aliases:** miura, dark manga, crosshatch, crosshatch manga, dense ink manga
 **Best for:** intense character portraits, brutal battle scenes, dark fantasy figures, deeply detailed armor and weapons, monochromatic or limited-color dramatic compositions
 **Conflicts with:** Ghibli, Aquarelle, Ember, soft or colorful styles
 
 ### Visual Description
-Inspired by Kentaro Miura's Berserk — one of the most technically demanding manga art styles
-ever produced. Dense, precise crosshatching builds shadow and texture in ways that feel almost
-engraved. Linework is extraordinarily detailed, with heavy blacks that create dramatic contrast.
-Armor, weapons, and environmental detail are rendered with obsessive specificity — every rivet,
-scratch, and surface texture accounted for. Figures feel massive and heavy. The overall
-aesthetic is monochromatic or near-monochromatic, with shadow doing the emotional and
-atmospheric work. Brutal, meticulous, and awe-inspiring.
+The aesthetic of peak-craft dark fantasy manga — one of the most technically demanding
+illustration styles ever produced. Dense, precise crosshatching builds shadow and texture in
+ways that feel almost engraved. Linework is extraordinarily detailed, with heavy blacks that
+create dramatic contrast. Armor, weapons, and environmental detail are rendered with obsessive
+specificity — every rivet, scratch, and surface texture accounted for. Figures feel massive
+and heavy. The overall aesthetic is monochromatic or near-monochromatic, with shadow doing
+the emotional and atmospheric work. Brutal, meticulous, and awe-inspiring.
 
 ### ChatGPT Translation
 ```
-Kentaro Miura's Berserk manga aesthetic — dense precise crosshatching building shadow and
+Peak-craft dark fantasy manga aesthetic — dense precise crosshatching building shadow and
 texture with engraving-like depth, extraordinarily detailed linework, heavy blacks creating
 dramatic contrast, obsessively detailed armor and weapons with every rivet and scratch
 rendered, massive and heavy figure weight, monochromatic or near-monochromatic palette with
@@ -587,7 +622,7 @@ shadow doing the emotional work, brutal meticulous and awe-inspiring dark manga 
 
 ### Niji Journey Translation
 ```
-Berserk manga style, Kentaro Miura aesthetic, dense crosshatching, heavy black ink shadows,
+peak-craft dark fantasy manga style, dense crosshatching engraving-like depth, heavy black ink shadows,
 extraordinarily detailed linework, obsessively detailed armor and weapons, every surface
 texture rendered, massive figure weight, dramatic contrast, near-monochromatic dark manga,
 brutal and meticulous detail, dark fantasy manga masterpiece
@@ -596,7 +631,7 @@ brutal and meticulous detail, dark fantasy manga masterpiece
 ---
 
 ## STYLE: JRPG Pixel Art
-**Aliases:** jrpg pixel art, pixel art, pixel sprite, hd pixel, octopath, jrpg sprite, modern pixel art
+**Aliases:** jrpg pixel art, pixel art, pixel sprite, hd pixel, jrpg sprite, modern pixel art, hd-2d pixel
 **Best for:** fantasy characters with detailed equipment, knight and warrior sprites, character portrait sprites, any subject that benefits from the contrast between pixel grid constraints and rich anime-influenced design
 **Conflicts with:** painterly or atmospheric styles, Aquarelle, Crewdson, Makoto Shinkai, any style relying on smooth lineart or gradients
 
@@ -609,7 +644,7 @@ Equipment and armor are rendered with rich full-color pixel shading using carefu
 and color stepping to simulate volume and metallic sheen. The palette is full-color rather
 than limited, with warm skin tones, deep jewel accents, and clean neutrals. Background is
 near-white or absent, isolating the character as a standalone sprite. Sits closest to modern
-JRPG sprite work — Octopath Traveler, high-end mobile RPG character art, or premium gacha
+JRPG sprite work — HD-2D fine-grid pixel RPG art, high-end mobile RPG character art, or premium gacha
 game sprites.
 
 ### ChatGPT Translation
@@ -618,7 +653,7 @@ High-resolution modern JRPG pixel art aesthetic — fine pixel grid with anime-i
 character design, large expressive eyes, flowing styled hair rendered in pixel form, detailed
 fantasy armor and equipment with rich full-color pixel shading, careful dithering to simulate
 metallic volume and jewel tones, warm skin tones against a near-white or transparent
-background, Octopath Traveler and premium mobile RPG sprite visual language, every pixel
+background, HD-2D fine-grid pixel RPG and premium mobile RPG sprite visual language, every pixel
 intentional and expressive.
 ```
 
@@ -626,7 +661,7 @@ intentional and expressive.
 ```
 high resolution JRPG pixel art sprite, anime character design, fine pixel grid, detailed
 fantasy equipment, full color palette, dithered metallic shading, jewel tone accents,
-warm skin tones, near-white background, Octopath Traveler style, modern mobile RPG sprite,
+warm skin tones, near-white background, HD-2D fine-grid pixel RPG style, modern mobile RPG sprite,
 premium gacha character art --ar 2:3
 ```
 
@@ -667,7 +702,7 @@ modern shounen anime aesthetic, warm sepia environment aged paper tones cream ye
 crisp cold sharp supernatural energy contrast, high detail environmental destruction rubble
 cracked walls scattered debris, clean character rendering fuller color contrast, clean anime linework,
 volumetric backlit window light atmospheric haze, determined mid-action character pose,
-warm decay vs cold power visual tension, A Certain Scientific Railgun style --ar 2:3
+warm decay vs cold power visual tension, modern shounen action anime style --ar 2:3
 ```
 
 ---
@@ -692,8 +727,8 @@ proportions. Hair is flowing and wind-swept with good strand separation. Poses a
 atmospheric: golden ambient glow, floating light particles, soft environmental haze.
 Backgrounds are soft-focus and supportive rather than detailed — ruins, classrooms, space
 stations, arenas, wherever the scene is set. The overall mood is cute and determined — a
-small figure with complete confidence. Closest to Princess Connect, Granblue Fantasy chibi
-sprites, and similar gacha in-game character art.
+small figure with complete confidence. Closest to premium gacha game chibi sprites and
+high-end mobile RPG in-game character art.
 
 ### ChatGPT Translation
 ```
@@ -705,8 +740,7 @@ magical girl costume, or any genre), oversized weapon or prop proportional to ch
 flowing wind-swept hair with strand separation, dynamic low-angle action pose with debris
 and motion particles, warm golden ambient lighting with floating atmospheric particles,
 soft-focus background appropriate to the scene's setting, cute determined expression,
-confident and capable despite small frame, Princess Connect and Granblue Fantasy chibi
-character art quality.
+confident and capable despite small frame, premium gacha chibi character art quality.
 ```
 
 ### Niji Journey Translation
@@ -716,20 +750,20 @@ linework crisp flat cel shading, detailed character outfit or equipment chibi sc
 oversized weapon or prop chibi scale, flowing wind-swept hair strand separation, dynamic
 low-angle action pose debris particles mid-motion, warm golden ambient lighting floating
 particles atmospheric haze, soft focus background suited to scene setting, cute determined
-expression, confident capable chibi character, Princess Connect gacha chibi art style
+expression, confident capable chibi character, premium gacha chibi art style
 --ar 16:9
 ```
 
 ---
 
 ## STYLE: Webtoon
-**Aliases:** webtoon, manhwa, korean webtoon, line webtoon, solo leveling, tower of god, manhwa art
+**Aliases:** webtoon, manhwa, korean webtoon, line webtoon, manhwa art, korean manhwa
 **Best for:** dramatic character moments, fashion-forward character designs, urban fantasy, action sequences, romance and slice-of-life, any scene that benefits from crisp clean linework and strong character presence
 **Conflicts with:** Kurosawa, Aquarelle, Crewdson, painterly or atmospheric styles, anything requiring analog texture or heavy environmental mood
 
 ### Visual Description
-The clean, high-polish aesthetic of Korean webtoon and manhwa — Solo Leveling, Tower of God,
-True Beauty visual language. Linework is crisp and confident with consistent weight, slightly
+The clean, high-polish aesthetic of Korean webtoon and manhwa — premium manhwa action and
+romance visual language. Linework is crisp and confident with consistent weight, slightly
 rounder and more fashion-forward than Japanese manga. Shading is smooth and controlled, often
 cel-style with soft gradient accents on hair and skin. Characters are the undisputed focal
 point — faces expressive, hair rendered with precision and volume, clothing detailed and
@@ -744,8 +778,8 @@ Korean webtoon and manhwa aesthetic — crisp confident linework with consistent
 smooth cel shading with soft gradient accents on hair and skin, fashion-forward character
 design with expressive faces and precisely rendered hair volume, saturated clean color
 palette, characters as the primary focal point against either high-detail architectural
-backgrounds or minimal clean settings, polished cinematic production quality, Solo Leveling
-and Tower of God visual language.
+backgrounds or minimal clean settings, polished cinematic production quality, premium Korean webtoon
+and manhwa visual language.
 ```
 
 ### Niji Journey Translation
@@ -753,7 +787,7 @@ and Tower of God visual language.
 Korean webtoon manhwa style, crisp clean confident linework, smooth cel shading soft
 gradients, fashion-forward character design, expressive face precise hair rendering,
 saturated clean color palette, strong character focus, polished cinematic quality,
-modern digital anime aesthetic, Solo Leveling style, Tower of God aesthetic --ar 9:16
+modern digital anime aesthetic, premium Korean manhwa aesthetic --ar 9:16
 ```
 
 ---
@@ -1208,4 +1242,42 @@ Copy this template and fill it in:
 
 ### Niji Journey Translation
 [Keyword-dense form + any recommendation]
+```
+
+---
+
+## STYLE: Pixiv Clean
+**Aliases:** pixiv clean, pixiv, clean anime, clean illustration, elf portrait, pixiv portrait, pixiv oc
+**Best for:** original character portraits, elf and fantasy OCs, sitting or relaxed poses, character showcases, any scene where fabric detail and clean faces are the focus — white background or with a scene background
+**Conflicts with:** heavily rendered styles, painterly backgrounds, complex lighting setups, Hyperreal Anime, Cinematic Anime, Aquarelle, Velvet — anything requiring atmospheric depth or photorealistic rendering
+
+### Visual Description
+A clean, polished Pixiv illustration style defined by confident medium-weight linework and a
+deliberate contrast between face rendering and fabric rendering. Lines taper naturally at hair
+tips and fabric edges but never disappear. Shading is soft cel-style with one or two flat
+shadow passes — skin is smooth and luminous without crossing into photorealism. The defining
+characteristic is fabric: cloth folds use loose, gestural inner lines that feel almost
+hand-drawn, giving ruffles and layered clothing a lively quality that contrasts the cleaner
+face and skin. Background is user-defined — white is common but a simplified scene background
+works equally well. Lighting is soft ambient with no directional source. Face is always the
+most refined element. Palette is fully user-defined.
+
+### ChatGPT Translation
+```
+Clean Pixiv anime illustration — confident medium-weight linework with natural taper at hair
+tips and fabric edges, soft cel shading with one or two flat shadow passes on skin, smooth
+luminous skin rendering that stays firmly 2D, loose gestural cloth fold lines on fabric and
+ruffles contrasting the cleaner face rendering, soft ambient lighting with no directional
+source or cast shadows, face as the most refined focal element, background and palette fully
+user-defined. Drawn as a clean polished Pixiv character illustration — 2D anime art style,
+no painterly texture, no photorealism, no complex lighting.
+```
+
+### Niji Journey Translation
+```
+clean Pixiv anime illustration style, confident medium-weight linework natural taper at tips,
+soft flat cel shading one to two shadow tones, smooth luminous skin 2D rendering, loose
+gestural fabric fold lines ruffles and cloth detail, cleaner face and skin vs gestural fabric
+contrast, ambient lighting no directional source, background and palette user-defined,
+polished Pixiv OC character art quality --ar [ratio]
 ```

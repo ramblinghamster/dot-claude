@@ -95,11 +95,11 @@ When adding, follow the existing format:
 
 ## Prism
 
-1. A crystal sorceress whose magic refracts into rainbow scatter across her own face, hands, and robes
-2. A jewelry editorial — a diamond necklace casting prismatic fire across a model's collarbone in a dark studio
-3. A deity made partially of faceted glass, their form bending and fracturing the landscape visible through them
-4. A fashion portrait — subject holds a glass prism toward camera, light explosions filling the white studio
-5. A supernatural being stepping through a crystalline portal, their entire silhouette rendered in pure refracted light
+1. A girl holds a glass potion bottle at arm's length — sharp caustic light pools scatter across her wrist and sleeve, the spectrum splitting into red and violet bands where the light exits the glass
+2. A close-up of a character's face half-lit by a crystal held near a window — caustic patterns cross her cheek and collarbone, no other light source in frame
+3. A still life portrait — an anime character seated at a table, a glass prism in front of them casting a sharp spectrum stripe across their hands, shirt, and the table surface
+4. A jeweler's close-up — a gemstone suspended between a character's fingers, caustic fire scattered on skin and dark fabric beneath, chromatic aberration visible at each beam edge
+5. A character in a dark room with a single beam of light passing through a glass bottle on a shelf — the bottle casts a precise fan of spectral caustics across the wall and their shoulder
 
 ---
 
@@ -310,3 +310,13 @@ When adding, follow the existing format:
 3. A young sorceress in a white and lavender dress reading a spellbook in a sunlit library, dust motes drifting through the golden light, an open window framing a lush garden beyond
 4. A fantasy princess standing alone in a wildflower meadow at dusk, her pastel gown trailing softly over the grass, a dreamy haze of warm light dissolving the horizon behind her
 5. A delicate fairy-tale elf in pale silk seated at a tea table in an overgrown greenhouse, afternoon light filtering through glass panes and draping softly over ferns and white roses
+
+---
+
+## Pixiv Clean
+
+1. A silver-haired elf girl sitting cross-legged on a white background, wearing a layered ruffled dress with loose gestural cloth folds, face clean and luminous, soft ambient light, lavender and white palette
+2. A fantasy mage OC in a long coat with ornate cuffs and collar details, gestural inner lines on every fabric fold, standing in a relaxed three-quarter pose, white background, warm amber palette
+3. A dark elf swordswoman resting her blade on her shoulder, her draped scarf and cape rendered with loose flowing cloth lines contrasting her smooth face and skin, minimal white background, black and silver palette
+4. A young priestess in layered ceremonial robes seated on a stone step, ruffled hem and wide sleeves rendered with gestural fabric detail, expression calm and focused, soft light, cream and gold palette
+5. An original character in a school uniform with a loose ribbon and pleated skirt, cloth folds lively and hand-drawn in feel, white background, face the most refined element, user-defined casual palette

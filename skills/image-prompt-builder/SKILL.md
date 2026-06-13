@@ -1,16 +1,16 @@
 ---
 name: image-prompt-builder
 description: >
-  Guides users through building structured, high-quality image generation prompts using the
-  8-Block Visual Prompt Anatomy Framework. Use this skill
-  whenever the user wants to generate an image, craft an image prompt, or improve a prompt
-  for any image AI tool — ChatGPT (DALL-E), Niji Journey, Midjourney, Stable Diffusion,
-  Flux, Firefly, Ideogram, or similar. Also trigger when the user asks for help with
-  "prompt engineering" for images, says things like "I want to create an image of...",
-  "help me write a prompt for...", "how do I get better images from...", or shares a rough
-  idea and wants a polished prompt. Even when the request seems simple ("make me a prompt
-  for a sunset photo"), use this skill — the framework turns vague ideas into prompts that
-  produce dramatically better results.
+  ALWAYS use for ANY image-related request. Trigger on: "I want/I'd like to make/generate
+  an image of", "I'd like to make/generate an anime image of", "create/generate a picture",
+  "make/write/help me with a prompt", "I'd like to generate an image based on this prompt",
+  "I'd like to reproduce/recreate an image like this one", "build a prompt from this",
+  "I want something like this image"; any mention of DALL-E, Niji Journey, Midjourney,
+  Stable Diffusion, Flux, Firefly, or Ideogram; phrases like "I'm imagining a scene",
+  "help me visualize", "what prompt should I use"; attaching an image to reproduce or
+  build a prompt from; sharing a scene idea, character description, or rough concept;
+  improving or fixing an existing prompt. One-liners like "anime girl prompt" or "prompt
+  for a sunset" must also trigger. Default to triggering — never skip.
 ---
 
 # Image Prompt Builder — 8-Block Framework + Cinematic Scene Construction
@@ -43,28 +43,38 @@ Prompts that answer these five questions consistently outperform prompts that do
 
 ## Session Flow
 
-Work through the 8 blocks **one at a time**. For each block:
+⛔ **NEVER use interactive UI widgets, dropdowns, buttons, or form elements at any point in
+this skill. All interaction must be plain conversational chat text only.**
 
-1. Explain what the block controls in one sentence.
-2. Ask the block's question.
-3. After the user responds, show your current draft of that block and ask: *"Does this work,
-   or would you like to adjust anything before we move on?"*
-4. Only advance when the user confirms.
-5. Silently check all completed blocks for conflicts as you go. If you find one, stop and
-   flag it explicitly (see Conflict Rules).
+### Path A — User provides a full or partial scene description (most common)
 
-**UPFRONT DESCRIPTION GATE — MANDATORY. DO NOT SKIP.**
+This is the primary path. Use it whenever the user gives any description of what they want.
 
-If the user provides a full scene description upfront:
-
-1. Extract their input into all 8 blocks and display the full mapping clearly.
+1. Extract their input into all 8 blocks at once and display the full mapping in a single
+   chat message — one labeled section per block, written as plain text.
 2. **STOP. Do not generate any prompts yet.**
-3. Ask explicitly: *"Does each block capture your vision correctly, or would you like to revise anything before I generate the prompts?"*
+3. Ask in plain text: *"Does each block capture your vision correctly, or would you like to
+   revise anything before I generate the prompts?"*
 4. Wait for the user's response.
-5. Revise any blocks the user flags, confirm the revision, then ask if anything else needs adjusting.
-6. Only generate the final prompts **after the user explicitly confirms all 8 blocks are correct**.
+5. Revise any blocks the user flags, confirm the revision, then ask if anything else needs
+   adjusting.
+6. Only generate the final prompts **after the user explicitly confirms all 8 blocks are
+   correct**.
 
-⛔ Skipping steps 2–6 and generating prompts immediately after the mapping is a compliance failure, regardless of how complete the user's description seems.
+⛔ Skipping steps 2–6 and generating prompts immediately is a compliance failure.
+⛔ Asking about blocks one at a time when the user already gave a description is a compliance failure.
+
+### Path B — User gives no description (blank start)
+
+Only use this path when the user provides no scene information at all.
+
+Work through the blocks conversationally — one block per chat message, plain text only:
+1. State what the block controls in one sentence.
+2. Ask the block's question as a plain chat message.
+3. After the user responds, confirm your draft of that block in plain text and ask if they
+   want to adjust before moving on.
+4. Only advance when the user confirms.
+5. Silently check for conflicts as you go and flag any found (see Conflict Rules).
 
 ---
 
@@ -80,7 +90,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 29 styles are stored in your personal style library. This table is always
+The following 30 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -92,7 +102,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Studio Ghibli | Nature scenes, childhood wonder, fantasy worlds, quiet emotional moments |
 | Dark Fantasy | Fantasy characters, creatures, ominous landscapes, epic world-building |
 | Ember | Dark fantasy interiors, tavern/inn scenes, candlelit portraits, warm visual novel anime |
-| Prism | Fantasy portraits, ethereal/cyber-fantasy characters, crystal and jewel subjects |
+| Prism | Physically accurate caustics and refraction from a single glass/crystal object — sharp spectrum light cast onto skin and fabric |
 | Aquarelle | Original character portraits, emotionally subtle scenes, understated fantasy, slice-of-life |
 | Ironbloom | Armored characters, mech, tactical gear — rendered sub-mood (earth tones, semi-flat shading) or flat/ink sub-mood (line economy, palette-agnostic) |
 | Makoto Shinkai | Dramatic skies, golden hour cityscapes, longing and distance, emotional outdoor scenes |
@@ -114,6 +124,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Gossamer | Flat minimal anime portraits, light novel illustrations, visual novel CGs, iyashikei/healing atmosphere, shrine maidens, elves, muted cool palette, nearly shadowless |
 | Flat Chibi | Full chibi proportions with flat cel rendering — action poses, any genre, oversized props and weapons, user-defined palette, graphic and bold |
 | Flat Cel | Any scene or genre — action, romance, dark fantasy, horror, sci-fi, slice-of-life; flat cel technique with fully user-defined palette and mood, no style restrictions |
+| Pixiv Clean | Original character portraits, elf/fantasy OCs, white or scene background — clean face vs gestural fabric contrast, ambient light only |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -426,6 +437,36 @@ Only deliver the final prompts after both steps are complete.
 ## Final Output
 
 When all 8 blocks are confirmed and compliance is clear, deliver all four prompts.
+
+⛔ **MANDATORY FORMAT — NO EXCEPTIONS:**
+- Every prompt MUST be preceded by its exact section label as a markdown heading. Do NOT omit these labels.
+- Every prompt MUST be wrapped in a fenced code block (triple backticks).
+- All four prompts must be delivered in the same response, in order: ChatGPT Robust → ChatGPT Compact → Niji Journey Robust → Niji Journey Compact.
+- Do NOT deliver prompts as plain text, bullet points, or numbered lists.
+- Do NOT omit the code block wrapper even if the prompt is short.
+- The code block is required so the user can copy the prompt cleanly. Skipping it is a compliance failure.
+
+**The output must look exactly like this template:**
+
+### ChatGPT Prompt — Robust
+```
+[prompt here]
+```
+
+### ChatGPT Prompt — Compact
+```
+[prompt here]
+```
+
+### Niji Journey Prompt — Robust
+```
+[prompt here]
+```
+
+### Niji Journey Prompt — Compact
+```
+[prompt here]
+```
 
 ---
 
