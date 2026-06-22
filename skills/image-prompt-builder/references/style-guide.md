@@ -16,7 +16,7 @@ show the category overview first and offer to go deeper on any group.
 
 | Category | Styles |
 |---|---|
-| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Daily Chibi · Gossamer |
+| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
 | Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
 | Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Velvet |
@@ -367,6 +367,20 @@ nature and forest settings, any scene that should feel warm and wonder-filled.
 
 ---
 
+### Storybook Impasto
+A heavier, more tactile variant of Storybook. Same warm palette and whimsical mood, but
+rendered with thick opaque gouache, visible dry-brush strokes, and prominent paper texture —
+flat matte color blocks instead of fine detail, with no glossy or digital sheen anywhere,
+including on crystal or metal surfaces.
+
+**Best for:** the same fairy-tale/whimsical scenes as Storybook, when you want a more
+physically painted, handcrafted texture rather than a smooth digital wash.
+
+**Not for:** dark or violent themes, adult emotional weight, dramatic tension, or scenes
+needing glossy/reflective surface rendering.
+
+---
+
 ## Vibrant & Graphic (New Additions)
 
 ---
@@ -640,9 +654,10 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Healing / iyashikei scene | Gossamer |
 | Shrine maiden / noblewoman | Gossamer |
 | Pastel / dreamy anime portrait | Gossamer · Aquarelle |
-| Storybook / children's | Storybook |
+| Storybook / children's | Storybook · Storybook Impasto |
 | Korean drama / manhwa | Webtoon |
-| Fairy tale / whimsy | Storybook · Studio Ghibli |
+| Fairy tale / whimsy | Storybook · Storybook Impasto · Studio Ghibli |
+| Thick/textured hand-painted look | Storybook Impasto |
 | Premium gacha / VTuber key visual | Gacha Splash |
 | Dynamic anime character moment | Gacha Splash · Shounen Burst · Ufotable |
 | World-weary / experienced presence | Kurosawa |

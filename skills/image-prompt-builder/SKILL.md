@@ -87,10 +87,11 @@ paths below — they work in both the web environment and Claude Code:
 - For style descriptions, comparisons, and concept→style lookup: see style-guide.md
 - For the 12-panel character sheet spec: see character-sheet.md
 - For scene inspiration and example prompts per style: see inspirations.md
+- For the Character Identity Board sub-skill (original character creation): see character-creator.md
 
 ### Current Styles
 
-The following 30 styles are stored in your personal style library. This table is always
+The following 31 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -116,6 +117,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Moe Gacha | Full chibi action art, any genre — fantasy, school, sci-fi, magical girl; cute-but-capable, warm dynamic gacha chibi |
 | Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
 | Storybook | Anime fairy tale scenes, animal characters, whimsical anime fantasy, warm wonder-filled mood |
+| Storybook Impasto | Anime fairy tale scenes, animal characters, whimsical anime fantasy with thick textured gouache, tactile hand-painted look |
 | Daily Chibi | Everyday slice-of-life scenes, characters eating/relaxing, cozy indoor settings, mundane moments with warmth |
 | Velvet | Luxury dark-fantasy key visual, crimson-violet palette, polished glossy rendering, satin materials, luminous eyes, Pixiv masterpiece quality |
 | Gacha Splash | Premium gacha/VTuber key visuals, dynamic anime moments, semi-chibi, cinematic lighting, magical energy |
@@ -185,6 +187,47 @@ use, offer to add it to `references/styles.md`:
 When confirmed, append the new style entry to `references/styles.md` following the existing
 format, with ChatGPT and Niji Journey translations derived from the session's Block 5–7
 values.
+
+---
+
+## Subskills
+
+Subskills extend the main prompt-building flow with specialized ideation or output modes.
+Each subskill is documented in its own reference file.
+
+### Scene Ideation
+
+**Reference file:** `references/scene-ideation.md`
+
+**What it does:** Generates 3 distinct anime-themed scene concept cards, each with genre,
+tone, a specific visual situation, visual hook, art direction theme, and 2–3 recommended
+styles from the library with a one-line rationale. After the user selects a concept (or
+mixes elements), auto-populates an 8-Block draft and proceeds to the standard prompt
+generation flow.
+
+#### Trigger Detection
+
+Fire Scene Ideation when the message signals **wanting ideas** rather than **describing a
+scene**. Ask: does the user already know what they want to generate? If yes → 8-Block flow.
+If no → Scene Ideation.
+
+Trigger on any message that contains:
+- words like "ideas", "suggestions", "concepts", "inspire", "inspiration", "recommend"
+- phrases like "what should I make", "don't know what to generate", "help me decide",
+  "give me something", "surprise me", "random", "pick something for me"
+- "something [adjective]" with no scene content (e.g., "something dark", "something cozy")
+- a genre, mood, or theme word followed by no scene (e.g., "dark fantasy ideas",
+  "something with a knight", "fantasy theme" with no situation described)
+- any message short enough that it could not be a scene description (under ~8 words,
+  no subject + action + setting present)
+
+Also trigger when the user provides **only constraints** (character, genre, mood, setting)
+but no actual scene — they're asking what to do with those constraints, not describing
+something they already have in mind.
+
+Do NOT trigger when the user describes a specific scene, situation, or visual they want —
+even loosely. Use the 8-Block flow for any message that contains a subject doing something
+somewhere.
 
 ---
 
@@ -485,7 +528,7 @@ photorealism. Close the prompt with explicit 2D anchors: "drawn in," "line art,"
 intended aesthetic regardless of scene complexity.
 
 ```
-[Full prose description — 3–6 sentences, richly specific, natural cinematic language]
+Generate an image of: [Full prose description — 3–6 sentences, richly specific, natural cinematic language]
 ```
 
 ---
@@ -496,7 +539,7 @@ A shorter prose version. Specific enough to produce the right result, stripped o
 detail. Still no headers or syntax — just tighter language.
 
 ```
-[Condensed prose — 1–2 sentences, core subject + style + format]
+Generate an image of: [Condensed prose — 1–2 sentences, core subject + style + format]
 ```
 
 ---

@@ -649,21 +649,28 @@ game sprites.
 
 ### ChatGPT Translation
 ```
-High-resolution modern JRPG pixel art aesthetic — fine pixel grid with anime-influenced
-character design, large expressive eyes, flowing styled hair rendered in pixel form, detailed
-fantasy armor and equipment with rich full-color pixel shading, careful dithering to simulate
-metallic volume and jewel tones, warm skin tones against a near-white or transparent
-background, HD-2D fine-grid pixel RPG and premium mobile RPG sprite visual language, every pixel
-intentional and expressive.
+Pixel art sprite with visible square pixels — every element built from a discrete pixel grid,
+NO smooth gradients, NO soft anti-aliased edges, NO vector linework. Style reference: Octopath
+Traveler HD-2D sprite, Tactics Ogre Reborn unit sprite, Final Fantasy Tactics character artwork.
+Anime-influenced character design rendered entirely in pixel form: large expressive eyes drawn
+from individual pixel clusters, flowing styled hair built from stepped pixel color bands, detailed
+fantasy armor with full-color pixel shading and manual dithering to simulate metallic volume and
+jewel-toned accents. Warm skin tones, near-white or transparent background isolating her as a
+standalone sprite. The pixel grid must be visible — this is a pixelated image, not an
+illustration of pixel art.
 ```
 
 ### Niji Journey Translation
 ```
-high resolution JRPG pixel art sprite, anime character design, fine pixel grid, detailed
-fantasy equipment, full color palette, dithered metallic shading, jewel tone accents,
-warm skin tones, near-white background, HD-2D fine-grid pixel RPG style, modern mobile RPG sprite,
-premium gacha character art --ar 2:3
+JRPG pixel art sprite, visible pixel grid, anime character design, Octopath Traveler HD-2D style,
+detailed fantasy equipment, full color palette, dithered metallic shading, jewel tone accents,
+warm skin tones, near-white background, Tactics Ogre sprite style, pixelated not smooth --ar 2:3
 ```
+
+### Usage Notes
+- **DALL-E 3 drift warning:** DALL-E consistently interprets "pixel art aesthetic" as smooth anime illustration. The ChatGPT translation above uses hard constraints ("visible square pixels", "NO smooth gradients", game references) to fight this — always use the full translation, never paraphrase.
+- If DALL-E still ignores pixels: prepend "Pixelated game sprite in the style of Octopath Traveler —" to the subject description.
+- Niji Journey produces cleaner pixel results than DALL-E for this style.
 
 ---
 
@@ -825,6 +832,36 @@ rounded anime characters large expressive eyes soft simplified silhouettes, warm
 ochre sage green dusty rose cream, gentle brush texture soft color washes, whimsical anime
 fairy tale environments, simplified charming backgrounds, wonder and warmth mood, Japanese
 anime picture book aesthetic, Ghibli artbook illustration style --ar 4:3
+```
+
+---
+
+## STYLE: Storybook Impasto
+**Aliases:** storybook impasto, heavy gouache, textured gouache, impasto picture book, thick paint storybook, dry-brush storybook
+**Best for:** fairy tale scenes, animal companions, whimsical fantasy, nature settings, any scene that should feel tactile, handcrafted, and warmly painted rather than digitally smooth
+**Conflicts with:** dark or violent themes, Soulslike, Miura, Neon Noir, any style requiring dramatic tension or adult emotional weight; also conflicts with glossy/sharp-rendering styles like Prism, Cinematic Anime, and Hyperreal Anime, since impasto texture works against polished surface sheen
+
+### Visual Description
+A heavier, more physically tactile variant of Storybook. Where Storybook uses soft gouache
+washes, Storybook Impasto leans into thick, opaque paint applied with visible, confident
+brushstrokes — dry-brush streaks, ridges of built-up pigment, and the tooth of the painting
+paper showing through thinner passages. Color is laid down in flat, simplified blocks rather
+than fine gradients; fur, foliage, and fabric are suggested through brushwork rather than
+rendered in detail. Characters retain Storybook's round, expressive features and warm
+palette of ochres, sage greens, dusty roses, and cream, but surfaces avoid any glossy,
+glassy, or digitally smooth finish — even reflective materials like crystal or metal are
+rendered as flat matte facets of color. Lighting stays soft and even, without dramatic rim
+light or cinematic highlights, keeping the focus on the handmade, textured quality of the
+paint itself.
+
+### ChatGPT Translation
+```
+Anime storybook illustration, painted entirely in a thick, opaque gouache style with heavy visible brushwork. Every surface carries the chalky, matte texture of hand-applied gouache pigment — soft, slightly uneven brushstroke edges, visible dry-brush streaks, and the gentle tooth of painting paper showing through thin areas of color. Subjects are rendered in flat, simplified color blocks with thick, confident brushstrokes and visible ridges of dried paint rather than fine detail, fur strands, or digital smoothness. Even reflective or crystalline materials are painted as flat matte facets with no glossy or glassy shine. Lighting is soft and even, with no dramatic rim light or cinematic highlights. Rounded, simplified silhouettes in a warm palette of ochres, sage greens, dusty roses, and cream evoke the tactile, handcrafted feel of a classic illustrated picture book page — fully gouache-painted, with no digital sheen or cinematic rendering.
+```
+
+### Niji Journey Translation
+```
+anime storybook illustration, thick opaque gouache paint texture, heavy visible brushstrokes, dry-brush ridges, visible paper grain and tooth, flat matte color blocks, minimal fine detail, rounded anime characters large expressive eyes soft simplified silhouettes, crystal and metal surfaces as flat matte facets no glossy or glassy shine, soft even diffused lighting, no dramatic rim light, no cinematic highlights, warm palette ochre sage green dusty rose cream, hand-painted traditional media look, whimsical wonder mood, Ghibli artbook picture book aesthetic --ar 4:3
 ```
 
 ---
