@@ -91,7 +91,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 31 styles are stored in your personal style library. This table is always
+The following 32 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -126,6 +126,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Gossamer | Flat minimal anime portraits, light novel illustrations, visual novel CGs, iyashikei/healing atmosphere, shrine maidens, elves, muted cool palette, nearly shadowless |
 | Flat Chibi | Full chibi proportions with flat cel rendering — action poses, any genre, oversized props and weapons, user-defined palette, graphic and bold |
 | Flat Cel | Any scene or genre — action, romance, dark fantasy, horror, sci-fi, slice-of-life; flat cel technique with fully user-defined palette and mood, no style restrictions |
+| Sketch Moe | Bold G-pen outlines with hand-drawn wobble, minimal lines, soft flat fills, semi-deformed slim proportions, user-defined palette, warm hand-crafted quality |
 | Pixiv Clean | Original character portraits, elf/fantasy OCs, white or scene background — clean face vs gestural fabric contrast, ambient light only |
 
 ### Output Formats

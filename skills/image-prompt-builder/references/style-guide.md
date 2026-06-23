@@ -23,7 +23,7 @@ show the category overview first and offer to go deeper on any group.
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
-| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer |
+| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
 
 ---
 
@@ -583,6 +583,33 @@ use Flat Cel.
 
 ---
 
+### Sketch Moe
+Bold G-pen outlines are the defining trait — confident thick-to-thin linework with natural
+pressure variation and a subtle hand-drawn wobble that gives warmth without sloppiness.
+Characters are constructed with the minimum necessary lines, prioritizing silhouette
+readability over decorative detail. Coloring is soft flat fills with muted saturation and
+minimal shading. Proportions are semi-deformed: slightly enlarged head, slender elegant body
+with elongated limbs — between chibi and normal. Facial features sit low on the face for
+maximum cuteness. Backgrounds are simplified and softened. The overall effect feels like
+premium doujinshi cover art or a Pixiv rough-with-flats piece.
+
+**Best for:** cute original characters, fantasy girls, market and shop scenes, character
+showcases with warm hand-crafted charm — any scene where bold readable outlines and minimal
+detail create appeal. Palette fully user-defined.
+
+**Not for:** complex rendering, gradient shading, volumetric lighting, high detail density,
+or anything requiring thin/invisible outlines.
+
+**Distinct from Gossamer / Flat Cel:** all three use flat coloring, but Sketch Moe's bold
+G-pen outlines with hand-drawn wobble are the opposite of Gossamer's barely-visible lines
+and Flat Cel's clean thin lines. Sketch Moe also defaults to semi-deformed proportions
+where Gossamer and Flat Cel default to normal proportions.
+
+**Distinct from Daily Chibi:** Daily Chibi is locked to mundane slice-of-life with understated
+expressions. Sketch Moe is genre-free and allows any expression or scene type.
+
+---
+
 ## Clean & Polished
 
 ---
@@ -688,5 +715,10 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Action or dark themes in flat style | Flat Cel |
 | Flat anime with user-defined palette | Flat Cel |
 | Flat minimal healing / iyashikei | Gossamer |
+| Bold outlines with soft flat fills | Sketch Moe |
+| Cute OC with hand-drawn feel | Sketch Moe · Pixiv Clean |
+| Fantasy girl minimal detail | Sketch Moe · Gossamer |
+| Semi-deformed cute proportions | Sketch Moe · Daily Chibi |
+| Doujinshi cover / rough-with-flats | Sketch Moe |
 | Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
 | Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |

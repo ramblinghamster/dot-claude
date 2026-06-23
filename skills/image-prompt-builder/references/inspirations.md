@@ -313,6 +313,16 @@ When adding, follow the existing format:
 
 ---
 
+## Sketch Moe
+
+1. A little demon girl browsing a fantasy market stall covered in glowing potion bottles and crystal trinkets, leaning forward with sparkling curious eyes, dusty pink and ivory palette
+2. A fox-eared alchemist stirring a bubbling cauldron in a cluttered cottage kitchen, tongue poking out in concentration, warm amber and cream tones
+3. A young witch sitting on a giant mushroom in a misty forest clearing, dangling her boots and reading a letter, soft greens and lavender
+4. A cat-girl barista crafting an elaborate latte behind a tiny wooden counter, steam curling upward, cozy brown and white palette
+5. A half-dragon knight polishing an oversized sword twice her height, sitting cross-legged on cobblestones in a quiet castle courtyard, steel grey and pale gold
+
+---
+
 ## Pixiv Clean
 
 1. A silver-haired elf girl sitting cross-legged on a white background, wearing a layered ruffled dress with loose gestural cloth folds, face clean and luminous, soft ambient light, lavender and white palette

@@ -1261,6 +1261,58 @@ flat cel shading anime illustration, single shadow tone lifted dark values near-
 
 ---
 
+## STYLE: Sketch Moe
+**Aliases:** sketch moe, bold sketch, g-pen moe, rough moe, bold moe, minimal moe, pen moe, cute sketch
+**Best for:** cute original characters, fantasy girls, market/shop scenes, character showcases with warm charm, any scene where bold readable outlines and minimal detail create a hand-crafted storybook warmth — proportions and palette fully user-defined
+**Conflicts with:** Hyperreal Anime, Cinematic Anime, Miura, Velvet — anything requiring complex rendering, gradient shading, volumetric lighting, or high detail density. Also conflicts with Gossamer and Flat Cel — shares flat coloring but the bold linework and hand-drawn wobble are fundamentally different from their thin/clean line approaches
+
+### Visual Description
+Bold, confident outlines reminiscent of traditional G-pen manga inking — the lines carry
+the illustration. Weight varies naturally with pressure, thicker on outer contours and
+thinner on interior details. A subtle hand-drawn wobble and texture gives the linework
+warmth and imperfection without sacrificing clarity. The character is constructed with
+only the minimum necessary lines — silhouette readability is prioritized over decorative
+detail. Information density is deliberately low. Coloring is soft flat fills with muted
+saturation and only very subtle shading — no heavy gradients, no painterly rendering, no
+dramatic lighting. Proportions are semi-deformed: the head is slightly enlarged but not
+chibi-extreme, the body is slender and elegant with slightly longer limbs, creating a
+delicate youthful silhouette that avoids both mascot-like stockiness and normal realism.
+Facial features are positioned slightly lower on the face for maximum cuteness — small
+chin, short mid-face, tiny simple mouth, nearly omitted nose. Backgrounds are simplified
+and softened so the character's silhouette and expression remain the clear focus. The
+overall effect is a warm, hand-crafted illustration that feels like premium doujinshi
+cover art or a high-quality Pixiv rough-with-flats piece.
+
+### Usage Notes
+- **Proportions:** semi-deformed by default (slightly enlarged head, slim elegant body). Can be pushed toward more chibi or more normal per user request, but the sweet spot is between the two.
+- **Palette:** fully user-defined — specify in Block 7. No default palette.
+- **Linework is the identity:** if the user wants thin or invisible outlines, redirect to Gossamer or Flat Cel instead.
+
+### ChatGPT Translation
+```
+Anime illustration with bold G-pen-style outlines — confident thick-to-thin linework with
+natural pressure variation and subtle hand-drawn wobble giving warmth and texture, character
+constructed with minimum necessary lines prioritizing silhouette readability over decorative
+detail, soft flat color fills with muted saturation and only very subtle shading, no heavy
+gradients or painterly rendering, semi-deformed proportions with slightly enlarged head and
+slender elegant body with delicate elongated limbs, facial features positioned low on the
+face for cuteness — small chin tiny mouth nearly omitted nose, simplified softened background
+keeping character as clear focus, [user-defined palette and mood per scene], warm hand-crafted
+illustration quality, 2D anime art style.
+```
+
+### Niji Journey Translation
+```
+bold G-pen outlines thick-to-thin linework, hand-drawn wobble subtle ink texture, minimal
+lines silhouette-first low detail density, soft flat color fills muted saturation very subtle
+shading, semi-deformed proportions slightly large head slender elegant body, delicate elongated
+limbs youthful silhouette, cute face small chin tiny mouth low-placed features, simplified
+soft background character focus, [user-defined palette and mood], warm hand-crafted anime
+illustration --ar [ratio]
+```
+
+---
+
 ## ADD YOUR OWN STYLE
 
 Copy this template and fill it in:
