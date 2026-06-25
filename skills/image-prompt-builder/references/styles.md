@@ -31,6 +31,9 @@ near-monochrome compositions. Dramatic use of negative space, weather as emotion
 (rain, wind, fog), and characters that feel isolated against vast or oppressive environments.
 Shots are wide and deliberate. Stillness conveys weight. Film grain is present.
 
+### Style Negatives
+bright cheerful palette, saturated colors, comedic tone, cute aesthetic, chibi proportions, clean digital linework, flat cel shading, neon lighting, modern urban settings, action poses, crowded compositions
+
 ### Usage Notes
 - **For anime rendering:** Kurosawa alone pulls toward live-action film photography. To
   render in anime/manga style, use Kurosawa as the **composition and mood reference only**
@@ -70,6 +73,9 @@ casting raking shadows. Desaturated midtones with warm amber highlights and deep
 shadows. The subject is always in the middle of something private, emotionally ambiguous,
 and slightly melancholic. No direct eye contact.
 
+### Style Negatives
+action scenes, bright cheerful palette, fantasy environments, comedic tone, flat cel shading, chibi proportions, clean minimal backgrounds, direct eye contact, energetic poses, saturated vivid colors
+
 ### ChatGPT Translation
 ```
 Cinematic large-format staged aesthetic, anime illustration — theatrically composed,
@@ -100,6 +106,9 @@ Rain-slicked streets reflecting neon signage. Deep shadows punctuated by electri
 cyan, and amber. Smoke or steam rising from vents. The city feels alive but predatory.
 Figures are silhouetted or partially lit, never fully revealed. High contrast between deep
 blacks and intense color. The visual language of cyberpunk noir and hardboiled detective fiction.
+
+### Style Negatives
+daylight scenes, pastoral environments, warm cheerful palette, pastel colors, flat cel shading, soft ambient lighting, clean minimal aesthetic, cute or whimsical tone, chibi proportions
 
 ### Usage Notes
 - **For anime rendering:** Neon Noir alone pulls toward photorealistic/live-action feel.
@@ -139,6 +148,9 @@ palette is desaturated and cool, with lifted blacks. The subject commands the fr
 space is used deliberately. Feels like a luxury fashion magazine or high-end commercial spread — elevated, restrained,
 and aspirational.
 
+### Style Negatives
+rustic organic environments, heavy texture, fantasy or sci-fi elements, cluttered composition, warm saturated palette, painterly rendering, chibi proportions, hand-drawn roughness, busy detailed backgrounds
+
 ### ChatGPT Translation
 ```
 High-end editorial fashion anime illustration — clean and minimal composition, precise
@@ -168,6 +180,9 @@ lush and alive. Characters have expressive round features. The mood is wistful, 
 and emotionally gentle. Colors are saturated but never harsh — warm greens, soft blues,
 golden yellows, deep earth tones.
 
+### Style Negatives
+photorealistic, dark horror, gritty realism, cyberpunk neon, hyperrealistic rendering, sharp digital linework, desaturated palette, heavy shadows, dramatic contrast, cold clinical lighting, action poses, violent content
+
 ### ChatGPT Translation
 ```
 Studio Ghibli-inspired aesthetic — warm, painterly illustration with handcrafted texture,
@@ -196,6 +211,9 @@ near-black backgrounds. Dramatic rim or volumetric lighting. Heavy use of fog, s
 falling ash. Architectural elements are gothic or ancient — crumbling stone, iron, bone.
 Characters feel mythic in scale. The world has weight and danger. Grand, threatening, and
 mythic — the visual language of dark fantasy concept art at its most epic.
+
+### Style Negatives
+cheerful pastel palette, comedic tone, flat cel shading, clean minimal aesthetic, bright daylight, cute proportions, chibi, slice-of-life settings, soft ambient lighting
 
 ### ChatGPT Translation
 ```
@@ -227,6 +245,9 @@ shading with thin elegant lineart, hand-painted texture, and subtle bloom on lig
 Faces are softly illuminated, shadows are balanced rather than harsh, and the overall
 atmosphere is smoky, rich, and intimate. Feels like a high-quality visual novel illustration
 or a cinematic anime still.
+
+### Style Negatives
+cold clinical palette, bright daylight, flat cel shading, neon cyberpunk lighting, hyperrealistic rendering, outdoor scenes, desaturated monochrome, harsh high-contrast shadows, action poses
 
 ### ChatGPT Translation
 ```
@@ -268,6 +289,9 @@ in the frame. The mood is precise, luminous, and quietly scientific: beautiful b
 physics is beautiful, not because glitter was added. No holographic shimmer, no floating
 particles, no ambient neon scatter.
 
+### Style Negatives
+holographic shimmer, glitter, neon glow, ambient shimmer, floating particles, sparkles, oversaturated colors, fantasy scatter, lens flare blooms, multiple light sources, painterly texture, rough linework, flat cel shading
+
 ### ChatGPT Translation
 ```
 Semi-realistic 2D anime illustration, clean precise anime linework, smooth digital rendering —
@@ -289,13 +313,6 @@ chromatic aberration red violet split at beam edges, dark neutral background, re
 spectral colors only saturation, no holographic shimmer no glitter no ambient neon no floating
 particles, precise optical realism, luminous quiet mood
 --ar 2:3
-```
-
-### Negative (apply to Niji Journey with --no flag)
-```
---no holographic, glitter, neon glow, ambient shimmer, floating particles, sparkles,
-oversaturated colors, fantasy scatter, lens flare blooms, multiple light sources,
-painterly texture, rough linework, photorealistic skin
 ```
 
 ---
@@ -320,6 +337,9 @@ that barely read as color. Saturation is suppressed throughout. The overall impr
 is a beautiful sketchbook page rather than a finished illustration — intimate,
 restrained, and emotionally present through what is left unpainted as much as what
 is painted. High quality expressed through incompleteness, not complexity.
+
+### Style Negatives
+clean vector lineart, full rendering, detailed background, glossy plastic texture, oversaturated colors, harsh contrast, excessive decoration, dense rendering, dramatic cinematic lighting, magical effects, sci-fi elements, digital smoothness, gacha polish
 
 ### ChatGPT Translation
 ```
@@ -348,14 +368,6 @@ finished illustration, no clean vector lines no full rendering no detailed backg
 --ar 2:3
 ```
 
-### Negative (apply to Niji Journey with --no flag)
-```
---no generic anime face, sameface, gacha face, idol beauty, adult proportions, super chibi,
-over-detailed hair, glossy plastic texture, overly smooth digital finish, hard vector lineart,
-oversaturated colors, harsh contrast, excessive decoration, dense rendering, busy background,
-dramatic cinematic lighting, magical effects, sci-fi elements, floating decorative objects
-```
-
 ---
 
 ## STYLE: Ironbloom
@@ -365,6 +377,9 @@ dramatic cinematic lighting, magical effects, sci-fi elements, floating decorati
 
 ### Visual Description
 The defining tension of this style is a soft anime character face and fragile human presence set against hyper-detailed, technically precise mechanical or structural complexity — armor, gear, weapons, equipment, machinery. The contrast between delicate and formidable is always the point. Both sub-moods render against a white or near-white negative space background that isolates the subject.
+
+### Style Negatives
+lush detailed backgrounds, painterly atmospheric rendering, soft warm interiors, pastel palettes, cute aesthetic, chibi proportions, flat cel shading without detail contrast, glossy smooth digital finish
 
 **Rendered sub-mood:** Semi-flat cel shading with visible rendering depth. Earth and neutral tones (sand, khaki, olive, dark brown). Equipment rendered with technical-illustration precision — every buckle, panel, joint, and surface detail present and readable. Often carries a thematic juxtaposition: something delicate (a flower, a small creature, a gentle gesture) against something formidable.
 
@@ -437,6 +452,9 @@ clean anime stylization, creating a dreamlike contrast. Emotional depth comes fr
 the way it falls on a face, refracts through rain, or floods a train window. A pervasive
 sense of distance, longing, and beauty in transience.
 
+### Style Negatives
+interior-only scenes, monochrome palette, flat cel shading, hard toon outlines, chibi proportions, minimal backgrounds, dark enclosed spaces, desaturated colors
+
 ### ChatGPT Translation
 ```
 Luminous atmospheric sky anime illustration — hyper-detailed sky with layered clouds and
@@ -469,6 +487,9 @@ with fluid motion energy even in still images. Characters are rendered with meti
 and glowing intensity — effects like fire, water, and supernatural energy are rendered as
 breathtaking visual spectacles. The overall feel is expensive, dramatic, and technically
 flawless. Dark settings are elevated by explosive color rather than muted.
+
+### Style Negatives
+flat cel shading, retro analog grain, watercolor texture, monochrome palette, minimal backgrounds, chibi proportions, soft ambient lighting, muted desaturated colors, hand-drawn roughness
 
 ### ChatGPT Translation
 ```
@@ -505,6 +526,9 @@ halftone dot pattern. Emotionally direct and kinetic. Crucially, background and 
 is limited to what genuine vintage cel animation production would allow — flat gouache-style
 color blocks, broad simple shapes, and minimal texture complexity. Modern AI tendency to add
 fine grain, intricate surface texture, or high-frequency detail is antithetical to this style.
+
+### Style Negatives
+clean modern digital linework, hyperrealistic rendering, smooth gradients, fine surface texture, photographic grain, high-frequency detail, complex material rendering, intricate background texture, modern digital detail levels
 
 ### ChatGPT Translation
 ```
@@ -546,6 +570,9 @@ between them. Linework is thick, confident, and expressive. The overall effect i
 energetic, and immediately readable. Depth comes from composition and color contrast rather
 than rendering subtlety. Feels designed to be seen from a distance and understood instantly.
 
+### Style Negatives
+gradients, painterly rendering, soft atmospheric shading, watercolor texture, photorealistic rendering, subtle shadow transitions, muted desaturated palette, thin invisible outlines
+
 ### ChatGPT Translation
 ```
 2D anime cel shading illustration — bold black outlines, flat fully-saturated color fills,
@@ -577,6 +604,9 @@ is massive, decaying, and inhuman in scale. Characters are dwarfed by their envi
 Fog, ash particles, and atmospheric haze obscure backgrounds, creating mystery and weight.
 Unlike Dark Fantasy (which uses jewel tones and epic warmth), Soulslike is bleaker, quieter,
 and more unsettling — beauty that comes from ruin.
+
+### Style Negatives
+warm inviting palette, bright saturated colors, cute aesthetic, chibi proportions, cheerful mood, clean minimal backgrounds, flat cel shading, comedic tone, pastoral or nature scenes
 
 ### ChatGPT Translation
 ```
@@ -610,6 +640,9 @@ create dramatic contrast. Armor, weapons, and environmental detail are rendered 
 specificity — every rivet, scratch, and surface texture accounted for. Figures feel massive
 and heavy. The overall aesthetic is monochromatic or near-monochromatic, with shadow doing
 the emotional and atmospheric work. Brutal, meticulous, and awe-inspiring.
+
+### Style Negatives
+soft colorful palette, flat cel shading, clean digital linework, cute aesthetic, chibi proportions, watercolor texture, pastel colors, minimal linework, cheerful mood, simplified detail
 
 ### ChatGPT Translation
 ```
@@ -646,6 +679,9 @@ than limited, with warm skin tones, deep jewel accents, and clean neutrals. Back
 near-white or absent, isolating the character as a standalone sprite. Sits closest to modern
 JRPG sprite work — HD-2D fine-grid pixel RPG art, high-end mobile RPG character art, or premium gacha
 game sprites.
+
+### Style Negatives
+smooth gradients, soft anti-aliased edges, vector linework, painterly rendering, atmospheric lighting, watercolor texture, photorealistic rendering, smooth digital finish
 
 ### ChatGPT Translation
 ```
@@ -692,6 +728,9 @@ precise with fuller, more saturated color than the environment. Environments fea
 detail — rubble, cracked surfaces, scattered debris — with strong volumetric backlit window
 light. The character is always mid-motion but composed: determined, not frantic.
 
+### Style Negatives
+quiet restrained atmosphere, monochrome palette, flat cel shading, watercolor texture, static poses, soft ambient lighting, pastel cheerful mood, minimal backgrounds
+
 ### ChatGPT Translation
 ```
 Modern shounen action anime aesthetic — warm sepia-toned environment rendered like aged paper
@@ -737,6 +776,9 @@ stations, arenas, wherever the scene is set. The overall mood is cute and determ
 small figure with complete confidence. Closest to premium gacha game chibi sprites and
 high-end mobile RPG in-game character art.
 
+### Style Negatives
+dark gritty atmosphere, monochrome palette, realistic proportions, heavy crosshatching, desaturated colors, static poses, painterly rendering, complex detailed backgrounds
+
 ### ChatGPT Translation
 ```
 Full chibi gacha art aesthetic — extreme chibi proportions with large round head roughly
@@ -779,6 +821,9 @@ atmospheric. Backgrounds are either high-detail and architectural or minimal, de
 the scene. The overall feel is polished, modern, and cinematic — built for scrolling vertical
 presentation but striking in any format.
 
+### Style Negatives
+analog texture, heavy environmental mood, painterly rendering, watercolor washes, film grain, rough hand-drawn linework, monochrome palette, atmospheric haze
+
 ### ChatGPT Translation
 ```
 Korean webtoon and manhwa aesthetic — crisp confident linework with consistent line weight,
@@ -814,6 +859,9 @@ hand-applied media. Characters have round, expressive features with large eyes a
 anatomy. The mood is wonder, safety, and gentle whimsy — the world is slightly magical but
 never threatening. Closest to Maurice Sendak, Beatrix Potter, or the picture book style of
 a Studio Ghibli storyboard.
+
+### Style Negatives
+dark violent themes, dramatic tension, adult emotional weight, sharp digital linework, hyperrealistic rendering, neon lighting, desaturated palette, complex detailed backgrounds, action poses
 
 ### ChatGPT Translation
 ```
@@ -854,6 +902,9 @@ rendered as flat matte facets of color. Lighting stays soft and even, without dr
 light or cinematic highlights, keeping the focus on the handmade, textured quality of the
 paint itself.
 
+### Style Negatives
+glossy digital finish, glassy shine, smooth digital rendering, dramatic rim light, cinematic highlights, sharp precise linework, photorealistic texture, fine detail rendering, polished surface sheen, clean vector lines
+
 ### ChatGPT Translation
 ```
 Anime storybook illustration, painted entirely in a thick, opaque gouache style with heavy visible brushwork. Every surface carries the chalky, matte texture of hand-applied gouache pigment — soft, slightly uneven brushstroke edges, visible dry-brush streaks, and the gentle tooth of painting paper showing through thin areas of color. Subjects are rendered in flat, simplified color blocks with thick, confident brushstrokes and visible ridges of dried paint rather than fine detail, fur strands, or digital smoothness. Even reflective or crystalline materials are painted as flat matte facets with no glossy or glassy shine. Lighting is soft and even, with no dramatic rim light or cinematic highlights. Rounded, simplified silhouettes in a warm palette of ochres, sage greens, dusty roses, and cream evoke the tactile, handcrafted feel of a classic illustrated picture book page — fully gouache-painted, with no digital sheen or cinematic rendering.
@@ -887,6 +938,9 @@ blur push the character forward. Weapons are oversized and decorative. Backgroun
 focus RPG environments — castle courtyards, magical interiors, atmospheric ruins — that
 support the character rather than compete. The overall register is magical, heroic, and
 elegant — premium anime production quality in every detail.
+
+### Style Negatives
+restrained static composition, monochrome palette, rough hand-drawn linework, flat cel shading, watercolor texture, desaturated muted colors, grounded realism, minimal backgrounds
 
 ### ChatGPT Translation
 ```
@@ -929,6 +983,9 @@ shoulders — but it illuminates an illustration, not a render. Natural anime pr
 throughout; nothing crosses into 3D or photorealistic territory. The overall register is
 the premium production quality of high-end game concept art, visual novel key visuals, or
 prestige anime promotional art.
+
+### Style Negatives
+photorealistic skin texture, 3D rendering, flat cel shading, chibi proportions, rough hand-drawn linework, watercolor texture, monochrome palette, soft ambient-only lighting
 
 ### ChatGPT Translation
 ```
@@ -977,6 +1034,9 @@ Two primary sub-moods:
   Used for quiet moments, emotional beats, ethereal fantasy portraits.
 
 Both sub-moods share the semi-photorealistic rendering foundation.
+
+### Style Negatives
+flat cel shading, retro analog grain, hard ink outlines, chibi proportions, heavy stylization, flat color fills, minimal shading, cartoon proportions, watercolor texture
 
 ### ChatGPT Translation
 
@@ -1079,6 +1139,9 @@ Controlled contrast and sophisticated color harmony prevent the image from feeli
 despite its richness. The result is a modern Pixiv masterpiece aesthetic — high-end dark
 gacha key visual quality that feels like premium printed art.
 
+### Style Negatives
+flat cel shading, painterly texture, sketch lines, atmospheric suppression, lost-and-found edges, chibi proportions, dynamic action poses, casual aesthetic, pastel palette, muted desaturated colors, rough hand-drawn linework
+
 ### Usage Notes
 - **Palette is fixed:** deep crimson and violet are the signature colors; don't swap for
   user-requested palettes — offer a different style if another palette is needed.
@@ -1139,6 +1202,9 @@ unamused, tired, or softly content. The appeal is the contrast between the sligh
 anime head and the very grounded, believable world the character inhabits. Feels like a gacha
 character's day off.
 
+### Style Negatives
+dramatic atmosphere, action energy, dynamic composition, dark fantasy, heavy shadows, bold thick outlines, complex detailed backgrounds, neon lighting, extreme chibi proportions, painterly rendering
+
 ### ChatGPT Translation
 ```
 Anime semi-chibi slice-of-life illustration — slightly enlarged head with soft rounded anime
@@ -1182,6 +1248,9 @@ flat-irised, rendered in cool aqua or grey-blue with no complex reflections. The
 effect is quiet, weightless, and illustrative — closer to a clean Pixiv sketch with
 intentional color holds than a fully rendered painting.
 
+### Style Negatives
+bold outlines, thick linework, black ink outlines, heavy shadows, dramatic lighting, directional light, rim lighting, gradients, painterly rendering, complex shading, vibrant saturated colors, dark palette, high contrast, photorealistic, detailed backgrounds
+
 ### ChatGPT Translation
 ```
 Soft flat modern anime illustration — extremely thin soft-colored outlines barely visible
@@ -1216,6 +1285,9 @@ light novel illustration quality, minimal weightless illustrative 2D anime --ar 
 ### Visual Description
 Moe Gacha's full chibi proportions and action energy rendered through Flat Cel's technique. The head is one-third to one-half of total body height — the same extreme chibi scale — with a tiny capable body, oversized weapons or props, and detailed outfits or equipment across any genre. Everything renders flat: a single hard-edged shadow tone with lifted dark values, no gradients, no blending, no atmospheric glow or warm bloom. Line art is clean and thin with consistent weight. Outfits and armor have flat color fills with no metallic sheen or highlight drama. Weapons and props are oversized and bold but rendered as flat graphic blocks rather than detailed metallic rendering. Hair reads as flat smooth planes with a single shine streak. Particles and debris are simplified flat graphic shapes rather than atmospheric effects. Backgrounds are flat and minimal — never detailed, never competing. Lighting is completely ambient — no warm bloom, no rim light, no floating atmospheric particles. Palette is fully user-defined. The result feels like high-quality mobile game sticker art, a bold LINE character, or a flat graphic game icon — cute, readable, and graphically confident. Distinct from Moe Gacha (warm painterly rendering) and Daily Chibi (semi-chibi, static, slice-of-life).
 
+### Style Negatives
+gradients, blending, painterly texture, warm bloom, atmospheric particles, rim lighting, metallic sheen, highlight drama, detailed competing backgrounds, complex shadow rendering, photorealistic rendering, regular proportions
+
 ### Usage Notes
 - Proportions from Moe Gacha, rendering from Flat Cel
 - Unlike Moe Gacha: no warm bloom, no atmospheric particles, no painterly gradients — everything flat
@@ -1248,6 +1320,9 @@ The core technique of flat digital anime illustration, extracted from any specif
 - **Mood:** fully user-defined — specify in Block 7 for every prompt.
 - **Gossamer vs. Flat Cel:** If the user wants the muted cool palette and healing atmosphere, use Gossamer. If they want the flat technique with freedom to define palette and theme, use Flat Cel.
 - **Dark themes:** handled through palette (deep muted tones, desaturated colors) — not through shadows or lighting drama.
+
+### Style Negatives
+gradients, blending, painterly texture, brushstroke quality, volumetric lighting, directional light, cast shadows, rim lighting, highlight drama, photorealistic rendering, complex shadow rendering, detailed competing backgrounds
 
 ### ChatGPT Translation
 ```
@@ -1282,6 +1357,9 @@ chin, short mid-face, tiny simple mouth, nearly omitted nose. Backgrounds are si
 and softened so the character's silhouette and expression remain the clear focus. The
 overall effect is a warm, hand-crafted illustration that feels like premium doujinshi
 cover art or a high-quality Pixiv rough-with-flats piece.
+
+### Style Negatives
+photorealistic, heavy gradients, painterly rendering, complex shading, volumetric lighting, dramatic shadows, thin invisible outlines, excessive detail, intricate decorations, realistic proportions, stocky or muscular build, extreme chibi proportions, oversized head mascot proportions
 
 ### Usage Notes
 - **Proportions:** semi-deformed by default (slightly enlarged head, slim elegant body). Can be pushed toward more chibi or more normal per user request, but the sweet spot is between the two.
@@ -1326,6 +1404,11 @@ Copy this template and fill it in:
 ### Visual Description
 [2–4 sentences describing the look, feel, and key visual codes of this style]
 
+### Style Negatives
+[Comma-separated list of things that break this style. These get auto-appended to the
+negative prompt / --no flag when this style is loaded. Focus on rendering approaches,
+shading methods, proportion types, and aesthetic clashes — not subject matter.]
+
 ### ChatGPT Translation
 [Prose language to weave into the ChatGPT prompt — 1–3 sentences]
 
@@ -1350,6 +1433,9 @@ hand-drawn, giving ruffles and layered clothing a lively quality that contrasts 
 face and skin. Background is user-defined — white is common but a simplified scene background
 works equally well. Lighting is soft ambient with no directional source. Face is always the
 most refined element. Palette is fully user-defined.
+
+### Style Negatives
+painterly backgrounds, complex lighting setups, atmospheric depth, photorealistic rendering, heavy gradients, volumetric lighting, dramatic shadows, rough sketch linework, chibi proportions
 
 ### ChatGPT Translation
 ```

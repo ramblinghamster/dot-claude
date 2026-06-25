@@ -191,6 +191,63 @@ values.
 
 ---
 
+## Style Augmentations
+
+Augmentations are modifier layers applied **on top of** a base style. A style controls
+*how the image is rendered* (linework, shading, palette). An augmentation controls *how
+the scene is framed and structured* (camera, focus, density, scale cues). They combine
+freely — any augmentation works with any style.
+
+**Reference file:** `references/augmentations.md`
+
+### Available Augmentations
+
+| Augmentation | Aliases | Effect |
+|---|---|---|
+| Tilt-Shift Miniature | tilt-shift, miniature, diorama, miniature photography, scale model, model village | Frames the scene as a handcrafted architectural diorama with bird's-eye perspective, selective focus, dense detail, and tiny figures |
+
+### Trigger Detection
+
+Detect augmentation requests from keywords or phrases at any point in the session — before,
+during, or after block work. Trigger on any alias match.
+
+When an augmentation is detected:
+1. Load the matching entry from `references/augmentations.md`.
+2. Confirm: *"Loaded augmentation: **[Name]** — [one-line description]. This will override
+   Block 4 (Composition) and modify Blocks 2, 3, 5, and 7. Your base style is unchanged.
+   You can override any augmentation value."*
+3. Apply block overrides and modifications as specified in the augmentation entry.
+4. Flag any conflicts with blocks already confirmed (use the Conflict Rules format).
+5. In the block display, mark augmentation-sourced values with `[augmentation]` so the user
+   can see what came from the style vs. the augmentation vs. their own input.
+
+### How Augmentations Interact with Styles
+
+- **Block overrides** (e.g., Block 4 for tilt-shift) replace the block entirely. If the
+  user already set that block, flag the conflict — don't silently overwrite.
+- **Block modifications** inject language into the user's existing values. The base style's
+  values are preserved; the augmentation adds to them.
+- **Untouched blocks** (e.g., Block 1, Block 6) stay entirely from the base style.
+- **Constraints** from the augmentation are added to Block 8 alongside style negatives and
+  user constraints.
+
+### Augmentation + Pre-Delivery Compliance
+
+Add to the silent self-correction step:
+- ChatGPT prompts for anime/illustrated styles contain photographic lens language that
+  could pull toward photorealism → replace with illustrated equivalents from the
+  augmentation's platform-specific language table.
+- Augmentation constraints are missing from the negative/exclusion section → add them.
+
+### Order of Operations
+
+1. Base style loads → populates Blocks 5, 6, 7
+2. Augmentation loads → overrides Block 4, modifies Blocks 2, 3, 5, 7
+3. User confirms or revises all blocks
+4. Prompts are generated with both layers applied
+
+---
+
 ## Subskills
 
 Subskills extend the main prompt-building flow with specialized ideation or output modes.
@@ -398,6 +455,13 @@ Specify what the image must always contain and what it must never have.
 Common negatives: `no text`, `no watermark`, `no extra fingers`, `avoid cartoon proportions`,
 `no blurry background`, `no anachronistic elements`.
 
+**Style Negatives (auto-loaded):**
+If a style from the style library is loaded, check its **Style Negatives** section. Those
+negatives are automatically included in the final prompt's negative/exclusion section —
+the user does not need to specify them manually. Combine them with any user-specified
+Block 8 constraints when building the final prompts. If a user constraint contradicts a
+style negative, the user constraint wins — flag the override but don't block it.
+
 **Technical quality keywords (use lightly):**
 `ultra detailed`, `8K`, `sharp focus`, `HDR`, `shallow depth of field`,
 `professional photography`, `bokeh`, `cinematic quality`
@@ -445,6 +509,9 @@ When filling later blocks, actively check these constraints:
 - **Lighting (5) vs. Mood (7):** Lighting and emotional palette must reinforce each other.
 - **Variables vs. all blocks:** Every `{token}` in the prompts must be defined; every defined
   token must appear somewhere in the prompts.
+- **Augmentation vs. user blocks:** If an augmentation overrides a block the user already
+  confirmed, flag the conflict. If an augmentation modifies a block, show the injected
+  language so the user can accept or revise it.
 
 When a conflict is found, stop and flag it:
 
@@ -516,20 +583,44 @@ When all 8 blocks are confirmed and compliance is clear, deliver all four prompt
 
 ### CHATGPT PROMPT — ROBUST
 
-Natural, flowing prose written for DALL-E 3. No headers, no parameter syntax. Every detail
-from the 8 blocks woven into a rich, descriptive paragraph. Think movie scene description:
-what is happening, what does it feel like, where is the camera, how is the scene lit, what
-emotion does it create.
+Natural, flowing prose written for DALL-E 3. No headers, no parameter syntax.
 
-CRITICAL FOR ILLUSTRATED/ANIME STYLES: Always lead the prompt with the style declaration
+**Structure the prompt in two phases:**
+
+**Phase 1 — Style & Rendering Rules (lead with this):**
+Open with the style declaration and spend as much space as needed establishing *how* to
+render before describing *what* to render. Include: art style, linework approach, shading
+method, proportion rules, and any rendering constraints. For styles the model natively
+understands (e.g., "Studio Ghibli"), 1-2 sentences suffice. For constructed or novel styles
+(e.g., Sketch Moe, Ironbloom), expand to 4-8 sentences covering line weight, shading rules,
+proportion specifics, and explicit "do not" rendering constraints.
+
+If the loaded style has a **Style Negatives** section in its style entry, weave those
+constraints into Phase 1 as natural prose (e.g., "no heavy gradients or painterly
+rendering" rather than a keyword list).
+
+CRITICAL FOR ILLUSTRATED/ANIME STYLES: Always lead Phase 1 with the style declaration
 (e.g. "Cinematic anime key visual illustration of..."). Avoid photographic language like
 "the camera sits at," "scattering light," or "rain-slicked" — these pull DALL-E toward
-photorealism. Close the prompt with explicit 2D anchors: "drawn in," "line art,"
+photorealism. Close Phase 1 with explicit 2D anchors: "drawn in," "line art,"
 "2D rendered," "anime illustration style." This keeps the render mode locked to the
 intended aesthetic regardless of scene complexity.
 
+**Phase 2 — Scene Description (follows the style block):**
+Now describe the subject, environment, composition, lighting, mood, and palette. Think
+movie scene description: what is happening, what does it feel like, where is the camera,
+how is the scene lit, what emotion should the image create.
+
+**Phase 3 — Negative Prompt (close with this, when applicable):**
+End with a "Do not include:" line listing things to avoid. Combine any user-specified
+Block 8 constraints with the loaded style's Style Negatives. For ChatGPT, write these
+as a natural comma-separated list, not as a labeled parameter. Omit this phase only if
+there are genuinely no constraints to specify.
+
 ```
-Generate an image of: [Full prose description — 3–6 sentences, richly specific, natural cinematic language]
+Generate an image of: [Phase 1: style/rendering — 1-8 sentences scaled to style complexity]
+[Phase 2: scene — 3-6 sentences, richly specific, natural cinematic language]
+[Phase 3: "Do not include:" — comma-separated exclusions from Block 8 + Style Negatives]
 ```
 
 ---
@@ -537,10 +628,13 @@ Generate an image of: [Full prose description — 3–6 sentences, richly specif
 ### CHATGPT PROMPT — COMPACT
 
 A shorter prose version. Specific enough to produce the right result, stripped of secondary
-detail. Still no headers or syntax — just tighter language.
+detail. Still no headers or syntax — just tighter language. End with a condensed "Do not
+include:" line combining the most critical Style Negatives and Block 8 constraints — trim
+to the 5-8 most important exclusions rather than the full list.
 
 ```
 Generate an image of: [Condensed prose — 1–2 sentences, core subject + style + format]
+Do not include: [5-8 most critical negatives from Style Negatives + Block 8]
 ```
 
 ---
@@ -551,9 +645,21 @@ Keyword-dense prompt using anime/illustration vocabulary, formatted for Niji Jou
 Comma-separated descriptors. End with `--ar [ratio]` only. Do not include `--niji` or
 `--style` parameters — these are incompatible with Niji Journey 7.
 
+**Structure the prompt in two keyword groups:**
+
+**Group 1 — Style keywords first:** Lead with the style and rendering descriptors before
+the subject. This front-loads the rendering approach so Niji processes it before encountering
+subject details. If the loaded style has Style Negatives, append `--no` followed by the
+negatives as comma-separated keywords at the very end (before `--ar`).
+
+**Group 2 — Scene keywords second:** Subject, environment, composition, lighting, mood,
+palette, texture, and quality tags.
+
 ```
+[style keywords, rendering descriptors, technique tags],
 [subject description], [environment], [composition/camera], [lighting], [mood/atmosphere],
-[color palette], [style keywords], [texture/detail tags], [quality tags]
+[color palette], [texture/detail tags], [quality tags]
+--no [style negatives + Block 8 negatives as keywords, if any]
 --ar [ratio]
 ```
 
@@ -565,7 +671,9 @@ Condensed keyword version for Niji Journey. Core subject, dominant style, and es
 atmosphere only. End with `--ar [ratio]` only — no `--niji` or `--style` flags.
 
 ```
-[subject], [key style descriptors], [mood] --ar [ratio]
+[subject], [key style descriptors], [mood]
+--no [3-5 most critical negatives, if any]
+--ar [ratio]
 ```
 
 ---
