@@ -20,40 +20,69 @@ The user can still override any element after the style loads.
 
 ---
 
-## STYLE: Kurosawa
-**Aliases:** kurosawa, kuro, japanese cinema, monochrome cinema
-**Best for:** lone figures, dramatic landscapes, samurai, feudal Japan, moral weight
-**Conflicts with:** bright/cheerful palettes, comedic tone, hyperrealistic product shots
+## STYLE: Sumi-e
+**Aliases:** sumi-e, ink wash, sumi, brush ink
+**Best for:** character portraits, fantasy creatures, landscapes, any subject where ink brush texture and tonal drama are the point
+**Conflicts with:** clean digital linework, flat cel shading, vivid color palettes, glossy rendering
 
 ### Visual Description
-Inspired by classic Japanese period cinema — high-contrast black-and-white or desaturated
-near-monochrome compositions. Dramatic use of negative space, weather as emotional atmosphere
-(rain, wind, fog), and characters that feel isolated against vast or oppressive environments.
-Shots are wide and deliberate. Stillness conveys weight. Film grain is present.
+Traditional Japanese ink wash rendering on textured paper. Black ink tones only — no color.
+Form is built through brush pressure variation: bold confident strokes for structure, soft
+bleeding washes for shadow and atmosphere. Edges are organic and imperfect — ink bleeds into
+paper naturally. White paper serves as light. Tonal range from pure black to pale grey wash.
+Paper texture (washi or similar) is always visible. Anime character proportions rendered
+through brush technique rather than pen linework.
 
 ### Style Negatives
-bright cheerful palette, saturated colors, comedic tone, cute aesthetic, chibi proportions, clean digital linework, flat cel shading, neon lighting, modern urban settings, action poses, crowded compositions
-
-### Usage Notes
-- **For anime rendering:** Kurosawa alone pulls toward live-action film photography. To
-  render in anime/manga style, use Kurosawa as the **composition and mood reference only**
-  and anchor the rendering with *Vagabond* or *Dororo* as the illustration reference.
-  Add these terms to the prompt: `ink wash illustration`, `bold brushstroke outlines`,
-  `manga linework`, `screen tone shading`. Remove any reference to film grain.
-- **Stacking:** When stacking with Hyperreal Anime, lead with Hyperreal Anime as the
-  rendering base and use Kurosawa for composition, framing, and mood descriptors only.
+color, clean digital linework, flat cel shading, sharp uniform edges, glossy rendering, gradient backgrounds, photorealistic rendering, chibi proportions, neon lighting
 
 ### ChatGPT Translation
 ```
-Kurosawa-inspired anime illustration — near-monochrome palette of deep blacks and cool grays,
-dramatic high-contrast composition, ink wash rendering with bold brushstroke outlines and manga linework, deliberate stillness, weather as
-emotional texture, wide establishing framing, profound sense of solitude and moral gravity,
-2D anime art style.
+Traditional sumi-e ink wash anime illustration on textured paper — all form built through
+brush pressure variation, bold confident ink strokes for structure, soft bleeding washes for
+shadow and volume, organic imperfect edges where ink bleeds into paper, black ink tones only
+with full tonal range from pure black to pale grey wash, white paper as light source, visible
+paper texture throughout. Drawn as a traditional ink wash illustration — 2D anime proportions,
+no color, no digital linework, no sharp uniform edges.
 ```
 
 ### Niji Journey Translation
 ```
-ink wash anime illustration, near-monochrome palette, high contrast shadows, theatrical composition
+traditional sumi-e ink wash anime illustration, black ink tones, brush strokes, soft bleeding edges, textured paper, tonal shading
+```
+
+---
+
+## STYLE: Pencil Sketch
+**Aliases:** pencil sketch, pencil drawing, graphite, graphite sketch, pencil art
+**Best for:** character portraits, OC showcases, detailed costume studies, fan art, any subject where a monochrome hand-drawn graphite feel is the point
+**Conflicts with:** color, clean digital linework, flat cel shading, glossy rendering, painterly styles
+
+### Visual Description
+Monochrome graphite pencil drawing on paper. Smooth tonal gradients built through pencil
+pressure — soft shading for skin and fabric, denser strokes for shadows and hard edges.
+Line quality mixes sharp precise lines for structural detail with softer, looser strokes
+for hair and cloth. Visible pencil grain throughout. Grey-scale only — no color. Paper
+texture shows through, especially in lighter areas. The paper itself can be plain white
+or ruled notebook paper with faint lines visible beneath the drawing.
+
+### Style Negatives
+color, clean digital linework, flat cel shading, ink outlines, glossy rendering, gradient backgrounds, painterly blending, airbrush smoothness, photorealistic rendering, neon lighting, chibi proportions
+
+### ChatGPT Translation
+```
+Traditional graphite pencil anime illustration on paper — smooth tonal gradients built through
+pencil pressure variation, mixed sharp and soft line quality, visible pencil grain throughout,
+grey-scale only with full tonal range from dark graphite to faint sketch lines, paper texture
+visible especially in light areas, denser strokes for shadows and structural edges, softer
+looser strokes for hair and fabric. Drawn entirely as a graphite pencil sketch on paper — 2D
+anime proportions, no color, no ink outlines, no digital rendering, no airbrush smoothness.
+```
+
+### Niji Journey Translation
+```
+traditional graphite pencil anime sketch, pencil drawing on paper, grey-scale, smooth tonal shading, visible pencil grain, mixed sharp and soft lines, paper texture
+--ar [ratio]
 ```
 
 ---

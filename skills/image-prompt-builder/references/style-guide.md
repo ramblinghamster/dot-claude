@@ -19,12 +19,12 @@ show the category overview first and offer to go deeper on any group.
 | Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
 | Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
-| Atmospheric & Moody | Soulslike · Kurosawa · Crewdson · Ironbloom · Editorial Fashion · Velvet |
+| Atmospheric & Moody | Soulslike · Crewdson · Ironbloom · Editorial Fashion · Velvet |
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
-| Traditional Media | Colored Pencil |
+| Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
 
 ---
 
@@ -230,18 +230,18 @@ the world has already ended and the subject is what survived.
 
 ---
 
-### Kurosawa
-Cinematic near-monochrome in the tradition of classic Japanese period cinema. Desaturated palette of deep
-blacks and cool grays. Dramatic high-contrast composition. 35mm film grain. Weather as
-emotional atmosphere — rain, wind, fog. Stillness conveys weight. Wide deliberate framing
-with figures isolated against vast or oppressive environments.
+### Sumi-e
+Traditional Japanese ink wash rendering on textured paper. Black ink tones only. Form built
+through brush pressure variation — bold strokes for structure, soft bleeding washes for shadow.
+Edges are organic and imperfect where ink bleeds into paper. White paper serves as light.
+Full tonal range from pure black to pale grey wash. Paper texture always visible. A pure
+rendering medium — says nothing about composition or mood. Pairs with any subject or genre.
 
-**Best for:** samurai and feudal Japan scenes, lone figures in dramatic landscapes, moral
-weight and solitude, any image where restraint and compositional intention carry the
-emotional load.
+**Best for:** character portraits, fantasy creatures, landscapes, any subject where ink
+brush texture and tonal drama are the point.
 
-**Not for:** bright or colorful scenes, fantasy with magic effects, anime illustration
-aesthetics.
+**Not for:** anything requiring color, clean digital linework, flat cel shading, or glossy
+rendering.
 
 ---
 
@@ -662,6 +662,28 @@ paper.
 
 ---
 
+### Pencil Sketch
+Monochrome graphite pencil drawing on paper. Smooth tonal gradients built through pencil
+pressure — soft shading for skin and fabric, denser strokes for shadows and hard edges.
+Mixed sharp and soft line quality. Visible pencil grain throughout. Grey-scale only. Paper
+texture shows through in lighter areas — can be plain white or ruled notebook paper.
+
+**Best for:** character portraits, OC showcases, detailed costume studies, fan art, any
+subject where a monochrome hand-drawn graphite feel is the point.
+
+**Not for:** anything requiring color, clean digital linework, flat cel shading, or glossy
+rendering.
+
+**Distinct from Colored Pencil:** Pencil Sketch is monochrome graphite with smooth tonal
+gradients. Colored Pencil uses color layering with visible crosshatching. Pencil Sketch
+feels like a sketchbook study; Colored Pencil feels like a finished colored illustration.
+
+**Distinct from Sumi-e:** Both are monochrome on paper, but Sumi-e uses wet ink with
+bleeding edges and brush texture. Pencil Sketch is dry graphite with smooth gradients and
+pencil grain. Completely different media feel.
+
+---
+
 ## Dark Fantasy Comparison
 
 Five styles work in dark fantasy territory — here's how to choose:
@@ -684,7 +706,7 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Supernatural action | Shounen Burst · Ufotable · Cel Shading |
 | Character portrait | Crewdson · Aquarelle · Ironbloom · Miura |
 | Soft fantasy portrait | Gossamer · Aquarelle · Moe Gacha |
-| Emotional outdoor scene | Makoto Shinkai · Studio Ghibli · Kurosawa |
+| Emotional outdoor scene | Makoto Shinkai · Studio Ghibli |
 | Dark atmospheric environment | Soulslike · Neon Noir · Dark Fantasy |
 | Fantasy interior / warmth | Ember · Moe Gacha |
 | Technical gear / armor study | Ironbloom · Miura · JRPG Pixel Art |
@@ -712,7 +734,11 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Thick/textured hand-painted look | Storybook Impasto |
 | Premium gacha / VTuber key visual | Gacha Splash |
 | Dynamic anime character moment | Gacha Splash · Shounen Burst · Ufotable |
-| World-weary / experienced presence | Kurosawa |
+| Ink wash / brush rendering | Sumi-e |
+| Traditional ink on paper | Sumi-e · Colored Pencil |
+| Monochrome pencil drawing | Pencil Sketch |
+| Sketchbook / study feel | Pencil Sketch · Sketch Moe |
+| Weather as emotional storytelling | Makoto Shinkai |
 | Military / tactical character | Ironbloom |
 | Mecha / powered armor | Ironbloom · Miura |
 | Flat manga / ink style | Ironbloom (flat/ink sub-mood) · Miura |

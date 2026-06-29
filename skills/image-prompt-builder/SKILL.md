@@ -91,12 +91,12 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 33 styles are stored in your personal style library. This table is always
+The following 34 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
 |---|---|
-| Kurosawa | Lone figures, dramatic landscapes, samurai, feudal Japan, moral weight |
+| Sumi-e | Ink wash on textured paper — brush strokes, bleeding edges, black ink tones, tonal shading |
 | Crewdson | Interior scenes, portraiture, emotionally loaded stillness, suburban/coastal settings |
 | Neon Noir | Urban night scenes, cyberpunk, mystery/thriller mood, futuristic dystopia |
 | Editorial Fashion | Product shots, luxury portraiture, high-end commercial imagery |
@@ -129,6 +129,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Sketch Moe | Bold G-pen outlines with hand-drawn wobble, minimal lines, soft flat fills, semi-deformed slim proportions, user-defined palette, warm hand-crafted quality |
 | Pixiv Clean | Original character portraits, elf/fantasy OCs, white or scene background — clean face vs gestural fabric contrast, ambient light only |
 | Colored Pencil | Character portraits, OC showcases, costume/equipment studies, fan art — traditional colored pencil on paper, visible strokes and hatching |
+| Pencil Sketch | Character portraits, OC showcases, costume studies, fan art — monochrome graphite on paper, smooth tonal shading |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)

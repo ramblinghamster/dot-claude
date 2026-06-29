@@ -23,13 +23,13 @@ When adding, follow the existing format:
 
 ---
 
-## Kurosawa
+## Sumi-e
 
-1. A lone detective standing in a foggy harbor, trench coat soaked with rain, watching a cargo ship disappear into the grey
-2. Two samurai facing each other in a bamboo grove, wind bending everything between them, neither moving yet
-3. A jazz musician walking an empty rain-slicked city street at 3am, saxophone case in hand, destination unknown
-4. A chess grandmaster mid-game, opponent out of frame — the full weight of one decision visible on his face
-5. An old fisherman repairing nets on a deserted dock at dawn, fog on the water, no one else for miles
+1. A wolf standing on a cliff edge, wind pulling at its fur, ink washes building the stormy sky behind it in broad tonal sweeps
+2. A mecha pilot removing her helmet, hair falling loose, bold brush strokes on the armor panels fading to soft grey wash on skin
+3. A koi fish circling in a stone pond, ink bleeding outward from each scale into the water around it
+4. A hooded traveler crossing a rope bridge over a misty gorge, the bridge rendered in sharp strokes while the gorge dissolves into pale wash
+5. A dancer mid-spin, kimono fabric trailing in confident sweeping brush lines, face rendered in delicate pale ink
 
 ---
 
@@ -330,6 +330,16 @@ When adding, follow the existing format:
 3. A dark elf swordswoman resting her blade on her shoulder, her draped scarf and cape rendered with loose flowing cloth lines contrasting her smooth face and skin, minimal white background, black and silver palette
 4. A young priestess in layered ceremonial robes seated on a stone step, ruffled hem and wide sleeves rendered with gestural fabric detail, expression calm and focused, soft light, cream and gold palette
 5. An original character in a school uniform with a loose ribbon and pleated skirt, cloth folds lively and hand-drawn in feel, white background, face the most refined element, user-defined casual palette
+
+---
+
+## Pencil Sketch
+
+1. A mecha-musume girl with twintails in a detailed bodysuit, drawn on lined notebook paper, soft graphite shading on skin contrasting sharp mechanical detail on armor panels
+2. A brooding swordsman leaning against a stone wall, cloak folds rendered in smooth tonal gradients, face half in shadow with precise pencil work on the eyes
+3. A catgirl barista mid-pour, steam suggested by light erased highlights, cozy cafe details sketched loosely in the background
+4. A cyberpunk hacker crouched on a rooftop, cable-filled jacket rendered in dense graphite, city skyline behind in faint sketch lines
+5. A fantasy archer drawing her bow, hair and cape trailing in soft loose strokes, arrowhead and bowstring in sharp precise lines
 
 ---
 
