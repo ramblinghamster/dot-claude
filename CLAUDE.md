@@ -21,14 +21,15 @@ Targets ChatGPT (DALL-E 3) and Niji Journey 7, producing 4 prompt variants per s
 - `references/character-sheet.md` — 12-panel production reference sheet spec
 - `references/inspirations.md` — 5 example scenes per style (145 total), add new ones on request
 
-### Current Styles (34)
+### Current Styles (35)
 
 Sumi-e · Crewdson · Neon Noir · Editorial Fashion · Studio Ghibli · Dark Fantasy ·
 Ember · Prism · Aquarelle · Ironbloom · Makoto Shinkai · Ufotable · Retro Anime ·
 Cel Shading · Soulslike · Miura · JRPG Pixel Art · Shounen Burst ·
 Moe Gacha · Webtoon · Storybook · Storybook Impasto · Gacha Splash ·
 Cinematic Anime · Hyperreal Anime · Daily Chibi · Velvet · Gossamer ·
-Flat Cel · Flat Chibi · Sketch Moe · Pixiv Clean · Colored Pencil · Pencil Sketch
+Flat Cel · Flat Chibi · Sketch Moe · Pixiv Clean · Colored Pencil · Pencil Sketch ·
+Voxel Diorama
 
 ### Sync Workflow
 

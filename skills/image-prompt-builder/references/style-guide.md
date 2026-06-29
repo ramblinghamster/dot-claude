@@ -22,7 +22,7 @@ show the category overview first and offer to go deeper on any group.
 | Atmospheric & Moody | Soulslike · Crewdson · Ironbloom · Editorial Fashion · Velvet |
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
-| Digital & Pixel | JRPG Pixel Art |
+| Digital & Pixel | JRPG Pixel Art · Voxel Diorama |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
 | Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
 
@@ -530,6 +530,24 @@ any subject where pixel grid constraints and anime design language both apply.
 
 ---
 
+### Voxel Diorama
+Isometric 3D block art rendered as a miniature diorama. Everything is built from chunky
+cubic voxels — characters, buildings, trees, props — like a toy construction set. Isometric
+camera angle with shallow tilt-shift depth of field gives a miniature model feel. Soft
+diffused studio lighting with gentle shadows. Warm, cheerful palette with natural material
+colors (wood, stone, grass). Rounded edges on blocks add friendliness. Background is clean
+white or very light grey, isolating the diorama as an object. The overall feel is cozy,
+handcrafted, and collectible.
+
+**Best for:** cute animal scenes, small houses and gardens, miniature worlds, cozy
+environments, toy-like characters, any subject that benefits from blocky 3D construction
+and a warm miniature aesthetic.
+
+**Not for:** realistic rendering, dark or moody themes, complex action sequences, detailed
+facial expressions, smooth organic forms.
+
+---
+
 ## Flat & Minimal
 
 These styles share flat cel rendering, ambient-only lighting, and near-shadowless shading. The
@@ -777,3 +795,7 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |
 | Fan art with traditional media look | Colored Pencil · Sketch Moe |
+| Voxel / block art / cubic 3D | Voxel Diorama |
+| Isometric miniature scene | Voxel Diorama |
+| Cute toy-like diorama | Voxel Diorama · Daily Chibi |
+| Cozy miniature world | Voxel Diorama · Studio Ghibli |

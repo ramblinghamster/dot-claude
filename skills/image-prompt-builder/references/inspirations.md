@@ -350,3 +350,13 @@ When adding, follow the existing format:
 3. A young alchemist surrounded by glass bottles and dried herbs on a wooden shelf, intricate crosshatching on every surface, earth tones and amber
 4. A dragon curled protectively around a sleeping child in a forest clearing, scales built from overlapping directional strokes, deep emerald and warm brown
 5. A modern girl sitting on a park bench with headphones and a coffee cup, casual pose with detailed fabric folds in her jacket, muted urban palette with one warm accent color
+
+---
+
+## Voxel Diorama
+
+1. A sleeping cat curled up in front of a tiny block-built doghouse, a second blocky puppy flopped on its side nearby, daisies and a small tree on a grass platform
+2. A miniature ramen shop with a block-built chef visible through the counter window, tiny lanterns hanging from the eaves, steam suggested by small translucent white blocks rising from bowls
+3. A knight standing guard at the gate of a tiny cubic castle, one block-built tree on each side, a winding path of grey stone blocks leading to the entrance
+4. A cozy treehouse built into a chunky voxel oak tree, a rope ladder dangling down, a small fox sitting at the base looking up, warm afternoon light
+5. An underwater coral reef diorama — block-built fish swimming between cubic coral formations, a treasure chest half-buried in sand blocks, light rays filtering down from the surface

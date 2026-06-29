@@ -1421,3 +1421,40 @@ proportions, no digital rendering, no ink outlines, no airbrush smoothness.
 traditional colored pencil anime illustration, visible pencil strokes, crosshatch shading, layered color on white paper, paper texture, waxy colored pencil quality, [user-defined palette]
 --ar [ratio]
 ```
+
+---
+
+## STYLE: Voxel Diorama
+**Aliases:** voxel diorama, voxel art, block art, cubic art, isometric blocks, 3d block art
+**Best for:** cute animal scenes, miniature houses and gardens, toy-like characters, cozy dioramas, small worlds built from blocks
+**Conflicts with:** smooth organic rendering, realistic proportions, dark moody themes, detailed facial expressions
+
+### Visual Description
+Isometric 3D block art rendered as a miniature diorama on a clean background. All elements —
+characters, buildings, trees, props — are constructed from chunky cubic voxels with slightly
+rounded edges. Isometric camera angle with shallow tilt-shift depth of field creates a
+miniature model feel. Soft diffused studio lighting with gentle contact shadows. Warm cheerful
+palette with natural material colors — wood grain browns, mossy greens, warm stone greys.
+Characters are simplified and cute, built from stacked blocks with minimal facial features
+(dot eyes, simple expressions). The scene sits on a small ground platform like a collectible
+display piece. Overall feel is cozy, handcrafted, and toylike.
+
+### Style Negatives
+realistic rendering, smooth organic forms, dark moody lighting, complex facial expressions, photorealistic textures, flat 2D, ink outlines, cel shading, painterly blending, neon lighting
+
+### ChatGPT Translation
+```
+Isometric 3D voxel diorama — a miniature scene built entirely from chunky cubic blocks with
+slightly rounded edges, isometric camera angle, shallow tilt-shift depth of field for a
+miniature model feel, soft diffused studio lighting with gentle shadows, warm cheerful palette
+with natural material colors (wood browns, mossy greens, warm stone), characters simplified
+into cute block-built forms with minimal dot-eye faces, scene sitting on a small ground
+platform like a collectible display piece, clean white background. Rendered as a 3D block
+construction diorama — no smooth organic forms, no realistic textures, no dark moody lighting.
+```
+
+### Niji Journey Translation
+```
+isometric voxel diorama, 3D block art, chunky cubic construction, miniature scene, tilt-shift depth of field, soft studio lighting, warm natural palette, cute simplified characters, clean white background
+--ar [ratio]
+```
