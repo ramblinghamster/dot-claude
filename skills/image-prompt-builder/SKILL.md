@@ -178,6 +178,101 @@ Block 2 — unless the user has already named or described a style:
 If the user selects a style, load it and confirm (step 2 above), then continue to Block 2.
 If the user skips, continue to Block 2 normally.
 
+### Style Decision Tree (for suggestions and alternate ideas)
+
+Use this guided flow when the user asks for style suggestions, wants help choosing, or
+later asks for alternate style ideas after already selecting one. **Skip this entirely if
+the user has already named a specific style in their prompt** — only trigger the tree when
+they want guidance.
+
+Walk the user through each decision point one at a time. At each branch, analyze the scene
+against the available choices — give a short pro/con for each option and a recommendation
+based on what the scene calls for. Wait for the user's response before advancing.
+
+**Decision tree structure:**
+
+1. **What rendering feel?**
+   - Traditional media → go to Q2a
+   - Photographic / cinematic → go to Q2b
+   - Pixel art → **JRPG Pixel Art** (terminal)
+   - Digital anime / illustration → go to Q2c
+
+2a. **What medium?** (traditional media)
+   - Dry / pencil → **Colored Pencil**
+   - Wet / wash → **Aquarelle**
+   - Thick paint → **Storybook Impasto**
+
+2b. **What mood?** (photographic)
+   - B&W drama → **Kurosawa**
+   - Staged interior → **Crewdson**
+   - Luxury / commercial → **Editorial Fashion**
+   - Neon / urban night → **Neon Noir**
+
+2c. **What proportions?** (digital anime)
+   - Chibi → go to Q3a
+   - Normal → go to Q3b
+
+3a. **What shading?** (chibi)
+   - Rendered → **Moe Gacha** or **Daily Chibi**
+   - Flat → **Flat Chibi**
+
+3b. **What shading approach?** (normal proportions)
+   - Flat / minimal → go to Q4a
+   - Rendered → go to Q4b
+
+4a. **What feel?** (flat / minimal)
+   - Healing / quiet → **Gossamer**
+   - Hand-drawn → **Sketch Moe**
+   - Any genre → **Flat Cel**
+   - Korean manhwa → **Webtoon**
+
+4b. **What mood / tone?** (rendered)
+   - Dark / epic → go to Q5a
+   - Warm / wonder → go to Q5b
+   - Action / dynamic → go to Q5c
+   - Neutral / portrait → go to Q5d
+
+5a. **What kind of darkness?**
+   - Grand mythic → **Dark Fantasy**
+   - Action spectacle → **Ufotable**
+   - Ruin / dread → **Soulslike**
+   - Raw linework → **Miura**
+   - Luxury dark → **Velvet**
+
+5b. **What drives the warmth?**
+   - Nature / wonder → **Studio Ghibli**
+   - Dramatic skies → **Makoto Shinkai**
+   - Firelit interior → **Ember**
+   - Fairy tale → **Storybook**
+   - Light / optics → **Prism**
+
+5c. **What energy?**
+   - Power burst → **Shounen Burst**
+   - Bold graphic → **Cel Shading**
+   - Gacha / VTuber → **Gacha Splash**
+   - Retro / nostalgic → **Retro Anime**
+
+5d. **What rendering depth?**
+   - Clean / polished → **Pixiv Clean**
+   - Armor / mech → **Ironbloom**
+   - Cinematic lit → **Cinematic Anime**
+   - Semi-realistic → **Hyperreal Anime**
+
+**At each decision point:**
+- Briefly analyze the scene against each option (1–2 sentences per option, focused on
+  why this scene does or doesn't suit that branch)
+- Give a clear recommendation with reasoning
+- If the scene strongly points one direction, say so — don't force equal weight on
+  every option
+
+**Trigger rules:**
+- User has no style selected and asks for suggestions → start at Q1
+- User already has a style and asks for "other ideas" / "alternatives" / "what else
+  would work" → start at whichever branch their current style sits in (e.g., if they
+  have Ember, start at Q5b "What drives the warmth?" to show sibling options, then
+  offer to jump to adjacent branches)
+- User names a style explicitly → skip the tree entirely, load the style directly
+
 ### Saving a New Style
 
 If the user describes a distinctive style during a session and wants to save it for future
