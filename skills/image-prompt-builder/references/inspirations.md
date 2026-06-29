@@ -330,3 +330,13 @@ When adding, follow the existing format:
 3. A dark elf swordswoman resting her blade on her shoulder, her draped scarf and cape rendered with loose flowing cloth lines contrasting her smooth face and skin, minimal white background, black and silver palette
 4. A young priestess in layered ceremonial robes seated on a stone step, ruffled hem and wide sleeves rendered with gestural fabric detail, expression calm and focused, soft light, cream and gold palette
 5. An original character in a school uniform with a loose ribbon and pleated skirt, cloth folds lively and hand-drawn in feel, white background, face the most refined element, user-defined casual palette
+
+---
+
+## Colored Pencil
+
+1. A knight in ornate plate armor kneeling to inspect a wildflower growing through cracked stone, every rivet and scratch rendered in layered pencil strokes, steel grey and moss green palette
+2. A fox-eared shrine maiden holding a paper lantern at dusk, warm orange light suggested by dense pencil layering against cooler blue-grey hatching in the background
+3. A young alchemist surrounded by glass bottles and dried herbs on a wooden shelf, intricate crosshatching on every surface, earth tones and amber
+4. A dragon curled protectively around a sleeping child in a forest clearing, scales built from overlapping directional strokes, deep emerald and warm brown
+5. A modern girl sitting on a park bench with headphones and a coffee cup, casual pose with detailed fabric folds in her jacket, muted urban palette with one warm accent color

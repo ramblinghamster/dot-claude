@@ -53,9 +53,7 @@ emotional texture, wide establishing framing, profound sense of solitude and mor
 
 ### Niji Journey Translation
 ```
-Kurosawa cinematic anime illustration, near-monochrome desaturated palette, dramatic ink wash atmosphere,
-high contrast shadows, 35mm film grain, deliberate stillness, theatrical composition,
-Japanese feudal aesthetic
+ink wash anime illustration, near-monochrome palette, high contrast shadows, theatrical composition
 ```
 
 ---
@@ -88,10 +86,7 @@ art style.
 
 ### Niji Journey Translation
 ```
-cinematic staged large-format aesthetic, theatrically composed, every element deliberately
-placed as though by a set designer, still from a film that does not exist, desaturated
-midtones, warm amber and deep teal palette, single raking window light, long dramatic
-shadows, emotionally loaded stillness, soft painterly anime illustration, no direct eye contact
+soft painterly anime illustration, staged cinematic composition, warm amber and deep teal palette, single window light, long shadows
 ```
 
 ---
@@ -129,9 +124,7 @@ clean anime linework, 2D anime art style.
 
 ### Niji Journey Translation
 ```
-neon noir anime illustration, rain-slicked cyberpunk city night, electric magenta and cyan neon reflections,
-deep shadows, steam vents, silhouetted figure, clean anime linework, cyberpunk noir atmosphere, anamorphic lens flare,
-wet street puddle reflections, mysterious mood, high contrast
+neon noir anime, electric magenta and cyan neon reflections, deep shadows, clean anime linework, high contrast
 ```
 
 ---
@@ -161,9 +154,7 @@ mood, luxury fashion editorial quality, ultra high detail, 2D anime art style.
 
 ### Niji Journey Translation
 ```
-luxury editorial fashion anime illustration, minimal composition, precise soft directional lighting,
-desaturated cool palette, lifted blacks, crisp highlights, negative space, aspirational mood,
-luxury fashion magazine aesthetic, clean illustration, high detail
+editorial fashion anime illustration, minimal composition, soft directional lighting, desaturated cool palette, crisp highlights, negative space
 ```
 
 ---
@@ -193,9 +184,7 @@ character design, classic Japanese anime film visual language.
 
 ### Niji Journey Translation
 ```
-Studio Ghibli style, classic Japanese anime film aesthetic, soft painterly illustration, warm dappled natural
-lighting, lush environment, wistful wonder-filled mood, rich saturated warm palette,
-golden yellows and soft blues, handcrafted texture, expressive character
+Studio Ghibli style, soft painterly illustration, warm dappled natural lighting, rich saturated warm palette, handcrafted texture
 ```
 
 ---
@@ -225,9 +214,7 @@ ancient world, oppressive gothic visual weight, painterly cinematic anime art st
 
 ### Niji Journey Translation
 ```
-dark fantasy anime illustration, brooding atmosphere, deep jewel tones emerald crimson obsidian,
-volumetric rim lighting, heavy fog and smoke, gothic ruins crumbling stone, mythic scale,
-dangerous ancient world, oppressive gothic atmosphere, dramatic shadow contrast, expressive anime linework
+dark fantasy anime illustration, deep jewel tones emerald crimson obsidian, volumetric rim lighting, heavy fog, gothic atmosphere, expressive anime linework
 ```
 
 ---
@@ -260,10 +247,7 @@ inviting warmth and tavern ambience — visual novel illustration quality, paint
 
 ### Niji Journey Translation
 ```
-semi-painterly anime, matte finish, soft diffuse shading, cinematic warm lighting, gentle
-amber rim light, luminous lantern glow, soft cel shading, thin elegant lineart, hand-painted
-anime texture, subtle bloom, warm midtones, softly illuminated faces, dark fantasy anime
-aesthetic, inviting warmth, smoky ambience, visual novel illustration style, painterly depth
+semi-painterly anime, matte finish, soft diffuse shading, amber rim light, lantern glow, thin elegant lineart, warm midtones, subtle bloom
 ```
 
 ---
@@ -306,12 +290,7 @@ no ambient glow, no floating particles. Precise luminous optical realism, anime 
 
 ### Niji Journey Translation
 ```
-semi-realistic anime illustration, clean anime linework, smooth digital rendering, physically
-accurate light refraction caustics, single refractive object source only, sharp caustic light
-projections on skin and fabric, spectral dispersion white light splitting into spectrum bands,
-chromatic aberration red violet split at beam edges, dark neutral background, restrained palette
-spectral colors only saturation, no holographic shimmer no glitter no ambient neon no floating
-particles, precise optical realism, luminous quiet mood
+semi-realistic anime, clean linework, smooth rendering, light refraction caustics, spectral dispersion, chromatic aberration, dark neutral background, restrained palette
 --ar 2:3
 ```
 
@@ -357,14 +336,7 @@ vector lines, no full rendering, no detailed background, 2D anime sketch style.
 
 ### Niji Journey Translation
 ```
-loose watercolor ink sketch anime illustration, genuine analog watercolor feel,
-visible pencil and ink linework underneath sparse uneven washes, large white paper
-areas left unpainted within figures and clothing, color barely contained within
-outlines, figures dissolving and fading at edges unfinished below waist, almost
-no background raw paper texture only faint color pooling, near-greyscale palette
-whispers warm tan soft grey-blue pale peach, loose scratchy linework visible brush
-strokes, intentional incompleteness, quiet intimate mood, sketchbook aesthetic not
-finished illustration, no clean vector lines no full rendering no detailed background
+watercolor ink sketch anime, visible pencil linework under sparse washes, white paper areas unpainted, near-greyscale palette warm tan soft grey-blue, loose scratchy linework, sketchbook aesthetic
 --ar 2:3
 ```
 
@@ -419,21 +391,13 @@ white background, line economy over density, light airy feel despite mechanical 
 
 **Rendered sub-mood:**
 ```
-clean bold manga lineart, hyper-detailed armor and equipment, technical illustration
-precision, semi-flat shading, muted earth tones sand khaki olive dark brown, white negative
-space background, soft expressive anime character face, hard mechanical contrast, every panel
-and joint detailed, thematic juxtaposition of strength and delicacy, manga illustration
-masterpiece
+bold manga lineart, hyper-detailed armor, semi-flat shading, muted earth tones, white background, soft anime face with hard mechanical contrast
 ```
 
 **Flat/Ink sub-mood:**
 ```
-flat manga ink linework, soft anime face, complex military mecha armor, clean panel seam
-lines joint assemblies bolt detail, large flat color fills inside armor panels no hatching
-no crosshatch no texture fill, sparse minimal wear marks few grime dots only, strong contrast
-soft face hard machine, generous negative space within and around armor, white or minimal
-background, light airy composition, line economy not density, flat 2D manga rendering,
-[user-defined palette], professional manga illustration --ar [ratio]
+flat manga ink linework, soft anime face, flat color fills no hatching, sparse wear marks, white background, line economy, [user-defined palette]
+--ar [ratio]
 ```
 
 ---
@@ -466,10 +430,7 @@ and transience, cinematic anime composition.
 
 ### Niji Journey Translation
 ```
-luminous atmospheric sky anime style, hyper-detailed sky, luminous volumetric light rays,
-lens flare, layered dramatic clouds, intensely saturated natural palette deep blue amber gold,
-hyper-detailed painterly background, clean anime characters, emotional cinematic depth,
-dreamlike luminosity, sense of longing and distance, contemporary Japanese animated film aesthetic
+luminous sky anime style, hyper-detailed clouds, volumetric light rays, lens flare, saturated deep blue amber gold palette, detailed painterly background, clean anime characters
 ```
 
 ---
@@ -502,10 +463,7 @@ dark fantasy anime quality, premium high-production anime visual language.
 
 ### Niji Journey Translation
 ```
-Ufotable studio style, high contrast dramatic lighting, richly saturated jewel tones,
-deep crimson electric blue vivid gold, near-black shadows, cinematic anime polish,
-meticulous character detail, glowing intensity, supernatural energy effects, fluid motion,
-dark fantasy anime key visual, premium animation production quality masterpiece
+Ufotable studio style, high contrast dramatic lighting, saturated jewel tones crimson blue gold, near-black shadows, cinematic anime polish, glowing energy effects
 ```
 
 ---
@@ -546,13 +504,7 @@ modern digital detail levels, no intricate background texture.
 
 ### Niji Journey Translation
 ```
-retro 80s 90s anime aesthetic, analog film grain, VHS warmth, color bleed edges,
-thick hand-drawn linework, muted warm palette faded yellows dusty blues warm oranges,
-cel animation texture, limited color banding, classic retro anime aesthetic,
-nostalgic analog feel, hand-crafted imperfection, old school anime energy,
-authentic hand-painted cel animation, flat broad color fills limited cel layers,
-flat gouache-style background blocks low detail complexity, simple clean shapes minimal texture,
-no fine surface texture no photographic grain no high-frequency detail no modern digital detail levels
+retro 80s 90s anime, analog film grain, thick hand-drawn linework, muted warm palette faded yellows dusty blues, cel animation texture, flat broad color fills, simple clean shapes
 ```
 
 ---
@@ -584,9 +536,7 @@ contrast rather than rendering subtlety.
 
 ### Niji Journey Translation
 ```
-anime cel shading style, bold black outlines, flat color fills, high contrast binary shading,
-no gradients, thick expressive linework, vivid saturated colors, graphic novel aesthetic,
-toon-shaded game art style, toon shading, energetic graphic impact, comic book illustration
+anime cel shading, bold black outlines, flat color fills, no gradients, thick expressive linework, vivid saturated colors, toon shading
 ```
 
 ---
@@ -619,10 +569,7 @@ than traditional dark fantasy, gothic horror RPG concept art aesthetic, 2D anime
 
 ### Niji Journey Translation
 ```
-soulslike gothic anime illustration, desaturated palette grey ash muted teal deep amber accents,
-massive decaying architecture, human figures dwarfed by environment, atmospheric fog and
-ash particles, ancient ruin and quiet dread, grandeur and horror, bleak beauty,
-gothic horror RPG concept art style, bleakness and ruin aesthetic, detailed anime linework
+soulslike gothic anime, desaturated grey ash muted teal, deep amber accents, massive decaying architecture, atmospheric fog and ash, detailed anime linework
 ```
 
 ---
@@ -655,10 +602,7 @@ shadow doing the emotional work, brutal meticulous and awe-inspiring dark manga 
 
 ### Niji Journey Translation
 ```
-peak-craft dark fantasy manga style, dense crosshatching engraving-like depth, heavy black ink shadows,
-extraordinarily detailed linework, obsessively detailed armor and weapons, every surface
-texture rendered, massive figure weight, dramatic contrast, near-monochromatic dark manga,
-brutal and meticulous detail, dark fantasy manga masterpiece
+dark fantasy manga, dense crosshatching, heavy black ink shadows, extraordinarily detailed linework, near-monochromatic, massive figure weight
 ```
 
 ---
@@ -698,9 +642,8 @@ illustration of pixel art.
 
 ### Niji Journey Translation
 ```
-JRPG pixel art sprite, visible pixel grid, anime character design, Octopath Traveler HD-2D style,
-detailed fantasy equipment, full color palette, dithered metallic shading, jewel tone accents,
-warm skin tones, near-white background, Tactics Ogre sprite style, pixelated not smooth --ar 2:3
+JRPG pixel art sprite, visible pixel grid, Octopath Traveler HD-2D style, dithered shading, full color palette, pixelated not smooth
+--ar 2:3
 ```
 
 ### Usage Notes
@@ -744,11 +687,8 @@ haze and silhouette contrast, character mid-action but composed and determined.
 
 ### Niji Journey Translation
 ```
-modern shounen anime aesthetic, warm sepia environment aged paper tones cream yellow-brown,
-crisp cold sharp supernatural energy contrast, high detail environmental destruction rubble
-cracked walls scattered debris, clean character rendering fuller color contrast, clean anime linework,
-volumetric backlit window light atmospheric haze, determined mid-action character pose,
-warm decay vs cold power visual tension, modern shounen action anime style --ar 2:3
+modern shounen anime, warm sepia tones, cold sharp supernatural energy contrast, environmental destruction debris, clean anime linework, volumetric backlit light
+--ar 2:3
 ```
 
 ---
@@ -794,12 +734,7 @@ confident and capable despite small frame, premium gacha chibi character art qua
 
 ### Niji Journey Translation
 ```
-full chibi proportions large round head tiny body, cute chibi character, clean anime
-linework crisp flat cel shading, detailed character outfit or equipment chibi scale,
-oversized weapon or prop chibi scale, flowing wind-swept hair strand separation, dynamic
-low-angle action pose debris particles mid-motion, warm golden ambient lighting floating
-particles atmospheric haze, soft focus background suited to scene setting, cute determined
-expression, confident capable chibi character, premium gacha chibi art style
+chibi proportions large head tiny body, clean linework crisp flat cel shading, oversized weapon chibi scale, dynamic action pose, warm golden lighting, gacha chibi art
 --ar 16:9
 ```
 
@@ -836,10 +771,8 @@ and manhwa visual language.
 
 ### Niji Journey Translation
 ```
-Korean webtoon manhwa style, crisp clean confident linework, smooth cel shading soft
-gradients, fashion-forward character design, expressive face precise hair rendering,
-saturated clean color palette, strong character focus, polished cinematic quality,
-modern digital anime aesthetic, premium Korean manhwa aesthetic --ar 9:16
+Korean webtoon manhwa style, crisp clean linework, smooth cel shading soft gradients, fashion-forward character design, saturated clean palette
+--ar 9:16
 ```
 
 ---
@@ -875,11 +808,8 @@ picture book and Ghibli artbook visual language.
 
 ### Niji Journey Translation
 ```
-anime storybook illustration, soft warm painterly anime style, gouache-like digital painting,
-rounded anime characters large expressive eyes soft simplified silhouettes, warm palette
-ochre sage green dusty rose cream, gentle brush texture soft color washes, whimsical anime
-fairy tale environments, simplified charming backgrounds, wonder and warmth mood, Japanese
-anime picture book aesthetic, Ghibli artbook illustration style --ar 4:3
+anime storybook illustration, gouache-like painting, rounded characters large eyes, warm palette ochre sage green dusty rose, gentle brush texture, simplified backgrounds
+--ar 4:3
 ```
 
 ---
@@ -912,7 +842,9 @@ Anime storybook illustration, painted entirely in a thick, opaque gouache style 
 
 ### Niji Journey Translation
 ```
-anime storybook illustration, thick opaque gouache paint texture, heavy visible brushstrokes, dry-brush ridges, visible paper grain and tooth, flat matte color blocks, minimal fine detail, rounded anime characters large expressive eyes soft simplified silhouettes, crystal and metal surfaces as flat matte facets no glossy or glassy shine, soft even diffused lighting, no dramatic rim light, no cinematic highlights, warm palette ochre sage green dusty rose cream, hand-painted traditional media look, whimsical wonder mood, Ghibli artbook picture book aesthetic --ar 4:3
+anime storybook illustration, thick gouache texture, heavy visible brushstrokes, flat matte color blocks, rounded characters large eyes, warm palette ochre sage green dusty rose, hand-painted look
+--no glossy shine, digital smoothness, rim light, cinematic highlights
+--ar 4:3
 ```
 
 ---
@@ -956,13 +888,8 @@ background, magical heroic and elegant mood, VTuber key visual and JRPG splash a
 
 ### Niji Journey Translation
 ```
-modern fantasy anime gacha art, semi-chibi proportions, polished gacha game illustration,
-clean precise linework subtle line weight variation, hybrid cel shading painterly gradients,
-airbrushed skin soft shadow transitions, glossy hair highlights fine strand separation,
-metallic armor reflection, warm bloom lighting rim light hair and armor, floating light
-particles atmospheric haze, dynamic motion composition depth of field, soft focus fantasy
-castle background, magical heroic elegant mood, anime RPG splash art quality, VTuber
-key visual aesthetic, ultra detailed digital painting --ar 2:3
+gacha splash anime art, semi-chibi proportions, clean precise linework, hybrid cel shading painterly gradients, glossy hair highlights, warm bloom rim lighting, floating particles, dynamic motion composition, depth of field
+--ar 2:3
 ```
 
 ---
@@ -999,11 +926,8 @@ concept art or visual novel illustration quality.
 
 ### Niji Journey Translation
 ```
-cinematic anime illustration, high quality 2D anime art, smooth clean anime skin, strong
-directional sunlight, warm golden color grading, hard shadows rim lighting, illustrated
-material texture leather and gear, anime sweat beads illustrated wear, natural anime
-proportions, premium game concept art quality, semi-realistic anime illustration style,
-detailed anime digital painting --ar 2:3
+cinematic anime illustration, smooth clean anime skin, strong directional sunlight, warm golden color grading, hard shadows rim lighting, natural anime proportions
+--ar 2:3
 ```
 
 ---
@@ -1064,18 +988,14 @@ stylization preserved throughout.
 
 **Gritty sub-mood:**
 ```
-semi-photorealistic anime, hyperreal rendering, worn leather suit, race gear with sponsor
-patches, physical material texture, sweat on skin, strong directional sunlight, warm afternoon
-color grade, shallow depth of field, soft bokeh background, cinematic realism, elf character,
-detailed surface wear and grime, semi-realistic 2D anime --ar 2:3
+semi-photorealistic anime, hyperreal rendering, physical material texture, sweat on skin, strong directional sunlight, warm afternoon color grade, shallow depth of field, soft bokeh
+--ar 2:3
 ```
 
 **Dreamy sub-mood:**
 ```
-semi-photorealistic anime portrait, hyperreal soft rendering, real skin texture with freckles,
-dreamy backlit atmosphere, overexposed warm light, soft bokeh, floating light particles,
-heart bokeh, pastel lens haze, emotionally quiet, eyes closed, elf character, white clothing,
-contemplative mood, semi-realistic 2D anime --ar 2:3
+semi-photorealistic anime, hyperreal soft rendering, skin texture with freckles, dreamy backlit atmosphere, overexposed warm light, soft bokeh, floating particles, pastel lens haze
+--ar 2:3
 ```
 
 ### Block Pre-fills (when loaded)
@@ -1170,18 +1090,9 @@ suppression. No flat cel shading. No photorealistic surface detail.
 
 ### Niji Journey Translation
 ```
-cinematic anime key visual, premium dark fantasy gacha illustration, Pixiv masterpiece quality,
-polished soft-rendered anime shading, refined anime line art, smooth gradient shadows,
-glossy digital rendering, satin velvet material rendering reflective luxury fabrics,
-deep crimson violet lighting palette, atmospheric neon noir undertones,
-sophisticated color harmony controlled contrast, richly layered lighting,
-soft bloom highlights, subtle rim lighting, diffused city-light bokeh,
-luminous eyes focal anchor brilliant detailed, elegant character design,
-clean anime facial structure, moody nighttime ambiance, ethereal cinematic atmosphere,
-soft-focus background shallow depth of field city light bokeh,
-highly detailed stylized anime rendering smooth shading transitions refined linework
---no painterly texture, sketch lines, flat cel shading, atmospheric suppression,
-lost-and-found edges, moe chibi, dynamic action pose --ar 2:3
+cinematic anime key visual, polished soft-rendered shading, refined line art, glossy digital rendering, satin velvet fabric, deep crimson violet palette, soft bloom highlights, rim lighting, city-light bokeh, luminous detailed eyes
+--no painterly texture, sketch lines, flat cel shading, chibi, dynamic action pose
+--ar 2:3
 ```
 
 ---
@@ -1217,11 +1128,8 @@ grounded mood, anime slice-of-life and gacha daily life aesthetic, 2D anime illu
 
 ### Niji Journey Translation
 ```
-semi-chibi anime character, slightly oversized head soft rounded proportions, clean flat
-cel shading, slice of life interior setting, carefully rendered everyday objects food
-tableware furniture, warm ambient interior lighting, neutral or quietly unamused expression,
-clean anime linework, cozy grounded mood, casual everyday scene, off-duty character moment,
-gacha daily life aesthetic --ar 1:1
+semi-chibi anime, slightly oversized head, clean flat cel shading, slice of life interior, carefully rendered everyday objects, warm ambient lighting, clean anime linework
+--ar 1:1
 ```
 
 ---
@@ -1267,12 +1175,8 @@ rendering, no complex shading, no photorealism, 2D anime art style.
 
 ### Niji Journey Translation
 ```
-soft flat anime style, barely visible thin outlines soft line color, flat cel shading
-single shadow tone, lifted dark values near-shadowless rendering, no gradients no
-blending, ambient lighting no directional source, muted cool palette sage green dusty
-aqua off-white, blurred simplified background no detail, smooth flat hair planes single
-shine streak, clean textureless skin faint cheek blush, large flat aqua grey-blue irises,
-light novel illustration quality, minimal weightless illustrative 2D anime --ar 2:3
+soft flat anime, barely visible thin outlines, flat cel shading single shadow tone, no gradients, ambient lighting, muted cool palette sage green dusty aqua, blurred simplified background, light novel illustration
+--ar 2:3
 ```
 
 ---
@@ -1302,7 +1206,8 @@ Flat cel chibi anime illustration — full chibi proportions with head one-third
 
 ### Niji Journey Translation
 ```
-flat cel chibi anime illustration, full chibi proportions head one-third to half total height, single shadow tone lifted dark values near-shadowless, no gradients no blending, flat color fills outfit and equipment no metallic sheen, clean thin line art consistent weight, oversized weapon or prop chibi scale flat graphic rendering, detailed outfit any genre flat style, flat smooth hair planes single shine streak, simplified flat graphic debris particles, flat minimal background, [user-defined palette and mood], clean flat chibi 2D anime --ar [ratio]
+flat cel chibi anime, full chibi proportions, single shadow tone no gradients, flat color fills, clean thin line art, oversized weapon chibi scale, flat minimal background, [user-defined palette]
+--ar [ratio]
 ```
 
 ---
@@ -1331,7 +1236,8 @@ Flat cel anime illustration — clean thin line art with a single hard-edged sha
 
 ### Niji Journey Translation
 ```
-flat cel shading anime illustration, single shadow tone lifted dark values near-shadowless, no gradients no blending, ambient lighting no directional source no cast shadows, clean thin line art consistent weight, flat smooth hair planes single shine streak, clean textureless skin, simplified flat background, [user-defined palette and mood per scene], clean flat modern 2D anime --ar [ratio]
+flat cel shading anime, single shadow tone no gradients, ambient lighting, clean thin line art, flat smooth hair, simplified flat background, [user-defined palette]
+--ar [ratio]
 ```
 
 ---
@@ -1381,12 +1287,8 @@ illustration quality, 2D anime art style.
 
 ### Niji Journey Translation
 ```
-bold G-pen outlines thick-to-thin linework, hand-drawn wobble subtle ink texture, minimal
-lines silhouette-first low detail density, soft flat color fills muted saturation very subtle
-shading, semi-deformed proportions slightly large head slender elegant body, delicate elongated
-limbs youthful silhouette, cute face small chin tiny mouth low-placed features, simplified
-soft background character focus, [user-defined palette and mood], warm hand-crafted anime
-illustration --ar [ratio]
+bold G-pen outlines thick-to-thin linework, hand-drawn wobble, soft flat color fills muted saturation, semi-deformed proportions slender elegant body, simplified soft background, [user-defined palette]
+--ar [ratio]
 ```
 
 ---
@@ -1450,9 +1352,43 @@ no painterly texture, no photorealism, no complex lighting.
 
 ### Niji Journey Translation
 ```
-clean Pixiv anime illustration style, confident medium-weight linework natural taper at tips,
-soft flat cel shading one to two shadow tones, smooth luminous skin 2D rendering, loose
-gestural fabric fold lines ruffles and cloth detail, cleaner face and skin vs gestural fabric
-contrast, ambient lighting no directional source, background and palette user-defined,
-polished Pixiv OC character art quality --ar [ratio]
+clean Pixiv anime illustration, confident medium-weight linework, soft flat cel shading, smooth luminous skin, loose gestural fabric fold lines, ambient lighting, [user-defined palette]
+--ar [ratio]
+```
+
+---
+
+## STYLE: Colored Pencil
+**Aliases:** colored pencil, colour pencil, pencil art, colored pencil anime, traditional pencil
+**Best for:** character portraits, OC showcases, detailed costume and equipment studies, fan art, any subject where a handcrafted traditional-media feel is the point
+**Conflicts with:** digital polish, clean cel shading, flat rendering, neon lighting, glossy or luminous skin, photorealistic rendering
+
+### Visual Description
+Traditional colored pencil illustration on white or off-white paper. Anime character
+proportions and structure rendered entirely through colored pencil — visible directional
+strokes, crosshatching for shadows, and layered color buildup define form instead of ink
+outlines. Edge definition comes from darker pencil tones and stroke density rather than
+clean linework. Paper tooth texture shows through everywhere, especially in lighter areas.
+White paper itself serves as the highlight — untouched paper, not painted white. Colors
+have the slightly muted, waxy quality inherent to colored pencil media. Palette is
+user-defined but always reads as traditional colored pencil.
+
+### Style Negatives
+digital rendering, clean ink outlines, flat cel shading, glossy or luminous skin, neon lighting, gradient backgrounds, painterly blending, airbrush smoothness, photorealistic rendering, vector linework, chibi proportions
+
+### ChatGPT Translation
+```
+Traditional colored pencil anime illustration on white paper — all form defined by visible
+colored pencil strokes rather than ink outlines, directional hatching and crosshatching for
+shadows, layered color buildup with waxy pencil texture, paper tooth visible throughout
+especially in light areas, white paper left untouched as highlights, edge definition through
+darker pencil pressure and stroke density not clean lines, slightly muted traditional media
+color quality. Drawn entirely as a colored pencil illustration on paper — 2D anime
+proportions, no digital rendering, no ink outlines, no airbrush smoothness.
+```
+
+### Niji Journey Translation
+```
+traditional colored pencil anime illustration, visible pencil strokes, crosshatch shading, layered color on white paper, paper texture, waxy colored pencil quality, [user-defined palette]
+--ar [ratio]
 ```

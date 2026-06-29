@@ -91,7 +91,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 32 styles are stored in your personal style library. This table is always
+The following 33 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -128,6 +128,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Flat Cel | Any scene or genre — action, romance, dark fantasy, horror, sci-fi, slice-of-life; flat cel technique with fully user-defined palette and mood, no style restrictions |
 | Sketch Moe | Bold G-pen outlines with hand-drawn wobble, minimal lines, soft flat fills, semi-deformed slim proportions, user-defined palette, warm hand-crafted quality |
 | Pixiv Clean | Original character portraits, elf/fantasy OCs, white or scene background — clean face vs gestural fabric contrast, ambient light only |
+| Colored Pencil | Character portraits, OC showcases, costume/equipment studies, fan art — traditional colored pencil on paper, visible strokes and hatching |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -532,7 +533,7 @@ Before delivering the final prompts, run this gate silently. Do not skip it.
 - Niji Journey prompts are missing `--ar` → derive from Block 4 and add it
 - Any prompt contains an unfilled `{token}` where a value was defined → fill it in
 - ChatGPT prompts contain labeled headers like `[ROLE]` or `ROLE:` → rewrite as natural prose
-- Niji Journey robust prompt is formatted as a prose paragraph → convert to keyword-dense form
+- Niji Journey robust prompt exceeds 3 lines or contains abstract/non-visual concepts → shorten and make concrete
 - Style keywords contradict each other (e.g., `photorealistic` + `anime`) → reconcile per platform
 
 **Step 2 — Ask the user before proceeding if:**
@@ -641,37 +642,34 @@ Do not include: [5-8 most critical negatives from Style Negatives + Block 8]
 
 ### NIJI JOURNEY PROMPT — ROBUST
 
-Keyword-dense prompt using anime/illustration vocabulary, formatted for Niji Journey.
-Comma-separated descriptors. End with `--ar [ratio]` only. Do not include `--niji` or
-`--style` parameters — these are incompatible with Niji Journey 7.
+Short natural-language prompt for Niji Journey 7. Lead with the subject and scene, then
+append the style anchor. Niji 7 processes natural language well — write short phrases,
+not keyword dumps. The entire prompt should be 2-3 lines max.
 
-**Structure the prompt in two keyword groups:**
-
-**Group 1 — Style keywords first:** Lead with the style and rendering descriptors before
-the subject. This front-loads the rendering approach so Niji processes it before encountering
-subject details. If the loaded style has Style Negatives, append `--no` followed by the
-negatives as comma-separated keywords at the very end (before `--ar`).
-
-**Group 2 — Scene keywords second:** Subject, environment, composition, lighting, mood,
-palette, texture, and quality tags.
+**Structure: Subject → Scene → Style anchor → Negatives → Ratio**
 
 ```
-[style keywords, rendering descriptors, technique tags],
-[subject description], [environment], [composition/camera], [lighting], [mood/atmosphere],
-[color palette], [texture/detail tags], [quality tags]
+[subject in a concrete action or pose], [environment/setting], [composition/camera],
+[lighting], [mood], [style anchor from loaded style translation], [palette keywords]
 --no [style negatives + Block 8 negatives as keywords, if any]
 --ar [ratio]
 ```
+
+**Rules:**
+- Style anchors are short (under 15 keywords) — do not paste the full style translation
+- No abstract concepts Niji can't render ("emotionally loaded stillness", "narrative weight")
+- No hardcoded scene elements from the style translation — all scene content from blocks 2-4
+- Every keyword must describe something visually concrete
 
 ---
 
 ### NIJI JOURNEY PROMPT — COMPACT
 
-Condensed keyword version for Niji Journey. Core subject, dominant style, and essential
-atmosphere only. End with `--ar [ratio]` only — no `--niji` or `--style` flags.
+Condensed version: subject + dominant style anchor + mood in one line.
+End with `--ar [ratio]` only — no `--niji` or `--style` flags.
 
 ```
-[subject], [key style descriptors], [mood]
+[subject], [3-5 key style keywords], [mood]
 --no [3-5 most critical negatives, if any]
 --ar [ratio]
 ```

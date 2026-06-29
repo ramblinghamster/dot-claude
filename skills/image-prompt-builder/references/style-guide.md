@@ -24,6 +24,7 @@ show the category overview first and offer to go deeper on any group.
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
+| Traditional Media | Colored Pencil |
 
 ---
 
@@ -637,6 +638,30 @@ quality is the signature differentiator.
 
 ---
 
+## Traditional Media
+
+### Colored Pencil
+Traditional colored pencil illustration on white paper with anime character proportions.
+Form is defined entirely by visible colored pencil strokes — directional hatching,
+crosshatching for shadows, and layered color buildup — rather than ink outlines or digital
+linework. Edge definition comes from darker pencil pressure and stroke density. Paper tooth
+texture shows through everywhere, and white paper itself serves as highlights (untouched,
+not painted). Colors have the slightly muted, waxy quality of real colored pencil. Palette
+is fully user-defined.
+
+**Best for:** character portraits, OC showcases, detailed costume and equipment studies,
+fan art, any subject where a handcrafted traditional-media feel is the point.
+
+**Not for:** scenes requiring clean digital polish, flat cel shading, neon lighting, glossy
+skin, or photorealistic rendering.
+
+**Distinct from Sketch Moe:** Sketch Moe uses bold G-pen outlines with flat fills. Colored
+Pencil has no ink outlines at all — all form comes from pencil strokes and hatching. Sketch
+Moe feels like a quick digital sketch; Colored Pencil feels like hours spent layering on
+paper.
+
+---
+
 ## Dark Fantasy Comparison
 
 Five styles work in dark fantasy territory — here's how to choose:
@@ -722,3 +747,7 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Doujinshi cover / rough-with-flats | Sketch Moe |
 | Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
 | Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |
+| Traditional media / handcrafted feel | Colored Pencil |
+| Colored pencil on paper | Colored Pencil |
+| Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |
+| Fan art with traditional media look | Colored Pencil · Sketch Moe |
