@@ -7,3 +7,4 @@ sessions/
 shell-snapshots/
 .DS_Store
 .last-cleanup
+telemetry/
