@@ -1390,35 +1390,57 @@ clean Pixiv anime illustration, confident medium-weight linework, soft flat cel 
 ## STYLE: Colored Pencil
 **Aliases:** colored pencil, colour pencil, pencil art, colored pencil anime, traditional pencil
 **Best for:** character portraits, OC showcases, detailed costume and equipment studies, fan art, any subject where a handcrafted traditional-media feel is the point
-**Conflicts with:** digital polish, clean cel shading, flat rendering, neon lighting, glossy or luminous skin, photorealistic rendering
+**Conflicts with:** digital polish, clean cel shading, flat rendering, neon lighting, glossy or luminous skin, photorealistic rendering, Line Art (the two styles directly conflict — Line Art suppresses the layered stroke quality that defines Colored Pencil, and Colored Pencil's hatching undermines Line Art's clean outline requirement. Never combine them.)
 
 ### Visual Description
-Traditional colored pencil illustration on white or off-white paper. Anime character
-proportions and structure rendered entirely through colored pencil — visible directional
-strokes, crosshatching for shadows, and layered color buildup define form instead of ink
-outlines. Edge definition comes from darker pencil tones and stroke density rather than
-clean linework. Paper tooth texture shows through everywhere, especially in lighter areas.
-White paper itself serves as the highlight — untouched paper, not painted white. Colors
-have the slightly muted, waxy quality inherent to colored pencil media. Palette is
-user-defined but always reads as traditional colored pencil.
+Traditional colored pencil illustration on cream or off-white paper — constructed entirely
+from visible individual pencil marks. The illustration should be immediately recognizable as
+a photograph of a real colored pencil drawing on paper rather than a digital illustration
+imitating colored pencil. Every value, shadow, and color transition is built exclusively from
+layered colored pencil strokes — no smooth tonal gradients, no painted shading, no digital
+blending of any kind. Contour lines are graphite-colored pencil with slight pressure variation
+and occasional broken edges where pigment skips across the paper tooth. Shadows are built
+through multiple layers of visible directional strokes with varying pressure and density;
+stroke direction follows the three-dimensional form of each surface (armor plates wrap around
+the breastplate, greaves follow the shin, cloth strokes follow folds). White areas of armor
+are constructed from layers of cool gray, warm gray, and white colored pencil, with individual
+strokes remaining visible throughout — highlights are preserved paper left untouched, never
+painted white over darker color. Paper grain is consistently visible through every color layer;
+pigment skips over paper tooth in lighter passages, leaving natural white flecks even in
+colored regions. Ground shadow rendered as scattered pencil strokes, not a hard-edged drop.
+Colors have the slightly muted, waxy quality of real colored pencil media. Palette is
+user-defined but always reads as a physical colored pencil illustration, not digital.
 
 ### Style Negatives
-digital rendering, clean ink outlines, flat cel shading, glossy or luminous skin, neon lighting, gradient backgrounds, painterly blending, airbrush smoothness, photorealistic rendering, vector linework, chibi proportions
+smooth tonal gradients, painterly blending, airbrushed shading, soft digital gradients, polished rendering, painted shadows, digital rendering, clean ink-style outlines, flat cel shading, glossy or luminous skin, neon lighting, gradient backgrounds, airbrush smoothness, photorealistic rendering, vector linework, dense crosshatching clusters, chibi proportions, ink wash, Line Art style
+
+### Prompt Notes
+- **Never add a Line Art reference** — the two styles directly conflict and produce scratchy, ambiguous results.
+- **The key constraint:** every value must be built from visible pencil strokes — smooth tonal rendering is the primary failure mode, not outline quality.
+- **Benchmark output:** cream paper visible through strokes including in colored regions, pressure-variable pencil contours with occasional gaps, directional stroke layers for all shading, natural ground shadow scatter.
 
 ### ChatGPT Translation
 ```
-Traditional colored pencil anime illustration on white paper — all form defined by visible
-colored pencil strokes rather than ink outlines, directional hatching and crosshatching for
-shadows, layered color buildup with waxy pencil texture, paper tooth visible throughout
-especially in light areas, white paper left untouched as highlights, edge definition through
-darker pencil pressure and stroke density not clean lines, slightly muted traditional media
-color quality. Drawn entirely as a colored pencil illustration on paper — 2D anime
-proportions, no digital rendering, no ink outlines, no airbrush smoothness.
+Traditional colored pencil anime illustration on cream paper — constructed entirely from
+visible individual colored pencil strokes. This illustration should look like a photograph
+of a real colored pencil drawing on paper, not a digital illustration with a pencil texture
+overlay. Every shadow, color transition, and value change is built exclusively through layered
+colored pencil marks — no smooth blended gradients, no painted tonal rendering. Contour lines
+are graphite-colored pencil with slight pressure variation and broken edges where pigment skips
+across paper tooth. Shadows built through repeated directional stroke layers with varying
+pressure, individual marks visible throughout. Stroke direction follows each surface's
+three-dimensional form. White armor constructed from layered cool gray, warm gray, and white
+colored pencil strokes — highlights are untouched cream paper, never painted white. Paper
+grain visible through every color layer; pigment skips across paper tooth leaving natural
+white flecks in lighter passages. Slightly muted waxy colored pencil color quality. 2D anime
+proportions. No smooth tonal gradients, no painterly blending, no airbrush smoothness, no
+digital rendering, no ink outlines, no dense crosshatch clusters.
 ```
 
 ### Niji Journey Translation
 ```
-traditional colored pencil anime illustration, visible pencil strokes, crosshatch shading, layered color on white paper, paper texture, waxy colored pencil quality, [user-defined palette]
+traditional colored pencil anime illustration on cream paper, every surface built from visible layered pencil strokes, pressure-variable pencil contours broken edges, directional stroke shading follows surface form, paper grain visible through color layers, waxy colored pencil quality, natural scattered ground shadow, [user-defined palette]
+--no smooth gradients, digital rendering, painterly blending, airbrush smoothness, ink outlines, cel shading, dense crosshatching
 --ar [ratio]
 ```
 
@@ -1456,5 +1478,41 @@ construction diorama — no smooth organic forms, no realistic textures, no dark
 ### Niji Journey Translation
 ```
 isometric voxel diorama, 3D block art, chunky cubic construction, miniature scene, tilt-shift depth of field, soft studio lighting, warm natural palette, cute simplified characters, clean white background
+--ar [ratio]
+```
+
+---
+
+## STYLE: Line Art
+**Aliases:** line art, lineart, clean linework, ink outline, character lineart, black ink outline
+**Best for:** character portraits, OC showcases, costume and equipment studies, coloring book pages, character sheets, fan art — any subject where clean controlled black ink outlines are the point
+**Conflicts with:** color fills, shading, tonal rendering, ink washes, hatching, grey tones, painterly blending, flat cel shading, glossy rendering, photorealistic textures
+
+### Visual Description
+Clean black ink line art on white paper — pure linework only, no color fills and no tonal rendering of any kind. Strict two-tier line weight system: thick bold confident lines define all outer silhouettes and major structural edges; noticeably thinner lines handle all interior details and surface seams. The contrast between thick and thin is clearly visible and deliberate — not subtle. Armor and costume surface decoration is simplified to clean geometric structural shapes only — no dense filigree, no intricate engraving, no competing interior line clusters. Every line is a single confident stroke — no sketchy repeated lines, no scratchy multi-stroke edges. Coloring book quality linework: every mark serves a clear structural purpose. White paper is fully visible everywhere. Professional character sheet linework feel.
+
+### Style Negatives
+color fills, shading, hatching, crosshatching, grey tones, ink washes, watercolor, gradients, dense filigree, intricate engraving, scratchy linework, repeated overlapping strokes, flat cel shading, painterly blending, airbrush smoothness, photorealistic rendering, chibi proportions
+
+### ChatGPT Translation
+```
+Clean black ink line art illustration on white paper — pure linework only, no color fills,
+no shading, no tonal rendering. Strict two-tier line weight system: thick bold confident lines
+define all outer silhouettes and major structural edges, noticeably thinner lines handle all
+interior details and surface seams — the contrast between thick and thin is clearly visible
+and deliberate. Costume and armor surface decoration simplified to clean geometric structural
+shapes only, no dense filigree or intricate engraving. Single confident ink strokes only —
+no sketchy repeated lines, no scratchy multi-stroke edges. Coloring book quality linework,
+professional character sheet feel. White paper fully visible everywhere. 2D anime proportions.
+```
+
+### Niji Journey Translation
+```
+clean ink line art no fill no shading, two-tier line weight thick silhouette outlines thin
+interior details, single confident strokes, coloring book linework quality, simplified armor
+panels minimal surface decoration, white background, professional character sheet,
+2D anime proportions
+--no color fill, shading, hatching, grey tones, dense filigree, scratchy lines, gradients,
+cel shading, chibi
 --ar [ratio]
 ```

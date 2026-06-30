@@ -25,6 +25,7 @@ show the category overview first and offer to go deeper on any group.
 | Digital & Pixel | JRPG Pixel Art · Voxel Diorama |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
 | Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
+| Ink & Linework | Line Art |
 
 ---
 
@@ -548,6 +549,27 @@ facial expressions, smooth organic forms.
 
 ---
 
+### Line Art
+Pure black ink linework on white paper — no color fills, no shading, no tonal rendering of
+any kind. The defining technique is a strict two-tier line weight system: thick bold lines
+for outer silhouettes and major structural edges, noticeably thinner lines for all interior
+details and surface seams. The contrast between thick and thin is deliberate and clearly
+visible — not subtle. Every line is a single confident stroke; no sketching, no repeated
+overlapping strokes, no crosshatching. Surface decoration on costumes and armor is simplified
+to clean geometric shapes only — no dense filigree or intricate engraving that creates
+competing interior line clusters. White paper is fully visible throughout. The result has
+coloring book quality: every mark is purposeful, and the image reads cleanly even without
+color or shading.
+
+**Best for:** character portraits, OC showcases, costume and equipment studies, coloring
+book pages, character sheets, fan art — any subject where clean controlled black ink
+outlines are the point.
+
+**Not for:** color fills, atmospheric rendering, painterly or tonal work, ink washes,
+hatching, grey tones, gradients, photorealistic textures.
+
+---
+
 ## Flat & Minimal
 
 These styles share flat cel rendering, ambient-only lighting, and near-shadowless shading. The
@@ -799,3 +821,8 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Isometric miniature scene | Voxel Diorama |
 | Cute toy-like diorama | Voxel Diorama · Daily Chibi |
 | Cozy miniature world | Voxel Diorama · Studio Ghibli |
+| Clean black ink linework / no color | Line Art |
+| Coloring book style / ink outline | Line Art |
+| Character sheet / OC showcase | Line Art · Pencil Sketch |
+| Costume or equipment study | Line Art · Ironbloom · Colored Pencil |
+| Pure linework / no shading | Line Art |

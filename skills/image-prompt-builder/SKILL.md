@@ -91,7 +91,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 35 styles are stored in your personal style library. This table is always
+The following 36 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -131,6 +131,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Colored Pencil | Character portraits, OC showcases, costume/equipment studies, fan art — traditional colored pencil on paper, visible strokes and hatching |
 | Pencil Sketch | Character portraits, OC showcases, costume studies, fan art — monochrome graphite on paper, smooth tonal shading |
 | Voxel Diorama | Isometric miniature scenes, cute block-built characters and environments, cozy dioramas, toy-like 3D worlds |
+| Line Art | Character portraits, OC showcases, costume and equipment studies, coloring book pages, character sheets — pure black ink linework only |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
