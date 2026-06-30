@@ -1453,31 +1453,37 @@ traditional colored pencil anime illustration on cream paper, every surface buil
 
 ### Visual Description
 Isometric 3D block art rendered as a miniature diorama on a clean background. All elements —
-characters, buildings, trees, props — are constructed from chunky cubic voxels with slightly
-rounded edges. Isometric camera angle with shallow tilt-shift depth of field creates a
-miniature model feel. Soft diffused studio lighting with gentle contact shadows. Warm cheerful
-palette with natural material colors — wood grain browns, mossy greens, warm stone greys.
-Characters are simplified and cute, built from stacked blocks with minimal facial features
-(dot eyes, simple expressions). The scene sits on a small ground platform like a collectible
-display piece. Overall feel is cozy, handcrafted, and toylike.
+characters, buildings, trees, props — are constructed from a single consistent voxel grid:
+every block is the same fundamental cube size, and all larger forms are multiples of that
+unit (1×1, 1×2, 2×2, etc.). No block breaks the grid. Slightly rounded edges on all cubes.
+Isometric camera angle with shallow tilt-shift depth of field creates a miniature model feel.
+Soft diffused studio lighting with gentle contact shadows. Warm cheerful palette with natural
+material colors — wood grain browns, mossy greens, warm stone greys. Characters are
+simplified and cute, built from stacked blocks with minimal facial features (dot eyes, simple
+expressions). The scene sits on a small ground platform like a collectible display piece.
+Overall feel is cozy, handcrafted, and toylike. Grid consistency is the single most important
+structural rule — mixed block scales shatter the illusion.
 
 ### Style Negatives
-realistic rendering, smooth organic forms, dark moody lighting, complex facial expressions, photorealistic textures, flat 2D, ink outlines, cel shading, painterly blending, neon lighting
+realistic rendering, smooth organic forms, dark moody lighting, complex facial expressions, photorealistic textures, flat 2D, ink outlines, cel shading, painterly blending, neon lighting, inconsistent block sizes, blocks that break the voxel grid, mixed voxel scales
 
 ### ChatGPT Translation
 ```
-Isometric 3D voxel diorama — a miniature scene built entirely from chunky cubic blocks with
-slightly rounded edges, isometric camera angle, shallow tilt-shift depth of field for a
-miniature model feel, soft diffused studio lighting with gentle shadows, warm cheerful palette
+Isometric 3D voxel diorama — a miniature scene built entirely from a single consistent voxel
+grid where every block is the same fundamental cube unit and all larger forms are exact
+multiples of that unit (1×1, 1×2, 2×2, etc.), no block breaks the grid, slightly rounded
+edges on all cubes, isometric camera angle, shallow tilt-shift depth of field for a miniature
+model feel, soft diffused studio lighting with gentle contact shadows, warm cheerful palette
 with natural material colors (wood browns, mossy greens, warm stone), characters simplified
 into cute block-built forms with minimal dot-eye faces, scene sitting on a small ground
 platform like a collectible display piece, clean white background. Rendered as a 3D block
-construction diorama — no smooth organic forms, no realistic textures, no dark moody lighting.
+construction diorama — consistent voxel grid throughout, no mixed block scales, no smooth
+organic forms, no realistic textures, no dark moody lighting.
 ```
 
 ### Niji Journey Translation
 ```
-isometric voxel diorama, 3D block art, chunky cubic construction, miniature scene, tilt-shift depth of field, soft studio lighting, warm natural palette, cute simplified characters, clean white background
+isometric voxel diorama, 3D block art, consistent voxel grid, uniform block scale, chunky cubic construction, miniature scene, tilt-shift depth of field, soft studio lighting, warm natural palette, cute simplified characters, clean white background
 --ar [ratio]
 ```
 

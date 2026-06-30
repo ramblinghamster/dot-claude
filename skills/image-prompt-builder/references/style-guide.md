@@ -532,13 +532,15 @@ any subject where pixel grid constraints and anime design language both apply.
 ---
 
 ### Voxel Diorama
-Isometric 3D block art rendered as a miniature diorama. Everything is built from chunky
-cubic voxels — characters, buildings, trees, props — like a toy construction set. Isometric
-camera angle with shallow tilt-shift depth of field gives a miniature model feel. Soft
-diffused studio lighting with gentle shadows. Warm, cheerful palette with natural material
-colors (wood, stone, grass). Rounded edges on blocks add friendliness. Background is clean
-white or very light grey, isolating the diorama as an object. The overall feel is cozy,
-handcrafted, and collectible.
+Isometric 3D block art rendered as a miniature diorama. Everything is built from a single
+consistent voxel grid — every block is the same fundamental cube unit, and all larger forms
+are exact multiples (1×1, 1×2, 2×2, etc.). No element breaks the grid. Characters, buildings,
+trees, and props all share the same block scale, like a toy construction set. Isometric camera
+angle with shallow tilt-shift depth of field gives a miniature model feel. Soft diffused
+studio lighting with gentle shadows. Warm, cheerful palette with natural material colors
+(wood, stone, grass). Rounded edges on blocks add friendliness. Background is clean white
+or very light grey. Grid consistency is the single most important structural rule — mixed
+block scales shatter the toylike illusion.
 
 **Best for:** cute animal scenes, small houses and gardens, miniature worlds, cozy
 environments, toy-like characters, any subject that benefits from blocky 3D construction
