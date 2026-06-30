@@ -1446,44 +1446,49 @@ traditional colored pencil anime illustration on cream paper, every surface buil
 
 ---
 
-## STYLE: Voxel Diorama
-**Aliases:** voxel diorama, voxel art, block art, cubic art, isometric blocks, 3d block art
-**Best for:** cute animal scenes, miniature houses and gardens, toy-like characters, cozy dioramas, small worlds built from blocks
+## STYLE: Brick Diorama
+**Aliases:** brick diorama, voxel diorama, block art, lego diorama, interlocking brick, isometric brick scene, building brick art
+**Best for:** cute animal scenes, miniature houses and gardens, toy-like characters, cozy dioramas, small worlds built from interlocking plastic bricks
 **Conflicts with:** smooth organic rendering, realistic proportions, dark moody themes, detailed facial expressions
 
 ### Visual Description
-Isometric 3D block art rendered as a miniature diorama on a clean background. All elements —
-characters, buildings, trees, props — are constructed from a single consistent voxel grid:
-every block is the same fundamental cube size, and all larger forms are multiples of that
-unit (1×1, 1×2, 2×2, etc.). No block breaks the grid. Slightly rounded edges on all cubes.
-Isometric camera angle with shallow tilt-shift depth of field creates a miniature model feel.
-Soft diffused studio lighting with gentle contact shadows. Warm cheerful palette with natural
-material colors — wood grain browns, mossy greens, warm stone greys. Characters are
-simplified and cute, built from stacked blocks with minimal facial features (dot eyes, simple
-expressions). The scene sits on a small ground platform like a collectible display piece.
-Overall feel is cozy, handcrafted, and toylike. Grid consistency is the single most important
-structural rule — mixed block scales shatter the illusion.
+Isometric miniature diorama rendered as a premium collectible building brick model on a clean
+background. All elements — characters, buildings, trees, props — are constructed from genuine
+interlocking plastic building bricks on a fixed stud grid, assembled using standard bricks,
+plates, tiles, slopes, curved slopes, wedges, and round elements. Every element snaps precisely
+to the stud grid with no floating or off-grid pieces. Exposed circular studs visible on top
+surfaces with consistent spacing. Individual bricks remain identifiable through narrow seams and
+stacked construction. Injection-molded ABS plastic with subtle satin sheen, authentic chamfered
+plastic brick edges, tiny molded seams, realistic contact shadows. Isometric camera angle with
+shallow tilt-shift depth of field creates a miniature model feel. Warm soft studio lighting.
+Warm cheerful palette with natural material colors — wood grain browns, mossy greens, warm stone
+greys. Characters are simplified and cute, built from stacked bricks with minimal facial features.
+The scene sits on a small baseplate like a collectible display piece. Overall feel is cozy,
+handcrafted, and toy-like.
 
 ### Style Negatives
-realistic rendering, smooth organic forms, dark moody lighting, complex facial expressions, photorealistic textures, flat 2D, ink outlines, cel shading, painterly blending, neon lighting, inconsistent block sizes, blocks that break the voxel grid, mixed voxel scales
+sculpted voxel cubes, Minecraft-style blocks, MagicaVoxel render, fused geometry, melted block surfaces, seamless shapes, off-grid pieces, floating bricks, irregular brick sizes, smooth organic forms, dark moody lighting, complex facial expressions, photorealistic textures, flat 2D, ink outlines, cel shading, painterly blending, neon lighting
 
 ### ChatGPT Translation
 ```
-Isometric 3D voxel diorama — a miniature scene built entirely from a single consistent voxel
-grid where every block is the same fundamental cube unit and all larger forms are exact
-multiples of that unit (1×1, 1×2, 2×2, etc.), no block breaks the grid, slightly rounded
-edges on all cubes, isometric camera angle, shallow tilt-shift depth of field for a miniature
-model feel, soft diffused studio lighting with gentle contact shadows, warm cheerful palette
-with natural material colors (wood browns, mossy greens, warm stone), characters simplified
-into cute block-built forms with minimal dot-eye faces, scene sitting on a small ground
-platform like a collectible display piece, clean white background. Rendered as a 3D block
-construction diorama — consistent voxel grid throughout, no mixed block scales, no smooth
-organic forms, no realistic textures, no dark moody lighting.
+Isometric realistic interlocking plastic brick diorama — a miniature collectible scene
+constructed entirely from authentic interlocking plastic building bricks on a precise stud
+grid. Every object is assembled using standard bricks, plates, tiles, slopes, curved slopes,
+wedges, and round elements while remaining fully constrained to physically plausible brick
+construction. Individual bricks remain visible through narrow seams and exposed circular studs
+with consistent spacing across the model. Every element snaps precisely to the stud grid with
+no floating or off-grid pieces. Injection-molded ABS plastic with subtle satin reflections,
+authentic chamfered plastic brick edges, tiny part gaps, consistent manufacturing tolerances,
+authentic toy-scale proportions. Characters simplified into cute brick-built forms with minimal
+dot-eye faces. Scene sitting on a small baseplate like a collectible display piece, clean white
+background. Photographed like a premium collectible building brick display model using macro
+lens, warm soft studio lighting, shallow tilt-shift depth of field, realistic plastic
+reflections, and gentle contact shadows.
 ```
 
 ### Niji Journey Translation
 ```
-isometric voxel diorama, 3D block art, consistent voxel grid, uniform block scale, chunky cubic construction, miniature scene, tilt-shift depth of field, soft studio lighting, warm natural palette, cute simplified characters, clean white background
+isometric interlocking plastic brick diorama, building brick model, stud grid construction, brick seams and exposed studs, ABS plastic satin finish, miniature collectible scene, tilt-shift depth of field, soft studio lighting, warm natural palette, cute simplified characters, clean white background
 --ar [ratio]
 ```
 

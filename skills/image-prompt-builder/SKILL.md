@@ -130,7 +130,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Pixiv Clean | Original character portraits, elf/fantasy OCs, white or scene background — clean face vs gestural fabric contrast, ambient light only |
 | Colored Pencil | Character portraits, OC showcases, costume/equipment studies, fan art — traditional colored pencil on paper, visible strokes and hatching |
 | Pencil Sketch | Character portraits, OC showcases, costume studies, fan art — monochrome graphite on paper, smooth tonal shading |
-| Voxel Diorama | Isometric miniature scenes, cute block-built characters and environments, cozy dioramas, toy-like 3D worlds |
+| Brick Diorama | Isometric miniature scenes built from interlocking plastic building bricks, cozy collectible dioramas, toy-like brick-constructed worlds |
 | Line Art | Character portraits, OC showcases, costume and equipment studies, coloring book pages, character sheets — pure black ink linework only |
 
 ### Output Formats

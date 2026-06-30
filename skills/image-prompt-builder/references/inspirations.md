@@ -353,10 +353,10 @@ When adding, follow the existing format:
 
 ---
 
-## Voxel Diorama
+## Brick Diorama
 
-1. A sleeping cat curled up in front of a tiny block-built doghouse, a second blocky puppy flopped on its side nearby, daisies and a small tree on a grass platform
-2. A miniature ramen shop with a block-built chef visible through the counter window, tiny lanterns hanging from the eaves, steam suggested by small translucent white blocks rising from bowls
-3. A knight standing guard at the gate of a tiny cubic castle, one block-built tree on each side, a winding path of grey stone blocks leading to the entrance
-4. A cozy treehouse built into a chunky voxel oak tree, a rope ladder dangling down, a small fox sitting at the base looking up, warm afternoon light
-5. An underwater coral reef diorama — block-built fish swimming between cubic coral formations, a treasure chest half-buried in sand blocks, light rays filtering down from the surface
+1. A sleeping cat curled up in front of a tiny brick-built doghouse, a second brick-built puppy flopped on its side nearby, daisies assembled from round brick elements and a small tree on a green baseplate
+2. A miniature ramen shop with a brick-built chef visible through the stud-grid counter window, tiny tile-built lanterns hanging from the eaves, steam suggested by small white transparent round bricks rising from bowls
+3. A knight minifigure standing guard at the gate of a tiny brick castle, one brick-built tree on each side, a winding path of grey tile bricks leading to the entrance, all snapped to the stud grid
+4. A cozy treehouse built into a brick-built oak tree using slope and curved slope elements, a rope ladder of bar elements dangling down, a small brick fox sitting at the base looking up, warm afternoon studio lighting
+5. An underwater coral reef diorama — brick-built fish assembled from wedge and round elements swimming between coral formations built from stacked slope bricks, a treasure chest of brown and gold bricks half-buried in tan stud-grid sand, light rays suggested by translucent clear brick columns filtering down

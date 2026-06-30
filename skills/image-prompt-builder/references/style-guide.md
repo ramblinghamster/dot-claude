@@ -22,7 +22,7 @@ show the category overview first and offer to go deeper on any group.
 | Atmospheric & Moody | Soulslike · Crewdson · Ironbloom · Editorial Fashion · Velvet |
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
-| Digital & Pixel | JRPG Pixel Art · Voxel Diorama |
+| Digital & Pixel | JRPG Pixel Art · Brick Diorama |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
 | Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
 | Ink & Linework | Line Art |
@@ -531,20 +531,21 @@ any subject where pixel grid constraints and anime design language both apply.
 
 ---
 
-### Voxel Diorama
-Isometric 3D block art rendered as a miniature diorama. Everything is built from a single
-consistent voxel grid — every block is the same fundamental cube unit, and all larger forms
-are exact multiples (1×1, 1×2, 2×2, etc.). No element breaks the grid. Characters, buildings,
-trees, and props all share the same block scale, like a toy construction set. Isometric camera
-angle with shallow tilt-shift depth of field gives a miniature model feel. Soft diffused
-studio lighting with gentle shadows. Warm, cheerful palette with natural material colors
-(wood, stone, grass). Rounded edges on blocks add friendliness. Background is clean white
-or very light grey. Grid consistency is the single most important structural rule — mixed
-block scales shatter the toylike illusion.
+### Brick Diorama
+Isometric miniature diorama rendered as a premium collectible building brick model. Every
+element is constructed from genuine interlocking plastic building bricks on a fixed stud grid
+— assembled using standard bricks, plates, tiles, slopes, curved slopes, wedges, and round
+elements. Every piece snaps to the stud grid; no floating or off-grid parts. Individual bricks
+remain identifiable through narrow seams and exposed circular studs. Injection-molded ABS
+plastic with subtle satin sheen, authentic chamfered edges, and realistic contact shadows.
+Isometric camera angle with shallow tilt-shift depth of field and warm soft studio lighting.
+Warm cheerful palette with natural material colors (wood, stone, grass). Characters simplified
+into cute brick-built forms. Scene sits on a small baseplate like a collectible display piece.
+Clean white or very light grey background.
 
 **Best for:** cute animal scenes, small houses and gardens, miniature worlds, cozy
-environments, toy-like characters, any subject that benefits from blocky 3D construction
-and a warm miniature aesthetic.
+environments, toy-like characters, any subject that benefits from interlocking brick
+construction and a warm miniature aesthetic.
 
 **Not for:** realistic rendering, dark or moody themes, complex action sequences, detailed
 facial expressions, smooth organic forms.
@@ -819,10 +820,10 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |
 | Fan art with traditional media look | Colored Pencil · Sketch Moe |
-| Voxel / block art / cubic 3D | Voxel Diorama |
-| Isometric miniature scene | Voxel Diorama |
-| Cute toy-like diorama | Voxel Diorama · Daily Chibi |
-| Cozy miniature world | Voxel Diorama · Studio Ghibli |
+| Voxel / block art / cubic 3D | Brick Diorama |
+| Isometric miniature scene | Brick Diorama |
+| Cute toy-like diorama | Brick Diorama · Daily Chibi |
+| Cozy miniature world | Brick Diorama · Studio Ghibli |
 | Clean black ink linework / no color | Line Art |
 | Coloring book style / ink outline | Line Art |
 | Character sheet / OC showcase | Line Art · Pencil Sketch |

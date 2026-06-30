@@ -29,7 +29,7 @@ Cel Shading · Soulslike · Miura · JRPG Pixel Art · Shounen Burst ·
 Moe Gacha · Webtoon · Storybook · Storybook Impasto · Gacha Splash ·
 Cinematic Anime · Hyperreal Anime · Daily Chibi · Velvet · Gossamer ·
 Flat Cel · Flat Chibi · Sketch Moe · Pixiv Clean · Colored Pencil · Pencil Sketch ·
-Voxel Diorama
+Brick Diorama
 
 ### Sync Workflow
 
