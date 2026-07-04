@@ -634,7 +634,7 @@ Before delivering the final prompts, run this gate silently. Do not skip it.
 - ChatGPT prompts contain labeled headers like `[ROLE]` or `ROLE:` → rewrite as natural prose
 - Niji Journey robust prompt exceeds 3 lines or contains abstract/non-visual concepts → shorten and make concrete
 - Style keywords contradict each other (e.g., `photorealistic` + `anime`) → reconcile per platform
-- ChatGPT or Niji prompt text names a living artist, director, or studio (e.g., a style named after a real person) → strip the name and replace with pure visual/technical description; the style's own label in `references/styles.md` may keep the person's name for menu/lookup purposes, but that name must never appear inside the delivered prompt text itself
+- ChatGPT or Niji prompt text contains the loaded style's own proper name in any form (e.g., "Makoto Shinkai–style", "in the style of Crewdson", "Ufotable-style anime") → strip it and rewrite the declaration using only the style's visual/technical language (lighting, palette, linework, composition). This applies to every style, not only ones named after real people — the style's own label in `references/styles.md` exists for menu/lookup purposes only and must never appear inside delivered prompt text
 
 **Step 2 — Ask the user before proceeding if:**
 - Block 4 has no aspect ratio and none can be inferred → ask which ratio they want
@@ -706,6 +706,15 @@ CRITICAL FOR ILLUSTRATED/ANIME STYLES: Always lead Phase 1 with the style declar
 photorealism. Close Phase 1 with explicit 2D anchors: "drawn in," "line art,"
 "2D rendered," "anime illustration style." This keeps the render mode locked to the
 intended aesthetic regardless of scene complexity.
+
+CRITICAL — NEVER NAME THE STYLE IN THE DECLARATION: The style declaration must be built
+from the loaded style's Visual Description / ChatGPT Translation wording, never from the
+style's own label. Do not write "[Style Name]-style" or "in the style of [Style Name]"
+under any circumstance — this applies to every style, not only ones named after people.
+Writing "A Makoto Shinkai–style anime illustration..." or "A Crewdson-style..." is a
+compliance failure even if it reads naturally. Paraphrase freely, but only using the
+visual/technical language already in the style entry (lighting, palette, linework,
+composition) — the style's proper name must never appear inside a delivered prompt.
 
 **Phase 2 — Scene Description (follows the style block):**
 Now describe the subject, environment, composition, lighting, mood, and palette. Think
