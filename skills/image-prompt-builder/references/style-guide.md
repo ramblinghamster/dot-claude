@@ -64,10 +64,11 @@ gentle wonder.
 ---
 
 ### Makoto Shinkai
-Hyper-detailed atmospheric skies with layered clouds, volumetric light rays, and lens flare.
-Intensely saturated natural colors — deep blues, burning ambers, electric gold. Backgrounds
-are rendered with near-photographic detail while characters stay cleanly anime-stylized.
-The emotional register is longing, distance, and beauty in transience.
+Luminous atmospheric anime illustration with hyper-detailed painterly backgrounds, layered
+clouds, drifting rain, and dramatic volumetric light rays. Intensely saturated natural colors
+— deep blues, warm ambers, electric gold. Backgrounds carry near-photographic density while
+characters retain clean 2D anime linework. The emotional register is quiet reflection and
+distance, beauty in transience.
 
 **Best for:** dramatic sky compositions, two characters separated by distance or light,
 golden hour cityscapes, train windows and weather, emotionally charged outdoor moments,
@@ -297,21 +298,25 @@ atmospheric work.
 ---
 
 ### Moe Gacha
-Full chibi action art — extreme chibi proportions where the head is roughly one-third to
-one-half of total height, creating a tiny-but-capable figure that works across any genre.
-Clean precise linework with crisp flat cel shading. Equipment and outfits rendered with care
-at chibi scale — fantasy armor, school uniforms, sci-fi suits, magical costumes, sports gear,
-mecha pilot suits — anything works. Oversized weapons or props that read as charming rather
-than absurd at chibi proportions. Wind-swept hair, dynamic low-angle action poses, debris and
-particles mid-motion. Warm golden ambient lighting with floating particles. Soft-focus
-background suited to the scene's setting. Cute and determined — confidence at a small scale.
-Closest to premium gacha game chibi sprites and high-end mobile RPG character art.
+Modern mascot illustration built on extreme super-deformed (SD) proportions — more extreme
+than traditional action chibi. The oversized head occupies roughly 65-75% of total height,
+paired with a tiny plush-like body, stubby limbs, and oversized mitten-like hands and feet.
+Silhouettes are rounded and soft, prioritizing toy-like appeal over dynamic energy. Clean
+medium-thick tapered linework with minimal interior clutter. Soft cel shading using only 2-3
+broad shadow values blended with subtle airbrushed gradients, smooth textureless materials,
+gentle bloom, and soft rim lighting. Large glossy eyes, tiny nose and mouth, graphic
+exaggerated expressions. Hair simplifies into large soft clumps. Saturated accent colors
+against soft neutral bases. Poses are still and presentational rather than dynamic. Closest
+to premium mobile gacha promotional art, vinyl figure and acrylic stand illustration, and
+high-end mascot key art.
 
-**Best for:** any chibi character in dynamic action — fantasy warriors, magical girls, school
-uniforms, sci-fi pilots, sports characters, mecha suits, or any theme where full chibi
-proportions and warm action energy combine. Genre is fully user-defined.
+**Best for:** mascot-style character art rather than action chibi — vinyl figure and acrylic
+stand illustrations, collectible keychain designs, gacha promotional key art. Genre and
+character concept are fully user-defined; the constant is extreme SD proportions and a
+still, toy-like presentation.
 
-**Not for:** dark or gritty aesthetics, Soulslike, Miura, restrained or atmospheric styles.
+**Not for:** dark or gritty aesthetics, Soulslike, Miura, dynamic action poses, restrained or
+atmospheric styles.
 
 ---
 
@@ -582,24 +587,26 @@ technique; Flat Cel is the unrestricted base.
 ---
 
 ### Flat Chibi
-Moe Gacha's full chibi proportions and action energy rendered with Flat Cel's technique.
-Head is one-third to one-half of total height — same extreme chibi scale as Moe Gacha —
-with oversized weapons or props and detailed outfits at chibi scale across any genre.
-Everything is flat: single shadow tone, lifted dark values, no gradients, no warm bloom, no
-atmospheric particles. Debris and particles become simplified flat graphic shapes. Backgrounds
-are flat and minimal. Palette is fully user-defined. The result feels like high-quality mobile
-game sticker art or a bold flat graphic game icon — cute, readable, and graphically confident.
+Full chibi action-art proportions rendered with Flat Cel's technique. Head is one-third to
+one-half of total height — a tiny-but-capable figure, less extreme than Moe Gacha's mascot
+scale — with oversized weapons or props and detailed outfits at chibi scale across any genre.
+Poses are dynamic and action-oriented. Everything is flat: single shadow tone, lifted dark
+values, no gradients, no bloom, no atmospheric particles. Debris and particles become
+simplified flat graphic shapes. Backgrounds are flat and minimal. Palette is fully
+user-defined. The result feels like high-quality mobile game sticker art or a bold flat
+graphic game icon — cute, readable, and graphically confident.
 
 **Best for:** any chibi character in dynamic action — fantasy warriors, magical girls, school
-uniforms, sci-fi pilots, sports, mecha — wherever Moe Gacha's energy is wanted without its
-warm painterly rendering. Palette and theme fully user-defined.
+uniforms, sci-fi pilots, sports, mecha — wherever action-chibi energy is wanted with
+completely flat rendering. Palette and theme fully user-defined.
 
 **Not for:** regular-proportioned characters (use Flat Cel instead), static or slice-of-life
-scenes (use Daily Chibi), warm atmospheric rendering (use Moe Gacha).
+scenes (use Daily Chibi), still mascot presentation or soft gradient rendering (use Moe Gacha).
 
-**Moe Gacha vs. Flat Chibi:** Moe Gacha has warm golden bloom, painterly gradients, and
-atmospheric particles. Flat Chibi strips all of that — same chibi proportions and action
-energy, completely flat rendering.
+**Moe Gacha vs. Flat Chibi:** Moe Gacha is a still, extreme-SD mascot (head 65-75% of height)
+with soft cel shading, airbrushed gradients, and bloom. Flat Chibi is a dynamic action chibi
+(head one-third to one-half of height) with completely flat rendering — different proportions,
+different energy, different rendering.
 
 ---
 
@@ -748,10 +755,10 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Epic battle / combat | Dark Fantasy · Ufotable · Cel Shading |
 | Supernatural action | Shounen Burst · Ufotable · Cel Shading |
 | Character portrait | Crewdson · Aquarelle · Ironbloom · Miura |
-| Soft fantasy portrait | Gossamer · Aquarelle · Moe Gacha |
+| Soft fantasy portrait | Gossamer · Aquarelle |
 | Emotional outdoor scene | Makoto Shinkai · Studio Ghibli |
 | Dark atmospheric environment | Soulslike · Neon Noir · Dark Fantasy |
-| Fantasy interior / warmth | Ember · Moe Gacha |
+| Fantasy interior / warmth | Ember |
 | Technical gear / armor study | Ironbloom · Miura · JRPG Pixel Art |
 | Graphic / poster energy | Cel Shading · Retro Anime · Neon Noir |
 | Glass / crystal / caustic light | Prism |
@@ -760,7 +767,8 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Luxury / commercial | Editorial Fashion |
 | Quiet / understated character | Aquarelle · Crewdson |
 | Nature / wonder | Studio Ghibli · Makoto Shinkai |
-| Chibi action / fantasy chibi | Moe Gacha |
+| Chibi action / fantasy chibi | Flat Chibi |
+| Mascot / vinyl figure / gacha keychain chibi | Moe Gacha |
 | Everyday slice-of-life / cozy chibi | Daily Chibi |
 | Character eating / relaxing / off-duty | Daily Chibi · Ember |
 | Food scene / restaurant / cafe | Daily Chibi |
@@ -797,7 +805,7 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Lustrous material rendering (satin, velvet, silk) | Velvet · Editorial Fashion |
 | Premium dark gacha key visual | Velvet · Gacha Splash |
 | Full chibi with flat rendering | Flat Chibi |
-| Action chibi any genre flat style | Flat Chibi · Moe Gacha |
+| Action chibi any genre flat style | Flat Chibi |
 | Graphic sticker chibi / mobile icon chibi | Flat Chibi |
 | Chibi magical girl / school / sci-fi flat | Flat Chibi |
 | Flat cel / clean flat anime | Flat Cel · Gossamer |

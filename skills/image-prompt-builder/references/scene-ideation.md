@@ -84,8 +84,9 @@ composition anchor**. Explain in one line why each style fits.
 | Nostalgic, 80s–90s retro feel | Retro Anime, Aquarelle |
 | Gothic horror, decay | Soulslike, Dark Fantasy, Miura |
 | Warm slice-of-life, cozy | Ember, Studio Ghibli, Aquarelle |
-| Vibrant gacha/VTuber energy | Gacha Splash, Moe Gacha, Cinematic Anime |
+| Vibrant gacha/VTuber energy | Gacha Splash, Cinematic Anime |
 | Clean modern manhwa | Webtoon, Pixiv Clean, Flat Cel |
+| Mascot / vinyl figure / gacha keychain art | Moe Gacha |
 | Whimsical fairy tale | Storybook, Studio Ghibli, Gossamer |
 | Flat graphic, bold and punchy | Flat Cel, Cel Shading, Flat Chibi |
 | Armored characters, mech, tactical | Ironbloom, Miura, Cinematic Anime |

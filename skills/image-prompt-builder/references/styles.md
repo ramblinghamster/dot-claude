@@ -437,29 +437,28 @@ flat manga ink linework, soft anime face, flat color fills no hatching, sparse w
 **Conflicts with:** interior-only scenes, Kurosawa monochrome, flat design, hard toon cel shading
 
 ### Visual Description
-Inspired by a distinctive strand of contemporary Japanese animated films — hyper-detailed
-atmospheric skies with layered clouds, lens flares, and luminous volumetric light rays that
-feel almost tactile. Colors are intensely saturated but natural: deep blues, burning ambers,
-electric golds. Backgrounds are rendered with near-photographic detail while characters retain
-clean anime stylization, creating a dreamlike contrast. Emotional depth comes from light —
-the way it falls on a face, refracts through rain, or floods a train window. A pervasive
-sense of distance, longing, and beauty in transience.
+Luminous atmospheric anime illustration with hyper-detailed painterly backgrounds — layered
+clouds, drifting rain, and dramatic volumetric light rays that feel almost tactile. Colors are
+intensely saturated but natural: deep blues, warm ambers, electric golds. Backgrounds carry
+near-photographic density while characters retain clean 2D anime linework, creating a rich
+painterly contrast. Emotional register is quiet reflection and distance — light falling across
+a face, rain streaking a window, the space between two people rendered as vividly as the
+people themselves.
 
 ### Style Negatives
 interior-only scenes, monochrome palette, flat cel shading, hard toon outlines, chibi proportions, minimal backgrounds, dark enclosed spaces, desaturated colors
 
 ### ChatGPT Translation
 ```
-Luminous atmospheric sky anime illustration — hyper-detailed sky with layered clouds and
-luminous volumetric light rays, lens flare, intensely saturated natural colors in deep blues
-and burning amber gold, richly detailed painterly background contrasting with clean anime character
-stylization, emotional depth through light and distance, dreamlike beauty, sense of longing
-and transience, cinematic anime composition.
+Luminous atmospheric anime illustration with hyper-detailed painterly backgrounds, dramatic
+volumetric light rays, layered rain, intensely saturated natural blues and warm amber light,
+cinematic composition, emotional sense of distance and quiet reflection, clean 2D anime
+character linework contrasted against richly painted environments.
 ```
 
 ### Niji Journey Translation
 ```
-luminous sky anime style, hyper-detailed clouds, volumetric light rays, lens flare, saturated deep blue amber gold palette, detailed painterly background, clean anime characters
+luminous atmospheric anime style, hyper-detailed painterly backgrounds, volumetric light rays, layered rain, saturated deep blue amber gold palette, clean 2D anime character linework, cinematic emotional distance
 ```
 
 ---
@@ -723,48 +722,58 @@ modern shounen anime, warm sepia tones, cold sharp supernatural energy contrast,
 ---
 
 ## STYLE: Moe Gacha
-**Aliases:** moe gacha, gacha, chibi gacha, cute chibi, fantasy chibi, chibi knight, chibi warrior, gacha chibi
-**Best for:** any character in dynamic action regardless of genre — fantasy warriors, magical girls, school uniforms, sci-fi suits, sports characters, mecha pilots — any scene where full chibi proportions and warm cinematic energy combine. The chibi scale and action energy are the constants; the theme is fully user-defined.
-**Conflicts with:** Miura, Soulslike, Kurosawa, any dark gritty or restrained aesthetic
+**Aliases:** moe gacha, gacha mascot, sd mascot, chibi mascot, plush mascot, vinyl figure mascot, mascot chibi, gacha keychain
+**Best for:** premium mascot-style character art rather than action chibi — vinyl figure and acrylic stand illustrations, collectible keychain designs, gacha promotional key art, mascot icon art. Any character concept works; the constant is extreme super-deformed proportions and toy-like presentation, not a theme.
+**Conflicts with:** Miura, Soulslike, Kurosawa, Dark Fantasy — realistic anatomy or gritty rendering; Flat Chibi, Daily Chibi — related but distinct chibi approaches (see comparisons in style-guide.md)
 
 ### Visual Description
-The full chibi action art aesthetic of gacha games — characters rendered at extreme
-chibi proportions where the head is roughly one-third to one-half of total body height,
-creating a tiny-but-capable figure that feels both adorable and powerful. Works across any
-genre: fantasy armor, school uniforms, sci-fi suits, magical girl costumes, sports gear,
-mecha pilot suits — the chibi scale and dynamic energy are the constants, not the theme.
-Linework is clean and precise with subtle weight variation. Cel shading is crisp and flat
-rather than painterly — smooth color transitions, clean shadow edges, no heavy gradients.
-Equipment and outfits are rendered with care despite the chibi scale. Weapons and props are
-oversized relative to the character, which reads as charming rather than absurd at chibi
-proportions. Hair is flowing and wind-swept with good strand separation. Poses are dynamic
-— low-angle action shots, mid-charge, debris and particles in motion. Lighting is warm and
-atmospheric: golden ambient glow, floating light particles, soft environmental haze.
-Backgrounds are soft-focus and supportive rather than detailed — ruins, classrooms, space
-stations, arenas, wherever the scene is set. The overall mood is cute and determined — a
-small figure with complete confidence. Closest to premium gacha game chibi sprites and
-high-end mobile RPG in-game character art.
+Modern Moe Gacha mascot illustration built on extreme super-deformed (SD) proportions —
+more extreme than traditional action chibi. The oversized head occupies roughly 65-75% of
+the character's total height, paired with an extremely small plush-like body, tiny stubby
+limbs, oversized mitten-like hands and feet, and simplified anatomy. Silhouettes are rounded
+and soft, prioritizing toy-like appeal over dynamic energy or realistic proportion. Line art
+is clean, confident, and medium-thick, tapering subtly at the ends, with minimal interior
+line clutter so shapes stay highly readable even at small sizes. Shading is soft cel work
+using only 2-3 broad shadow values blended with subtle airbrushed gradients — enough to
+suggest volume without turning painterly. Materials read smooth and stylized with almost no
+visible texture; gentle bloom surrounds emissive elements and soft rim lighting separates the
+figure from its background. Large glossy eyes dominate the face alongside a tiny nose and
+small mouth, with graphic, exaggerated expressions rather than anatomically grounded ones.
+Hair simplifies into large flowing clumps with minimal strand detail. The palette pairs
+saturated accent colors against soft neutral bases for a luminous, collectible-feeling
+result rather than physically realistic lighting. Clothing folds, armor panel lines, and
+props are reduced to large clean shapes, with visual interest carried by color design and
+silhouette rather than intricate rendering. Poses are still and presentational rather than
+dynamic — a single confident stance or gesture, not mid-action. Closest to premium mobile
+gacha promotional art, vinyl figure and acrylic stand illustration, and high-end mascot key
+art.
 
 ### Style Negatives
-dark gritty atmosphere, monochrome palette, realistic proportions, heavy crosshatching, desaturated colors, static poses, painterly rendering, complex detailed backgrounds
+realistic anatomy, normal human proportions, elongated limbs, mature body proportions, painterly rendering, photorealism, excessive texture, highly detailed muscles, intricate clothing folds, realistic lighting, cinematic realism, complex mechanical detail, tiny head, semi-realistic face, dynamic action pose, gritty atmosphere
 
 ### ChatGPT Translation
 ```
-Full chibi gacha art aesthetic — extreme chibi proportions with large round head roughly
-one-third to one-half of total height and tiny elegant body, clean precise anime linework
-with crisp flat cel shading and smooth clean shadow edges, detailed character outfit or
-equipment rendered carefully at chibi scale (fantasy armor, school uniform, sci-fi suit,
-magical girl costume, or any genre), oversized weapon or prop proportional to chibi frame,
-flowing wind-swept hair with strand separation, dynamic low-angle action pose with debris
-and motion particles, warm golden ambient lighting with floating atmospheric particles,
-soft-focus background appropriate to the scene's setting, cute determined expression,
-confident and capable despite small frame, premium gacha chibi character art quality.
+Modern Moe Gacha mascot illustration with extreme super-deformed proportions — the oversized
+head occupies roughly 70% of the character's total height, paired with a tiny plush-like
+body, tiny stubby limbs, and oversized mitten-like hands and feet. Rounded silhouettes, soft
+curves, and toy-like appeal throughout, in a still, presentational pose rather than dynamic
+action. Clean confident digital line art with medium-thick tapered outlines and minimal
+interior line clutter, keeping every shape highly readable. Soft cel shading uses only 2-3
+broad shadow values blended with subtle airbrushed gradients for gentle volume, smooth
+stylized surfaces with almost no visible texture, gentle bloom around emissive elements, and
+soft colored rim lighting separating the figure from the background. Large glossy anime eyes
+with a tiny nose and small mouth carry an exaggerated, graphic cute expression; hair is
+simplified into large soft flowing clumps with minimal strand detail. Saturated accent colors
+against a soft neutral base give a luminous, collectible appearance. Premium mobile gacha
+promotional art quality, like a collectible vinyl figure or acrylic stand illustration,
+polished mascot character design, 2D anime illustration style.
 ```
 
 ### Niji Journey Translation
 ```
-chibi proportions large head tiny body, clean linework crisp flat cel shading, oversized weapon chibi scale, dynamic action pose, warm golden lighting, gacha chibi art
---ar 16:9
+extreme SD mascot proportions, oversized head tiny plush body, stubby limbs, mitten hands and feet, soft cel shading airbrushed gradients, clean tapered linework, glossy anime eyes, still presentational pose, premium gacha mascot art
+--no realistic anatomy, elongated limbs, dynamic action pose, heavy texture, painterly rendering
+--ar 1:1
 ```
 
 ---
@@ -1129,7 +1138,7 @@ cinematic anime key visual, polished soft-rendered shading, refined line art, gl
 ## STYLE: Daily Chibi
 **Aliases:** daily chibi, chibi daily, cozy chibi, casual chibi, nichijou, slice chibi, SD daily life, everyday chibi, chibi slice of life, off-duty chibi
 **Best for:** everyday slice-of-life scenes, characters eating or relaxing, restaurant/cafe/home interiors, mundane activities rendered with warmth, food scenes, off-duty character moments
-**Conflicts with:** Moe Gacha (action-focused vs. static everyday), Dark Fantasy, Soulslike, Tactical Ink, Kurosawa — anything requiring dramatic atmosphere, action energy, or dynamic composition
+**Conflicts with:** Moe Gacha (extreme SD mascot proportions and product-key-art presentation vs. semi-chibi grounded in a lived-in scene), Dark Fantasy, Soulslike, Tactical Ink, Kurosawa — anything requiring dramatic atmosphere, action energy, or dynamic composition
 
 ### Visual Description
 Semi-chibi proportions — head roughly one-quarter of total height, slightly enlarged but far
@@ -1212,18 +1221,18 @@ soft flat anime, barely visible thin outlines, flat cel shading single shadow to
 
 ## STYLE: Flat Chibi
 **Aliases:** flat chibi, chibi flat, graphic chibi, sticker chibi, pop chibi, flat gacha chibi, clean chibi
-**Best for:** any chibi character in dynamic action regardless of genre — fantasy warriors, magical girls, school uniforms, sci-fi pilots, sports characters, mecha suits. Same genre freedom as Moe Gacha with flat cel rendering instead of warm painterly gradients. Palette fully user-defined.
-**Conflicts with:** Moe Gacha (shares chibi proportions but Moe Gacha uses warm painterly rendering and atmospheric lighting), Gacha Splash, Ember, Makoto Shinkai, Hyperreal Anime, Cinematic Anime, Aquarelle, Velvet — anything requiring gradient rendering, atmospheric lighting, or painterly depth.
+**Best for:** any chibi character in dynamic action regardless of genre — fantasy warriors, magical girls, school uniforms, sci-fi pilots, sports characters, mecha suits. Full chibi action-art proportions rendered with Flat Cel's technique instead of soft gradients. Palette fully user-defined.
+**Conflicts with:** Moe Gacha (Moe Gacha is a still, extreme-SD mascot with soft gradient/bloom rendering; Flat Chibi is dynamic action-chibi with completely flat rendering), Gacha Splash, Ember, Makoto Shinkai, Hyperreal Anime, Cinematic Anime, Aquarelle, Velvet — anything requiring gradient rendering, atmospheric lighting, or painterly depth.
 
 ### Visual Description
-Moe Gacha's full chibi proportions and action energy rendered through Flat Cel's technique. The head is one-third to one-half of total body height — the same extreme chibi scale — with a tiny capable body, oversized weapons or props, and detailed outfits or equipment across any genre. Everything renders flat: a single hard-edged shadow tone with lifted dark values, no gradients, no blending, no atmospheric glow or warm bloom. Line art is clean and thin with consistent weight. Outfits and armor have flat color fills with no metallic sheen or highlight drama. Weapons and props are oversized and bold but rendered as flat graphic blocks rather than detailed metallic rendering. Hair reads as flat smooth planes with a single shine streak. Particles and debris are simplified flat graphic shapes rather than atmospheric effects. Backgrounds are flat and minimal — never detailed, never competing. Lighting is completely ambient — no warm bloom, no rim light, no floating atmospheric particles. Palette is fully user-defined. The result feels like high-quality mobile game sticker art, a bold LINE character, or a flat graphic game icon — cute, readable, and graphically confident. Distinct from Moe Gacha (warm painterly rendering) and Daily Chibi (semi-chibi, static, slice-of-life).
+Full chibi action-art proportions rendered through Flat Cel's technique. The head is one-third to one-half of total body height — a tiny-but-capable figure rather than the more extreme mascot scale of Moe Gacha — with a tiny capable body, oversized weapons or props, and detailed outfits or equipment across any genre. Everything renders flat: a single hard-edged shadow tone with lifted dark values, no gradients, no blending, no atmospheric glow or bloom. Line art is clean and thin with consistent weight. Outfits and armor have flat color fills with no metallic sheen or highlight drama. Weapons and props are oversized and bold but rendered as flat graphic blocks rather than detailed metallic rendering. Hair reads as flat smooth planes with a single shine streak. Particles and debris are simplified flat graphic shapes rather than atmospheric effects. Backgrounds are flat and minimal — never detailed, never competing. Lighting is completely ambient — no bloom, no rim light, no floating atmospheric particles. Poses are dynamic and action-oriented, unlike Moe Gacha's still mascot presentation. Palette is fully user-defined. The result feels like high-quality mobile game sticker art, a bold LINE character, or a flat graphic game icon — cute, readable, and graphically confident. Distinct from Moe Gacha (extreme SD mascot proportions, soft gradient rendering, still pose) and Daily Chibi (semi-chibi, static, slice-of-life).
 
 ### Style Negatives
-gradients, blending, painterly texture, warm bloom, atmospheric particles, rim lighting, metallic sheen, highlight drama, detailed competing backgrounds, complex shadow rendering, photorealistic rendering, regular proportions
+gradients, blending, painterly texture, bloom, atmospheric particles, rim lighting, metallic sheen, highlight drama, detailed competing backgrounds, complex shadow rendering, photorealistic rendering, regular proportions
 
 ### Usage Notes
-- Proportions from Moe Gacha, rendering from Flat Cel
-- Unlike Moe Gacha: no warm bloom, no atmospheric particles, no painterly gradients — everything flat
+- Full chibi action proportions (head one-third to one-half of height) with Flat Cel's rendering technique
+- Unlike Moe Gacha: dynamic action pose rather than still mascot presentation; completely flat rendering rather than soft cel shading with airbrushed gradients and bloom
 - Unlike Daily Chibi: action-focused with dynamic poses, not slice-of-life; full chibi not semi-chibi
 - Unlike Flat Cel: full chibi proportions only — not for regular-proportioned characters
 - Palette fully user-defined per scene — specify in Block 7

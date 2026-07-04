@@ -114,7 +114,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Miura | Intense character portraits, brutal battle scenes, obsessive armor/weapon detail, monochromatic drama |
 | JRPG Pixel Art | Fantasy character sprites, detailed equipment, pixel grid + anime design language |
 | Shounen Burst | Supernatural action, power awakening, warm decay vs. cold force, mid-destruction urban scenes |
-| Moe Gacha | Full chibi action art, any genre — fantasy, school, sci-fi, magical girl; cute-but-capable, warm dynamic gacha chibi |
+| Moe Gacha | Extreme SD mascot chibi — vinyl figure/acrylic stand/keychain art, oversized head and tiny plush body, still presentational pose, premium gacha mascot key art |
 | Webtoon | Fashion-forward characters, urban fantasy, Korean manhwa aesthetic, crisp and polished |
 | Storybook | Anime fairy tale scenes, animal characters, whimsical anime fantasy, warm wonder-filled mood |
 | Storybook Impasto | Anime fairy tale scenes, animal characters, whimsical anime fantasy with thick textured gouache, tactile hand-painted look |
@@ -215,9 +215,10 @@ based on what the scene calls for. Wait for the user's response before advancing
    - Chibi → go to Q3a
    - Normal → go to Q3b
 
-3a. **What shading?** (chibi)
-   - Rendered → **Moe Gacha** or **Daily Chibi**
-   - Flat → **Flat Chibi**
+3a. **What's the chibi for?** (chibi)
+   - Mascot / vinyl figure / collectible key art, still pose → **Moe Gacha**
+   - Dynamic action, any genre, flat shading → **Flat Chibi**
+   - Everyday slice-of-life, semi-chibi → **Daily Chibi**
 
 3b. **What shading approach?** (normal proportions)
    - Flat / minimal → go to Q4a
@@ -633,6 +634,7 @@ Before delivering the final prompts, run this gate silently. Do not skip it.
 - ChatGPT prompts contain labeled headers like `[ROLE]` or `ROLE:` → rewrite as natural prose
 - Niji Journey robust prompt exceeds 3 lines or contains abstract/non-visual concepts → shorten and make concrete
 - Style keywords contradict each other (e.g., `photorealistic` + `anime`) → reconcile per platform
+- ChatGPT or Niji prompt text names a living artist, director, or studio (e.g., a style named after a real person) → strip the name and replace with pure visual/technical description; the style's own label in `references/styles.md` may keep the person's name for menu/lookup purposes, but that name must never appear inside the delivered prompt text itself
 
 **Step 2 — Ask the user before proceeding if:**
 - Block 4 has no aspect ratio and none can be inferred → ask which ratio they want

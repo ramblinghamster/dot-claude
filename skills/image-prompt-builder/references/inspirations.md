@@ -205,11 +205,11 @@ When adding, follow the existing format:
 
 ## Moe Gacha
 
-1. A chibi red-haired knight charging across ancient stone ruins, oversized sword raised, gold-trim armor gleaming, debris flying, warm amber light flooding the scene
-2. A chibi schoolgirl mid-dodge in a school hallway, oversized sports bag swinging like a weapon, textbooks and papers exploding outward around her like action debris
-3. A chibi paladin leaping between two crumbling pillars, shield catching the sunlight, expression fierce and delighted at the same time
-4. A chibi sci-fi pilot launching from a carrier catapult in a tiny flight suit, thrusters blazing behind her, the hangar blurred and soft-focus below
-5. Three chibi party members back-to-back in a ruined arena — knight, archer, mage — each in a different action pose, warm light dramatic behind all of them
+1. A mascot-scale red-haired knight standing in a confident hero pose, oversized head with tiny plush armor and mitten gauntlets, one stubby arm raised holding a small sword, glossy eyes and a bright grin, rendered like a premium vinyl figure on a plain gradient backdrop
+2. A round-headed dragon mascot curled into a stubby-limbed sitting pose, tiny wings and a soft plush belly, warm amber and cream palette, gentle bloom around its glowing chest ember, acrylic stand illustration quality
+3. A magical girl mascot with an oversized head and star-tipped wand nearly as big as her whole body, tiny mitten hands cupped around it, sparkles rendered as simple flat shapes, pastel palette against a soft neutral backdrop
+4. A chibi mascot astronaut with a huge round helmet and a tiny plush spacesuit body, stubby boots planted in a simple standing pose, soft rim lighting suggesting a starfield without any background detail
+5. A trio of mascot keychain characters — knight, mage, and cat spirit — each in its own still presentational pose, oversized heads and plush bodies, evenly lit with soft cel shading, styled like a collectible gacha capsule toy lineup
 
 ---
 
