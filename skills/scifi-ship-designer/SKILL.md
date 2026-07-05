@@ -162,10 +162,13 @@ line whether they want one design drafted directly or a few different takes to p
 **Reference file:** `references/ship-blueprint.md`
 
 **What it does:** Turns an already-confirmed ship spec into a multi-view technical reference
-sheet prompt — an orthographic turnaround (front/side/top/rear/3-4) plus supporting panels
-(systems callouts, material/color swatches, scale reference, and conditional interior-cutaway
-or weapon-detail panels) — meant to be used as a consistency anchor for later, separately
-generated images of the same ship. This is a reformatting of an existing design, not a new
+sheet prompt — an orthographic turnaround (front/side/top/rear/3-4, plus bottom when the
+underside is distinctive) and a dimensions panel, plus supporting panels (systems callouts,
+material/color, decals/markings, scale reference, and conditional interior-cutaway,
+propulsion-detail, or weapon-detail panels) — meant to be used as a consistency anchor for
+later, separately generated images of the same ship. Dense specs get split into a Primary
+Reference Sheet and a Detail Sheet rather than crammed into one illegible image. This is a
+reformatting of an existing design, not a new
 design step: it doesn't introduce anything not already in the confirmed spec.
 
 #### Trigger Detection
