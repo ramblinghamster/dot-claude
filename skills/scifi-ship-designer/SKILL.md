@@ -234,6 +234,10 @@ that an illustrator or 3D artist could work from it directly, in vehicle-designe
 Skip any category that was left at "None" — don't pad the prose with absence statements like
 "it has no cargo bay."
 
+Wrap the Ship Description itself in a fenced code block too — it routinely gets copied
+elsewhere (into `image-prompt-builder`, into a chat with an illustrator, etc.), and a fence
+makes that a clean copy every time.
+
 ### 2. Image Prompts
 
 Wrap the ship description into ready-to-use image-generation prompts. **Style is out of
@@ -244,20 +248,46 @@ painterly, photoreal, etc.), tell them to take the Ship Description into the
 `image-prompt-builder` skill, which handles style selection — don't try to replicate that
 skill's style library here.
 
-Deliver all four variants, each labeled and fenced:
+**Default target platform is ChatGPT only.** Deliver the ChatGPT Robust and Compact prompts
+every time. Only add the Niji Journey Robust/Compact prompts if the user asks for Niji
+Journey/Midjourney-style output specifically, or has said earlier in the session that they
+want both platforms — don't generate prompts for a platform nobody asked for.
 
-```
+⛔ **MANDATORY FORMAT — NO EXCEPTIONS:**
+- Every prompt gets its own separate fenced code block (triple backticks) — never combine
+  multiple prompts inside one shared fence.
+- Each prompt is preceded by its exact section label as a markdown heading, placed *outside*
+  the fence, immediately above it.
+- Whichever prompts are in scope for this response are delivered together, in this order:
+  ChatGPT Robust → ChatGPT Compact → (if in scope) Niji Journey Robust → Niji Journey Compact.
+- Never deliver a prompt as plain paragraph text, a bullet point, or inside a shared block
+  with other prompts — the fence is what lets the user copy it cleanly with one click, and a
+  missing or shared fence defeats that.
+
+**The default output (ChatGPT only) must look exactly like this template** (two separate
+fences, not one):
+
 ### ChatGPT Prompt — Robust
-[prompt]
+```
+[prompt here]
+```
 
 ### ChatGPT Prompt — Compact
-[prompt]
+```
+[prompt here]
+```
+
+If Niji Journey is also in scope, append two more blocks in the same pattern — own heading,
+own fence, each:
 
 ### Niji Journey Prompt — Robust
-[prompt]
+```
+[prompt here]
+```
 
 ### Niji Journey Prompt — Compact
-[prompt]
+```
+[prompt here]
 ```
 
 **ChatGPT Robust:** Natural prose, no parameter syntax. Open with the neutral concept-art
@@ -268,14 +298,14 @@ surfaces" when appendages were set to "None").
 **ChatGPT Compact:** The same, condensed to 2-3 sentences — core hull shape, size class,
 propulsion, and one or two standout details.
 
-**Niji Journey Robust:** Short natural-language phrases (2-3 lines max), ending in `--ar`
-only — no `--niji` or `--style` flags (incompatible with Niji 7). Structure: hull/size →
-propulsion/weapons → material/color → `--ar [ratio]`. Ask for an aspect ratio if none was
-given or implied; default to `16:9` for a side/three-quarter vehicle profile if the user has
-no preference.
+**Niji Journey Robust** *(only when in scope)*: Short natural-language phrases (2-3 lines
+max), ending in `--ar` only — no `--niji` or `--style` flags (incompatible with Niji 7).
+Structure: hull/size → propulsion/weapons → material/color → `--ar [ratio]`. Ask for an
+aspect ratio if none was given or implied; default to `16:9` for a side/three-quarter vehicle
+profile if the user has no preference.
 
-**Niji Journey Compact:** One line — hull shape, size class, 3-5 defining keywords —
-`--ar [ratio]`.
+**Niji Journey Compact** *(only when in scope)*: One line — hull shape, size class, 3-5
+defining keywords — `--ar [ratio]`.
 
 After delivering these, offer the Ship Blueprint subskill (see Subskills below): *"Want a
 blueprint or reference sheet version of this ship too, for keeping it consistent across

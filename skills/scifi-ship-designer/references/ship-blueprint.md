@@ -292,11 +292,13 @@ turnaround`, `clean studio lighting`, `matte technical illustration`, `labeled p
 
 ## Output
 
-Deliver this as the same four-variant format used elsewhere in this skill (ChatGPT
-Robust/Compact, Niji Journey Robust/Compact), describing the full panel layout instead of a
-single view. Wrap each in its own labeled, fenced block per the main skill's Final Output
-formatting rules. If Panel Budget and Splitting called for two sheets, produce the full
-four-variant set for each sheet, clearly labeled.
+Deliver this using the same platform-scope rule as the main skill's Final Output: **ChatGPT
+Robust and Compact by default**, with Niji Journey Robust/Compact added only if the user has
+asked for Niji Journey/Midjourney-style output specifically. Describe the full panel layout
+instead of a single view. Wrap each prompt in its own separate labeled, fenced code block —
+own heading, own fence, never shared — per the main skill's Final Output formatting rules. If
+Panel Budget and Splitting called for two sheets, produce the in-scope prompt set for each
+sheet, clearly labeled "Primary Reference Sheet" and "Detail Sheet."
 
 **Aspect ratio:** default to `16:9` for a 5-panel sheet; use `21:9` for a 6-panel sheet. At
 7+ panels, split into two sheets per the rule above rather than pushing the aspect ratio
@@ -313,9 +315,10 @@ ship's own "None" picks (e.g., no visible weapon hardpoints if unarmed).
 and a list of which panels to include — trust the model to lay them out reasonably at this
 length.
 
-**Niji Journey Robust/Compact:** Short phrase-based structure as elsewhere in this skill —
-lead with "orthographic production reference sheet of [ship]," list the included panels as
-short keyword groups, close with `--ar [ratio]`. Keep in mind Niji Journey handles complex
-multi-panel infographic layouts less reliably than ChatGPT/DALL-E — mention this to the user
-if they lead with Niji Journey as their target platform, and suggest ChatGPT as the more
-reliable choice for this specific format.
+**Niji Journey Robust/Compact** *(only when in scope)*: Short phrase-based structure as
+elsewhere in this skill — lead with "orthographic production reference sheet of [ship],"
+list the included panels as short keyword groups, close with `--ar [ratio]`. Keep in mind
+Niji Journey handles complex multi-panel infographic layouts less reliably than
+ChatGPT/DALL-E — mention this if the user asks for Niji Journey on this specific format, and
+suggest ChatGPT as the more reliable choice here regardless of their general platform
+preference.
