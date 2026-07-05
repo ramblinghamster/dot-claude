@@ -125,8 +125,8 @@ final output directly — don't make them re-confirm choices they already made e
 
 ## Subskills
 
-Subskills extend the main design flow with specialized ideation modes. Each subskill is
-documented in its own reference file.
+Subskills extend the main design flow with specialized ideation and output modes. Each
+subskill is documented in its own reference file.
 
 ### Ship Ideation
 
@@ -156,6 +156,34 @@ Trigger on messages containing:
 Do NOT trigger on a plain "design a [role] for me" with no signal of wanting multiple
 options — that's standard Path A, a single refined design. If genuinely ambiguous, ask in one
 line whether they want one design drafted directly or a few different takes to pick from.
+
+### Ship Blueprint / Reference Sheet
+
+**Reference file:** `references/ship-blueprint.md`
+
+**What it does:** Turns an already-confirmed ship spec into a multi-view technical reference
+sheet prompt — an orthographic turnaround (front/side/top/rear/3-4) plus supporting panels
+(systems callouts, material/color swatches, scale reference, and conditional interior-cutaway
+or weapon-detail panels) — meant to be used as a consistency anchor for later, separately
+generated images of the same ship. This is a reformatting of an existing design, not a new
+design step: it doesn't introduce anything not already in the confirmed spec.
+
+#### Trigger Detection
+
+Fire this subskill when the user wants a reference document for a ship rather than (or in
+addition to) a single illustrative image. Trigger on: "blueprint", "schematic", "technical
+drawing", "orthographic view(s)", "turnaround", "reference sheet", "reference document",
+"model sheet", "I want to use this for other images", "keep this consistent across images",
+explicit requests for front/side/top/rear views.
+
+**Requires a confirmed spec first.** If the conversation doesn't already have one, run the
+normal Session Flow (whichever path fits what the user gives you) to lock in a design before
+applying this format. If the user asks for a blueprint mid-design, finish confirming the spec
+first — don't generate a reference sheet for an unconfirmed or partial design.
+
+Once a design is confirmed via any path, it's worth proactively offering this subskill in the
+same message as the standard Final Output: *"Want a blueprint or reference sheet version of
+this ship too, for keeping it consistent across future images?"*
 
 ---
 
@@ -242,6 +270,10 @@ no preference.
 
 **Niji Journey Compact:** One line — hull shape, size class, 3-5 defining keywords —
 `--ar [ratio]`.
+
+After delivering these, offer the Ship Blueprint subskill (see Subskills below): *"Want a
+blueprint or reference sheet version of this ship too, for keeping it consistent across
+future images?"*
 
 ---
 
