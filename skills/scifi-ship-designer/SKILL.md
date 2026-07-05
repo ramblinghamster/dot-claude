@@ -81,6 +81,13 @@ Use this whenever the user gives any description of what they want, even a singl
    Watch for overloaded adjectives — "heavy gunship" usually means a toughened/well-armed
    gunship (still Medium size class, since "gunship" is the Medium-tier role archetype), not
    necessarily a literal Heavy-class vessel. Weigh the whole phrase, not just the adjective.
+   If the user's own word isn't in category 0's role list verbatim (common navy nouns like
+   "frigate", "destroyer", "cruiser", "battleship", "carrier" never appear there), map it by
+   combat function and scale rather than inventing a new archetype — e.g. frigate/destroyer →
+   Capital escort/corvette; cruiser → Capital escort/corvette (or Gunship/bomber if the user's
+   framing leans more offensive than defensive); carrier → Capital escort/corvette with heavy
+   emphasis on category 7 (cargo/utility, for launch-bay signaling). State the mapping back to
+   the user in one clause so they can correct it if you guessed wrong.
 2. Fill the remaining categories (1–10) using the user's stated details plus the "typical
    tendencies by size class" defaults from category 0 for anything unstated. Read
    `references/design-menu.md` for the exact options rather than improvising new ones.
@@ -113,6 +120,42 @@ If the user pastes or writes out their own picks across the categories (e.g., co
 previous session, or clearly already fluent in the menu), skip the draft-and-confirm loop
 entirely. Just check for internal conflicts (see below), flag any found, and generate the
 final output directly — don't make them re-confirm choices they already made explicitly.
+
+---
+
+## Subskills
+
+Subskills extend the main design flow with specialized ideation modes. Each subskill is
+documented in its own reference file.
+
+### Ship Ideation
+
+**Reference file:** `references/ship-ideation.md`
+
+**What it does:** Generates 3 distinct Ship Concept Cards — randomized combinations of picks
+from the design menu — for the user to browse instead of settling into one design directly.
+If the user names an anchor (a role/keyword like "cargo freighter" or "missile frigate", a
+size class, or an aesthetic mood), that anchor holds fixed across all 3 cards while everything
+else is deliberately varied to produce genuinely different takes on it. After the user picks
+a concept, auto-populate the full spec and rejoin the standard flow at Path A step 4 (present
+the compact draft, confirm, then generate final output).
+
+#### Trigger Detection
+
+Fire Ship Ideation when the message signals wanting **options to choose between** rather than
+**one design to refine**. Ask: does the user want a single ship, or a few to pick from?
+
+Trigger on messages containing:
+- words like "ideas", "concepts", "options", "variations", "brainstorm", "inspire",
+  "surprise me", "random", "pick one for me", "show me a few"
+- "give me a few/some [role/keyword] ideas or concepts" — e.g. "give me a few cargo freighter
+  ideas", "got any missile frigate concepts?"
+- a bare role, keyword, or size class anchor with no other descriptive detail, framed as
+  wanting to browse rather than commission one exact design
+
+Do NOT trigger on a plain "design a [role] for me" with no signal of wanting multiple
+options — that's standard Path A, a single refined design. If genuinely ambiguous, ask in one
+line whether they want one design drafted directly or a few different takes to pick from.
 
 ---
 
