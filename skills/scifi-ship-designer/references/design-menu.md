@@ -174,7 +174,10 @@ role from category 0, and don't let a mismatch with the size class label alone b
 
 **Landing gear/struts**
 - Fully retracted/hidden (clean hull, no visible gear)
-- Exposed struts (visible legs, mechanical and utilitarian)
+- Exposed struts (visible legs, mechanical and utilitarian — multi-segment articulated legs
+  with hydraulic-piston joints, unfolding/extending downward from stowed hull recesses, ending
+  in wide flat foot pads or splayed toes for load distribution; no wheels, treads, or skids of
+  any kind)
 - Vehicle-style undercarriage (wheels, treads, or skids implying ground use)
 
 ---
