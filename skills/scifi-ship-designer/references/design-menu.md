@@ -160,7 +160,13 @@ role from category 0, and don't let a mismatch with the size class label alone b
 **Visual weight** *(only if armed)*
 - Minimal (weapons barely register in silhouette)
 - Moderate (visible but secondary to hull shape)
-- Heavy (weapons/pylons dominate the profile, gunship read)
+- Heavy (weapons/pylons dominate the profile, gunship read — achieved through a small number
+  of large, well-defined weapon elements: a substantial turret, a thick chin cannon, a handful
+  of oversized pylon-mounted ordnance. Not many small identical units tiled densely
+  edge-to-edge across the hull — a wall of repeated small missiles reads as an absurd
+  stock-photo cliché rather than an intentional, physically plausible weapon system. If a
+  large magazine capacity matters to the design, imply it through a small number of visibly
+  large multi-tube launchers rather than literally drawing every individual round)
 
 ---
 

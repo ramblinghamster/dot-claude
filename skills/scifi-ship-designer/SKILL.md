@@ -201,9 +201,12 @@ silently picking one side:
   "habitation ring") picked for a Small size class, or vice versa — these aren't hard rules,
   but confirm the user actually wants an unusual scale mismatch rather than assuming they
   meant it.
-- Heavy weapon visual weight (or "None" weapons presence) on a Racer/interceptor role, or
-  minimal/no weapons on a Gunship/bomber role — cross-check category 5 against the role
-  archetype from category 0.
+- Heavy weapon visual weight on any role other than Gunship/bomber or Capital escort/corvette
+  — the menu ties "Heavy" explicitly to a "gunship read," so it's an unusual pairing on a
+  Racer/interceptor, Dogfighter, Explorer/scout, or Hauler/freighter (a light, agility-focused
+  craft covered in dense weapon racks reads as incoherent, not intimidating). Likewise,
+  "None"/minimal weapons on a Gunship/bomber role. Cross-check category 5 against the role
+  archetype from category 0 before finalizing.
 - A crew count of 15+ with no bridge/command structure named in category 3.
 - Multiple "dominant" picks stacking on a hull that isn't Heavy scale (e.g., rear-heavy mass
   distribution + dominant engine bulk + heavy weapon visual weight all on a Medium hull) —
