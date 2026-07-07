@@ -1536,3 +1536,32 @@ panels minimal surface decoration, white background, professional character shee
 cel shading, chibi
 --ar [ratio]
 ```
+
+---
+
+## STYLE: Atelier
+**Aliases:** atelier, value-driven anime, painterly editorial anime, graphic value painting, hybrid cel painterly, editorial key visual
+**Best for:** editorial anime key visuals, graphic character illustrations where shape and value design matter more than rendering density, symmetrical centered portraits, warm backlit/sunset compositions, illustrations meant to read as intentionally designed rather than heavily rendered
+**Conflicts with:** Cinematic Anime (illustrated material depth and hard directional shadows vs. restrained lines and large value masses), Hyperreal Anime, Miura (dense photographic-leaning rendering vs. simplified value design), Flat Cel and Gossamer (fully flat/ambient/no-gradient technique vs. Atelier's painterly gradients and directional backlight), Ironbloom rendered sub-mood (detail-heavy armor rendering vs. Atelier's detail economy)
+
+### Visual Description
+A clean contemporary 2D anime illustration built as a hand-painted editorial key visual rather than a rendered image. Graphic design, readable shape language, and value organization take priority over realism or rendering complexity — every form starts as a large simple value mass before any detail is added. Line art is restrained: silhouettes stay clean and confident while interior contours stay minimal, with many internal edges intentionally lost into shadow (lost-and-found edge control) instead of being outlined. Rendering is a hybrid of simplified cel shading and painterly value grouping, organized into roughly three to five major value groups — broad unified shadow masses, soft ambient fill, gentle gradients, restrained reflected light, and only small localized occlusion shadows. Detail is applied selectively: the highest finish sits around the eyes, face, and hair framing the face, while wings, clothing, lower body, and background stay intentionally simplified. All materials — skin, cloth, leather, feathers, stone — share one cohesive matte treatment; different materials read through silhouette, color, and edge quality rather than gloss or texture. Hair is built from large grouped locks with strand detail only near the bangs and silhouette; wings read first as bold graphic shapes, with individual feathers suggested only where needed to support the larger form. The signature palette leans warm sunset oranges, burnt umbers, charcoal blacks, ivory whites, and muted neutrals at moderate saturation, lit by one dominant warm directional light, soft warm ambient fill, and restrained rim lighting that organizes the composition without becoming the subject.
+
+### Usage Notes
+- **vs. Cinematic Anime:** Cinematic Anime renders every material with illustrated depth and uses hard directional shadows for cinematic drama. Atelier restrains linework and detail, organizes the whole image into 3–5 broad value masses, and concentrates finish only on the face/hair — the result reads as a graphic editorial illustration rather than a densely rendered key visual.
+- **Palette:** the warm sunset palette (oranges, burnt umbers, charcoal, ivory) is the signature default — specify a different palette if the scene calls for one.
+
+### Style Negatives
+photorealism, hyperrealism, CGI, 3D rendering, physically based rendering, ray tracing, HDR realism, glossy materials, skin pores, realistic skin texture, individually rendered hair strands throughout, individually rendered feathers throughout, intricate lace or textile texture, metallic reflections, excessive specular highlights, micro-detail clutter, over-rendered anime, hyper-polished surfaces, equal rendering density across the whole image, dense competing interior linework, cool or purple twilight lighting
+
+### ChatGPT Translation
+```
+A clean contemporary 2D anime illustration rendered as a hand-painted editorial key visual, not a rendered image — prioritize graphic design, readable shape language, and painterly value organization over realism or rendering complexity, with every object designed as a large simple value mass before detail is added. Use restrained line art: clean confident silhouettes, minimal interior contour lines, and many internal edges lost naturally into shadow rather than outlined. Render using simplified hybrid cel shading combined with painterly value grouping, organized into three to five major value groups — broad unified shadow masses, soft ambient fill, gentle gradients, restrained reflected light, and only small localized occlusion shadows, avoiding equal rendering density across the whole image. Concentrate the highest finish around the eyes, face, and hair framing the face, while keeping clothing, background, and lower body intentionally simplified. Keep all materials — skin, cloth, leather, feathers, stone — in one cohesive matte treatment distinguished by silhouette, color, and edge quality rather than gloss or texture. Build hair from large grouped locks with minimal strand definition, and render wings or large secondary shapes first as bold graphic forms rather than densely rendered detail. Favor a warm sunset-leaning palette — oranges, burnt umbers, charcoal blacks, ivory whites, moderate saturation — lit by one dominant warm directional light with soft ambient fill and restrained rim lighting.
+```
+
+### Niji Journey Translation
+```
+hand-painted editorial anime illustration, restrained line art, lost-and-found edges, hybrid cel shading and painterly value grouping, 3-5 value groups, soft ambient fill gentle gradients, detail concentrated on face and hair, matte unified materials, warm sunset palette burnt umber charcoal ivory, one warm directional light soft rim
+--no glossy materials, skin texture, dense linework, individually rendered feathers, individually rendered hair strands, over-rendered detail, cool twilight lighting
+--ar [ratio]
+```

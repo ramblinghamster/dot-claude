@@ -360,3 +360,13 @@ When adding, follow the existing format:
 3. A knight minifigure standing guard at the gate of a tiny brick castle, one brick-built tree on each side, a winding path of grey tile bricks leading to the entrance, all snapped to the stud grid
 4. A cozy treehouse built into a brick-built oak tree using slope and curved slope elements, a rope ladder of bar elements dangling down, a small brick fox sitting at the base looking up, warm afternoon studio lighting
 5. An underwater coral reef diorama — brick-built fish assembled from wedge and round elements swimming between coral formations built from stacked slope bricks, a treasure chest of brown and gold bricks half-buried in tan stud-grid sand, light rays suggested by translucent clear brick columns filtering down
+
+---
+
+## Atelier
+
+1. A goth angelic young woman sits centered on a rooftop ledge at sunset, wings spread evenly behind her as balanced graphic shapes, a tilted onyx halo above her head, the city skyline reduced to soft value shapes behind her
+2. A shrine priestess kneels before a low altar in a dim wooden hall, one shaft of warm lamplight falling across her face and hands while the rest of the room dissolves into three broad shadow masses
+3. A young swordswoman stands centered against a plain warm-toned backdrop, cloak silhouette bold and simple, her face and the hair framing it rendered with the session's full detail while the cloak and boots stay flat and graphic
+4. A violinist sits on a sunlit windowsill, backlit by a warm golden sky, her instrument and dress reduced to clean value shapes while her face and the hair around it carry the only fine rendering in the frame
+5. A masked duelist faces the viewer symmetrically in a bare stone courtyard at dusk, warm rim light tracing the mask and shoulders, the courtyard behind them simplified into two or three flat architectural value masses

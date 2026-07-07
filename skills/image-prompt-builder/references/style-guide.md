@@ -16,7 +16,7 @@ show the category overview first and offer to go deeper on any group.
 
 | Category | Styles |
 |---|---|
-| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
+| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Atelier · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
 | Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
 | Atmospheric & Moody | Soulslike · Crewdson · Ironbloom · Editorial Fashion · Velvet |
@@ -89,6 +89,28 @@ moments, travel and nature themes, full-body illustrations where breathing room 
 
 **Not for:** action or combat, dramatic cinematic lighting, lush detailed backgrounds,
 sci-fi or dark themes. Background can exist but must be soft and minimal.
+
+---
+
+### Atelier
+Hand-painted editorial anime key visual that prioritizes graphic design and value
+organization over rendering density. Every form is built from three to five large value
+masses, with restrained line art, lost-and-found edges, and detail concentrated only on
+the eyes, face, and hair framing the face — everything else stays intentionally simplified.
+Materials share one cohesive matte treatment, distinguished by silhouette and color rather
+than texture or gloss. Signature palette is warm sunset oranges, burnt umbers, charcoal,
+and ivory, lit by one dominant warm directional light with soft ambient fill.
+
+The graphic, restraint-driven counterpart to Cinematic Anime — use Atelier when the image
+should read as an intentionally designed editorial illustration rather than a densely
+rendered key visual.
+
+**Best for:** editorial key visuals, graphic character portraits, symmetrical centered
+compositions, warm backlit/sunset scenes, any subject where shape and value clarity should
+win over rendering complexity.
+
+**Not for:** densely rendered material detail, hard cinematic shadow drama, cool or
+photorealistic palettes, chibi proportions.
 
 ---
 
@@ -824,6 +846,9 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Doujinshi cover / rough-with-flats | Sketch Moe |
 | Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
 | Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |
+| Editorial key visual / graphic value painting | Atelier |
+| Restrained line + large value masses | Atelier |
+| Warm sunset backlit portrait, graphic not cinematic | Atelier |
 | Traditional media / handcrafted feel | Colored Pencil |
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |
