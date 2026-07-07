@@ -23,7 +23,7 @@ show the category overview first and offer to go deeper on any group.
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art · Brick Diorama |
-| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe · Atelier |
+| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe · Atelier · Forma |
 | Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
 | Ink & Linework | Line Art |
 
@@ -653,6 +653,36 @@ detail, hard cinematic shadow drama, photorealism.
 
 ---
 
+### Forma
+Graphic value-block anime technique with a strong signature default palette — burnt orange,
+terracotta, warm cream, charcoal, black, muted ivory — and a calm, confident urban gothic
+fantasy mood. Like Atelier, every object simplifies into large flat value shapes before detail
+is added, but Forma is stricter: only two to four value groups (not three to five), clean thin
+consistent linework with crisp silhouettes rather than lost-and-found painterly edges, and a
+signature warm burnt-orange color grade that loads by default (rather than starting from an
+open palette). Hair, feathers, and lace all reduce to grouped shapes rather than individual
+strand or mesh detail; background architecture simplifies to geometric masses with flat,
+repetitive dark windows. All materials stay matte — no gloss, no metallic highlights, no HDR
+or bloom. **The palette is not locked** — like any style in the library, the user can override
+Block 7 with their own colors and Forma's technique still applies; the burnt-orange grade is
+just what appears when no override is given.
+
+**Best for:** urban gothic fantasy portraits and scenes, corseted or winged characters,
+cityscape backdrops, any illustration wanting a calm, elegant, printed-poster anime look
+rather than painterly or cinematic rendering.
+
+**Not for:** dramatic HDR/bloom/volumetric lighting, dense material rendering. If the user
+wants a restrained value-shape technique with no signature palette to override in the first
+place, Atelier is the better starting point.
+
+**Forma vs. Atelier:** Both simplify into large value shapes with detail concentrated on the
+face. Atelier ships with no default palette at all — colors are user-defined from the start.
+Forma ships with a strong signature default (burnt-orange gothic palette) that's still
+overridable, uses crisp clean thin linework instead of Atelier's painterly lost-and-found
+edges, and restrains to a tighter 2-4 value group range.
+
+---
+
 ### Sketch Moe
 Bold G-pen outlines are the defining trait — confident thick-to-thin linework with natural
 pressure variation and a subtle hand-drawn wobble that gives warmth without sloppiness.
@@ -846,6 +876,9 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Editorial key visual / graphic value painting | Atelier |
 | Restrained line + large value masses | Atelier |
 | Graphic editorial technique, any palette or genre | Atelier |
+| Urban gothic fantasy / burnt-orange graphic anime | Forma |
+| Fixed burnt-orange, terracotta, charcoal palette | Forma |
+| Corseted or winged character, printed-poster anime look | Forma |
 | Traditional media / handcrafted feel | Colored Pencil |
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |

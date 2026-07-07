@@ -370,3 +370,13 @@ When adding, follow the existing format:
 3. A baker dusts flour over a tray of pastries in a sunlit kitchen, warm buttery yellows and soft pinks organized into broad simple value shapes, her face the only area rendered with real finish
 4. A cyberpunk courier weaves through a neon night market, magenta and cyan value masses reduced to graphic shapes, the surrounding crowd and signage intentionally flattened so only her face reads with detail
 5. A monk sweeps a temple courtyard at dawn, cool violet-grey morning light collapsed into three value groups, the broom and stone path left graphic and simple, his expression the sole point of fine rendering
+
+---
+
+## Forma
+
+1. A winged noblewoman in a laced corset stands at the edge of a rooftop terrace, tall apartment blocks with rows of flat dark windows receding softly behind her, burnt-orange evening light settling calmly over the whole scene
+2. A gothic courier rests against a concrete stairwell wall, her feathered cloak folded into broad simple shapes, terracotta light catching only her face as the alley behind flattens into two value groups
+3. A masked opera singer takes a bow on a balcony overlooking a quiet burnt-orange cityscape, her corseted gown rendered in clean graphic seams, the skyline behind reduced to simple geometric masses
+4. A clockmaker in a lace-trimmed coat closes her shopfront shutters at dusk, warm cream and charcoal value blocks defining the brick storefront behind her, calm and unhurried
+5. A winged sentinel perches on a concrete ledge overlooking a sleeping gothic district, feathers grouped into broad still shapes, the burnt-orange grade unifying rooftops and sky into one calm graphic mood
