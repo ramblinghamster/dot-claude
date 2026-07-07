@@ -23,7 +23,7 @@ show the category overview first and offer to go deeper on any group.
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art · Brick Diorama |
-| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe |
+| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe · Value Cel |
 | Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
 | Ink & Linework | Line Art |
 
@@ -656,6 +656,30 @@ use Flat Cel.
 
 ---
 
+### Value Cel
+The core rendering technique of Atelier, made palette-neutral. Restrained line art, lost-and-
+found edges, and a hybrid of simplified cel shading with painterly value grouping organized
+into three to five major value groups — broad shadow masses, soft ambient fill, gentle
+gradients, restrained reflected light. Detail is concentrated only on the eyes, face, and hair
+framing the face; everything else stays intentionally simplified. Materials share one matte
+treatment distinguished by silhouette and color, not gloss. **Palette and light color are fully
+user-defined per scene** — there is no default. Atelier is a specific application of this
+technique locked to a warm sunset palette and backlit editorial mood; Value Cel removes that
+constraint entirely.
+
+**Best for:** any scene, any genre — action, romance, dark fantasy, horror, sci-fi, slice-of-
+life — where the graphic, value-driven editorial technique is wanted without Atelier's warm
+sunset palette lock. Define palette and light color in Block 7 for every prompt.
+
+**Not for:** flat/ambient-only rendering (use Flat Cel instead), densely rendered material
+detail, hard cinematic shadow drama, photorealism.
+
+**Atelier vs. Value Cel:** When the user wants the warm sunset editorial mood, recommend
+Atelier. When they want the value-driven graphic technique with full palette and light-color
+freedom, use Value Cel.
+
+---
+
 ### Sketch Moe
 Bold G-pen outlines are the defining trait — confident thick-to-thin linework with natural
 pressure variation and a subtle hand-drawn wobble that gives warmth without sloppiness.
@@ -847,8 +871,9 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
 | Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |
 | Editorial key visual / graphic value painting | Atelier |
-| Restrained line + large value masses | Atelier |
+| Restrained line + large value masses | Atelier · Value Cel |
 | Warm sunset backlit portrait, graphic not cinematic | Atelier |
+| Graphic editorial technique, any palette or genre | Value Cel |
 | Traditional media / handcrafted feel | Colored Pencil |
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |

@@ -1565,3 +1565,33 @@ hand-painted editorial anime illustration, restrained line art, lost-and-found e
 --no glossy materials, skin texture, dense linework, individually rendered feathers, individually rendered hair strands, over-rendered detail, cool twilight lighting
 --ar [ratio]
 ```
+
+---
+
+## STYLE: Value Cel
+**Aliases:** value cel, painterly cel, graphic value shading, editorial value grouping, restrained-line painterly cel
+**Best for:** any scene or genre — action, romance, dark fantasy, horror, sci-fi, slice-of-life — that wants Atelier's graphic editorial technique (restrained line, large value masses, detail economy, matte unified materials) without its warm sunset palette lock. Use when you want Atelier's rendering approach with a fully user-defined palette and light color.
+**Conflicts with:** Cinematic Anime (illustrated material depth and hard directional shadows vs. restrained line and large value masses), Hyperreal Anime, Miura, Flat Cel and Gossamer (fully flat/ambient/no-gradient technique vs. this style's painterly gradients and directional light), Ironbloom rendered sub-mood
+
+### Visual Description
+The core rendering technique of Atelier, extracted from its signature warm sunset palette and made fully universal. Graphic design, readable shape language, and value organization take priority over realism or rendering complexity — every form starts as a large simple value mass before detail is added. Line art is restrained: clean confident silhouettes, minimal interior contours, and many internal edges lost naturally into shadow rather than outlined. Rendering is a hybrid of simplified cel shading and painterly value grouping organized into three to five major value groups — broad unified shadow masses, soft ambient fill, gentle gradients, restrained reflected light, small localized occlusion shadows. Detail is applied selectively: highest finish on the eyes, face, and hair framing the face, with everything else — clothing, background, lower body, secondary props — intentionally simplified. All materials share one cohesive matte treatment, distinguished by silhouette, color, and edge quality rather than gloss or texture. The one-dominant-light-plus-soft-ambient-fill-plus-restrained-rim lighting structure stays fixed, but its color temperature and the overall palette are fully open — warm, cool, neutral, vibrant, or muted, whatever the scene calls for. Atelier is a specific application of this technique (warm sunset palette, backlit editorial mood); Value Cel is the unrestricted base technique.
+
+### Usage Notes
+- **Palette:** fully user-defined — specify in Block 7 for every prompt. There is no default palette.
+- **Lighting color:** fully user-defined — the one dominant light + soft ambient fill + restrained rim structure stays fixed, but its color temperature follows the scene.
+- **Atelier vs. Value Cel:** if the user wants the warm sunset editorial mood, use Atelier. If they want the value-driven graphic technique with freedom to define palette and light color, use Value Cel.
+
+### Style Negatives
+photorealism, hyperrealism, CGI, 3D rendering, physically based rendering, ray tracing, HDR realism, glossy materials, skin pores, realistic skin texture, individually rendered hair strands throughout, individually rendered feathers throughout, intricate lace or textile texture, metallic reflections, excessive specular highlights, micro-detail clutter, over-rendered anime, hyper-polished surfaces, equal rendering density across the whole image, dense competing interior linework
+
+### ChatGPT Translation
+```
+A clean contemporary 2D anime illustration rendered as a hand-painted editorial key visual, not a rendered image — prioritize graphic design, readable shape language, and painterly value organization over realism or rendering complexity, with every object designed as a large simple value mass before detail is added. Use restrained line art: clean confident silhouettes, minimal interior contour lines, and many internal edges lost naturally into shadow rather than outlined. Render using simplified hybrid cel shading combined with painterly value grouping, organized into three to five major value groups — broad unified shadow masses, soft ambient fill, gentle gradients, restrained reflected light, and only small localized occlusion shadows, avoiding equal rendering density across the whole image. Concentrate the highest finish around the eyes, face, and hair framing the face, while keeping clothing, background, and lower body intentionally simplified. Keep all materials — skin, cloth, leather, and any other surfaces — in one cohesive matte treatment distinguished by silhouette, color, and edge quality rather than gloss or texture. Build hair from large grouped locks with minimal strand definition, and render any large secondary shapes first as bold graphic forms rather than densely rendered detail. Light with one dominant directional light, soft ambient fill, and restrained rim lighting, using [user-defined palette and light color per scene].
+```
+
+### Niji Journey Translation
+```
+hand-painted editorial anime illustration, restrained line art, lost-and-found edges, hybrid cel shading and painterly value grouping, 3-5 value groups, soft ambient fill gentle gradients, detail concentrated on face and hair, matte unified materials, one dominant directional light soft rim, [user-defined palette]
+--no glossy materials, skin texture, dense linework, individually rendered feathers, individually rendered hair strands, over-rendered detail
+--ar [ratio]
+```

@@ -370,3 +370,13 @@ When adding, follow the existing format:
 3. A young swordswoman stands centered against a plain warm-toned backdrop, cloak silhouette bold and simple, her face and the hair framing it rendered with the session's full detail while the cloak and boots stay flat and graphic
 4. A violinist sits on a sunlit windowsill, backlit by a warm golden sky, her instrument and dress reduced to clean value shapes while her face and the hair around it carry the only fine rendering in the frame
 5. A masked duelist faces the viewer symmetrically in a bare stone courtyard at dusk, warm rim light tracing the mask and shoulders, the courtyard behind them simplified into two or three flat architectural value masses
+
+---
+
+## Value Cel
+
+1. A detective leans against a rain-streaked window at night, cool blue-teal value masses collapsing the city behind her into two or three flat shapes, only her face and the hair framing it carrying fine detail
+2. A field medic kneels over a wounded soldier in a bombed-out street at midday, desaturated olive and grey value groups, the scene's grief carried by silhouette and composition rather than dramatic shadow
+3. A baker dusts flour over a tray of pastries in a sunlit kitchen, warm buttery yellows and soft pinks organized into broad simple value shapes, her face the only area rendered with real finish
+4. A cyberpunk courier weaves through a neon night market, magenta and cyan value masses reduced to graphic shapes, the surrounding crowd and signage intentionally flattened so only her face reads with detail
+5. A monk sweeps a temple courtyard at dawn, cool violet-grey morning light collapsed into three value groups, the broom and stone path left graphic and simple, his expression the sole point of fine rendering

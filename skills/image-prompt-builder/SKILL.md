@@ -91,7 +91,7 @@ paths below — they work in both the web environment and Claude Code:
 
 ### Current Styles
 
-The following 37 styles are stored in your personal style library. This table is always
+The following 38 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -133,6 +133,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Brick Diorama | Isometric miniature scenes built from interlocking plastic building bricks, cozy collectible dioramas, toy-like brick-constructed worlds |
 | Line Art | Character portraits, OC showcases, costume and equipment studies, coloring book pages, character sheets — pure black ink linework only |
 | Atelier | Editorial anime key visuals, graphic character illustrations prioritizing shape and value design, restrained line + large value masses, warm sunset backlit portraits |
+| Value Cel | Atelier's restrained-line, value-driven graphic technique with fully user-defined palette and light color — any genre |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -262,7 +263,8 @@ based on what the scene calls for. Wait for the user's response before advancing
    - Armor / mech → **Ironbloom**
    - Cinematic lit → **Cinematic Anime**
    - Semi-realistic → **Hyperreal Anime**
-   - Editorial / graphic value design → **Atelier**
+   - Editorial / graphic value design, warm sunset → **Atelier**
+   - Editorial / graphic value design, open palette → **Value Cel**
 
 **At each decision point:**
 - Briefly analyze the scene against each option (1–2 sentences per option, focused on
