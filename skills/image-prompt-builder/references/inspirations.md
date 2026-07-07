@@ -366,17 +366,7 @@ When adding, follow the existing format:
 ## Atelier
 
 1. A goth angelic young woman sits centered on a rooftop ledge at sunset, wings spread evenly behind her as balanced graphic shapes, a tilted onyx halo above her head, the city skyline reduced to soft value shapes behind her
-2. A shrine priestess kneels before a low altar in a dim wooden hall, one shaft of warm lamplight falling across her face and hands while the rest of the room dissolves into three broad shadow masses
-3. A young swordswoman stands centered against a plain warm-toned backdrop, cloak silhouette bold and simple, her face and the hair framing it rendered with the session's full detail while the cloak and boots stay flat and graphic
-4. A violinist sits on a sunlit windowsill, backlit by a warm golden sky, her instrument and dress reduced to clean value shapes while her face and the hair around it carry the only fine rendering in the frame
-5. A masked duelist faces the viewer symmetrically in a bare stone courtyard at dusk, warm rim light tracing the mask and shoulders, the courtyard behind them simplified into two or three flat architectural value masses
-
----
-
-## Value Cel
-
-1. A detective leans against a rain-streaked window at night, cool blue-teal value masses collapsing the city behind her into two or three flat shapes, only her face and the hair framing it carrying fine detail
-2. A field medic kneels over a wounded soldier in a bombed-out street at midday, desaturated olive and grey value groups, the scene's grief carried by silhouette and composition rather than dramatic shadow
+2. A detective leans against a rain-streaked window at night, cool blue-teal value masses collapsing the city behind her into two or three flat shapes, only her face and the hair framing it carrying fine detail
 3. A baker dusts flour over a tray of pastries in a sunlit kitchen, warm buttery yellows and soft pinks organized into broad simple value shapes, her face the only area rendered with real finish
 4. A cyberpunk courier weaves through a neon night market, magenta and cyan value masses reduced to graphic shapes, the surrounding crowd and signage intentionally flattened so only her face reads with detail
 5. A monk sweeps a temple courtyard at dawn, cool violet-grey morning light collapsed into three value groups, the broom and stone path left graphic and simple, his expression the sole point of fine rendering

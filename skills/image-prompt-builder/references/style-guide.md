@@ -16,14 +16,14 @@ show the category overview first and offer to go deeper on any group.
 
 | Category | Styles |
 |---|---|
-| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Atelier · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
+| Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
 | Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
 | Atmospheric & Moody | Soulslike · Crewdson · Ironbloom · Editorial Fashion · Velvet |
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art · Brick Diorama |
-| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe · Value Cel |
+| Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe · Atelier |
 | Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
 | Ink & Linework | Line Art |
 
@@ -89,28 +89,6 @@ moments, travel and nature themes, full-body illustrations where breathing room 
 
 **Not for:** action or combat, dramatic cinematic lighting, lush detailed backgrounds,
 sci-fi or dark themes. Background can exist but must be soft and minimal.
-
----
-
-### Atelier
-Hand-painted editorial anime key visual that prioritizes graphic design and value
-organization over rendering density. Every form is built from three to five large value
-masses, with restrained line art, lost-and-found edges, and detail concentrated only on
-the eyes, face, and hair framing the face — everything else stays intentionally simplified.
-Materials share one cohesive matte treatment, distinguished by silhouette and color rather
-than texture or gloss. Signature palette is warm sunset oranges, burnt umbers, charcoal,
-and ivory, lit by one dominant warm directional light with soft ambient fill.
-
-The graphic, restraint-driven counterpart to Cinematic Anime — use Atelier when the image
-should read as an intentionally designed editorial illustration rather than a densely
-rendered key visual.
-
-**Best for:** editorial key visuals, graphic character portraits, symmetrical centered
-compositions, warm backlit/sunset scenes, any subject where shape and value clarity should
-win over rendering complexity.
-
-**Not for:** densely rendered material detail, hard cinematic shadow drama, cool or
-photorealistic palettes, chibi proportions.
 
 ---
 
@@ -656,27 +634,22 @@ use Flat Cel.
 
 ---
 
-### Value Cel
-The core rendering technique of Atelier, made palette-neutral. Restrained line art, lost-and-
+### Atelier
+The graphic, restraint-driven counterpart to Cinematic Anime. Restrained line art, lost-and-
 found edges, and a hybrid of simplified cel shading with painterly value grouping organized
 into three to five major value groups — broad shadow masses, soft ambient fill, gentle
 gradients, restrained reflected light. Detail is concentrated only on the eyes, face, and hair
 framing the face; everything else stays intentionally simplified. Materials share one matte
 treatment distinguished by silhouette and color, not gloss. **Palette and light color are fully
-user-defined per scene** — there is no default. Atelier is a specific application of this
-technique locked to a warm sunset palette and backlit editorial mood; Value Cel removes that
-constraint entirely.
+user-defined per scene** — there is no default; the technique is what defines the style, not
+any particular color story.
 
 **Best for:** any scene, any genre — action, romance, dark fantasy, horror, sci-fi, slice-of-
-life — where the graphic, value-driven editorial technique is wanted without Atelier's warm
-sunset palette lock. Define palette and light color in Block 7 for every prompt.
+life — where a graphic, value-driven editorial technique is wanted instead of dense rendering.
+Define palette and light color in Block 7 for every prompt.
 
 **Not for:** flat/ambient-only rendering (use Flat Cel instead), densely rendered material
 detail, hard cinematic shadow drama, photorealism.
-
-**Atelier vs. Value Cel:** When the user wants the warm sunset editorial mood, recommend
-Atelier. When they want the value-driven graphic technique with full palette and light-color
-freedom, use Value Cel.
 
 ---
 
@@ -871,9 +844,8 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Premium anime illustration / concept art | Cinematic Anime · Gacha Splash |
 | Real-world subject with anime rendering | Cinematic Anime · Hyperreal Anime |
 | Editorial key visual / graphic value painting | Atelier |
-| Restrained line + large value masses | Atelier · Value Cel |
-| Warm sunset backlit portrait, graphic not cinematic | Atelier |
-| Graphic editorial technique, any palette or genre | Value Cel |
+| Restrained line + large value masses | Atelier |
+| Graphic editorial technique, any palette or genre | Atelier |
 | Traditional media / handcrafted feel | Colored Pencil |
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |
