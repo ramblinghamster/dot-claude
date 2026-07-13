@@ -654,32 +654,28 @@ detail, hard cinematic shadow drama, photorealism.
 ---
 
 ### Forma
-Graphic value-block anime technique with a strong signature default palette — burnt orange,
-terracotta, warm cream, charcoal, black, muted ivory — and a calm, confident urban gothic
-fantasy mood. Like Atelier, every object simplifies into large flat value shapes before detail
-is added, but Forma is stricter: only two to four value groups (not three to five), clean thin
-consistent linework with crisp silhouettes rather than lost-and-found painterly edges, and a
-signature warm burnt-orange color grade that loads by default (rather than starting from an
-open palette). Hair, feathers, and lace all reduce to grouped shapes rather than individual
+Graphic value-block anime technique with a calm, confident urban gothic fantasy mood and a
+fully user-defined palette. Like Atelier, every object simplifies into large flat value shapes
+before detail is added, but Forma is stricter: only two to four value groups (not three to
+five), and clean thin consistent linework with crisp silhouettes rather than lost-and-found
+painterly edges. Hair, feathers, and lace all reduce to grouped shapes rather than individual
 strand or mesh detail; background architecture simplifies to geometric masses with flat,
 repetitive dark windows. All materials stay matte — no gloss, no metallic highlights, no HDR
-or bloom. **The palette is not locked** — like any style in the library, the user can override
-Block 7 with their own colors and Forma's technique still applies; the burnt-orange grade is
-just what appears when no override is given.
+or bloom. Palette and light color are open — specify in Block 7 for every prompt; the
+technique (value simplification, detail economy, crisp thin linework) is what defines Forma,
+not any particular color story.
 
 **Best for:** urban gothic fantasy portraits and scenes, corseted or winged characters,
 cityscape backdrops, any illustration wanting a calm, elegant, printed-poster anime look
 rather than painterly or cinematic rendering.
 
-**Not for:** dramatic HDR/bloom/volumetric lighting, dense material rendering. If the user
-wants a restrained value-shape technique with no signature palette to override in the first
-place, Atelier is the better starting point.
+**Not for:** dramatic HDR/bloom/volumetric lighting, dense material rendering.
 
 **Forma vs. Atelier:** Both simplify into large value shapes with detail concentrated on the
-face. Atelier ships with no default palette at all — colors are user-defined from the start.
-Forma ships with a strong signature default (burnt-orange gothic palette) that's still
-overridable, uses crisp clean thin linework instead of Atelier's painterly lost-and-found
-edges, and restrains to a tighter 2-4 value group range.
+face, and both leave palette fully open. The difference is purely technique: Atelier builds
+gradients through painterly lost-and-found edges across 3-5 value groups; Forma uses crisp
+clean thin linework instead of painterly edges and restrains to a tighter 2-4 value group
+range.
 
 ---
 
@@ -876,8 +872,8 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Editorial key visual / graphic value painting | Atelier |
 | Restrained line + large value masses | Atelier |
 | Graphic editorial technique, any palette or genre | Atelier |
-| Urban gothic fantasy / burnt-orange graphic anime | Forma |
-| Fixed burnt-orange, terracotta, charcoal palette | Forma |
+| Urban gothic fantasy graphic anime, any palette | Forma |
+| Graphic value block with crisp thin linework, 2-4 value groups | Forma |
 | Corseted or winged character, printed-poster anime look | Forma |
 | Traditional media / handcrafted feel | Colored Pencil |
 | Colored pencil on paper | Colored Pencil |

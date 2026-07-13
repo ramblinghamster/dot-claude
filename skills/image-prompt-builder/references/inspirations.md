@@ -375,8 +375,8 @@ When adding, follow the existing format:
 
 ## Forma
 
-1. A winged noblewoman in a laced corset stands at the edge of a rooftop terrace, tall apartment blocks with rows of flat dark windows receding softly behind her, burnt-orange evening light settling calmly over the whole scene
-2. A gothic courier rests against a concrete stairwell wall, her feathered cloak folded into broad simple shapes, terracotta light catching only her face as the alley behind flattens into two value groups
-3. A masked opera singer takes a bow on a balcony overlooking a quiet burnt-orange cityscape, her corseted gown rendered in clean graphic seams, the skyline behind reduced to simple geometric masses
-4. A clockmaker in a lace-trimmed coat closes her shopfront shutters at dusk, warm cream and charcoal value blocks defining the brick storefront behind her, calm and unhurried
-5. A winged sentinel perches on a concrete ledge overlooking a sleeping gothic district, feathers grouped into broad still shapes, the burnt-orange grade unifying rooftops and sky into one calm graphic mood
+1. A winged noblewoman in a laced corset stands at the edge of a rooftop terrace, tall apartment blocks with rows of flat dark windows receding softly behind her, deep cobalt twilight settling calmly over the whole scene
+2. A gothic courier rests against a concrete stairwell wall, her feathered cloak folded into broad simple shapes, warm burnt-orange light catching only her face as the alley behind flattens into two value groups
+3. A masked opera singer takes a bow on a balcony overlooking a quiet cityscape, her corseted gown rendered in clean graphic seams, dusty rose and charcoal value masses reducing the skyline behind her to simple geometric shapes
+4. A clockmaker in a lace-trimmed coat closes her shopfront shutters at dusk, sage green and cream value blocks defining the brick storefront behind her, calm and unhurried
+5. A winged sentinel perches on a concrete ledge overlooking a sleeping gothic district, feathers grouped into broad still shapes, a cool violet-grey grade unifying rooftops and sky into one calm graphic mood

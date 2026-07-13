@@ -133,7 +133,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Brick Diorama | Isometric miniature scenes built from interlocking plastic building bricks, cozy collectible dioramas, toy-like brick-constructed worlds |
 | Line Art | Character portraits, OC showcases, costume and equipment studies, coloring book pages, character sheets — pure black ink linework only |
 | Atelier | Editorial anime key visuals, graphic character illustrations prioritizing shape and value design, restrained line + large value masses, fully user-defined palette — any genre |
-| Forma | Urban gothic fantasy anime, graphic value-block rendering with a signature burnt-orange/terracotta/charcoal default palette (overridable), corseted or winged characters, calm elegant confident mood, printed-poster anime look |
+| Forma | Urban gothic fantasy anime, graphic value-block rendering with crisp thin linework and 2-4 value groups, fully user-defined palette, corseted or winged characters, calm elegant confident mood, printed-poster anime look |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -264,7 +264,7 @@ based on what the scene calls for. Wait for the user's response before advancing
    - Cinematic lit → **Cinematic Anime**
    - Semi-realistic → **Hyperreal Anime**
    - Editorial / graphic value design → **Atelier**
-   - Urban gothic fantasy, signature burnt-orange palette → **Forma**
+   - Urban gothic fantasy, crisp graphic linework → **Forma**
 
 **At each decision point:**
 - Briefly analyze the scene against each option (1–2 sentences per option, focused on
