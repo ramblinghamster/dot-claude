@@ -88,6 +88,7 @@ paths below — they work in both the web environment and Claude Code:
 - For the 12-panel character sheet spec: see character-sheet.md
 - For scene inspiration and example prompts per style: see inspirations.md
 - For the Character Identity Board sub-skill (original character creation): see character-creator.md
+- For the Light Novel Cover Ideation sub-skill (JP/EN cover concepts): see light-novel-ideation.md
 
 ### Current Styles
 
@@ -390,6 +391,26 @@ something they already have in mind.
 Do NOT trigger when the user describes a specific scene, situation, or visual they want —
 even loosely. Use the 8-Block flow for any message that contains a subject doing something
 somewhere.
+
+### Light Novel Cover Ideation
+
+**Reference file:** `references/light-novel-ideation.md`
+
+**What it does:** A full alternate pipeline (bypasses the 8-Block flow, like Character
+Creator) for generating light novel cover concepts end-to-end: a randomized or user-supplied
+Concept Triangle (genre, core situation, world hook), conflict structure, JP-primary title +
+subtitle (with romaji and English alongside), visually-opposed character design, cover pose,
+setting, art style, and obi band copy — assembled into the standard four-prompt final output.
+Japanese is the primary language for all cover text; the user can request English-primary,
+bilingual, or a language flip at any point.
+
+#### Trigger Detection
+
+Fire on: "light novel cover", "LN cover", "light novel idea/concept", "generate/randomize a
+light novel", "isekai cover", "yuri light novel" + cover/novel context, "light novel title",
+obi band or JP-book-cover text layout requests. Only trigger when the deliverable is a full
+book cover with title/subtitle/obi text elements — not a generic light-novel-adjacent
+illustration (use the main flow or Gossamer style for that).
 
 ---
 
