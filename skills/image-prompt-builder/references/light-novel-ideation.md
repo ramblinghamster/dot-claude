@@ -49,9 +49,9 @@ or just an illustration in a light-novel-adjacent style?"*
 - If the user wants **both on one cover** (bilingual): keep the Japanese as the dominant
   text (larger, primary), with English as a smaller secondary line — matching how localized
   JP covers sometimes show a small English subtitle beneath the main JP title.
-- Per **Key Reminders** below, actual JP glyphs will render as garbled shapes in AI image
-  generation. Always pair delivered text with a note that it's meant for post-production
-  overlay, regardless of which language is primary.
+- All locked text (title, subtitle, obi band, publisher emblem) gets written as literal
+  quoted strings directly into the final ChatGPT prompt — see Step 9. Keep the JP/romaji/EN
+  forms in sync so whichever is quoted in the prompt matches what was locked in Steps 3 & 8.
 
 ---
 
@@ -276,36 +276,66 @@ from Step 3. Deliver all three lines in Japanese + romaji + English, same as the
 
 ## Step 9 — Final Image Prompt Assembly
 
-Assemble in this order:
-1. Format declaration (vertical 2:3, light novel cover)
-2. Art style block (from Step 7)
-3. Pose + character descriptions (from Steps 4 & 5)
-4. Supporting cast (antagonist, allies — always smaller-scaled than leads)
-5. Setting (from Step 6)
-6. Text elements (title, subtitle, obi band, fictional publisher imprint — from Steps 3 & 8)
-7. Finish/quality tags
-8. Negative constraints (no photorealism, no painterly texture where applicable, plus the
-   loaded style's Style Negatives from `styles.md`)
+**Text elements are written as literal quoted strings directly in the prompt, with explicit
+placement, sizing, and treatment for each one** — not described abstractly as "title text in
+the described position." ChatGPT/DALL-E 3 can approximate short quoted title/subtitle text
+and will attempt full obi copy; giving it the literal string plus exact layout instructions
+produces the intended cover far more reliably than a vague reference to "typography."
 
-Deliver using this skill's standard four-prompt final output format (ChatGPT Robust,
+Assemble ChatGPT prompts as one flowing paragraph in this order:
+
+1. **Style opening** — art style block from Step 7 (linework, shading, palette rules)
+2. **Pose + characters** — from Steps 4 & 5, coordinated hair/vestment/holy-item details and
+   the shared light-bleed moment, woven together
+3. **Setting** — from Step 6, kept simple/uncluttered so text stays readable
+4. **Supporting cast** — antagonist + allies, small and simply rendered, always
+   smaller-scaled than the leads
+5. **Title** — position (e.g. "at the top"), size/weight treatment (e.g. "large elegant
+   calligraphic title text"), any color/glow effect, then the literal string in quotes:
+   `text reading "[title]"`
+6. **Subtitle** — position relative to the title (e.g. "below it, smaller subtitle text"),
+   then the literal string in quotes: `reading "〜[subtitle]〜"`
+7. **Obi band** — position (typically "at the bottom"), band background color, text color
+   and weight, the literal quoted obi copy, plus any accent graphic (starburst, seal, etc.):
+   `a horizontal obi band with [color] background and [color/weight] text reading
+   "[obi copy]"` — condense Step 8's three lines into one obi string if needed for length
+8. **Publisher emblem** — small graphic shape (circular, crest, etc.) with the literal
+   fictional imprint name in quotes: `a small circular publisher emblem reading "[imprint]"`
+9. **Finish/quality + negative constraints** — closing line naming the render mode (e.g.
+   "clean, polished 2D Pixiv-style anime illustration") and what to exclude (painterly
+   texture, photorealism, plus the loaded style's Style Negatives from `styles.md`)
+
+**Robust version:** full paragraph covering all 9 elements above with complete detail on
+each — matches the density of a finished, ready-to-generate prompt.
+
+**Compact version:** condensed to 3–5 sentences. Keep all literal quoted text (title,
+subtitle, obi copy, emblem) intact — text elements are never trimmed for length, only the
+surrounding scene/style description is shortened.
+
+Which language's strings to quote (Japanese, English, or both per **Language Handling**)
+depends on what's locked for the cover — swap in the corresponding forms from Steps 3 & 8
+without changing the layout instructions.
+
+**Niji Journey caveat:** Niji/Midjourney renders quoted text far less reliably than DALL-E 3.
+Generate the Niji Robust/Compact prompts per `SKILL.md`'s standard format, but keep any
+literal text short (title only, or omit text entirely and note it as a text-free illustration
+variant) — flag to the user that the ChatGPT version is the reliable source for accurate
+cover text, and Niji is best treated as an alternate illustration-only rendering.
+
+Deliver all four prompts using this skill's standard final output format (ChatGPT Robust,
 ChatGPT Compact, Niji Journey Robust, Niji Journey Compact — each in its own labeled fenced
-code block, per `SKILL.md`'s Final Output template). Within each prompt's text-elements
-section:
-
-- Describe title/subtitle/obi placement, sizing, and hierarchy (short bold title vs. long
-  smaller subtitle) as **layout instructions**, not literal glyphs to render.
-- Note in-prompt that Japanese text should appear as elegant, book-cover-appropriate
-  typography in the described positions — the actual characters will be overlaid in
-  post-production (see Key Reminders).
-- If the user wants an English-primary cover instead, swap the described text to the
-  English title/subtitle/obi lines from Steps 3 & 8, same layout logic.
+code block, per `SKILL.md`'s Final Output template).
 
 ---
 
 ## Key Reminders
 
-- Japanese text renders as garbled glyphs in AI image generators — always plan to overlay
-  real text in post, regardless of which language is primary on the cover.
+- Write literal quoted text directly into the prompt for title, subtitle, obi band, and
+  publisher emblem — don't describe text elements abstractly. This is what makes ChatGPT
+  actually attempt the correct copy in the correct position (see Step 9 template).
+- Text rendering still isn't perfect, especially for longer obi paragraphs or if the user
+  wants full-accuracy JP typography — mention post-production touch-up as a fallback option,
+  not the default plan.
 - Real publisher names are prohibited — always invent a fictional imprint.
 - Pixiv Clean and similar character-portrait styles conflict with complex background scenes
   — either simplify the background or switch styles.
@@ -315,3 +345,5 @@ section:
   title + long smaller subtitle gives visual hierarchy without one unreadable block.
 - Every title, subtitle, and obi line should exist in Japanese, romaji, and English by the
   time Step 9 delivers — don't let one language fall out of sync with the others.
+- Niji Journey text rendering is unreliable — treat the Niji prompts as a text-light or
+  text-free illustration variant, not the primary source for accurate cover copy.

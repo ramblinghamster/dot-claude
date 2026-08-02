@@ -164,26 +164,30 @@ neon noir anime, electric magenta and cyan neon reflections, deep shadows, clean
 **Conflicts with:** rustic/organic environments, heavy texture, fantasy or sci-fi themes
 
 ### Visual Description
-Clean, controlled, and intentional. Minimal props. Precise directional lighting — often a
-large softbox or natural window light — that creates crisp highlights and soft shadow. Color
-palette is desaturated and cool, with lifted blacks. The subject commands the frame. Negative
-space is used deliberately. Feels like a luxury fashion magazine or high-end commercial spread — elevated, restrained,
-and aspirational.
+Clean, controlled, and intentional. Minimal props. Precise directional lighting — a large
+softbox, natural window light, or raking golden-hour sun — that creates crisp highlights and
+soft, controlled shadow. Color palette follows the mood of the shoot rather than a single
+fixed temperature: desaturated and cool with lifted blacks for a clinical, minimalist look, or
+warm and sun-drenched (amber, terracotta, golden light) for a lifestyle-luxury look. Either
+reads as editorial as long as it stays restrained and intentional rather than candy-bright or
+garish. The subject commands the frame. Negative space is used deliberately. Feels like a
+luxury fashion magazine or high-end commercial spread — elevated, restrained, and aspirational.
 
 ### Style Negatives
-rustic organic environments, heavy texture, fantasy or sci-fi elements, cluttered composition, warm saturated palette, painterly rendering, chibi proportions, hand-drawn roughness, busy detailed backgrounds
+rustic organic environments, heavy texture, fantasy or sci-fi elements, cluttered composition, oversaturated candy-bright palette, painterly rendering, chibi proportions, hand-drawn roughness, busy detailed backgrounds
 
 ### ChatGPT Translation
 ```
 High-end editorial fashion anime illustration — clean and minimal composition, precise
-directional softbox lighting, crisp highlights with soft shadow falloff, desaturated and
-cool color palette with lifted blacks, generous negative space, aspirational and restrained
+directional lighting (softbox or golden-hour sun), crisp highlights with soft controlled
+shadow falloff, restrained color palette (cool desaturated or warm sun-drenched, matching
+the scene's mood) with lifted blacks, generous negative space, aspirational and restrained
 mood, luxury fashion editorial quality, ultra high detail, 2D anime art style.
 ```
 
 ### Niji Journey Translation
 ```
-editorial fashion anime illustration, minimal composition, soft directional lighting, desaturated cool palette, crisp highlights, negative space
+editorial fashion anime illustration, minimal composition, soft directional lighting, restrained cool or warm palette, crisp highlights, negative space
 ```
 
 ---
@@ -1569,27 +1573,288 @@ hand-painted editorial anime illustration, restrained line art, lost-and-found e
 ---
 
 ## STYLE: Forma
-**Aliases:** forma, graphic value block, urban gothic fantasy anime, printed anime poster
-**Best for:** urban gothic fantasy portraits and scenes, corseted or winged characters, cityscape backdrops with geometric architecture, any illustration wanting a calm, elegant, professionally-printed anime poster look rather than painterly or cinematic rendering
+**Aliases:** forma, graphic value block, crisp graphic anime, printed anime poster
+**Best for:** graphic character illustrations and scenes where crisp clean linework and a tight value economy matter, backdrops (urban, natural, or interior) reduced to simple geometric masses, any illustration wanting a calm, elegant, professionally-printed anime poster look rather than painterly or cinematic rendering — any genre or palette
 **Conflicts with:** Atelier (shares the value-shape technique but Forma uses crisp clean linework and a tighter 2-4 value group range instead of painterly lost-and-found edges across 3-5 value groups), Prism, Neon Noir, Ufotable, Makoto Shinkai, Miura, Soulslike — any style relying on bloom, volumetric light, HDR drama, or dense material rendering
 
 ### Visual Description
-A restrained, graphic anime illustration technique where every object is simplified into a large flat value shape before any detail is added — nothing in the frame is rendered with equal finish. The face carries only slightly more finish than the rest of the image; hair resolves into a small number of clean grouped locks rather than individual strands; feathers read as broad grouped shapes rather than individually painted plumage; lace is suggested through simplified repeating patterns rather than dense mesh texture; corset or bodice seams stay clean and graphic instead of heavily stitched. Background architecture reduces to simple geometric masses with repetitive flat dark rectangular windows holding almost no interior detail, concrete surfaces stay mostly flat with only slight tonal variation, and distant buildings fade only slightly with depth rather than dissolving into atmosphere. Skin stays smooth and matte with no realistic subsurface rendering, and every material — fabric, leather, metal — is kept fully matte, with no glossy leather, shiny boots, or metallic highlights. The entire image sits inside one unified color grade, lit softly and graphically across only two to four major value groups — no HDR drama, no strong bloom, no volumetric light rays, no cinematic atmospheric haze. Linework is clean, thin, and consistent throughout, with crisp confident silhouettes and minimal interior contour lines; the drawing never dissolves into painterly brushwork. Palette and light color are fully open — warm, cool, neutral, vibrant, or muted, whatever the scene calls for; the technique (value simplification, detail economy, crisp thin linework, 2-4 value groups) is what defines Forma, not any particular color story. The mood is calm, elegant, and confident — an urban gothic fantasy illustration that reads like professionally printed anime artwork rather than rendered concept art.
+A restrained, graphic anime illustration technique where every object is simplified into a large flat value shape before any detail is added — nothing in the frame is rendered with equal finish. The face carries only slightly more finish than the rest of the image; hair resolves into a small number of clean grouped locks rather than individual strands. Where the scene includes them, feathers or wings read as broad grouped shapes rather than individually painted plumage, lace is suggested through simplified repeating patterns rather than dense mesh texture, and structured clothing seams (corsets, jackets, armor, or otherwise) stay clean and graphic instead of heavily stitched — none of this is assumed by default. Background elements — architecture, foliage, interiors, vehicles, or any other setting the scene calls for — reduce to simple geometric masses with minimal interior detail, and anything distant fades only slightly with depth rather than dissolving into atmosphere. Skin stays smooth and matte with no realistic subsurface rendering, and every material — fabric, leather, metal — is kept fully matte, with no glossy leather, shiny boots, or metallic highlights. The entire image sits inside one unified color grade, lit softly and graphically across only two to four major value groups — no HDR drama, no strong bloom, no volumetric light rays, no cinematic atmospheric haze. Linework is clean, thin, and consistent throughout, with crisp confident silhouettes and minimal interior contour lines; the drawing never dissolves into painterly brushwork. Palette, setting, and subject matter are fully open — whatever genre, theme, and color story the scene calls for; the technique (value simplification, detail economy, crisp thin linework, 2-4 value groups) is what defines Forma, not any particular color story or theme. The mood is calm, elegant, and confident — a graphic illustration that reads like professionally printed anime artwork rather than rendered concept art.
 
 ### Usage Notes
 - **vs. Atelier:** Both simplify the whole image into large value shapes with detail concentrated on the face, and both leave palette fully open — specify colors in Block 7 for every prompt. The difference is technique: Atelier builds gradients through painterly lost-and-found edges across three to five value groups, while Forma uses crisp clean thin linework instead of painterly edges and restrains the whole image to two to four value groups.
+- **Palette, theme, and subject:** fully user-defined — specify in Block 7 for every prompt. There is no default palette or genre; the technique (restrained line, tight value economy, detail concentrated on the face) is what defines this style, not any particular color story or theme. Wardrobe/setting details like corsets, wings, feathers, or lace should only appear in the prompt when the user's scene actually calls for them.
 
 ### Style Negatives
 photorealism, CGI, concept art rendering, painterly brush texture, volumetric lighting, bloom, lens flare, dense lace texture, individually rendered hair strands, individually rendered feathers, realistic building detail, heavy material rendering, gloss, glossy leather, shiny boots, metallic highlights, realistic cloth rendering, high-frequency texture, over-rendering, HDR lighting, cinematic atmospheric effects
 
 ### ChatGPT Translation
 ```
-A restrained, graphic 2D anime illustration where every object is simplified into a large flat value shape before any detail is added — nothing in the frame is rendered with equal finish. The face carries only slightly more finish than the rest of the image; hair is drawn as a small number of clean grouped locks rather than individual strands; any feathers present read as broad grouped shapes rather than individually painted plumage; lace is suggested through simplified repeating patterns rather than dense mesh texture; corset or bodice seams stay clean and graphic instead of heavily stitched. Background architecture reduces to simple geometric masses with repetitive flat dark rectangular windows holding almost no interior detail, concrete surfaces stay mostly flat with only slight tonal variation, and distant buildings fade only slightly with depth. Skin stays smooth and matte with no realistic subsurface rendering, and every material — fabric, leather, metal — is kept fully matte, with no glossy leather, shiny boots, or metallic highlights. The entire image sits inside one unified color grade using [user-defined palette and light color per scene], lit softly and graphically across only two to four major value groups, with no HDR drama, no strong bloom, no volumetric light rays, and no cinematic atmospheric haze. Linework is clean, thin, and consistent, with crisp confident silhouettes and minimal interior contour lines — the drawing never dissolves into painterly brushwork. The mood is calm, elegant, and confident: an urban gothic fantasy illustration that reads like professionally printed anime artwork rather than rendered concept art.
+A restrained, graphic 2D anime illustration where every object is simplified into a large flat value shape before any detail is added — nothing in the frame is rendered with equal finish. The face carries only slightly more finish than the rest of the image; hair is drawn as a small number of clean grouped locks rather than individual strands. Where the scene includes them, feathers or wings read as broad grouped shapes rather than individually painted plumage, lace is suggested through simplified repeating patterns rather than dense mesh texture, and structured clothing seams stay clean and graphic instead of heavily stitched. Background elements — [scene setting] — reduce to simple geometric masses with minimal interior detail, and anything distant fades only slightly with depth. Skin stays smooth and matte with no realistic subsurface rendering, and every material — fabric, leather, metal — is kept fully matte, with no glossy leather, shiny boots, or metallic highlights. The entire image sits inside one unified color grade using [user-defined palette and light color per scene], lit softly and graphically across only two to four major value groups, with no HDR drama, no strong bloom, no volumetric light rays, and no cinematic atmospheric haze. Linework is clean, thin, and consistent, with crisp confident silhouettes and minimal interior contour lines — the drawing never dissolves into painterly brushwork. The mood is calm, elegant, and confident: a graphic illustration that reads like professionally printed anime artwork rather than rendered concept art.
 ```
 
 ### Niji Journey Translation
 ```
-restrained graphic anime illustration, large flat value shapes, clean grouped hair locks, broad grouped feather shapes, simplified lace pattern, clean graphic corset seams, geometric building masses with flat dark windows, flat concrete, smooth matte skin, unified color grade, [user-defined palette], soft graphic lighting, 2-4 value groups, clean thin consistent anime linework, crisp silhouettes, calm elegant urban gothic fantasy mood
+restrained graphic anime illustration, large flat value shapes, clean grouped hair locks, [scene setting] reduced to simple geometric masses, smooth matte skin, unified color grade, [user-defined palette], soft graphic lighting, 2-4 value groups, clean thin consistent anime linework, crisp silhouettes, calm elegant confident mood
 --no photorealism, painterly brush texture, volumetric lighting, bloom, individual hair strands, individual feather rendering, gloss, HDR
+--ar [ratio]
+```
+
+---
+
+## STYLE: Candy Cel
+**Aliases:** candy cel, early 2000s anime, millennium moe, y2k anime, tv moe, four-panel anime, aughts moe, classic moe tv anime
+**Best for:** cheerful slice-of-life scenes, school comedy moments, small friend-group ensembles, everyday comedic mishaps — the nostalgic simplified moe look of early-2000s Japanese TV anime (four-panel comedy adaptations, school-life sitcoms), not modern gacha or mobile-game moe
+**Conflicts with:** Moe Gacha (extreme SD mascot proportions and airbrushed gradient shading vs. this style's milder proportions and flat single-shadow cel work), Retro Anime (80s-90s analog film grain and muted sun-bleached palette vs. this style's cleaner uneven-lineweight cel look and bright candy-saturated palette), Sketch Moe (bold wobbly G-pen outlines vs. this style's cleaner slightly-organic TV-cel linework), Hyperreal Anime, Cinematic Anime, Miura, Soulslike, Neon Noir, Prism — any style relying on realistic rendering, painterly texture, or dramatic cinematic lighting
+
+### Visual Description
+The visual language of early-2000s Japanese television anime — cheerful, simplified moe character design built on mildly super-deformed proportions: oversized rounded heads, petite bodies, narrow shoulders, slim limbs, and tiny simplified hands, with minimal noses and mouths. Eyes are enormous and glossy, jewel-toned in saturated blue, violet, or green, ringed with thick upper lashes, carrying exactly two crisp white highlights and only the simplest internal shading — no gradient blending inside the iris. Hair resolves into bold, angular clumps with pointed tips and a distinctive silhouette, rendered in bright pastel color with only one or two flat highlight shapes, never individual strands. Everything is rendered as hand-drawn 2D television animation: outlines are dark but slightly organic with natural unevenness in line weight, colors are uniform flat cel fills, and shading uses exactly one sharply defined shadow tone — no gradients, no soft blending, no glossy modern digital finish. Fabric folds stay sparse and graphic rather than intricately detailed. Expressions are innocent, playful, and comically exaggerated — tiny catlike mouths, broad closed-eye smiles, blush marks, or wide open mouths when excited — and poses read as energetic, awkward, and endearingly comedic rather than elegant. Backgrounds are simple and softly painted with reduced detail and gentle atmospheric color, carrying the feeling of a sunny school-day comedy without ever competing with the characters. Framing is straightforward TV-anime composition with strong readable silhouettes and minimal depth of field. The charming limitations of traditional cel animation production are preserved throughout — slightly uneven line weight, restrained highlights, and simple shadows — rather than smoothed into modern digital polish.
+
+### Style Negatives
+photorealism, semi-realistic anatomy, detailed skin texture, painterly rendering, 3D or CGI appearance, complex lighting, dramatic cinematic contrast, excessive gradients, intricate fabric texture, hyper-detailed backgrounds, modern glossy gacha rendering, realistic facial proportions, extreme SD mascot proportions, airbrushed gradient shading, analog film grain, VHS color bleed, bold wobbly G-pen outlines, muted sun-bleached palette
+
+### ChatGPT Translation
+```
+Cheerful early-2000s Japanese television anime aesthetic — cute, mildly super-deformed moe
+character proportions with oversized rounded heads, petite bodies, narrow shoulders, slim
+limbs, and tiny simplified hands, minimal noses and mouths. Enormous glossy jewel-like eyes
+carry thick upper lashes, saturated blue, violet, or green irises, two crisp white highlights,
+and only the simplest internal shading, with no gradient blending inside the iris. Hair forms
+bold angular clumps with pointed tips, a distinctive silhouette, bright pastel color, and just
+one or two flat highlight shapes, never rendered strand by strand. Drawn entirely as hand-drawn
+2D television animation: dark but slightly organic outlines with natural unevenness in line
+weight, uniform flat cel color fills, and a single sharply defined shadow tone — no gradients,
+no soft blending, no glossy modern digital finish. Fabric folds stay sparse and graphic rather
+than intricately detailed. Backgrounds are simply and softly painted with reduced detail and
+gentle atmospheric color, never competing with the characters. Straightforward TV-anime framing
+with strong readable silhouettes and minimal depth of field. Traditional cel animation
+production quality throughout — 2D anime illustration style, no painterly texture, no 3D or
+CGI rendering, no photorealistic or semi-realistic anatomy.
+```
+
+### Niji Journey Translation
+```
+early-2000s TV anime, mildly super-deformed moe proportions, oversized round head, glossy jewel eyes thick lashes, angular pointed hair clumps, bright pastel hair color, flat cel shading, single shadow tone, uneven hand-drawn linework, candy-pastel palette, soft simple background
+--ar [ratio]
+```
+
+---
+
+## STYLE: Alcohol Ink Wash
+**Aliases:** alcohol ink wash, alcohol ink, alcohol pigment, solvent ink, fluid ink, ink bloom, ink diffusion, Yupo ink, marbled alcohol ink, fluid marbling, ink marbling
+**Best for:** anime characters and scenes transformed by luminous liquid pigment — dissolving figures, fluid garments, magical effects, dreamlike environments, atmospheric transitions, and emotional key visuals where solvent-driven color movement carries the mood
+**Conflicts with:** Flat Cel, hard vector art, watercolor-paper texture, visible brush application, opaque acrylic-pour cells, thick resin gloss, uniform graphic gradients, repeating geometric patterns, line art without fluid-media integration
+
+### Visual Description
+Mobile translucent pigment shaped by solvent, surface tension, displacement, evaporation,
+recoil, and reactivation on a smooth, non-absorbent surface — defined by visible fluid
+history, not by cells alone. Every treated passage suggests a physical event: pigment
+expanding across a slick surface, one color displacing another, solvent clearing a pigment
+center, liquid recoiling into a tide line, capillary branching, colliding pools forming
+membranes, or dense pigment collecting along an evaporative boundary. Mixes wet translucent
+pools, thin liquid membranes, irregular blooms, pale receding centers, dark evaporative tide
+lines, broken scalloped drying rims, feathered capillary branches, backflow channels,
+incomplete rings, sparse satellite droplets concentrated near active bloom edges, and
+occasional elongated marbled ribbons — scale, density, and drying state vary throughout so
+no single passage repeats. At least one focal anchor (face, eyes, hands, or central
+silhouette) stays clearly resolved through value hierarchy and controlled edge transitions;
+the ink must pass through the subject's or environment's own materials, never sit pasted
+behind an untouched scene. No fixed palette — colors are pulled from the request and
+arranged unpredictably, never rainbow order or separated bands, overlapping, recurring, and
+displacing each other while staying luminous and identifiable. Metallic veining (gold,
+copper, silver) is optional — a few thread-thin seams and sparse flecks at natural
+intersections, never outlining every bloom.
+
+### Flavor & Application Modes
+Pick one **flavor** and one **mode** per prompt. Default to Bloom flavor and ask which mode
+fits if the scene doesn't make it obvious.
+
+**Flavors:**
+- **Bloom (default)** — authentic alcohol-ink behavior: solvent-expanded blooms, translucent
+  veils, pale receding centers, evaporative tide lines, broken scalloped rims, capillary
+  feathering, backflow, satellite droplets. Chemically active, luminous, unpredictable.
+- **Marbled hybrid** — bloom behavior stretched into elongated ribbons, folds, curling
+  currents, and interrupted color bands via directional fluid marbling. Use for garments,
+  sweeping environmental currents, explicitly patterned areas — motion-driven, never a
+  repeating decorative pattern.
+
+**Modes:**
+- **Environmental** — sky, atmosphere, ground, water, architecture, or landscape
+  progressively participates in the ink; pigment enters the actual edges, surfaces,
+  reflections, and silhouettes rather than sitting behind a conventional scene. Best for
+  dreamlike, elemental, apocalyptic, emotionally heightened scenes.
+- **Dissolving-Figure** — hair, clothing, extremities, or outer silhouette transition into
+  fluid pigment while eyes, face, hand gestures, and central anatomy stay resolved. Best for
+  transformation, disappearance, memory, rebirth, otherworldly character moments.
+- **Garment or Accent** — a garment, fabric, hair section, weapon, or prop carries the ink,
+  following its folds, curvature, and motion. Best for fantasy fashion, portraits, card art,
+  luxurious material design.
+- **Magic or Effect** — ink behaves as a directional supernatural phenomenon with a clear
+  source (lantern, hand, spell circle, weapon, wound); concentrated pigment expands outward
+  through irregular blooms, branching, and backflow while keeping one traceable overall
+  direction. Avoid centered fountains, symmetrical explosions, and radial sunbursts unless
+  requested. Best for spellcasting, rituals, transformations, elemental effects.
+- **Progressive-Dissolution** — the composition passes through a visible sequence from a
+  fully resolved focal foreground, through minor pigment intrusion, partially interrupted
+  forms, and fragmented silhouettes, to fully nonrepresentational ink at the far end —
+  occurring within individual objects' own contours, not as a split between a normal lower
+  scene and an unrelated abstract upper backdrop. Describe at least three visible stages.
+
+Directional flow (Magic/Effect and Progressive-Dissolution) should read as one asymmetrical
+current — S-curve, wind-bent diagonal, branching upward flow, or a plume interrupted by
+backflow — never a centered fountain, rigid column, or evenly spaced radial burst.
+
+### Style Negatives
+watercolor-paper texture, fibrous paper absorption, watercolor granulation, brushed color wash, visible brushstrokes, gouache texture, oil-paint texture, opaque paint buildup, heavy concept-art surface texture, flat cel shading, hard vector outlines, smooth digital gradients, opaque acrylic-pour cells, thick resin gloss, uniform rounded bubbles, repeating cellular pattern, evenly distributed cells, ordered rainbow stripes, separate vertical color columns, evenly scattered splatter, confetti-like droplets, metallic outlines, gold around every boundary, stained-glass divisions, cloisonné effect, wallpaper-like marbling, identical edge treatment, uniformly saturated pigment, muddy gray contamination, symmetrical fountain, radial sunburst, effect pasted behind untouched architecture, melted face, blurred eyes, malformed hands
+
+### Usage Notes
+- Ask which mode fits the scene if it isn't clear from context; default to Bloom flavor
+  unless the scene calls for structured currents (Marbled hybrid)
+- Omit metallic veining unless the user explicitly requests it
+- Never use "wash" as the primary medium label — it pulls generation toward watercolor
+- When several hues are requested, explicitly prohibit rainbow ordering to keep the
+  arrangement fluid and unpredictable
+- For Progressive-Dissolution, name at least three concrete stages tied to real objects in
+  the scene (e.g., roof tiles → eaves → hanging wires → distant architecture → sky)
+- Environmental and Progressive-Dissolution modes combine well in a single prompt; the other
+  three modes are best kept singular per prompt
+
+### ChatGPT Translation
+
+**Environmental mode:**
+```
+Luminous 2D anime illustration incorporating authentic translucent alcohol-ink behavior
+on a smooth, non-absorbent surface. The environment transitions through slick liquid
+pigment pools, thin transparent membranes, solvent-cleared centers, irregular blooms,
+dark evaporative tide lines, broken scalloped rims, capillary branches, displaced-color
+channels, and sparse droplets concentrated near active bloom edges.
+
+Combine large quiet liquid fields, smaller bloom clusters, and selective negative space.
+Make the transformation occur within environmental edges, surfaces, reflections, and
+silhouettes rather than placing abstract ink behind an untouched scene. Preserve a
+clearly resolved anime focal character with delicate variable-weight linework and
+legible face and hands. [user-defined palette].
+
+No watercolor-paper texture, watercolor granulation, visible brush application, opaque
+acrylic-pour cells, thick resin gloss, uniform bubbles, repeating cell patterns, or
+separate conventional and abstract zones.
+```
+
+**Dissolving-Figure mode:**
+```
+Luminous 2D anime character whose [hair / clothing / outer silhouette — specify]
+progressively transforms into authentic translucent alcohol ink. Preserve expressive
+eyes, a clearly resolved face, important hand gestures, and intact central anatomy.
+
+At the outer edges, use slick pigment pools, thin liquid membranes, solvent-cleared
+openings, broken tide lines, feathered capillary branches, backflow channels, incomplete
+rings, and sparse satellite droplets. Make the transition pass visibly through the
+character's materials rather than appearing as a separate ink cloud. [user-defined
+palette].
+
+No watercolor texture, visible brushstrokes, opaque paint buildup, acrylic-pour cells,
+resin gloss, uniform membranes, melted face, blurred eyes, or malformed hands.
+```
+
+**Garment or Accent mode:**
+```
+Luminous 2D anime illustration with a clearly resolved face and hands, where
+[garment / fabric / hair / object — specify] carries authentic translucent alcohol-ink
+behavior. Pigment follows the object's folds, curvature, perspective, and motion through
+wet translucent pools, transparent veils, displaced-color channels, irregular tide
+lines, and occasional elongated liquid ribbons.
+
+Vary scale and density. Preserve pale breathing areas and use only sparse irregular
+membranes rather than an evenly repeated pattern. [user-defined palette].
+
+No watercolor-paper texture, brushworked wash, opaque acrylic pouring, resin gloss,
+wallpaper marbling, uniform rounded cells, or fluid patterns that ignore the object's
+form.
+```
+
+**Magic or Effect mode:**
+```
+Luminous 2D anime illustration where authentic translucent alcohol ink originates
+unmistakably from [source — specify]. Concentrated pigment begins at the source and moves
+in an asymmetrical directional current shaped by surface tension, displacement, backflow,
+branching, and changing drying states.
+
+Use slick liquid pools, thin transparent membranes, solvent-cleared centers, evaporative
+tide lines, broken scalloped rims, capillary tendrils, interrupted ribbons, and sparse
+satellite droplets near active bloom edges. Integrate the effect with the character and
+environment through shared movement, reflected color, lighting, and selective edge
+transformation. [user-defined palette].
+
+No watercolor texture, centered fountain, symmetrical explosion, radial sunburst,
+ordered rainbow bands, excessive splatter, acrylic-pour cells, resin gloss, or effect
+pasted behind untouched objects.
+```
+
+**Progressive-Dissolution mode:**
+```
+Luminous 2D anime illustration showing a continuous staged transformation from solid
+reality into authentic translucent alcohol ink. Keep the focal foreground sharply
+resolved. Give nearby forms minor pigment intrusion and feathered edges; make
+middle-distance forms partially transparent and interrupted by tide lines; suspend
+distant silhouettes inside liquid membranes and overlapping blooms; allow the furthest
+region to become fully abstract ink.
+
+Make the transformation occur within individual objects and along their contours.
+Use wet translucent pools, solvent-cleared centers, displaced-pigment channels, broken
+scalloped rims, capillary branches, backflow, changing density, and selective negative
+space. [user-defined palette].
+
+No watercolor-paper texture, brushstrokes, abrupt backdrop replacement, uniform cells,
+ordered rainbow columns, opaque resin texture, metallic outlines, or loss of focal
+facial and hand clarity.
+```
+
+### Niji Journey Translation
+
+**Environmental mode:**
+```
+luminous 2D anime illustration, authentic translucent alcohol ink environment, smooth
+non-absorbent surface, slick liquid pigment, solvent-cleared centers, evaporative tide
+lines, broken scalloped rims, capillary branching, displaced-color channels, varied
+wet-and-dry states, selective negative space, environment progressively dissolving
+within its own edges, clearly resolved anime focal character, [user-defined palette]
+--ar [ratio]
+```
+
+**Dissolving-Figure mode:**
+```
+luminous anime figure dissolving into authentic translucent alcohol ink, expressive
+legible face and hands, outer hair and clothing becoming liquid membranes,
+solvent-cleared openings, broken tide lines, capillary branches, backflow channels,
+sparse satellite droplets, asymmetrical flow, delicate variable-weight anime linework,
+[user-defined palette]
+--ar [ratio]
+```
+
+**Garment or Accent mode:**
+```
+luminous anime character, resolved face and hands, authentic translucent alcohol-ink
+[garment/fabric/hair], slick pigment following folds and motion, transparent liquid
+veils, displaced-color channels, irregular tide lines, occasional elongated ribbons,
+varied scale and negative space, [user-defined palette]
+--ar [ratio]
+```
+
+**Magic or Effect mode:**
+```
+luminous anime character channeling authentic translucent alcohol ink from [source],
+smooth non-absorbent liquid behavior, concentrated origin, asymmetrical directional
+current, solvent-cleared centers, evaporative tide lines, capillary branching, backflow,
+interrupted ribbons, sparse edge-clustered droplets, effect integrated through reflected
+color and transformed object edges, [user-defined palette]
+--ar [ratio]
+```
+
+**Progressive-Dissolution mode:**
+```
+luminous anime scene progressively transforming from solid foreground into authentic
+translucent alcohol ink, pigment intrusion in nearby edges, partially transparent middle
+distance, distant silhouettes inside liquid membranes, fully abstract ink beyond,
+solvent-cleared centers, broken tide lines, capillary branches, displaced pigment,
+varied wet-and-dry states, selective negative space, [user-defined palette]
 --ar [ratio]
 ```

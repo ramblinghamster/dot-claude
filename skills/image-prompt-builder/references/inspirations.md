@@ -375,8 +375,28 @@ When adding, follow the existing format:
 
 ## Forma
 
-1. A winged noblewoman in a laced corset stands at the edge of a rooftop terrace, tall apartment blocks with rows of flat dark windows receding softly behind her, deep cobalt twilight settling calmly over the whole scene
-2. A gothic courier rests against a concrete stairwell wall, her feathered cloak folded into broad simple shapes, warm burnt-orange light catching only her face as the alley behind flattens into two value groups
-3. A masked opera singer takes a bow on a balcony overlooking a quiet cityscape, her corseted gown rendered in clean graphic seams, dusty rose and charcoal value masses reducing the skyline behind her to simple geometric shapes
-4. A clockmaker in a lace-trimmed coat closes her shopfront shutters at dusk, sage green and cream value blocks defining the brick storefront behind her, calm and unhurried
-5. A winged sentinel perches on a concrete ledge overlooking a sleeping gothic district, feathers grouped into broad still shapes, a cool violet-grey grade unifying rooftops and sky into one calm graphic mood
+1. A firefighter descends a smoke-filled stairwell, warm red emergency light reduced to two broad flat value blocks across the frame, only her face carrying any real finish
+2. A street chef flips noodles at a night market stall, amber and charcoal value shapes flattening the crowd and signage behind him into simple graphic masses
+3. A cellist rehearses alone on an empty concert stage, cool grey-blue light collapsing the hall into three broad geometric shapes, her face and bow hand the only areas with fine detail
+4. A courier drone pilot checks her rig on a rain-slick rooftop, teal and violet value blocks reducing the skyline and puddle reflections to flat graphic shapes behind her
+5. A mountain guide checks gear at a cliffside camp at dawn, muted sage and stone-grey value groups simplifying the rock face and tent behind him, calm and steady
+
+---
+
+## Candy Cel
+
+1. Three schoolgirls in summer uniforms crammed under one umbrella during a sudden downpour, one shrieking with a huge open-mouth laugh as her pigtails flop sideways, candy-pink and sky-blue palette
+2. A girl mid-trip over her own shoelace in a school hallway, arms flailing and books flying, two classmates behind her doubled over with broad closed-eye smiles
+3. Two friends squeezed onto one bicycle riding past a row of cherry blossom trees on the way to school, one pedaling frantically while the other clings on laughing
+4. A club room after school — one girl asleep face-down on a pile of homework, another poking her cheek with a pencil, a teacup steaming between stacks of manga
+5. A girl staring in comedic horror at a burnt bento box she just made, a thin curl of smoke rising from it, her friend peeking over her shoulder with a huge nervous grin
+
+---
+
+## Alcohol Ink Wash
+
+1. Environmental — a lone astronaut stands on a cracked, drained ocean floor as the sky above splits into blooming ink clouds of violet and rust, distant skyscraper skeletons dissolving into translucent membranes at the horizon
+2. Dissolving-Figure — a ballerina mid-pirouette on an empty stage, her trailing arm and skirt unraveling into teal and gold ink blooms while her face and supporting leg stay fully resolved
+3. Garment or Accent — a queen in a throne room adjusts a long velvet cloak that bleeds slowly into crimson and violet ink currents pooling across the marble floor behind her
+4. Magic or Effect — a shrine priestess presses her palm against a stone altar, indigo and gold pigment erupting from the point of contact and branching upward into the temple rafters
+5. Progressive-Dissolution — a cyclist pedals down a rain-lit city street at dusk, the nearest storefronts still crisp while the skyline three blocks back dissolves into layered cyan and amber ink blooms against the darkening sky

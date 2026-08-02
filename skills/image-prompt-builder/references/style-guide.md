@@ -18,13 +18,13 @@ show the category overview first and offer to go deeper on any group.
 |---|---|
 | Warm & Painterly | Ember · Studio Ghibli · Makoto Shinkai · Aquarelle · Moe Gacha · Storybook · Storybook Impasto · Daily Chibi · Gossamer |
 | Epic & Cinematic | Dark Fantasy · Ufotable · Miura |
-| Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Shounen Burst · Webtoon · Gacha Splash |
+| Vibrant & Graphic | Neon Noir · Cel Shading · Retro Anime · Candy Cel · Shounen Burst · Webtoon · Gacha Splash |
 | Atmospheric & Moody | Soulslike · Crewdson · Ironbloom · Editorial Fashion · Velvet |
 | Light & Optics | Prism |
 | Cinematic & Photorealistic | Cinematic Anime · Hyperreal Anime |
 | Digital & Pixel | JRPG Pixel Art · Brick Diorama |
 | Flat & Minimal | Flat Cel · Flat Chibi · Gossamer · Sketch Moe · Atelier · Forma |
-| Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e |
+| Traditional Media | Colored Pencil · Pencil Sketch · Sumi-e · Alcohol Ink Wash |
 | Ink & Linework | Line Art |
 
 ---
@@ -210,6 +210,27 @@ digital polish.
 
 ---
 
+### Candy Cel
+The visual language of early-2000s Japanese TV anime — cheerful, mildly super-deformed moe
+proportions (oversized rounded heads, petite bodies, slim limbs, tiny hands), enormous glossy
+jewel-toned eyes with thick lashes and two crisp highlights, and hair built from bold angular
+clumps with pointed tips in bright pastel color. Rendered as hand-drawn 2D television
+animation: dark but slightly organic outlines with natural line-weight unevenness, uniform
+flat cel color fills, and a single sharply defined shadow tone — no gradients, no glossy
+digital finish. Candy-pastel palette, sparse graphic fabric folds, comically exaggerated
+expressions, and simple softly painted backgrounds carrying a sunny school-day comedy feel.
+Unlike Retro Anime (80s-90s analog film grain and muted sun-bleached tones) or Moe Gacha
+(extreme SD mascot scale with airbrushed gradients), Candy Cel keeps milder proportions, a
+cleaner flat-cel look, and a brighter, more saturated palette true to 2000s TV production.
+
+**Best for:** cheerful slice-of-life school comedy, small friend-group ensembles, everyday
+comedic mishaps, any scene wanting the nostalgic simplified moe look of early-2000s TV anime.
+
+**Not for:** dark or dramatic themes, painterly or photorealistic rendering, extreme SD
+mascot proportions, analog grain or VHS texture.
+
+---
+
 ## Atmospheric & Moody
 
 These styles prioritize atmosphere, emotional weight, and visual restraint over color or
@@ -283,10 +304,12 @@ elements, pure character portraits with no equipment.
 ---
 
 ### Editorial Fashion
-Clean, controlled, and intentional. Precise directional softbox or window lighting with
-crisp highlights and soft shadow falloff. Desaturated and cool color palette with lifted
-blacks. Minimal props. Generous negative space. Aspirational and restrained. Feels like
-a luxury fashion magazine or high-end commercial spread.
+Clean, controlled, and intentional. Precise directional lighting — softbox, window light,
+or golden-hour sun — with crisp highlights and soft shadow falloff. Color palette matches
+the mood of the shoot: desaturated and cool with lifted blacks for a clinical, minimalist
+look, or warm and sun-drenched for a lifestyle-luxury look. Minimal props. Generous negative
+space. Aspirational and restrained. Feels like a luxury fashion magazine or high-end
+commercial spread.
 
 **Best for:** luxury product shots, high-end character portraiture, minimal compositions
 where the subject needs to command the frame, commercial or brand imagery where
@@ -654,20 +677,22 @@ detail, hard cinematic shadow drama, photorealism.
 ---
 
 ### Forma
-Graphic value-block anime technique with a calm, confident urban gothic fantasy mood and a
-fully user-defined palette. Like Atelier, every object simplifies into large flat value shapes
-before detail is added, but Forma is stricter: only two to four value groups (not three to
-five), and clean thin consistent linework with crisp silhouettes rather than lost-and-found
-painterly edges. Hair, feathers, and lace all reduce to grouped shapes rather than individual
-strand or mesh detail; background architecture simplifies to geometric masses with flat,
-repetitive dark windows. All materials stay matte — no gloss, no metallic highlights, no HDR
-or bloom. Palette and light color are open — specify in Block 7 for every prompt; the
-technique (value simplification, detail economy, crisp thin linework) is what defines Forma,
-not any particular color story.
+Graphic value-block anime technique with a calm, confident mood and a fully user-defined
+palette and theme. Like Atelier, every object simplifies into large flat value shapes before
+detail is added, but Forma is stricter: only two to four value groups (not three to five), and
+clean thin consistent linework with crisp silhouettes rather than lost-and-found painterly
+edges. Hair reduces to grouped shapes rather than individual strand detail; where the scene
+calls for them, feathers, lace, or structured clothing seams (corsets, jackets, armor) reduce
+to grouped graphic shapes too, but none of that is assumed by default. Background elements —
+urban, natural, or interior, whatever the scene needs — simplify to flat geometric masses with
+minimal interior detail. All materials stay matte — no gloss, no metallic highlights, no HDR
+or bloom. Palette, setting, and subject matter are open — specify in Block 7 for every prompt;
+the technique (value simplification, detail economy, crisp thin linework) is what defines
+Forma, not any particular color story or theme.
 
-**Best for:** urban gothic fantasy portraits and scenes, corseted or winged characters,
-cityscape backdrops, any illustration wanting a calm, elegant, printed-poster anime look
-rather than painterly or cinematic rendering.
+**Best for:** any genre or setting where crisp clean linework and a tight, graphic value
+economy are wanted — action, romance, fantasy, sci-fi, slice-of-life — rather than painterly
+or cinematic rendering. Define palette, setting, and theme in Block 7 for every prompt.
 
 **Not for:** dramatic HDR/bloom/volumetric lighting, dense material rendering.
 
@@ -779,6 +804,32 @@ pencil grain. Completely different media feel.
 
 ---
 
+### Alcohol Ink Wash
+Mobile translucent pigment on a smooth, non-absorbent surface, shaped by solvent, surface
+tension, displacement, evaporation, and recoil rather than by brushwork. Luminous liquid
+blooms, transparent membranes, evaporative tide lines, and capillary branching carry the
+image — colors overlap and displace each other unpredictably rather than sitting in flat
+separated zones. Five application modes control where the ink lives in the scene:
+Environmental (the world itself dissolves), Dissolving-Figure (a character's edges turn to
+ink while the face stays resolved), Garment or Accent (a fabric or prop carries the ink),
+Magic or Effect (a directional supernatural phenomenon from a clear source), and
+Progressive-Dissolution (a staged transition from solid reality to full abstraction across
+the frame).
+
+**Best for:** dissolving or transforming characters, magical effects with a clear source
+(lantern, spell circle, wound), dreamlike or apocalyptic environments, luxurious fluid
+garments, key visuals where color movement itself carries the emotion.
+
+**Not for:** flat graphic scenes, hard vector linework, anything needing uniform evenly
+distributed texture or a fixed rainbow-ordered palette.
+
+**Distinct from Aquarelle:** Aquarelle is soft absorbed watercolor/gouache on paper with
+muted desaturated color and paper texture throughout. Alcohol Ink Wash is slick, luminous,
+and translucent on a non-absorbent surface — no paper grain, no absorption, colors stay
+saturated and physically displace one another rather than blending softly.
+
+---
+
 ## Dark Fantasy Comparison
 
 Five styles work in dark fantasy territory — here's how to choose:
@@ -809,6 +860,9 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Glass / crystal / caustic light | Prism |
 | Realistic refraction / spectral dispersion | Prism |
 | Nostalgic / analog | Retro Anime |
+| Early-2000s TV anime / simplified moe | Candy Cel |
+| School slice-of-life comedy | Candy Cel · Daily Chibi |
+| Cheerful ensemble friend-group scene | Candy Cel |
 | Luxury / commercial | Editorial Fashion |
 | Quiet / understated character | Aquarelle · Crewdson |
 | Nature / wonder | Studio Ghibli · Makoto Shinkai |
@@ -872,9 +926,9 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Editorial key visual / graphic value painting | Atelier |
 | Restrained line + large value masses | Atelier |
 | Graphic editorial technique, any palette or genre | Atelier |
-| Urban gothic fantasy graphic anime, any palette | Forma |
+| Graphic value block anime, crisp thin linework, any genre or palette | Forma |
 | Graphic value block with crisp thin linework, 2-4 value groups | Forma |
-| Corseted or winged character, printed-poster anime look | Forma |
+| Tight graphic value economy, printed-poster anime look | Forma |
 | Traditional media / handcrafted feel | Colored Pencil |
 | Colored pencil on paper | Colored Pencil |
 | Detailed equipment / costume study | Colored Pencil · Ironbloom · Miura |
@@ -888,3 +942,9 @@ Five styles work in dark fantasy territory — here's how to choose:
 | Character sheet / OC showcase | Line Art · Pencil Sketch |
 | Costume or equipment study | Line Art · Ironbloom · Colored Pencil |
 | Pure linework / no shading | Line Art |
+| Dissolving or transforming character | Alcohol Ink Wash |
+| Liquid pigment / fluid ink bloom effect | Alcohol Ink Wash |
+| Magical effect with a clear source (lantern, spell, wound) | Alcohol Ink Wash |
+| Dreamlike or apocalyptic environment dissolving into abstraction | Alcohol Ink Wash |
+| Fluid garment / marbled fabric or hair | Alcohol Ink Wash |
+| Luminous liquid key visual | Alcohol Ink Wash |

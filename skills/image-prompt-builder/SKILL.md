@@ -89,10 +89,11 @@ paths below — they work in both the web environment and Claude Code:
 - For scene inspiration and example prompts per style: see inspirations.md
 - For the Character Identity Board sub-skill (original character creation): see character-creator.md
 - For the Light Novel Cover Ideation sub-skill (JP/EN cover concepts): see light-novel-ideation.md
+- For the Commercial Ad Ideation sub-skill (character-inspired product ads/posters): see commercial-ad-ideation.md
 
 ### Current Styles
 
-The following 38 styles are stored in your personal style library. This table is always
+The following 40 styles are stored in your personal style library. This table is always
 available — for full ChatGPT and Niji Journey translations, read styles.md.
 
 | Style | Best for |
@@ -110,6 +111,7 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Makoto Shinkai | Dramatic skies, golden hour cityscapes, longing and distance, emotional outdoor scenes |
 | Ufotable | Action sequences, supernatural combat, dark fantasy, high-production anime key visuals |
 | Retro Anime | Nostalgic scenes, sci-fi/urban drama, analog warmth and grain, 80s–90s anime aesthetic |
+| Candy Cel | Cheerful early-2000s TV anime, simplified moe school comedy, candy-pastel flat cel shading, sunny slice-of-life |
 | Cel Shading | Action scenes, graphic novel energy, bold poster compositions, high graphic impact |
 | Soulslike | Gothic/horror fantasy, fog-shrouded ruins, cursed characters, ancient decaying worlds |
 | Miura | Intense character portraits, brutal battle scenes, obsessive armor/weapon detail, monochromatic drama |
@@ -134,7 +136,8 @@ available — for full ChatGPT and Niji Journey translations, read styles.md.
 | Brick Diorama | Isometric miniature scenes built from interlocking plastic building bricks, cozy collectible dioramas, toy-like brick-constructed worlds |
 | Line Art | Character portraits, OC showcases, costume and equipment studies, coloring book pages, character sheets — pure black ink linework only |
 | Atelier | Editorial anime key visuals, graphic character illustrations prioritizing shape and value design, restrained line + large value masses, fully user-defined palette — any genre |
-| Forma | Urban gothic fantasy anime, graphic value-block rendering with crisp thin linework and 2-4 value groups, fully user-defined palette, corseted or winged characters, calm elegant confident mood, printed-poster anime look |
+| Forma | Graphic value-block anime, crisp thin linework and 2-4 value groups, fully user-defined palette and theme, calm elegant confident mood, printed-poster anime look — any genre |
+| Alcohol Ink Wash | Anime characters and scenes transformed by luminous liquid pigment — dissolving figures, fluid garments, magical effects, dreamlike environments, atmospheric transitions, emotional key visuals |
 
 ### Output Formats
 Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
@@ -144,7 +147,7 @@ Character Sheet (aliases: ref sheet, refsheet, model sheet, turnaround sheet)
 The user can reference a saved style at any point in the session — before, during, or after
 the blocks — by name or alias (e.g., "use Kurosawa", "apply Neon Noir", "go Crewdson").
 
-When a style name or alias is detected:
+When a style name or alias is detected **and no style is currently loaded**:
 1. Load the matching style entry from `references/styles.md`.
 2. Confirm it was found: *"Loaded style: **[Name]** — [one-line visual description]. Applied
    to Blocks 5, 6, and 7. You can still override any element."*
@@ -153,6 +156,39 @@ When a style name or alias is detected:
 4. Flag any conflicts with blocks already confirmed (use the Conflict Rules format).
 5. If the name isn't found in the library, say so and ask the user to describe the style
    instead — offer to save it to the library when the session is done.
+
+### Changing Style Mid-Session (Style Swap)
+
+When a style name or alias is detected **and a different style is already loaded** — at any
+point, including after prompts have already been delivered — this is a **full replacement,
+not a merge**. A request like "change to Forma" or "make it Pixiv Clean instead" means the
+new style's rendering technique entirely replaces the old one's; none of the old style's
+language should survive into the new prompts.
+
+⛔ A style swap is an explicit, unambiguous instruction from the user — it does **not** go
+through Conflict Rules step-and-ask. Apply it immediately, then confirm what changed.
+
+1. Discard the previous style's contributions to Blocks 5, 6, and 7 entirely — do not layer
+   the new style's values on top of the old ones. Re-derive those blocks from scratch using
+   only the newly loaded style entry plus the user's own scene content (subject, environment,
+   palette choices that came from the user rather than the prior style).
+2. Reload the new style fresh from `references/styles.md` — pull its Visual Description,
+   ChatGPT Translation, Niji Journey Translation, and Style Negatives in full. Never patch
+   old prompt text by find-and-replacing just the style name or a few keywords.
+3. Rebuild Phase 1 (style declaration) of every prompt from the new style's translation text
+   only. If the previous style had distinctive technique language (e.g., "flat cel shading,"
+   "value-block simplification," "visible pencil hatching"), confirm none of it remains.
+4. Rebuild the negatives/exclusions section from the new style's Style Negatives — drop the
+   old style's negatives unless the user's own Block 8 constraints independently call for them.
+5. Regenerate all four prompts in full (per Final Output format) rather than editing the
+   previously delivered prompts in place.
+6. Confirm the swap in plain text: *"Swapped style: **[Old Name] → [New Name]**. Blocks 5, 6,
+   and 7 were rebuilt from [New Name] — nothing from [Old Name] carries over. Regenerating all
+   four prompts."*
+7. Run the full Pre-Delivery Compliance Check again before delivering the regenerated prompts.
+
+If the name isn't found in the library, say so and ask the user to describe the style instead
+— do not discard the currently loaded style while waiting for clarification.
 
 ### Output Format Detection
 
@@ -265,7 +301,7 @@ based on what the scene calls for. Wait for the user's response before advancing
    - Cinematic lit → **Cinematic Anime**
    - Semi-realistic → **Hyperreal Anime**
    - Editorial / graphic value design → **Atelier**
-   - Urban gothic fantasy, crisp graphic linework → **Forma**
+   - Crisp graphic linework, tight value economy → **Forma**
 
 **At each decision point:**
 - Briefly analyze the scene against each option (1–2 sentences per option, focused on
@@ -411,6 +447,30 @@ light novel", "isekai cover", "yuri light novel" + cover/novel context, "light n
 obi band or JP-book-cover text layout requests. Only trigger when the deliverable is a full
 book cover with title/subtitle/obi text elements — not a generic light-novel-adjacent
 illustration (use the main flow or Gossamer style for that).
+
+### Commercial Ad Ideation
+
+**Reference file:** `references/commercial-ad-ideation.md`
+
+**What it does:** A full alternate pipeline (bypasses the 8-Block flow, like Character
+Creator) for generating character-inspired product advertising concepts end-to-end: a
+character read (visual + personality signals), an invented product concept (name, family,
+impression, catch copy), a vertical-specific composition (e.g. perfume TOP/MIDDLE/LAST
+accords), product object design (bottle/case/packaging), 2–3 everyday lifestyle scenes, and a
+final brand-style advertising poster — assembled into the standard four-prompt final output.
+Multi-vertical by design: perfume is the first fully-specified product category, with new
+verticals (jewelry, skincare, watches, spirits, etc.) added as their own library entries
+without changing the pipeline shape.
+
+#### Trigger Detection
+
+Fire on: "perfume/fragrance/cologne ad", "[product] inspired by this character", "design a
+[product] ad for them", "advertising poster", "ad campaign", "brand poster", "commercial
+poster" combined with a character/image, or any Product Verticals Library term combined with
+"ad", "poster", "campaign", "product", or "brand". Only trigger when the deliverable is an
+invented product + its advertising poster built from a character read — not a generic
+character portrait, a real product/brand request, or a scene that merely includes a product
+as a prop.
 
 ---
 
@@ -660,6 +720,7 @@ Before delivering the final prompts, run this gate silently. Do not skip it.
 - Niji Journey robust prompt exceeds 3 lines or contains abstract/non-visual concepts → shorten and make concrete
 - Style keywords contradict each other (e.g., `photorealistic` + `anime`) → reconcile per platform
 - ChatGPT or Niji prompt text contains the loaded style's own proper name in any form (e.g., "Makoto Shinkai–style", "in the style of Crewdson", "Ufotable-style anime") → strip it and rewrite the declaration using only the style's visual/technical language (lighting, palette, linework, composition). This applies to every style, not only ones named after real people — the style's own label in `references/styles.md` exists for menu/lookup purposes only and must never appear inside delivered prompt text
+- The session involved a style swap (see Changing Style Mid-Session) and the prompt text still contains rendering/technique language, negatives, or a style anchor traceable to the previously loaded style → this is a compliance failure; discard the drafted prompt and rebuild Phase 1 and the negatives section from the newly loaded style's entry only
 
 **Step 2 — Ask the user before proceeding if:**
 - Block 4 has no aspect ratio and none can be inferred → ask which ratio they want
